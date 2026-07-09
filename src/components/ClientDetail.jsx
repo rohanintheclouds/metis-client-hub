@@ -9,6 +9,7 @@ import { useProfile } from "@/lib/profile";
 import ClientLogo from "@/components/ClientLogo";
 import { PulseSection } from "@/components/PulseReport";
 import PodcastPlayer from "@/components/PodcastPlayer";
+import { openNewsletter } from "@/lib/viewNewsletter";
 
 export default function ClientDetail({ id }) {
   const client = getClient(id);
@@ -104,15 +105,15 @@ export default function ClientDetail({ id }) {
             <div className="pulse-date" style={{ fontSize: 13 }}>
               {current?.label}
             </div>
-            <a
+            <button
               className="btn sm"
               style={{ marginLeft: "auto" }}
-              href={`/api/newsletter?clients=${client.id}&edition=${current?.id}`}
-              target="_blank"
-              rel="noreferrer"
+              onClick={() =>
+                openNewsletter({ clientIds: [client.id], edition: current?.id, recipient: client.name })
+              }
             >
               <Download size={14} /> View as email
-            </a>
+            </button>
           </div>
           <div className="pulse">
             <div className="pulse-summary">

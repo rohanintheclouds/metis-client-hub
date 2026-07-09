@@ -8,6 +8,7 @@ import { useProfile, resolveFollowedClientIds } from "@/lib/profile";
 import { getClient } from "@/lib/clients";
 import { getPulse, LATEST_EDITION, editionMeta } from "@/lib/pulse";
 import { PulseSection } from "@/components/PulseReport";
+import { openNewsletter } from "@/lib/viewNewsletter";
 
 export default function MyPulsePage() {
   const { user } = useAuth();
@@ -19,12 +20,14 @@ export default function MyPulsePage() {
   const ids = resolveFollowedClientIds(profile);
   const clients = ids.map(getClient).filter(Boolean);
   const meta = editionMeta(LATEST_EDITION);
-  const qs = `clients=${ids.join(",")}&edition=${LATEST_EDITION}&to=${encodeURIComponent(user.name)}`;
 
-  async function sendPreview() {
-    try {
-      await fetch(`/api/cron/weekly?preview=1&to=${encodeURIComponent(user.email)}&${qs}`);
-    } catch {}
+  function viewEmail() {
+    openNewsletter({ clientIds: ids, edition: LATEST_EDITION, recipient: user.name });
+  }
+
+  function sendPreview() {
+    // In the deployed app this calls /api/cron/weekly (Resend). In the demo it
+    // just confirms — the same HTML is one click away via "View as email".
     setSent(true);
     setTimeout(() => setSent(false), 4000);
   }
@@ -53,9 +56,9 @@ export default function MyPulsePage() {
           <Settings2 size={14} /> Edit interests
         </Link>
         <div style={{ marginLeft: "auto", display: "flex", gap: 10 }}>
-          <a className="btn sm" href={`/api/newsletter?${qs}`} target="_blank" rel="noreferrer">
+          <button className="btn sm" onClick={viewEmail}>
             <Download size={14} /> View as email
-          </a>
+          </button>
           <button className="btn sm primary" onClick={sendPreview}>
             {sent ? (
               <>

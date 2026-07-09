@@ -1,9 +1,10 @@
 // Metis Strategy logo lockup.
 //
-// The mark is the letter "M" split across the horizontal midline: the top half
-// is the black M (two legs + a central V), the bottom half is its vertical
-// mirror rendered in teal (reads as a W), the two halves pinching at the
-// centre. It doubles as the "M" of METIS; "STRATEGY" is right-aligned beneath.
+// The mark is the letter "M" split at the horizontal midline: the top half is
+// the black M (two thin stems + a central V), the bottom half is its vertical
+// mirror in teal (reads as a W), the halves pinching at the exact centre. Thin
+// stems + large white counters match the official Metis mark. It doubles as the
+// "M" of METIS; "STRATEGY" is right-aligned beneath.
 //
 // Props:
 //   height        — rendered height in px
@@ -14,36 +15,36 @@ export default function MetisMark({ height = 30, showWordmark = true, variant = 
   const sub = variant === "light" ? "#d6d9ff" : "#444444";
   const teal = "#3FC9BE";
 
-  // Mark authored in a 0..100 box; scaled/positioned via the group transform.
-  const mark = (
-    <g transform="translate(2,8) scale(0.8)">
-      {/* black top half: two leg-tops + central V */}
-      <polygon points="0,0 20,0 20,50 0,50" fill={body} />
-      <polygon points="80,0 100,0 100,50 80,50" fill={body} />
-      <polygon points="20,0 36,0 50,24 64,0 80,0 50,50" fill={body} />
-      {/* teal bottom half: two leg-bottoms + central peak (mirror of top) */}
-      <polygon points="0,50 20,50 20,100 0,100" fill={teal} />
-      <polygon points="80,50 100,50 100,100 80,100" fill={teal} />
-      <polygon points="20,100 36,100 50,76 64,100 80,100 50,50" fill={teal} />
-    </g>
+  // Mark polygons in a 0..100 (x) × 0..96 (y) box, midline y=48.
+  const polys = (
+    <>
+      {/* black top: stem-tops + central V */}
+      <polygon points="0,0 15,0 15,48 0,48" fill={body} />
+      <polygon points="85,0 100,0 100,48 85,48" fill={body} />
+      <polygon points="15,0 30,0 50,30 70,0 85,0 50,48" fill={body} />
+      {/* teal bottom: stem-bottoms + central peak (mirror) */}
+      <polygon points="0,48 15,48 15,96 0,96" fill={teal} />
+      <polygon points="85,48 100,48 100,96 85,96" fill={teal} />
+      <polygon points="15,96 30,96 50,66 70,96 85,96 50,48" fill={teal} />
+    </>
   );
 
   if (!showWordmark) {
     return (
-      <svg height={height} viewBox="0 0 88 100" xmlns="http://www.w3.org/2000/svg" aria-label="Metis Strategy">
-        {mark}
+      <svg height={height} viewBox="0 0 100 96" xmlns="http://www.w3.org/2000/svg" aria-label="Metis Strategy">
+        {polys}
       </svg>
     );
   }
 
   return (
-    <svg height={height} viewBox="0 0 356 108" xmlns="http://www.w3.org/2000/svg" aria-label="Metis Strategy">
-      {mark}
+    <svg height={height} viewBox="0 0 348 108" xmlns="http://www.w3.org/2000/svg" aria-label="Metis Strategy">
+      <g transform="translate(2,8) scale(0.8)">{polys}</g>
       <text
         x="92"
-        y="88"
+        y="86"
         fontFamily="Arial, Helvetica, sans-serif"
-        fontSize="112"
+        fontSize="108"
         fontWeight="800"
         letterSpacing="1"
         fill={body}
@@ -51,11 +52,11 @@ export default function MetisMark({ height = 30, showWordmark = true, variant = 
         ETIS
       </text>
       <text
-        x="347"
-        y="104"
+        x="336"
+        y="103"
         textAnchor="end"
         fontFamily="Arial, Helvetica, sans-serif"
-        fontSize="21"
+        fontSize="20"
         fontWeight="600"
         letterSpacing="6"
         fill={sub}

@@ -20,17 +20,17 @@ function esc(s = "") {
     .replace(/>/g, "&gt;");
 }
 
-const LOGO_SVG = `<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356 108" aria-label="Metis Strategy">
+const LOGO_SVG = `<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348 108" aria-label="Metis Strategy">
   <g transform="translate(2,8) scale(0.8)">
-    <polygon points="0,0 20,0 20,50 0,50" fill="#111111"/>
-    <polygon points="80,0 100,0 100,50 80,50" fill="#111111"/>
-    <polygon points="20,0 36,0 50,24 64,0 80,0 50,50" fill="#111111"/>
-    <polygon points="0,50 20,50 20,100 0,100" fill="#3FC9BE"/>
-    <polygon points="80,50 100,50 100,100 80,100" fill="#3FC9BE"/>
-    <polygon points="20,100 36,100 50,76 64,100 80,100 50,50" fill="#3FC9BE"/>
+    <polygon points="0,0 15,0 15,48 0,48" fill="#111111"/>
+    <polygon points="85,0 100,0 100,48 85,48" fill="#111111"/>
+    <polygon points="15,0 30,0 50,30 70,0 85,0 50,48" fill="#111111"/>
+    <polygon points="0,48 15,48 15,96 0,96" fill="#3FC9BE"/>
+    <polygon points="85,48 100,48 100,96 85,96" fill="#3FC9BE"/>
+    <polygon points="15,96 30,96 50,66 70,96 85,96 50,48" fill="#3FC9BE"/>
   </g>
-  <text x="92" y="88" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="800" letter-spacing="1" fill="#111111">ETIS</text>
-  <text x="347" y="104" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="6" fill="#444444">STRATEGY</text>
+  <text x="92" y="86" font-family="Arial,Helvetica,sans-serif" font-size="108" font-weight="800" letter-spacing="1" fill="#111111">ETIS</text>
+  <text x="336" y="103" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600" letter-spacing="6" fill="#444444">STRATEGY</text>
 </svg>`;
 
 function statHtml(s) {
