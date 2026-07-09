@@ -20,12 +20,17 @@ function esc(s = "") {
     .replace(/>/g, "&gt;");
 }
 
-const LOGO_SVG = `<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274 104" aria-label="Metis Strategy">
-  <polygon points="0,72 0,8 16,8 32,40 48,8 64,8 64,72 48,72 48,34 40,52 24,52 16,34 16,72" fill="#111111"/>
-  <polygon points="0,72 16,72 0,40" fill="#3FC9BE"/>
-  <polygon points="64,72 48,72 64,40" fill="#3FC9BE"/>
-  <text x="70" y="72" font-family="Arial,Helvetica,sans-serif" font-size="86" font-weight="800" letter-spacing="1" fill="#111111">ETIS</text>
-  <text x="262" y="96" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" letter-spacing="7" fill="#444444">STRATEGY</text>
+const LOGO_SVG = `<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 356 108" aria-label="Metis Strategy">
+  <g transform="translate(2,8) scale(0.8)">
+    <polygon points="0,0 20,0 20,50 0,50" fill="#111111"/>
+    <polygon points="80,0 100,0 100,50 80,50" fill="#111111"/>
+    <polygon points="20,0 36,0 50,24 64,0 80,0 50,50" fill="#111111"/>
+    <polygon points="0,50 20,50 20,100 0,100" fill="#3FC9BE"/>
+    <polygon points="80,50 100,50 100,100 80,100" fill="#3FC9BE"/>
+    <polygon points="20,100 36,100 50,76 64,100 80,100 50,50" fill="#3FC9BE"/>
+  </g>
+  <text x="92" y="88" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="800" letter-spacing="1" fill="#111111">ETIS</text>
+  <text x="347" y="104" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="600" letter-spacing="6" fill="#444444">STRATEGY</text>
 </svg>`;
 
 function statHtml(s) {

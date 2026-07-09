@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Plus } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useAuth } from "@/lib/auth";
 import MetisMark from "@/components/MetisMark";
 
@@ -34,33 +34,37 @@ export default function SignIn() {
           engagements, and audio episodes on demand.
         </p>
 
-        <form className="hs-form" onSubmit={submit}>
-          <div className="hs-fields">
-            <input
-              className="hs-input"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              placeholder="Full name"
-            />
-            <input
-              className="hs-input"
-              type="email"
-              value={email}
-              onChange={(e) => {
-                setEmail(e.target.value);
-                setErr("");
-              }}
-              placeholder={`you@${allowedDomain}`}
-              required
-            />
-          </div>
+        <form className="hs-card" onSubmit={submit}>
+          <label className="hs-label" htmlFor="hs-email">Work email</label>
+          <input
+            id="hs-email"
+            className="hs-input"
+            type="email"
+            value={email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+              setErr("");
+            }}
+            placeholder={`you@${allowedDomain}`}
+            required
+            autoFocus
+          />
+          <label className="hs-label" htmlFor="hs-name">Full name <span className="hs-opt">optional</span></label>
+          <input
+            id="hs-name"
+            className="hs-input"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            placeholder="Rohan Ray"
+          />
           {err && <p className="hs-err">{err}</p>}
           <button className="hs-btn" type="submit">
-            <span className="hs-btn-icon">
-              <Plus size={18} strokeWidth={3} />
-            </span>
             Sign in to the Client Hub
+            <ArrowRight size={18} strokeWidth={2.5} />
           </button>
+          <p className="hs-hint">
+            No password. We use your email to personalize your hub and weekly digest.
+          </p>
         </form>
 
         <p className="hs-note">Restricted to @{allowedDomain} accounts</p>
