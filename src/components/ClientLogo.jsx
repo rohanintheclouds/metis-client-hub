@@ -1,21 +1,30 @@
 "use client";
 
 import { useState } from "react";
-import { logoUrl, clearbitUrl } from "@/lib/clients";
 
-// Progressive logo: try logo.dev → Clearbit → monogram tile.
-export default function ClientLogo({ client, size = 52 }) {
-  const [stage, setStage] = useState(0); // 0=logo.dev, 1=clearbit, 2=monogram
-  const src = stage === 0 ? logoUrl(client) : stage === 1 ? clearbitUrl(client) : null;
+// Real brand logo in a uniform frame, resolved from the company domain. Falls
+// back to a colored monogram tile if the icon can't load (offline, blocked).
+//
+// Uses DuckDuckGo's icon service (no API key, returns the real brand mark).
+// To upgrade to full wordmark logos later, swap `iconUrl` for a logo.dev or
+// Brandfetch URL with a key — the frame + fallback stay the same.
+function iconUrl(domain) {
+  return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
+}
 
-  if (stage >= 2 || !src) {
-    const initials = client.name
-      .replace(/[^a-zA-Z ]/g, "")
-      .split(" ")
-      .map((w) => w[0])
-      .slice(0, 2)
-      .join("")
-      .toUpperCase();
+export default function ClientLogo({ client, size = 54, framed = true }) {
+  const [failed, setFailed] = useState(false);
+
+  const initials = client.name
+    .replace(/[^a-zA-Z ]/g, "")
+    .split(" ")
+    .filter(Boolean)
+    .map((w) => w[0])
+    .slice(0, 2)
+    .join("")
+    .toUpperCase();
+
+  if (failed) {
     return (
       <div className="mono" style={{ background: client.mono, height: size, width: size }}>
         {initials}
@@ -24,12 +33,14 @@ export default function ClientLogo({ client, size = 52 }) {
   }
 
   return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={src}
-      alt={`${client.name} logo`}
-      style={{ maxHeight: size }}
-      onError={() => setStage((s) => s + 1)}
-    />
+    <div className={framed ? "logo-frame" : ""} style={{ height: size, width: size }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={iconUrl(client.domain)}
+        alt={`${client.name} logo`}
+        loading="lazy"
+        onError={() => setFailed(true)}
+      />
+    </div>
   );
 }

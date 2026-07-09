@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { CLIENTS } from "@/lib/clients";
 import { COASTS, PROJECT_TYPES } from "@/lib/brand";
+import { getPulse, LATEST_EDITION } from "@/lib/pulse";
 import ClientLogo from "@/components/ClientLogo";
 
 export default function HomeExplorer() {
@@ -24,20 +25,24 @@ export default function HomeExplorer() {
 
   return (
     <>
-      <div className="container">
-        <section className="hero reveal">
-          <div className="eyebrow">Metis Strategy · Client Intelligence</div>
-          <h1>
-            Intelligence on every <span className="accent">client we serve.</span>
-          </h1>
-          <p>
-            A living hub for the whole firm: weekly developments across every account, a briefing
-            personalized to your engagements, and audio episodes on demand.
-          </p>
-          <div className="brandline">
-            Driving change. <span className="g">Elevating leaders.</span>
-          </div>
-        </section>
+      <div className="hero-band">
+        <div className="hero-dots" aria-hidden />
+        <div className="hero-streaks" aria-hidden />
+        <div className="container">
+          <section className="hero reveal">
+            <div className="eyebrow">Metis Strategy · Client Intelligence</div>
+            <h1>
+              Intelligence on every <span className="accent">client we serve.</span>
+            </h1>
+            <p>
+              A living hub for the whole firm: weekly developments across every account, a briefing
+              personalized to your engagements, and audio episodes on demand.
+            </p>
+            <div className="brandline">
+              Driving change. <span className="g">Elevating leaders.</span>
+            </div>
+          </section>
+        </div>
       </div>
 
       <div className="filterbar">
@@ -77,34 +82,42 @@ export default function HomeExplorer() {
           <div className="empty">No clients match those filters.</div>
         ) : (
           <div className="wall">
-            {filtered.map((c, i) => (
-              <Link
-                key={c.id}
-                href={`/clients/${c.id}`}
-                className="tile reveal"
-                style={{ transitionDelay: `${(i % 10) * 45}ms` }}
-              >
-                {c.ticker === "Private" ? (
-                  <span className="tile-badge">Private</span>
-                ) : (
+            {filtered.map((c, i) => {
+              const glance = getPulse(c.id, LATEST_EDITION)?.glance || "";
+              return (
+                <Link
+                  key={c.id}
+                  href={`/clients/${c.id}`}
+                  className="tile reveal"
+                  style={{ transitionDelay: `${(i % 10) * 45}ms` }}
+                >
                   <span className="tile-coast">{c.coast.replace(" Coast", "")}</span>
-                )}
-                <div className="tile-logo">
-                  <ClientLogo client={c} size={52} />
-                </div>
-                <div>
-                  <div className="tile-name">{c.name}</div>
-                  <div className="tile-sub">{c.sector}</div>
-                </div>
-                <div className="tile-tags">
-                  {c.tags.slice(0, 3).map((t) => (
-                    <span key={t} className="tile-tag">
-                      {t}
+                  <div className="tile-logo">
+                    <ClientLogo client={c} size={54} />
+                  </div>
+                  <div>
+                    <div className="tile-name">{c.name}</div>
+                    <div className="tile-sub">{c.sector}</div>
+                  </div>
+                  <div className="tile-tags">
+                    {c.tags.slice(0, 3).map((t) => (
+                      <span key={t} className="tile-tag">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+
+                  <div className="tile-preview" aria-hidden>
+                    <div className="tp-ticker">{c.ticker} · {c.coast}</div>
+                    <div className="tp-name">{c.name}</div>
+                    <p className="tp-glance">{glance}</p>
+                    <span className="tp-cta">
+                      View this week’s pulse <span className="ar">→</span>
                     </span>
-                  ))}
-                </div>
-              </Link>
-            ))}
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         )}
       </div>
