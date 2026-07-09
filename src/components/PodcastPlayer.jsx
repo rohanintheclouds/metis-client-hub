@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Play, Pause, Podcast, Sparkles } from "lucide-react";
+import { Play, Pause, Mic, Sparkles, Clock } from "lucide-react";
 
 // Placeholder for the ElevenLabs-generated "Client Pulse Audio" feature.
 // Simulates a two-voice podcast episode per client. When ELEVENLABS_API_KEY is
@@ -15,7 +15,7 @@ export default function PodcastPlayer({ client, editionLabel }) {
     if (!generated) {
       setLoading(true);
       try {
-        await fetch(`/api/podcast?client=${client.id}&edition=${encodeURIComponent(editionLabel || "")}`);
+        await fetch(`/api/podcast?client=${client.id}`);
       } catch {}
       setLoading(false);
       setGenerated(true);
@@ -23,54 +23,48 @@ export default function PodcastPlayer({ client, editionLabel }) {
     setPlaying((p) => !p);
   }
 
-  const bars = [10, 18, 24, 14, 22, 8, 20, 16, 26, 12, 19, 9, 23, 15, 21, 11, 25, 13];
+  const bars = [8, 14, 20, 12, 22, 10, 26, 16, 24, 12, 18, 9, 23, 15, 21, 11, 19, 13, 25, 10, 17, 14];
 
   return (
-    <div className="card">
-      <div className="podcast">
-        <div className="podcast-art">
-          <Podcast size={30} strokeWidth={2} />
+    <div className="pcast">
+      <div className="pcast-top">
+        <div className="pcast-art">
+          <Mic size={26} strokeWidth={2} />
         </div>
-        <div className="podcast-body">
-          <h3>{client.name} — Weekly Pulse Audio</h3>
-          <div className="meta">
-            {editionLabel || "Latest edition"} · ~6 min · AI hosts “Alex & Jordan”
+        <div className="pcast-head">
+          <h3>Weekly Pulse Audio</h3>
+          <div className="pcast-meta">
+            <Clock size={12} /> ~6 min · {editionLabel || "Latest"}
           </div>
-          <div className="wave" aria-hidden>
-            {bars.map((h, i) => (
-              <span
-                key={i}
-                style={{
-                  height: playing ? h + (i % 3) * 4 : h,
-                  opacity: playing ? 0.9 - (i % 5) * 0.1 : 0.4,
-                  transition: "all .3s",
-                }}
-              />
-            ))}
-          </div>
+          <div className="pcast-hosts">AI hosts · Alex &amp; Jordan</div>
         </div>
-        <button className="btn primary" onClick={handlePlay} disabled={loading} style={{ flexShrink: 0 }}>
-          {loading ? (
-            <>
-              <Sparkles size={16} /> Generating…
-            </>
-          ) : playing ? (
-            <>
-              <Pause size={16} /> Pause
-            </>
-          ) : (
-            <>
-              <Play size={16} /> Play episode
-            </>
-          )}
-        </button>
       </div>
-      <div style={{ padding: "0 22px 18px" }}>
-        <span className="demoflag">Preview</span>{" "}
-        <span className="muted" style={{ fontSize: 12.5 }}>
-          ElevenLabs voice synthesis stub. Drop ELEVENLABS_API_KEY in .env.local to generate real
-          two-host audio from this week’s brief.
-        </span>
+
+      <div className={`wave ${playing ? "on" : ""}`} aria-hidden>
+        {bars.map((h, i) => (
+          <span key={i} style={{ height: playing ? h + (i % 3) * 3 : Math.max(4, h - 6) }} />
+        ))}
+      </div>
+
+      <button className="pcast-play" onClick={handlePlay} disabled={loading}>
+        {loading ? (
+          <>
+            <Sparkles size={16} /> Generating audio…
+          </>
+        ) : playing ? (
+          <>
+            <Pause size={16} fill="currentColor" /> Pause episode
+          </>
+        ) : (
+          <>
+            <Play size={16} fill="currentColor" /> Play episode
+          </>
+        )}
+      </button>
+
+      <div className="pcast-note">
+        <span className="demoflag">Preview</span>
+        <span>ElevenLabs voice stub. Add a key to generate real two-host audio.</span>
       </div>
     </div>
   );
