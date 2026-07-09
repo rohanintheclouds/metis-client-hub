@@ -20,12 +20,12 @@ function esc(s = "") {
     .replace(/>/g, "&gt;");
 }
 
-const LOGO_SVG = `<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 92" aria-label="Metis Strategy">
-  <polygon points="8,84 8,10 27,10 46,47 65,10 84,10 84,84 65,84 65,41 54,63 38,63 27,41 27,84" fill="#111111"/>
-  <polygon points="8,84 27,84 8,62" fill="#3FC9BE"/>
-  <polygon points="84,84 65,84 84,62" fill="#3FC9BE"/>
-  <text x="112" y="52" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="800" letter-spacing="4" fill="#111111">METIS</text>
-  <text x="114" y="78" font-family="Arial,Helvetica,sans-serif" font-size="19" letter-spacing="9" fill="#444444">STRATEGY</text>
+const LOGO_SVG = `<svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274 104" aria-label="Metis Strategy">
+  <polygon points="0,72 0,8 16,8 32,40 48,8 64,8 64,72 48,72 48,34 40,52 24,52 16,34 16,72" fill="#111111"/>
+  <polygon points="0,72 16,72 0,40" fill="#3FC9BE"/>
+  <polygon points="64,72 48,72 64,40" fill="#3FC9BE"/>
+  <text x="70" y="72" font-family="Arial,Helvetica,sans-serif" font-size="86" font-weight="800" letter-spacing="1" fill="#111111">ETIS</text>
+  <text x="262" y="96" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="600" letter-spacing="7" fill="#444444">STRATEGY</text>
 </svg>`;
 
 function statHtml(s) {

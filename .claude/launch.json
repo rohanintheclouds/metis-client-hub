@@ -3,8 +3,9 @@
   "configurations": [
     {
       "name": "client-hub",
-      "runtimeExecutable": "node",
-      "runtimeArgs": ["node_modules/next/dist/bin/next", "dev", "-p", "3200"],
+      "cwd": "/Users/rohanray/Desktop/Metis/Internal Metis/Client Hub",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
       "port": 3200
     }
   ]
