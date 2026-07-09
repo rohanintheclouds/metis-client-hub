@@ -17,6 +17,9 @@ export const EDITIONS = [
   { id: "2026-07-06", label: "Week of July 6, 2026", date: "July 6, 2026" },
   { id: "2026-06-29", label: "Week of June 29, 2026", date: "June 29, 2026" },
   { id: "2026-06-22", label: "Week of June 22, 2026", date: "June 22, 2026" },
+  { id: "2026-06-15", label: "Week of June 15, 2026", date: "June 15, 2026" },
+  { id: "2026-06-08", label: "Week of June 8, 2026", date: "June 8, 2026" },
+  { id: "2026-06-01", label: "Week of June 1, 2026", date: "June 1, 2026" },
 ];
 
 export const LATEST_EDITION = EDITIONS[0].id;
@@ -485,36 +488,123 @@ export const PULSE = {
   loandepot: {
     "2026-07-06": {
       glance:
-        "Retail mortgage lender navigating margin compression and a high-rate environment, trading near penny-stock levels while improving market share and recapture. Q2 results are due August 4.",
+        "LDI opens July in the low-$1.10s as 30-year mortgage rates back up after a brief dip, tightening the origination outlook. Attention shifts to the Q2 print expected in early August, the first full quarter to reflect the $100M ATM equity program and the wholesale re-entry. Project North Star execution and recapture momentum remain the bull case; capital and rate sensitivity remain the overhang.",
       stats: [
-        { v: "~$1.16", l: "Price · mid-Jun", dir: "down" },
-        { v: "~$780M", l: "Market cap", dir: null },
-        { v: "$1.10–$5.05", l: "52-wk range", dir: "down" },
-        { v: "Aug 4", l: "Next earnings (Q2)", dir: null },
+        { v: "~$1.16", l: "Price · wk", dir: "down" },
+        { v: "6.61%", l: "30Y fixed (Jul 7)", dir: "up" },
+        { v: "~$372M", l: "Market cap", dir: null },
+        { v: "Early Aug", l: "Q2 report", dir: null },
       ],
       items: [
-        { headline: "Q1 loss persists amid rate volatility.", body: "Q1 2026 posted a net loss of $55.0M (adjusted net loss $33.6M) on total revenue of $286.4M; origination volume was $7.66B (down 5% QoQ) with market share of 1.39%.", ctx: "Underscores continued pressure on gain-on-sale margins, though improving recapture rates offer a partial offset." },
-        { headline: "Leadership consolidation under new CLRO.", body: "loanDepot promoted Joseph Grassi to Chief Legal and Risk Officer on June 2, consolidating oversight of legal, compliance, governance, loan quality and enterprise risk.", ctx: "Streamlines risk governance as the lender pushes cost discipline and digital/AI-driven efficiency gains." },
-        { headline: "Capital-raising and rate-cut watch.", body: "The company launched a $100M at-the-market equity program on May 15; its head economist noted the 30-year fixed eased to ~6.17% in late June.", ctx: "Any Fed easing that lifts refi demand is the key swing factor for LDI's origination volumes and margins." },
+        { headline: "Rates rebound off six-week lows, pressuring purchase demand.", body: "After Freddie Mac's 30-year average dipped to 6.43% for the week ending July 2, the national 30-year rate climbed to roughly 6.61% by July 7, up from the 2026 low of 6.09%.", ctx: "loanDepot's origination volume and gain-on-sale margins track rate direction closely; Q1 revenue fell 8% to $286M on rate volatility." },
+        { headline: "Shares hold the $1.10–$1.19 band ahead of Q2.", body: "LDI traded between a $1.19 high and a $1.10 low on July 8, near the low end of its 52-week $1.10–$5.05 range, with a market cap around $372M.", ctx: "The stock has drifted lower through Q2 as the $100M ATM program introduces a steady, if modest, dilution overhang." },
+        { headline: "Q2 setup: first clean read on North Star and wholesale.", body: "The coming print will be the first full quarter to reflect the ATM equity program, the return to wholesale origination, and continued Project North Star cost discipline. Watch recapture (73% in Q1) and expenses ($342M in Q1).", ctx: "Management has framed North Star around purchase lending, servicing retention, operating leverage and talent as the path back to profitability." },
       ],
       sources: [
-        { label: "StockTitan — LDI", url: "https://www.stocktitan.net/news/LDI/" },
+        { label: "Bankrate — mortgage rates, Jul 8", url: "https://www.bankrate.com/mortgages/todays-rates/mortgage-rates-for-wednesday-july-8-2026/" },
+        { label: "Yahoo Finance — LDI", url: "https://finance.yahoo.com/quote/LDI/" },
         { label: "MarketBeat — LDI earnings", url: "https://www.marketbeat.com/stocks/NYSE/LDI/earnings/" },
-        { label: "StockAnalysis — LDI", url: "https://stockanalysis.com/stocks/ldi/" },
       ],
     },
     "2026-06-29": {
-      glance: "loanDepot leans on cost discipline and recapture gains while it waits for a rate-driven refi catalyst.",
+      glance:
+        "Quarter-end finds LDI firmer near $1.24 as mortgage rates ease toward six-week lows, aided by falling oil prices after the US-Iran peace deal. The tape is constructive into the July 4 holiday, but sticky inflation (May PCE +3.4% y/y) caps optimism. The narrative pivots from the Grassi leadership refresh toward Q2 earnings math.",
       stats: [
-        { v: "~$1.20", l: "Price · late Jun", dir: "down" },
-        { v: "1.39%", l: "Market share", dir: null },
-        { v: "Aug 4", l: "Next earnings", dir: null },
+        { v: "~$1.24", l: "Price · wk", dir: "up" },
+        { v: "6.43%", l: "30Y fixed", dir: "down" },
+        { v: "73%", l: "Recapture (Q1)", dir: null },
+        { v: "1.39%", l: "Mkt share", dir: null },
       ],
       items: [
-        { headline: "Cost program continues.", body: "The lender continued its 'Project North Star' efficiency and digital-investment agenda to right-size the cost base.", ctx: "Operating leverage is the near-term lever while volumes stay pressured." },
-        { headline: "Rate sensitivity.", body: "Mortgage rates drifting toward the low-6% area kept a potential refi catalyst in view.", ctx: "Origination volume is highly geared to any decline in rates." },
+        { headline: "Rates drift to six-week lows as oil retreats.", body: "The 30-year fixed eased toward the 6.4% area into quarter-end, its lowest in roughly six weeks, as oil prices fell following the US-Iran peace deal.", ctx: "A friendlier rate backdrop directly supports loanDepot's consumer-direct recapture engine, which hit 73% in Q1, up from 71% in Q4 2025." },
+        { headline: "LDI firms into quarter-end.", body: "Shares traded up toward the mid-$1.20s, recovering from mid-June softness as the rate move improved sentiment across mortgage originators.", ctx: "The $100M ATM program with BTIG remains active, so equity issuance can temper upside even on constructive rate days." },
+        { headline: "Focus turns to Q2 earnings math.", body: "With the quarter closing, the market began sizing the Q2 print due in early August: whether volume recovered from Q1's $7.66B and whether North Star cost actions narrowed the loss from Q1's $55M.", ctx: "Q1 marked a sequential deterioration (net loss widened from $33M), keeping the profitability timeline in focus." },
       ],
-      sources: [{ label: "StockTitan — LDI", url: "https://www.stocktitan.net/news/LDI/" }],
+      sources: [
+        { label: "Bankrate — mortgage rates, Jul 1", url: "https://www.bankrate.com/mortgages/todays-rates/mortgage-rates-for-wednesday-july-1-2026/" },
+        { label: "loanDepot — Q1 2026 results", url: "https://media.loandepot.com/news-releases/press-release-details/2026/loanDepot-Announces-First-Quarter-2026-Financial-Results/default.aspx" },
+        { label: "Norada — 90-day rate forecast", url: "https://www.noradarealestate.com/blog/mortgage-rates-forecast-next-90-days-may-to-july-2026/" },
+      ],
+    },
+    "2026-06-22": {
+      glance:
+        "LDI trades around $1.19 in a choppy mid-quarter tape, with 30-year rates hovering in the 6.5%–6.6% zone. The story is execution: Project North Star's purchase and servicing-retention priorities against a still-pressured margin environment. The ATM program continues to backstop the balance sheet ahead of the Q2 report.",
+      stats: [
+        { v: "~$1.19", l: "Price · wk", dir: "up" },
+        { v: "~6.55%", l: "30Y fixed", dir: null },
+        { v: "$100M", l: "ATM capacity", dir: null },
+        { v: "$342M", l: "Q1 expenses", dir: null },
+      ],
+      items: [
+        { headline: "North Star execution takes center stage.", body: "With leadership settled after the Grassi promotion, the market focused on Project North Star's pillars: first-time homebuyers, purchase lending via expanded partnerships, servicing scale and retention, and operating leverage to cut turn times.", ctx: "North Star is management's roadmap back to durable profitability after a string of quarterly losses." },
+        { headline: "ATM program keeps de-levering in view.", body: "The $100M at-the-market equity facility with BTIG, launched May 15, continues to let loanDepot sell Class A shares opportunistically, with net proceeds earmarked to reduce debt.", ctx: "The gradual issuance structure lets the company tap markets without a single dilutive block." },
+        { headline: "Margins remain the swing factor.", body: "Rates stuck in the mid-6% range kept gain-on-sale margins under pressure, the same dynamic that drove the Q1 revenue decline to $286M.", ctx: "Q1 expenses held roughly flat at $342M as marketing fell 12%, evidence of ongoing cost discipline." },
+      ],
+      sources: [
+        { label: "HousingWire — North Star plan", url: "https://www.housingwire.com/articles/loandepot-returns-to-profitability-announces-new-strategic-plan/" },
+        { label: "StockTitan — $100M ATM program", url: "https://www.stocktitan.net/sec-filings/LDI/8-k-loan-depot-inc-reports-material-event-65145f4ea85e.html" },
+        { label: "Investing.com — Q1 2026 slides", url: "https://www.investing.com/news/company-news/loandepot-q1-2026-slides-losses-widen-despite-volume-gains-93CH-4661366" },
+      ],
+    },
+    "2026-06-15": {
+      glance:
+        "LDI eases to about $1.13, near the low end of its recent band, after printing $1.16 mid-week. The Grassi leadership refresh is absorbed; the tape now reflects rate uncertainty and the persistent dilution overhang from the ATM program. Recapture strength (73% in Q1) and marketing efficiency are the constructive counterweights.",
+      stats: [
+        { v: "~$1.13", l: "Price · wk", dir: "down" },
+        { v: "$1.16", l: "Mid-wk (Jun 11)", dir: null },
+        { v: "~6.5%", l: "30Y fixed", dir: null },
+        { v: "−12%", l: "Q1 mktg spend", dir: null },
+      ],
+      items: [
+        { headline: "Shares soften despite operational progress.", body: "LDI printed $1.16 on June 11 before drifting toward the low-$1.10s, keeping the stock pinned near multi-year lows even as management points to recapture gains and cost discipline.", ctx: "The 52-week range spans $1.10 to $5.05, underscoring how far the equity has de-rated through the down-cycle." },
+        { headline: "Recapture and marketing efficiency reinforce North Star.", body: "Q1's 73% organic refinance recapture rate (up from 71%) and a 12% cut in marketing spend illustrate the productivity thrust behind Project North Star.", ctx: "Higher retention protects servicing value and lowers customer-acquisition cost, both central to the turnaround thesis." },
+        { headline: "ATM issuance remains a soft cap on the stock.", body: "The active $100M ATM facility means opportunistic equity sales can absorb rallies, a structural headwind while the balance-sheet repair continues.", ctx: "Proceeds are directed at debt reduction, supporting credit quality at the cost of near-term dilution." },
+      ],
+      sources: [
+        { label: "Yahoo Finance — LDI", url: "https://finance.yahoo.com/quote/LDI/" },
+        { label: "loanDepot — Q1 2026 results", url: "https://media.loandepot.com/news-releases/press-release-details/2026/loanDepot-Announces-First-Quarter-2026-Financial-Results/default.aspx" },
+        { label: "Macrotrends — LDI price history", url: "https://www.macrotrends.net/stocks/charts/LDI/loandepot/stock-price-history" },
+      ],
+    },
+    "2026-06-08": {
+      glance:
+        "LDI trades near $1.16 as the market digests the June 2 elevation of Joseph Grassi to Chief Legal and Risk Officer, a governance signal amid the turnaround. With 30-year rates in the low-6.5% range, the debate stays fixed on margin recovery and the pace of ATM issuance. Q1's widened loss keeps the profitability clock ticking.",
+      stats: [
+        { v: "~$1.16", l: "Price · wk", dir: "down" },
+        { v: "6.3–6.6%", l: "30Y fixed", dir: null },
+        { v: "$7.66B", l: "Q1 originations", dir: null },
+        { v: "−$55M", l: "Q1 net loss", dir: "down" },
+      ],
+      items: [
+        { headline: "Grassi promotion frames the governance narrative.", body: "loanDepot promoted Joseph Grassi, CRO since 2022, to Chief Legal and Risk Officer effective June 2, consolidating legal strategy, corporate governance, regulatory compliance, loan quality and enterprise risk under one leader reporting to founder-CEO Anthony Hsieh.", ctx: "Grassi brings 35+ years across consumer-lending law and mortgage regulation, including roles at HUD, Freddie Mac and Guaranteed Rate." },
+        { headline: "Rates hold in the low-6.5% zone.", body: "Early-June 30-year fixed rates ranged roughly 6.3%–6.6%, a range that keeps refi economics marginal and purchase affordability stretched.", ctx: "Rate direction remains the primary driver of loanDepot's volume and gain-on-sale margin, both pressured in Q1." },
+        { headline: "Q1 loss keeps the turnaround on the clock.", body: "The most recent quarter showed a $55M net loss (adjusted loss $34M) on $286M revenue and $7.66B in originations, with market share up to 1.39%.", ctx: "The sequential widening from a $33M loss underscores why cost actions and recapture gains dominate the equity story." },
+      ],
+      sources: [
+        { label: "Businesswire — Grassi promotion", url: "https://www.businesswire.com/news/home/20260602476673/en/loanDepot-Promotes-Joseph-Grassi-to-Chief-Legal-and-Risk-Officer" },
+        { label: "HousingWire — Grassi appointment", url: "https://www.housingwire.com/articles/loandepot-grassi-chief-legal-risk/" },
+        { label: "StockTitan — Q1 2026 8-K", url: "https://www.stocktitan.net/sec-filings/LDI/8-k-loan-depot-inc-reports-material-event-2ef76635cf60.html" },
+      ],
+    },
+    "2026-06-01": {
+      glance:
+        "The month opens with two headlines: the May 15 launch of a $100M at-the-market equity program and the June 2 promotion of Joseph Grassi to Chief Legal and Risk Officer. LDI hovers near $1.21 as investors weigh balance-sheet repair against dilution. The Q1 loss and margin pressure remain the backdrop as management leans on Project North Star.",
+      stats: [
+        { v: "~$1.21", l: "Price · wk", dir: null },
+        { v: "$100M", l: "ATM program", dir: null },
+        { v: "2.0%", l: "Agent commission", dir: null },
+        { v: "$286.4M", l: "Q1 revenue", dir: null },
+      ],
+      items: [
+        { headline: "$100M ATM equity program takes effect.", body: "loanDepot's May 15 sales agreement with BTIG lets it sell up to $100M of Class A common stock over time, with an agent commission of up to 2.0% and net proceeds aimed at reducing indebtedness and general corporate purposes.", ctx: "The ATM structure gives loanDepot incremental capital flexibility off its existing shelf rather than a single dilutive raise." },
+        { headline: "Grassi elevated to Chief Legal and Risk Officer.", body: "Effective June 2, CRO Joseph Grassi added legal, governance and compliance oversight to his risk mandate, reporting to founder-CEO Anthony Hsieh. He brings 35+ years spanning HUD, Freddie Mac and multiple lenders.", ctx: "The move centralizes legal and risk leadership as loanDepot navigates a demanding regulatory and rate environment." },
+        { headline: "Q1 aftermath still shapes the tape.", body: "Fresh off a $55M net loss on $286.4M revenue (down 8%) and $7.66B in originations, the market stays focused on whether North Star cost discipline and 73% recapture can bend the loss curve.", ctx: "loanDepot also re-entered wholesale origination earlier in 2026, roughly 3.5 years after exiting the channel." },
+      ],
+      sources: [
+        { label: "TipRanks — $100M ATM program", url: "https://www.tipranks.com/news/company-announcements/loandepot-launches-100-million-at-the-market-equity-program" },
+        { label: "loanDepot IR — Grassi promotion", url: "https://investors.loandepot.com/news/corporate-and-financial-news/corporate-and-financial-news-details/2026/loanDepot-Promotes-Joseph-Grassi-to-Chief-Legal-and-Risk-Officer/default.aspx" },
+        { label: "National Mortgage News — wholesale return", url: "https://www.nationalmortgagenews.com/news/loandepot-adds-wholesale-production-three-years-after-exit" },
+      ],
     },
   },
 
