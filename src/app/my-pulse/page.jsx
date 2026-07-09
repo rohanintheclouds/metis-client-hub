@@ -34,7 +34,7 @@ export default function MyPulsePage() {
 
   return (
     <div className="container" style={{ paddingBottom: 60 }}>
-      <div className="pagehead">
+      <div className="pagehead reveal">
         <h1>My Pulse</h1>
         <p>
           Your personalized briefing for {meta.label.toLowerCase()} — built from the {clients.length}{" "}

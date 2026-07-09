@@ -12,8 +12,8 @@
 //   variant       — "dark" (black, for light backgrounds) | "light" (white)
 export default function MetisMark({ height = 30, showWordmark = true, variant = "dark" }) {
   const body = variant === "light" ? "#ffffff" : "#111111";
-  const sub = variant === "light" ? "#d6d9ff" : "#444444";
-  const teal = "#3FC9BE";
+  const sub = variant === "light" ? "#c9cbf0" : "#7b8692";
+  const teal = "#08dec5";
 
   // Mark polygons in a 0..100 (x) × 0..96 (y) box, midline y=48.
   const polys = (

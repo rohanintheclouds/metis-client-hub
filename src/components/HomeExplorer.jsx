@@ -25,15 +25,18 @@ export default function HomeExplorer() {
   return (
     <>
       <div className="container">
-        <section className="hero">
+        <section className="hero reveal">
           <div className="eyebrow">Metis Strategy · Client Intelligence</div>
           <h1>
-            Every client we serve, <span className="accent">one pulse.</span>
+            Intelligence on every <span className="accent">client we serve.</span>
           </h1>
           <p>
-            A living intelligence hub for the whole firm. Weekly news across all client accounts,
-            a personalized briefing for the ones you work on, and audio episodes on demand.
+            A living hub for the whole firm: weekly developments across every account, a briefing
+            personalized to your engagements, and audio episodes on demand.
           </p>
+          <div className="brandline">
+            Driving change. <span className="g">Elevating leaders.</span>
+          </div>
         </section>
       </div>
 
@@ -74,8 +77,13 @@ export default function HomeExplorer() {
           <div className="empty">No clients match those filters.</div>
         ) : (
           <div className="wall">
-            {filtered.map((c) => (
-              <Link key={c.id} href={`/clients/${c.id}`} className="tile">
+            {filtered.map((c, i) => (
+              <Link
+                key={c.id}
+                href={`/clients/${c.id}`}
+                className="tile reveal"
+                style={{ transitionDelay: `${(i % 10) * 45}ms` }}
+              >
                 {c.ticker === "Private" ? (
                   <span className="tile-badge">Private</span>
                 ) : (

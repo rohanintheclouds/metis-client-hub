@@ -34,7 +34,7 @@ export default function ClientDetail({ id }) {
         <ArrowLeft size={15} /> All clients
       </Link>
 
-      <div className="detail-head">
+      <div className="detail-head reveal">
         <div className="detail-logo">
           <ClientLogo client={client} size={64} />
         </div>
@@ -54,7 +54,7 @@ export default function ClientDetail({ id }) {
         </div>
       </div>
 
-      <div className="grid-2" style={{ paddingBottom: 60 }}>
+      <div className="grid-2 reveal" style={{ paddingBottom: 60 }}>
         {/* left rail: archive + tags + podcast */}
         <div className="stack">
           <div className="card" style={{ padding: 18 }}>
