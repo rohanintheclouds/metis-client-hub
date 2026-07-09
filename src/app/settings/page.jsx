@@ -9,8 +9,10 @@ import ClientLogo from "@/components/ClientLogo";
 
 export default function SettingsPage() {
   const { user } = useAuth();
-  const { profile, ready, toggleClient, toggleTag, setCadence } = useProfile();
+  const { profile, ready, toggleClient, toggleTag, setCadence, setDigestDay } = useProfile();
   if (!ready) return null;
+
+  const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
   return (
     <div className="narrow" style={{ paddingBottom: 60 }}>
@@ -26,7 +28,9 @@ export default function SettingsPage() {
           <div>
             <div className="nm">Email me the Client Pulse</div>
             <div className="sb">
-              Delivered to {user.email} · {profile.digestDay}s at 7:00 AM ET
+              {profile.emailCadence === "weekly"
+                ? `Delivered to ${user.email} · every ${profile.digestDay} at 7:00 AM ET`
+                : `Paused · no emails to ${user.email}`}
             </div>
           </div>
           <div className="switch" style={{ display: "flex", gap: 8 }}>
@@ -44,6 +48,22 @@ export default function SettingsPage() {
             </button>
           </div>
         </div>
+        {profile.emailCadence === "weekly" && (
+          <div style={{ marginTop: 14 }}>
+            <div className="sb" style={{ marginBottom: 8 }}>Delivery day</div>
+            <div className="filter-row">
+              {DAYS.map((d) => (
+                <button
+                  key={d}
+                  className={`chip tag ${profile.digestDay === d ? "on" : ""}`}
+                  onClick={() => setDigestDay(d)}
+                >
+                  {d}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Follow by project type */}

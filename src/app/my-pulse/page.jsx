@@ -25,9 +25,16 @@ export default function MyPulsePage() {
     openNewsletter({ clientIds: ids, edition: LATEST_EDITION, recipient: user.name });
   }
 
-  function sendPreview() {
-    // In the deployed app this calls /api/cron/weekly (Resend). In the demo it
-    // just confirms — the same HTML is one click away via "View as email".
+  async function sendPreview() {
+    // Sends a real email via /api/cron/weekly (Resend) on the deployed app.
+    // On the static demo the API isn't present, so it no-ops gracefully.
+    const qs =
+      `preview=1&to=${encodeURIComponent(user.email)}` +
+      `&toName=${encodeURIComponent(user.name)}` +
+      `&clients=${ids.join(",")}&edition=${LATEST_EDITION}`;
+    try {
+      await fetch(`/api/cron/weekly?${qs}`);
+    } catch {}
     setSent(true);
     setTimeout(() => setSent(false), 4000);
   }

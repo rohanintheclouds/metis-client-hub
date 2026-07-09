@@ -29,3 +29,6 @@ yarn-error.log*
 
 # generated podcast audio (stub outputs)
 /public/podcasts/*.mp3
+
+# local subscriber store (dev only; production uses Upstash Redis)
+/.data

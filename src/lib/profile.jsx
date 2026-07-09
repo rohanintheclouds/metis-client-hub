@@ -1,12 +1,15 @@
 "use client";
 
-// Per-user personalization store (localStorage prototype).
-// In production this becomes a row per user in the DB, keyed by Clerk user id.
-// Tracks which clients/project-types a person follows and their email cadence.
+// Per-user personalization store. Persists to localStorage for instant UX and
+// syncs the subscription to the server (/api/subscribers) so the weekly cron
+// knows who to email and with which clients. The server sync is best-effort:
+// on the static demo there's no API, so it silently no-ops.
 
 import { useCallback, useEffect, useState } from "react";
 import { useAuth } from "@/lib/auth";
-import { CLIENTS } from "@/lib/clients";
+import { resolveFollowedClientIds } from "@/lib/follow";
+
+export { resolveFollowedClientIds };
 
 const DEFAULTS = {
   followedClients: ["lumen-technologies", "adp", "ford-credit", "loandepot"],
@@ -19,6 +22,25 @@ function keyFor(email) {
   return `mch.profile.${email || "anon"}`;
 }
 
+function syncToServer(user, profile) {
+  if (!user) return;
+  try {
+    fetch("/api/subscribers", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email: user.email,
+        name: user.name,
+        followedClients: profile.followedClients,
+        followedTags: profile.followedTags,
+        emailCadence: profile.emailCadence,
+        digestDay: profile.digestDay,
+      }),
+      keepalive: true,
+    }).catch(() => {});
+  } catch {}
+}
+
 export function useProfile() {
   const { user } = useAuth();
   const [profile, setProfile] = useState(DEFAULTS);
@@ -26,19 +48,24 @@ export function useProfile() {
 
   useEffect(() => {
     if (!user) return;
+    let next = DEFAULTS;
     try {
       const raw = localStorage.getItem(keyFor(user.email));
-      setProfile(raw ? { ...DEFAULTS, ...JSON.parse(raw) } : DEFAULTS);
-    } catch {
-      setProfile(DEFAULTS);
-    }
+      next = raw ? { ...DEFAULTS, ...JSON.parse(raw) } : DEFAULTS;
+    } catch {}
+    setProfile(next);
     setReady(true);
+    // Register/refresh this subscriber on the server on sign-in.
+    syncToServer(user, next);
   }, [user]);
 
   const save = useCallback(
     (next) => {
       setProfile(next);
-      if (user) localStorage.setItem(keyFor(user.email), JSON.stringify(next));
+      if (user) {
+        localStorage.setItem(keyFor(user.email), JSON.stringify(next));
+        syncToServer(user, next);
+      }
     },
     [user]
   );
@@ -70,18 +97,7 @@ export function useProfile() {
   );
 
   const setCadence = useCallback((emailCadence) => save({ ...profile, emailCadence }), [profile, save]);
+  const setDigestDay = useCallback((digestDay) => save({ ...profile, digestDay }), [profile, save]);
 
-  return { profile, ready, save, toggleClient, toggleTag, setCadence };
-}
-
-// Resolve the effective set of client ids a profile should see in "My Pulse":
-// everything explicitly followed, plus every client matching a followed tag.
-export function resolveFollowedClientIds(profile) {
-  const set = new Set(profile.followedClients || []);
-  if (profile.followedTags?.length) {
-    for (const c of CLIENTS) {
-      if (c.tags.some((t) => profile.followedTags.includes(t))) set.add(c.id);
-    }
-  }
-  return [...set];
+  return { profile, ready, save, toggleClient, toggleTag, setCadence, setDigestDay };
 }

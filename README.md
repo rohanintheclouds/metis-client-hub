@@ -67,9 +67,43 @@ with no setup. To switch to real SSO restricted to the firm:
 
 - **Scrape** (`scripts/scrape.mjs`, `npm run scrape`) refreshes the Pulse content
   for all clients. Schedule it ahead of the email (e.g. Sundays).
-- **Email** (`/api/cron/weekly`) fans out the personalized digest. `vercel.json`
-  already schedules it for Mondays 11:00 UTC (07:00 ET). Locally/preview, the
-  **Send me a preview** button on *My Pulse* hits it with `?preview=1`.
+- **Email** (`/api/cron/weekly`) fans out the personalized digest — see below.
+
+## Email integration (weekly newsletter)
+
+The full pipeline is built; it activates on a **dynamic host (Vercel)** once the
+keys are set. (The static GitHub Pages demo can't run server code, so email is
+inactive there.)
+
+**How it works**
+1. **Subscribers** — when anyone signs in or edits Settings, the app POSTs their
+   subscription (email, name, followed clients/tags, cadence, delivery day) to
+   `POST /api/subscribers`. Stored in **Upstash Redis** in production, or a local
+   `.data/subscribers.json` in dev (`src/lib/store.js`).
+2. **Schedule** — `vercel.json` runs `GET /api/cron/weekly` daily at 07:00 ET.
+   The job emails every subscriber whose cadence is `weekly` **and** whose chosen
+   delivery day matches today (ET). Each person picks their day in Settings.
+3. **Render + send** — it builds each recipient's personalized Client Pulse with
+   the shared renderer and sends via **Resend** (`src/lib/email.js`). Emails carry
+   a one-click **Unsubscribe** link (`/api/unsubscribe`).
+
+**Turn it on**
+```
+RESEND_API_KEY=...            # Resend (verify your sending domain)
+EMAIL_FROM="Metis Client Pulse <pulse@metisstrategy.com>"
+UPSTASH_REDIS_REST_URL=...    # free DB at upstash.com
+UPSTASH_REDIS_REST_TOKEN=...
+CRON_SECRET=...               # Vercel auto-sends this to the cron endpoint
+NEXT_PUBLIC_APP_URL=https://<your-deploy-url>
+```
+With no keys, everything runs in **stub mode**: sends are rendered and logged but
+not delivered, so you can test the flow safely.
+
+**Test it**
+- Locally: `curl -X POST localhost:3200/api/subscribers -H 'content-type: application/json' -d '{"email":"you@metisstrategy.com","followedClients":["adp"],"digestDay":"Monday"}'`
+  then `curl 'localhost:3200/api/cron/weekly?force=1'` to see the send summary.
+- Deployed: the **Send me a preview** button on *My Pulse* emails you the current
+  edition immediately (`/api/cron/weekly?preview=1`).
 
 ---
 

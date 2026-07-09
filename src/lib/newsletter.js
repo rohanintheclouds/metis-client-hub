@@ -76,7 +76,7 @@ function sectionHtml(client, edition, isLead) {
  * @param {string}   opts.glance     optional override for the "at a glance" summary
  * @returns {string} full HTML document
  */
-export function renderNewsletter({ clientIds, edition, recipient = "Metis Strategy", glance }) {
+export function renderNewsletter({ clientIds, edition, recipient = "Metis Strategy", glance, email }) {
   const meta = editionMeta(edition);
   const clients = clientIds.map(getClient).filter(Boolean);
 
@@ -159,7 +159,16 @@ export function renderNewsletter({ clientIds, edition, recipient = "Metis Strate
     <div class="summary"><b>This week at a glance:</b> ${esc(glanceText)}</div>
     ${sections}
     <footer>
-      Prepared for ${esc(recipient)} · Metis Strategy Client Research · Delivered weekly, Mondays at 7:00 AM ET
+      Prepared for ${esc(recipient)} · Metis Strategy Client Research · Delivered weekly
+      ${
+        email
+          ? `<div style="margin-top:6px;"><a class="src" href="${esc(
+              (process.env.NEXT_PUBLIC_APP_URL || "") + "/api/unsubscribe?email=" + encodeURIComponent(email)
+            )}">Unsubscribe</a> · <a class="src" href="${esc(
+              (process.env.NEXT_PUBLIC_APP_URL || "") + "/settings"
+            )}">Manage subscription</a></div>`
+          : ""
+      }
       <div class="disc">Market data is point-in-time and may lag. Figures are summarized from public sources for informational purposes only and are not investment advice.</div>
     </footer>
   </div>
