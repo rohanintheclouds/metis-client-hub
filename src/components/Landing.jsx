@@ -15,12 +15,14 @@ import {
 } from "lucide-react";
 import { CLIENTS } from "@/lib/clients";
 import { PROJECT_TYPES } from "@/lib/brand";
+import { CableDivider, CircuitBg, TunnelBg, ScrollSpine } from "@/components/DataFlow";
 
 // Statically imported so the GitHub Pages basePath is applied automatically.
 import heroImg from "@/assets/landing/hero.jpg";
 import aiImg from "@/assets/landing/ai.jpg";
 import dataImg from "@/assets/landing/data.jpg";
 import transformImg from "@/assets/landing/transform.jpg";
+import cablesImg from "@/assets/landing/cables.jpg";
 
 // The export build's trailing-slash assetPrefix ("/metis-client-hub/") yields
 // "//_next/..." in imported image URLs; collapse it so every host serves them.
@@ -375,8 +377,10 @@ function Showcase() {
 export default function Landing() {
   return (
     <div className="lp">
+      <ScrollSpine />
       <Hero />
       <Marquee />
+      <CableDivider tone="light" />
 
       <section className="container lp-about">
         <div className="lp-about-text reveal">
@@ -398,11 +402,14 @@ export default function Landing() {
           </div>
         </div>
         <div className="lp-about-img reveal">
-          <img src={src(transformImg)} alt="Abstract visualization of transformation" loading="lazy" />
+          <img src={src(cablesImg)} alt="Fiber-optic cables carrying pulses of light" loading="lazy" />
         </div>
       </section>
 
+      <CableDivider tone="light" flip />
+
       <section className="lp-band">
+        <CircuitBg />
         <div className="container">
           <h2 className="lp-h2 light reveal">
             What we focus on<span className="accent">.</span>
@@ -415,6 +422,8 @@ export default function Landing() {
         </div>
       </section>
 
+      <CableDivider tone="light" />
+
       <section className="container lp-inside">
         <h2 className="lp-h2 reveal">
           Inside the hub<span className="accent">.</span>
@@ -425,7 +434,10 @@ export default function Landing() {
         <Showcase />
       </section>
 
+      <CableDivider tone="light" flip />
+
       <section className="lp-final">
+        <TunnelBg />
         <div className="hero-dots" aria-hidden />
         <div className="container lp-final-inner reveal">
           <h2>

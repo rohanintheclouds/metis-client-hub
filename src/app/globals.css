@@ -440,6 +440,49 @@ a.src{color:var(--green-2);border-bottom:1px solid #b7ece4;font-weight:600;}
   animation:lp-eq 1s ease-in-out infinite alternate;animation-delay:calc(var(--k)*.08s);}
 @keyframes lp-eq{from{height:18%;}to{height:100%;}}
 
+/* ── Data cables / flow decorations ─────────────────────── */
+.lp-cable{display:block;width:100%;height:170px;margin:-6px 0;}
+.lp-cable.flip{transform:scaleX(-1);}
+.lp-cable.reveal{transition-property:opacity;transform:none;}
+.lp-cable.flip.reveal{transform:scaleX(-1);}
+.lp-cable .base,.lp-circuit .base{fill:none;stroke-width:1.5;vector-effect:non-scaling-stroke;}
+.lp-cable.light .base{stroke:rgba(32,33,107,.15);}
+.lp-cable.dark .base,.lp-circuit .base{stroke:rgba(255,255,255,.10);}
+.lp-cable .flow,.lp-circuit .flow{fill:none;stroke:var(--green);stroke-width:2;stroke-linecap:round;
+  stroke-dasharray:10 34;vector-effect:non-scaling-stroke;
+  animation:lp-dash 3s linear infinite;filter:drop-shadow(0 0 3px rgba(8,222,197,.9));}
+.lp-cable.light .flow{stroke:var(--green-2);filter:drop-shadow(0 0 3px rgba(6,183,163,.7));}
+@keyframes lp-dash{to{stroke-dashoffset:-44;}}
+.lp-cable:hover .flow{animation-duration:1s!important;}
+.lp-cable .dot{fill:#fff;filter:drop-shadow(0 0 6px var(--green));}
+.lp-cable .port{fill:var(--green);animation:lp-blink 2.4s ease-in-out infinite;}
+.lp-cable.light .port{fill:var(--green-2);}
+@keyframes lp-blink{0%,100%{opacity:.3;}50%{opacity:1;}}
+.lp-circuit{position:absolute;inset:0;width:100%;height:100%;opacity:.4;pointer-events:none;}
+.lp-band{position:relative;overflow:hidden;}
+.lp-band .container{position:relative;z-index:2;}
+
+/* data tunnel behind the final CTA */
+.lp-tunnel{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.5;}
+.lp-tunnel .spoke{stroke:var(--green);stroke-width:1.4;stroke-linecap:round;
+  stroke-dasharray:3 90;animation:lp-warp 3s linear infinite;}
+@keyframes lp-warp{from{stroke-dashoffset:0;}to{stroke-dashoffset:-93;}}
+.lp-tunnel .ring{fill:none;stroke:rgba(8,222,197,.28);stroke-width:1;
+  animation:lp-ring 3.4s ease-in-out infinite;transform-origin:600px 300px;}
+@keyframes lp-ring{0%,100%{opacity:.15;transform:scale(.96);}50%{opacity:.6;transform:scale(1.04);}}
+
+/* fixed scroll-progress conduit */
+.lp-spine{position:fixed;left:26px;top:96px;bottom:30px;width:2px;z-index:30;
+  background:rgba(32,33,107,.14);border-radius:2px;display:none;}
+@media(min-width:1200px){.lp-spine{display:block;}}
+.lp-spine .fill{position:absolute;inset:0;border-radius:2px;transform-origin:top;
+  transform:scaleY(var(--sp,0));background:linear-gradient(180deg,var(--green),var(--green-2));
+  box-shadow:0 0 8px rgba(8,222,197,.55);}
+.lp-spine .head{position:absolute;left:50%;top:calc(var(--sp,0)*100%);transform:translate(-50%,-50%);
+  width:11px;height:11px;border-radius:50%;background:var(--green);
+  box-shadow:0 0 0 3px rgba(8,222,197,.25),0 0 14px var(--green);
+  animation:lp-blink 1.6s ease-in-out infinite;}
+
 /* ── Final CTA ──────────────────────────────────────────── */
 .lp-final{position:relative;overflow:hidden;margin-top:60px;
   background:linear-gradient(135deg,#20216b 0%,#151524 100%);}
@@ -452,4 +495,6 @@ a.src{color:var(--green-2);border-bottom:1px solid #b7ece4;font-weight:600;}
   .lp-mq-track,.lp-scrollcue,.lp-mock-pod .eq span,.lp-mock-wall .cell{animation:none!important;opacity:1;}
   .lp-hero-img{transform:none!important;}
   .lp-tilt{transform:none!important;}
+  .lp-cable .flow,.lp-circuit .flow,.lp-cable .port,.lp-tunnel .spoke,.lp-tunnel .ring,.lp-spine .head{animation:none!important;}
+  .lp-cable .dot{display:none;}
 }
