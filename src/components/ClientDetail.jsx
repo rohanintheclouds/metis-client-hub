@@ -30,7 +30,7 @@ export default function ClientDetail({ id }) {
 
   return (
     <div className="container">
-      <Link href="/" className="back">
+      <Link href="/clients" className="back">
         <ArrowLeft size={15} /> All clients
       </Link>
 

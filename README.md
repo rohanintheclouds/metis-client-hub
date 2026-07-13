@@ -12,8 +12,12 @@ the Client Pulse newsletter (ink `#111`, teal `#3FC9BE`).
 
 ## Features
 
-- **Landing / logo wall** — acquired.fm-style grid of all clients with sticky
-  filters for **coast** (East / Central / West) and **project type**.
+- **Home** (`/`) — interactive landing page introducing Metis Strategy and the
+  hub: animated hero with AI-generated brand imagery, client marquee, live
+  counters, 3D-tilt focus cards, and an auto-rotating feature showcase
+  (`src/components/Landing.jsx`, images in `src/assets/landing/`).
+- **Client wall** (`/clients`) — acquired.fm-style grid of all clients with
+  sticky filters for **coast** (East / Central / West) and **project type**.
 - **Client pages** — the latest weekly scrape up top, with an archive to browse
   prior editions. Each renders the Client Pulse format (stats, items, sources).
 - **My Pulse** — a personalized briefing auto-built from the clients you follow

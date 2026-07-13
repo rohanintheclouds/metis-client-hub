@@ -8,7 +8,8 @@ import SignIn from "@/components/SignIn";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const NAV = [
-  { href: "/", label: "Clients" },
+  { href: "/", label: "Home" },
+  { href: "/clients", label: "Clients" },
   { href: "/my-pulse", label: "My Pulse" },
   { href: "/settings", label: "Settings" },
 ];
@@ -76,7 +77,8 @@ export default function AppFrame({ children }) {
           <div className="footer-nav">
             <div className="footer-col">
               <h4>Hub</h4>
-              <Link href="/">All clients</Link>
+              <Link href="/">Home</Link>
+              <Link href="/clients">All clients</Link>
               <Link href="/my-pulse">My Pulse</Link>
               <Link href="/settings">Settings</Link>
             </div>
