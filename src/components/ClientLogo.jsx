@@ -34,9 +34,11 @@ export default function ClientLogo({ client, size = 54, framed = true, wall = fa
 
   if (wall) {
     // Big logo filling the white tile. Prefers a self-hosted file
-    // (public/logos/<id>.png|svg), then the hi-res favicon, then the low-res
+    // (src/assets/logos/<id>.png|svg, imported so the build pipeline applies
+    // the GitHub Pages basePath), then the hi-res favicon, then the low-res
     // icon service, then a brand-colored monogram.
-    const sources = [client.logo, bigIconUrl(client.domain), iconUrl(client.domain)].filter(Boolean);
+    const localLogo = client.logo && (client.logo.src || client.logo);
+    const sources = [localLogo, bigIconUrl(client.domain), iconUrl(client.domain)].filter(Boolean);
     if (wallStage >= sources.length) return <span className="wall-mono">{initials}</span>;
     return (
       /* eslint-disable-next-line @next/next/no-img-element */
