@@ -3,25 +3,16 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { CLIENTS } from "@/lib/clients";
-import { COASTS, PROJECT_TYPES } from "@/lib/brand";
+import { COASTS } from "@/lib/brand";
 import { getPulse, LATEST_EDITION } from "@/lib/pulse";
 import ClientLogo from "@/components/ClientLogo";
 
 export default function HomeExplorer() {
   const [coast, setCoast] = useState("All");
-  const [tags, setTags] = useState([]);
-
-  function toggleTag(t) {
-    setTags((prev) => (prev.includes(t) ? prev.filter((x) => x !== t) : [...prev, t]));
-  }
 
   const filtered = useMemo(() => {
-    return CLIENTS.filter((c) => {
-      if (coast !== "All" && c.coast !== coast) return false;
-      if (tags.length && !tags.every((t) => c.tags.includes(t))) return false;
-      return true;
-    });
-  }, [coast, tags]);
+    return CLIENTS.filter((c) => coast === "All" || c.coast === coast);
+  }, [coast]);
 
   return (
     <>
@@ -46,34 +37,27 @@ export default function HomeExplorer() {
       </div>
 
       <div className="filterbar">
-        <div className="container">
-          <div className="filter-row">
-            <span className="filter-label">Coast</span>
-            <button className={`chip ${coast === "All" ? "on" : ""}`} onClick={() => setCoast("All")}>
-              All coasts
-            </button>
-            {COASTS.map((c) => (
-              <button key={c} className={`chip ${coast === c ? "on" : ""}`} onClick={() => setCoast(c)}>
-                {c}
-              </button>
-            ))}
-            <span className="count">
-              {filtered.length} client{filtered.length === 1 ? "" : "s"}
-            </span>
+        <div className="container filterbar-inner">
+          <div className="seg" role="tablist" aria-label="Filter clients by coast">
+            {["All", ...COASTS].map((c) => {
+              const n = c === "All" ? CLIENTS.length : CLIENTS.filter((x) => x.coast === c).length;
+              return (
+                <button
+                  key={c}
+                  role="tab"
+                  aria-selected={coast === c}
+                  className={`seg-btn ${coast === c ? "on" : ""}`}
+                  onClick={() => setCoast(c)}
+                >
+                  {c === "All" ? "All coasts" : c}
+                  <span className="seg-n">{n}</span>
+                </button>
+              );
+            })}
           </div>
-          <div className="filter-row">
-            <span className="filter-label">Project type</span>
-            {PROJECT_TYPES.map((t) => (
-              <button key={t} className={`chip tag ${tags.includes(t) ? "on" : ""}`} onClick={() => toggleTag(t)}>
-                {t}
-              </button>
-            ))}
-            {tags.length > 0 && (
-              <button className="linkbtn" onClick={() => setTags([])} style={{ marginLeft: 4 }}>
-                Clear
-              </button>
-            )}
-          </div>
+          <span className="count">
+            {filtered.length} client{filtered.length === 1 ? "" : "s"}
+          </span>
         </div>
       </div>
 
@@ -89,23 +73,13 @@ export default function HomeExplorer() {
                   key={c.id}
                   href={`/clients/${c.id}`}
                   className="tile reveal"
-                  style={{ transitionDelay: `${(i % 10) * 45}ms` }}
+                  style={{ "--tile-brand": c.mono, transitionDelay: `${(i % 10) * 45}ms` }}
                 >
-                  <span className="tile-coast">{c.coast.replace(" Coast", "")}</span>
+                  <span className="tile-chip">{c.name}</span>
                   <div className="tile-logo">
-                    <ClientLogo client={c} size={54} />
+                    <ClientLogo client={c} wall />
                   </div>
-                  <div>
-                    <div className="tile-name">{c.name}</div>
-                    <div className="tile-sub">{c.sector}</div>
-                  </div>
-                  <div className="tile-tags">
-                    {c.tags.slice(0, 3).map((t) => (
-                      <span key={t} className="tile-tag">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
+                  <span className="tile-foot">{c.sector}</span>
 
                   <div className="tile-preview" aria-hidden>
                     <div className="tp-ticker">{c.ticker} · {c.coast}</div>
