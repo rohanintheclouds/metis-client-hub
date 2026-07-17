@@ -3,11 +3,26 @@
 // tags    — project-type taxonomy (drives personalized-newsletter filtering)
 // domain  — used to resolve a logo (logo.dev / Clearbit), with monogram fallback
 // mono    — brand-ish tile color for the monogram fallback
+
+import LogoAflac from "@/assets/logos/aflac.png";
+import LogoFordCredit from "@/assets/logos/ford-credit.png";
+import LogoLumen from "@/assets/logos/lumen-technologies.png";
+import LogoAdp from "@/assets/logos/adp.png";
+import LogoUkg from "@/assets/logos/ukg.svg";
+import LogoGenerac from "@/assets/logos/generac-power-systems.png";
+import LogoNrg from "@/assets/logos/nrg-energy.png";
+import LogoRegalRexnord from "@/assets/logos/regal-rexnord.png";
+import LogoVulcan from "@/assets/logos/vulcan-materials.svg";
+import LogoLoandepot from "@/assets/logos/loandepot.png";
+import LogoRockwell from "@/assets/logos/rockwell-automation.png";
+import LogoWorkday from "@/assets/logos/workday.png";
+import LogoIntuitive from "@/assets/logos/intuitive-surgical.png";
+
 export const CLIENTS = [
   // ── East Coast ──────────────────────────────────────────────────────────
   {
     id: "aflac",
-    logo: "/logos/aflac.png",
+    logo: LogoAflac,
     name: "Aflac",
     legalName: "Aflac Incorporated",
     ticker: "NYSE: AFL",
@@ -25,7 +40,7 @@ export const CLIENTS = [
   },
   {
     id: "ford-credit",
-    logo: "/logos/ford-credit.png",
+    logo: LogoFordCredit,
     name: "Ford Credit",
     legalName: "Ford Motor Credit Company",
     ticker: "NYSE: F",
@@ -43,7 +58,7 @@ export const CLIENTS = [
   },
   {
     id: "lumen-technologies",
-    logo: "/logos/lumen-technologies.png",
+    logo: LogoLumen,
     name: "Lumen",
     legalName: "Lumen Technologies, Inc.",
     ticker: "NYSE: LUMN",
@@ -61,7 +76,7 @@ export const CLIENTS = [
   },
   {
     id: "adp",
-    logo: "/logos/adp.png",
+    logo: LogoAdp,
     name: "ADP",
     legalName: "Automatic Data Processing, Inc.",
     ticker: "NASDAQ: ADP",
@@ -79,7 +94,7 @@ export const CLIENTS = [
   },
   {
     id: "ukg",
-    logo: "/logos/ukg.svg",
+    logo: LogoUkg,
     name: "UKG",
     legalName: "Ultimate Kronos Group",
     ticker: "Private",
@@ -99,7 +114,7 @@ export const CLIENTS = [
   // ── Central ─────────────────────────────────────────────────────────────
   {
     id: "generac-power-systems",
-    logo: "/logos/generac-power-systems.png",
+    logo: LogoGenerac,
     name: "Generac",
     legalName: "Generac Holdings Inc.",
     ticker: "NYSE: GNRC",
@@ -134,7 +149,7 @@ export const CLIENTS = [
   },
   {
     id: "nrg-energy",
-    logo: "/logos/nrg-energy.png",
+    logo: LogoNrg,
     name: "NRG",
     legalName: "NRG Energy, Inc.",
     ticker: "NYSE: NRG",
@@ -169,7 +184,7 @@ export const CLIENTS = [
   },
   {
     id: "regal-rexnord",
-    logo: "/logos/regal-rexnord.png",
+    logo: LogoRegalRexnord,
     name: "Regal Rexnord",
     legalName: "Regal Rexnord Corporation",
     ticker: "NYSE: RRX",
@@ -187,7 +202,7 @@ export const CLIENTS = [
   },
   {
     id: "vulcan-materials",
-    logo: "/logos/vulcan-materials.svg",
+    logo: LogoVulcan,
     name: "Vulcan Materials",
     legalName: "Vulcan Materials Company",
     ticker: "NYSE: VMC",
@@ -207,7 +222,7 @@ export const CLIENTS = [
   // ── West Coast ────────────────────────────────────────────────────────────
   {
     id: "loandepot",
-    logo: "/logos/loandepot.png",
+    logo: LogoLoandepot,
     name: "loanDepot",
     legalName: "loanDepot, Inc.",
     ticker: "NYSE: LDI",
@@ -225,7 +240,7 @@ export const CLIENTS = [
   },
   {
     id: "rockwell-automation",
-    logo: "/logos/rockwell-automation.png",
+    logo: LogoRockwell,
     name: "Rockwell Automation",
     legalName: "Rockwell Automation, Inc.",
     ticker: "NYSE: ROK",
@@ -243,7 +258,7 @@ export const CLIENTS = [
   },
   {
     id: "workday",
-    logo: "/logos/workday.png",
+    logo: LogoWorkday,
     name: "Workday",
     legalName: "Workday, Inc.",
     ticker: "NASDAQ: WDAY",
@@ -261,7 +276,7 @@ export const CLIENTS = [
   },
   {
     id: "intuitive-surgical",
-    logo: "/logos/intuitive-surgical.png",
+    logo: LogoIntuitive,
     name: "Intuitive Surgical",
     legalName: "Intuitive Surgical, Inc.",
     ticker: "NASDAQ: ISRG",
