@@ -116,7 +116,7 @@ export default function ClientDetail({ id }) {
           {/* left rail: archive + tags + podcast */}
           <div className="stack">
             <div className="card" style={{ padding: 18 }}>
-              <p className="section-title">Weekly editions</p>
+              <p className="section-title">Editions</p>
               <div className="follow-list">
                 {editions.map((e) => (
                   <button
@@ -131,7 +131,7 @@ export default function ClientDetail({ id }) {
                   >
                     <div>
                       <div className="nm">{e.label}</div>
-                      <div className="sb">{e.id === editions[0].id ? "Latest scrape" : "Archived"}</div>
+                      <div className="sb">{e.id === editions[0].id ? "Latest" : "Archived"}</div>
                     </div>
                   </button>
                 ))}
@@ -201,21 +201,25 @@ export default function ClientDetail({ id }) {
                     </div>
                   ))}
                 </div>
+                <p className="snap-disclaimer">Prices reflect the prior trading day's closing price, not real-time data.</p>
               </details>
             )}
 
-            {/* this week at a glance — bullets that expand into the full story */}
+            {/* recent developments — bullets that expand into the full story */}
             <div className="glance-card">
               <div className="gc-head">
-                <Zap size={15} /> This week at a glance
-                <span className="gc-sub">click "More on this" for the full story</span>
+                <Zap size={15} /> Recent developments
+                <span className="gc-sub">click "More on this" for detail and the source</span>
               </div>
               <div className="gc-list">
                 {d?.items.map((it, i) => (
                   <div className="gc-item" key={`${current?.id}-${i}`} style={{ "--i": i }}>
                     <span className="gc-dot" aria-hidden />
                     <div className="gc-main">
-                      <span className="gc-hl">{it.headline.replace(/\.$/, "")}</span>
+                      <span className="gc-hl">
+                        {it.headline.replace(/\.$/, "")}
+                        {it.date && <span className="gc-date">{it.date}</span>}
+                      </span>
                       <p className="gc-lead">{it.body}</p>
                       {(it.ctx || it.url) && (
                         <details className="gc-more">
@@ -240,6 +244,10 @@ export default function ClientDetail({ id }) {
                   </div>
                 ))}
               </div>
+              <p className="gc-footnote">
+                Dates shown are when each development was originally reported, not this edition's date.
+                Compiled from public reporting — verify before citing to a client.
+              </p>
             </div>
 
             {/* current news links */}
@@ -257,7 +265,10 @@ export default function ClientDetail({ id }) {
                       />
                       <span className="nc-txt">
                         <b>{s.label}</b>
-                        <small>{hostOf(s.url)}</small>
+                        <small>
+                          {hostOf(s.url)}
+                          {s.paywall && <span className="nc-paywall">subscription may be required</span>}
+                        </small>
                       </span>
                       <ExternalLink size={14} className="nc-ext" />
                     </a>

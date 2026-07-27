@@ -26,7 +26,7 @@ export default function HomeExplorer() {
               Intelligence on every <span className="accent">client we serve.</span>
             </h1>
             <p>
-              A living hub for the whole firm: weekly developments across every account, a briefing
+              A living hub for the whole firm: sourced developments across every account, a briefing
               personalized to your engagements, and audio episodes on demand.
             </p>
             <div className="brandline">
@@ -86,7 +86,7 @@ export default function HomeExplorer() {
                     <div className="tp-name">{c.name}</div>
                     <p className="tp-glance">{glance}</p>
                     <span className="tp-cta">
-                      View this week’s pulse <span className="ar">→</span>
+                      View the latest pulse <span className="ar">→</span>
                     </span>
                   </div>
                 </Link>

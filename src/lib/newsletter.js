@@ -35,13 +35,14 @@ function statHtml(s) {
 }
 
 function itemHtml(it) {
-  return `<li><b>${esc(it.headline)}</b> ${esc(it.body)} <span class="ctx">${esc(it.ctx)}</span></li>`;
+  const dateTag = it.date ? ` <span style="color:#9aa1a9;font-weight:600;font-size:11.5px;">(${esc(it.date)})</span>` : "";
+  return `<li><b>${esc(it.headline)}</b>${dateTag} ${esc(it.body)} <span class="ctx">${esc(it.ctx)}</span></li>`;
 }
 
 function sourceHtml(sources = []) {
   if (!sources.length) return "";
   const links = sources
-    .map((s) => `<a class="src" href="${esc(s.url)}">${esc(s.label)}</a>`)
+    .map((s) => `<a class="src" href="${esc(s.url)}">${esc(s.label)}</a>${s.paywall ? " (subscription may be required)" : ""}`)
     .join(" · ");
   return `<p style="font-size:13px;margin:12px 0 0;">Sources: ${links}</p>`;
 }
@@ -156,10 +157,10 @@ export function renderNewsletter({ clientIds, edition, recipient = "Metis Strate
     <nav class="nav">
       ${nav}
     </nav>
-    <div class="summary"><b>This week at a glance:</b> ${esc(glanceText)}</div>
+    <div class="summary"><b>At a glance:</b> ${esc(glanceText)}</div>
     ${sections}
     <footer>
-      Prepared for ${esc(recipient)} · Metis Strategy Client Research · Delivered weekly
+      Prepared for ${esc(recipient)} · Metis Strategy Client Research
       ${
         email
           ? `<div style="margin-top:6px;"><a class="src" href="${esc(
@@ -169,7 +170,7 @@ export function renderNewsletter({ clientIds, edition, recipient = "Metis Strate
             )}">Manage subscription</a></div>`
           : ""
       }
-      <div class="disc">Market data is point-in-time and may lag. Figures are summarized from public sources for informational purposes only and are not investment advice.</div>
+      <div class="disc">Stock prices reflect the prior trading day's closing price, not real-time data. Dates shown on each item are when that development was originally reported, not the date of this edition. Figures are compiled from public sources for informational purposes only, are not investment advice, and should be independently verified before being cited to a client.</div>
     </footer>
   </div>
 </div>

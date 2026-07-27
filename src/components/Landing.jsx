@@ -126,8 +126,8 @@ function Hero() {
           ))}
         </h1>
         <p className="lp-sub">
-          The firm&apos;s living picture of every account we serve — a weekly pulse on each client,
-          a briefing personalized to your engagements, and audio episodes on demand.
+          The firm&apos;s living picture of every account we serve, a briefing personalized to your
+          engagements, and audio episodes on demand.
         </p>
         <div className="lp-cta-row">
           <Link href="/clients" className="btn teal lg">
@@ -245,14 +245,14 @@ const FEATURES = [
   {
     icon: LayoutGrid,
     title: "The client wall",
-    body: "Every account on one wall, filterable by coast and project type. Hover a tile for this week's glance; click through for the full story.",
+    body: "Every account on one wall, filterable by coast. Hover a tile for the latest glance; click through for the full story.",
     href: "/clients",
     cta: "Open the wall",
   },
   {
     icon: Newspaper,
-    title: "Weekly Client Pulse",
-    body: "A sourced briefing per client, every week — market stats, deals, leadership moves, and why each one matters to our work.",
+    title: "Client Pulse",
+    body: "A sourced briefing per client — market stats, deals, leadership moves, and why each one matters to our work.",
     href: "/clients",
     cta: "Browse pulses",
   },
