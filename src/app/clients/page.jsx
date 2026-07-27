@@ -2,7 +2,7 @@ import HomeExplorer from "@/components/HomeExplorer";
 
 export const metadata = {
   title: "Clients — Metis Client Hub",
-  description: "Every client we serve, with this week's pulse a hover away.",
+  description: "Every client we serve, with the latest developments a hover away.",
 };
 
 export default function ClientsPage() {

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -17,6 +17,7 @@ import {
 import { getClient } from "@/lib/clients";
 import { editionsForClient } from "@/lib/pulse";
 import { useProfile } from "@/lib/profile";
+import { fetchLiveStats } from "@/lib/marketdata";
 import ClientLogo from "@/components/ClientLogo";
 import PodcastPlayer from "@/components/PodcastPlayer";
 import { openNewsletter } from "@/lib/viewNewsletter";
@@ -34,7 +35,19 @@ export default function ClientDetail({ id }) {
   const editions = editionsForClient(id);
   const [sel, setSel] = useState(editions[0]?.id);
   const [aboutOpen, setAboutOpen] = useState(false);
+  const [live, setLive] = useState(null);
   const { profile, toggleClient, ready } = useProfile();
+
+  useEffect(() => {
+    let cancelled = false;
+    setLive(null);
+    fetchLiveStats(id).then((r) => {
+      if (!cancelled) setLive(r);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
 
   if (!client) {
     return (
@@ -47,6 +60,8 @@ export default function ClientDetail({ id }) {
   const current = editions.find((e) => e.id === sel) || editions[0];
   const d = current?.data;
   const following = ready && profile.followedClients.includes(id);
+  const snapStats = live?.stats || d?.stats;
+  const isLive = Boolean(live);
 
   return (
     <>
@@ -116,7 +131,7 @@ export default function ClientDetail({ id }) {
           {/* left rail: archive + tags + podcast */}
           <div className="stack">
             <div className="card" style={{ padding: 18 }}>
-              <p className="section-title">Weekly editions</p>
+              <p className="section-title">Editions</p>
               <div className="follow-list">
                 {editions.map((e) => (
                   <button
@@ -131,7 +146,7 @@ export default function ClientDetail({ id }) {
                   >
                     <div>
                       <div className="nm">{e.label}</div>
-                      <div className="sb">{e.id === editions[0].id ? "Latest scrape" : "Archived"}</div>
+                      <div className="sb">{e.id === editions[0].id ? "Latest" : "Archived"}</div>
                     </div>
                   </button>
                 ))}
@@ -182,40 +197,49 @@ export default function ClientDetail({ id }) {
             </div>
 
             {/* market snapshot — collapsed dropdown, up top */}
-            {d?.stats?.length > 0 && (
+            {snapStats?.length > 0 && (
               <details className="snap-strip">
                 <summary>
                   <span className="snap-label">
                     <TrendingUp size={13} /> Market snapshot
+                    {isLive && <span className="snap-live">LIVE</span>}
                   </span>
                   <span className="snap-preview">
-                    {d.stats[0].v} <i>{d.stats[0].l}</i>
+                    {snapStats[0].v} <i>{snapStats[0].l}</i>
                   </span>
                   <ChevronDown size={15} className="snap-chev" aria-hidden />
                 </summary>
                 <div className="snap-grid">
-                  {d.stats.map((s, i) => (
+                  {snapStats.map((s, i) => (
                     <div className="stat" key={i}>
                       <div className={`v ${s.dir || ""}`}>{s.v}</div>
                       <div className="l">{s.l}</div>
                     </div>
                   ))}
                 </div>
+                <p className="snap-disclaimer">
+                  {isLive
+                    ? "Live quote via Google Finance — may run 15-20 minutes delayed per exchange data rules."
+                    : "Research-snapshot price, not real-time. Prices reflect the prior trading day's closing price."}
+                </p>
               </details>
             )}
 
-            {/* this week at a glance — bullets that expand into the full story */}
+            {/* recent developments — bullets that expand into the full story */}
             <div className="glance-card">
               <div className="gc-head">
-                <Zap size={15} /> This week at a glance
-                <span className="gc-sub">click "More on this" for the full story</span>
+                <Zap size={15} /> Recent developments
+                <span className="gc-sub">click "More on this" for detail and the source</span>
               </div>
               <div className="gc-list">
                 {d?.items.map((it, i) => (
                   <div className="gc-item" key={`${current?.id}-${i}`} style={{ "--i": i }}>
                     <span className="gc-dot" aria-hidden />
                     <div className="gc-main">
-                      <span className="gc-hl">{it.headline.replace(/\.$/, "")}</span>
+                      <span className="gc-hl">
+                        {it.headline.replace(/\.$/, "")}
+                        {it.date && <span className="gc-date">{it.date}</span>}
+                      </span>
                       <p className="gc-lead">{it.body}</p>
                       {(it.ctx || it.url) && (
                         <details className="gc-more">
@@ -240,6 +264,10 @@ export default function ClientDetail({ id }) {
                   </div>
                 ))}
               </div>
+              <p className="gc-footnote">
+                Dates shown are when each development was originally reported, not this edition's date.
+                Compiled from public reporting — verify before citing to a client.
+              </p>
             </div>
 
             {/* current news links */}
@@ -257,7 +285,10 @@ export default function ClientDetail({ id }) {
                       />
                       <span className="nc-txt">
                         <b>{s.label}</b>
-                        <small>{hostOf(s.url)}</small>
+                        <small>
+                          {hostOf(s.url)}
+                          {s.paywall && <span className="nc-paywall">subscription may be required</span>}
+                        </small>
                       </span>
                       <ExternalLink size={14} className="nc-ext" />
                     </a>

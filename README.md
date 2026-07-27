@@ -52,6 +52,7 @@ Copy `.env.example` → `.env.local` and fill in as you enable each piece:
 | ------------------ | -------------------------------------------------- | -------------------------------------- |
 | Auth (Clerk SSO)   | `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY` | Demo email gate (see below)        |
 | Weekly scrape      | `ANTHROPIC_API_KEY` (+ optional `SEARCH_API_KEY`)  | `npm run scrape` prints the plan       |
+| Live market data   | `NEXT_PUBLIC_MARKET_DATA_CSV_URL` (free, no key — see `src/lib/marketdata.js`) | Static research-snapshot stats |
 | Weekly email       | `RESEND_API_KEY`, `EMAIL_FROM`                     | Renders + returns a JSON receipt       |
 | Podcast            | `ELEVENLABS_API_KEY`, voice IDs                    | Returns drafted script, no audio       |
 | Cron auth          | `CRON_SECRET`                                      | Preview sends bypass auth              |

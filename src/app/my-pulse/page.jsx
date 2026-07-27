@@ -96,8 +96,8 @@ export default function MyPulsePage() {
             <div className="pulse-date">{meta.label}</div>
           </div>
           <div className="pulse-summary">
-            <b>This week at a glance:</b> Your briefing covers {clients.map((c) => c.name).join(", ")}.
-            Expand any client for the week’s developments, market data, and sources.
+            <b>At a glance:</b> Your briefing covers {clients.map((c) => c.name).join(", ")}.
+            Expand any client for recent developments, market data, and sources.
           </div>
           {clients.map((c, i) => {
             const data = getPulse(c.id, LATEST_EDITION);
