@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -17,6 +17,7 @@ import {
 import { getClient } from "@/lib/clients";
 import { editionsForClient } from "@/lib/pulse";
 import { useProfile } from "@/lib/profile";
+import { fetchLiveStats } from "@/lib/marketdata";
 import ClientLogo from "@/components/ClientLogo";
 import PodcastPlayer from "@/components/PodcastPlayer";
 import { openNewsletter } from "@/lib/viewNewsletter";
@@ -34,7 +35,19 @@ export default function ClientDetail({ id }) {
   const editions = editionsForClient(id);
   const [sel, setSel] = useState(editions[0]?.id);
   const [aboutOpen, setAboutOpen] = useState(false);
+  const [live, setLive] = useState(null);
   const { profile, toggleClient, ready } = useProfile();
+
+  useEffect(() => {
+    let cancelled = false;
+    setLive(null);
+    fetchLiveStats(id).then((r) => {
+      if (!cancelled) setLive(r);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
 
   if (!client) {
     return (
@@ -47,6 +60,8 @@ export default function ClientDetail({ id }) {
   const current = editions.find((e) => e.id === sel) || editions[0];
   const d = current?.data;
   const following = ready && profile.followedClients.includes(id);
+  const snapStats = live?.stats || d?.stats;
+  const isLive = Boolean(live);
 
   return (
     <>
@@ -182,26 +197,31 @@ export default function ClientDetail({ id }) {
             </div>
 
             {/* market snapshot — collapsed dropdown, up top */}
-            {d?.stats?.length > 0 && (
+            {snapStats?.length > 0 && (
               <details className="snap-strip">
                 <summary>
                   <span className="snap-label">
                     <TrendingUp size={13} /> Market snapshot
+                    {isLive && <span className="snap-live">LIVE</span>}
                   </span>
                   <span className="snap-preview">
-                    {d.stats[0].v} <i>{d.stats[0].l}</i>
+                    {snapStats[0].v} <i>{snapStats[0].l}</i>
                   </span>
                   <ChevronDown size={15} className="snap-chev" aria-hidden />
                 </summary>
                 <div className="snap-grid">
-                  {d.stats.map((s, i) => (
+                  {snapStats.map((s, i) => (
                     <div className="stat" key={i}>
                       <div className={`v ${s.dir || ""}`}>{s.v}</div>
                       <div className="l">{s.l}</div>
                     </div>
                   ))}
                 </div>
-                <p className="snap-disclaimer">Prices reflect the prior trading day's closing price, not real-time data.</p>
+                <p className="snap-disclaimer">
+                  {isLive
+                    ? "Live quote via Google Finance — may run 15-20 minutes delayed per exchange data rules."
+                    : "Research-snapshot price, not real-time. Prices reflect the prior trading day's closing price."}
+                </p>
               </details>
             )}
 

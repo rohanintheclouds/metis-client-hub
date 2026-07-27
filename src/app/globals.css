@@ -251,6 +251,8 @@ a.src{color:var(--green-2);border-bottom:1px solid #b7ece4;font-weight:600;}
   text-transform:uppercase;color:var(--muted);transition:color .2s;}
 .snap-strip summary:hover .snap-label{color:var(--blue);}
 .snap-label svg{color:var(--green-2);}
+.snap-live{font-size:9px;font-weight:800;letter-spacing:.6px;color:#fff;background:var(--up);
+  padding:2px 6px;border-radius:999px;animation:lp-blink 2s ease-in-out infinite;}
 .snap-preview{font-size:13px;color:var(--blue);font-weight:700;}
 .snap-preview i{font-style:normal;font-weight:600;color:var(--muted);margin-left:5px;}
 .snap-chev{margin-left:auto;color:var(--muted);transition:transform .3s,color .2s;}
