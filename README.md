@@ -73,6 +73,31 @@ with no setup. To switch to real SSO restricted to the firm:
   for all clients. Schedule it ahead of the email (e.g. Sundays).
 - **Email** (`/api/cron/weekly`) fans out the personalized digest — see below.
 
+### Grounded scrape pipeline (no hallucination)
+
+`npm run scrape` (or `npm run scrape -- <clientId>`) gathers **real data** per
+client and writes a new edition to `src/data/generated-pulse.json`, which
+`src/lib/pulse.js` merges on top of the seeded archive at build time.
+
+| Channel | Key needed | What it provides |
+| ------- | ---------- | ---------------- |
+| Google News RSS | none | This week's headlines + publisher + link |
+| SEC EDGAR | none | 8-K / 10-Q / 10-K filings, primary-source URLs |
+| Yahoo Finance | none | Price, YTD, 52-week range |
+| Finnhub | `FINNHUB_API_KEY` | Market cap, next earnings date (replaces Yahoo when set) |
+| NYT Article Search | `NYT_API_KEY` | NYT coverage (free key at developer.nytimes.com) |
+| Tavily | `SEARCH_API_KEY` | Broader news search with snippets |
+
+Summarization is grounded by construction: with `ANTHROPIC_API_KEY` set, Claude
+writes the brief **only from the fetched material** and every item must cite a
+fetched URL (violations are dropped in post-validation). With no key, the
+edition is assembled deterministically from the fetched headlines — no model
+involved. Stats always come from the market-data channel, never from the LLM.
+
+Note: the firm's reader subscriptions (WSJ, FT, HBR, McKinsey Quarterly) do not
+include API access — WSJ/FT programmatic content requires Dow Jones Factiva /
+FT enterprise licensing. NYT is the exception via its free developer API.
+
 ## Email integration (weekly newsletter)
 
 The full pipeline is built; it activates on a **dynamic host (Vercel)** once the
