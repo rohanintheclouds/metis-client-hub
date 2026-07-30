@@ -86,6 +86,7 @@ client and writes a new edition to `src/data/generated-pulse.json`, which
 | Yahoo Finance | none | Price, YTD, 52-week range |
 | Finnhub | `FINNHUB_API_KEY` | Market cap, next earnings date (replaces Yahoo when set) |
 | NYT Article Search | `NYT_API_KEY` | NYT coverage (free key at developer.nytimes.com) |
+| Guardian Open Platform | `GUARDIAN_API_KEY` | Guardian coverage with standfirsts (free key at open-platform.theguardian.com) |
 | Tavily | `SEARCH_API_KEY` | Broader news search with snippets |
 
 Summarization is grounded by construction: with `ANTHROPIC_API_KEY` set, Claude

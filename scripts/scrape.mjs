@@ -53,6 +53,7 @@ async function main() {
     "google-news", "sec-edgar", "yahoo-finance",
     process.env.FINNHUB_API_KEY && "finnhub",
     process.env.NYT_API_KEY && "nyt",
+    process.env.GUARDIAN_API_KEY && "guardian",
     process.env.SEARCH_API_KEY && "tavily",
   ].filter(Boolean);
 

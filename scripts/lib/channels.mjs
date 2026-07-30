@@ -193,6 +193,27 @@ export async function nytArticles(client, { days = 8, max = 6 } = {}) {
   })).filter((x) => x.title && x.url);
 }
 
+// ── Guardian Open Platform (GUARDIAN_API_KEY) ────────────────────────────
+// Free developer key at https://open-platform.theguardian.com (500 calls/day).
+// The most generous major-outlet API: returns full article standfirsts.
+export async function guardianArticles(client, { days = 8, max = 6 } = {}) {
+  const key = process.env.GUARDIAN_API_KEY;
+  if (!key) return [];
+  const from = new Date(Date.now() - days * 864e5).toISOString().slice(0, 10);
+  const q = encodeURIComponent(`"${client.legalName || client.name}"`);
+  const data = await getJson(
+    `https://content.guardianapis.com/search?q=${q}&from-date=${from}&order-by=newest&show-fields=trailText&page-size=${max}&api-key=${key}`
+  );
+  return (data.response?.results || []).map((r) => ({
+    channel: "guardian",
+    title: decodeEntities(r.webTitle),
+    url: r.webUrl,
+    source: "The Guardian",
+    date: isoDate(r.webPublicationDate),
+    snippet: decodeEntities(r.fields?.trailText || ""),
+  })).filter((x) => x.title && x.url);
+}
+
 // ── Tavily news search (SEARCH_API_KEY) ──────────────────────────────────
 export async function tavilyNews(client, { days = 8, max = 8 } = {}) {
   const key = process.env.SEARCH_API_KEY;
@@ -223,9 +244,10 @@ export async function tavilyNews(client, { days = 8, max = 8 } = {}) {
 // ── Aggregate all channels for one client ────────────────────────────────
 export async function gatherClient(client) {
   const settle = (p) => p.then((v) => v).catch((e) => ({ __error: String(e.message || e) }));
-  const [news, nyt, tavily, filings, finnhub, yahoo] = await Promise.all([
+  const [news, nyt, guardian, tavily, filings, finnhub, yahoo] = await Promise.all([
     settle(googleNewsRss(client)),
     settle(nytArticles(client)),
+    settle(guardianArticles(client)),
     settle(tavilyNews(client)),
     settle(secEdgarFilings(client)),
     settle(finnhubMarketData(client)),
@@ -235,7 +257,7 @@ export async function gatherClient(client) {
   const arr = (x, name) => (Array.isArray(x) ? x : (x?.__error && errs.push(`${name}: ${x.__error}`), []));
   const obj = (x, name) => (x && !x.__error ? x : (x?.__error && errs.push(`${name}: ${x.__error}`), null));
   return {
-    articles: [...arr(news, "google-news"), ...arr(nyt, "nyt"), ...arr(tavily, "tavily")],
+    articles: [...arr(news, "google-news"), ...arr(nyt, "nyt"), ...arr(guardian, "guardian"), ...arr(tavily, "tavily")],
     filings: arr(filings, "sec-edgar"),
     market: obj(finnhub, "finnhub") || obj(yahoo, "yahoo"),
     errors: errs,
