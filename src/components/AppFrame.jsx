@@ -10,6 +10,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 const NAV = [
   { href: "/", label: "Home" },
   { href: "/clients", label: "Clients" },
+  { href: "/insights", label: "Market Insights" },
   { href: "/my-pulse", label: "My Pulse" },
   { href: "/settings", label: "Settings" },
 ];
@@ -79,6 +80,7 @@ export default function AppFrame({ children }) {
               <h4>Hub</h4>
               <Link href="/">Home</Link>
               <Link href="/clients">All clients</Link>
+              <Link href="/insights">Market Insights</Link>
               <Link href="/my-pulse">My Pulse</Link>
               <Link href="/settings">Settings</Link>
             </div>

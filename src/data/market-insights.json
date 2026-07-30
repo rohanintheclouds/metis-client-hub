@@ -1,0 +1,161 @@
+{
+  "editions": [
+    {
+      "id": "2026-07-27",
+      "label": "Week of July 27, 2026",
+      "date": "July 27, 2026"
+    }
+  ],
+  "insights": {
+    "2026-07-27": [
+      {
+        "firm": "Goldman Sachs",
+        "firmId": "goldman-sachs",
+        "title": "The Mine-to-Magnet Strategy Is Spurring M&A in Rare Earths",
+        "summary": "Electric vehicles, AI, and alternative energy all have something in common: critical minerals and rare earths.",
+        "url": "https://www.goldmansachs.com/insights/articles/the-mine-to-magnet-strategy-is-spurring-m-a-in-rare-earths",
+        "date": "2026-07-30",
+        "relatedClients": [
+          "ford-credit",
+          "baker-tilly"
+        ],
+        "themes": [
+          "Energy & Power",
+          "Financial Services"
+        ]
+      },
+      {
+        "firm": "McKinsey & Company",
+        "firmId": "mckinsey",
+        "title": "AI transformations: Views from AMD, Dell, Liquid AI, and Mercedes-Benz",
+        "summary": "Executives from AMD, Dell, Liquid AI, and Mercedes-Benz discuss how to structure processes with AI in mind and why enterprise-wide transformation is about people, not just technology.",
+        "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/ai-transformations-views-from-amd-dell-liquid-ai-and-mercedes-benz",
+        "date": "2026-07-30",
+        "relatedClients": [
+          "workday"
+        ],
+        "themes": [
+          "AI & Automation"
+        ]
+      },
+      {
+        "firm": "J.P. Morgan",
+        "firmId": "jpmorgan",
+        "title": "US Housing Market Outlook | J.P. Morgan Global Research",
+        "summary": "Home prices remain stubbornly high amid chronic supply constraints, but a new federal statute could offer buyers some relief.",
+        "url": "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook",
+        "date": "2026-07-29",
+        "relatedClients": [
+          "loandepot"
+        ],
+        "themes": [
+          "Macro & Markets"
+        ]
+      },
+      {
+        "firm": "Bain & Company",
+        "firmId": "bain",
+        "title": "The $560 Billion Energy Question",
+        "summary": "With an aging grid and rising demand, time is running out for utilities to bridge a generational funding gap.",
+        "url": "https://www.bain.com/insights/the-560-billion-energy-question-infographic/",
+        "date": "2026-07-29",
+        "relatedClients": [
+          "generac-power-systems",
+          "nrg-energy"
+        ],
+        "themes": [
+          "Energy & Power"
+        ]
+      },
+      {
+        "firm": "J.P. Morgan",
+        "firmId": "jpmorgan",
+        "title": "Working Capital Strategies for AI Data Center Suppliers",
+        "summary": "Learn how working capital solutions can help suppliers navigate lengthening cash conversion cycles and fund growth in the AI infrastructure market.",
+        "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/ai-infrastructure-working-capital-liquidity-solutions",
+        "date": "2026-07-27",
+        "relatedClients": [
+          "lumen-technologies"
+        ],
+        "themes": [
+          "AI & Automation",
+          "Tech & Cloud"
+        ]
+      },
+      {
+        "firm": "J.P. Morgan",
+        "firmId": "jpmorgan",
+        "title": "Embedded Virtual Card Solutions for Global Supplier Payments",
+        "summary": "Learn how embedding Virtual Card into ERP and procurement platforms can simplify payment workflows and unlock value across global supplier networks.",
+        "url": "https://www.jpmorgan.com/insights/treasury/cards-expense-management/embedded-virtual-card-supplier-payments",
+        "date": "2026-07-27",
+        "relatedClients": [
+          "workday"
+        ],
+        "themes": []
+      },
+      {
+        "firm": "Bain & Company",
+        "firmId": "bain",
+        "title": "What Is Agentic AI and How Does It Work in Enterprises?",
+        "summary": "Agentic AI is the next wave of AI. It plans, acts, and adapts across enterprise workflows, transforming the business.",
+        "url": "https://www.bain.com/insights/what-is-agentic-ai-and-how-does-it-work-in-enterprises/",
+        "date": "2026-07-23",
+        "relatedClients": [
+          "workday"
+        ],
+        "themes": [
+          "AI & Automation"
+        ]
+      },
+      {
+        "firm": "Goldman Sachs",
+        "firmId": "goldman-sachs",
+        "title": "Three New Stock Themes Are in Focus as the AI Trade Gyrates",
+        "summary": "As volatility rises in popular stocks related to AI infrastructure, investors are looking for trade ideas that are unrelated to the emerging technology. Goldman Sachs Research highlights consumer-experience companies, “compounder” stocks, and M&A candidates as potential themes for investors to consider.",
+        "url": "https://www.goldmansachs.com/insights/articles/three-new-stock-themes-are-in-focus-as-the-ai-trade-gyrates",
+        "date": "2026-07-23",
+        "relatedClients": [
+          "lumen-technologies",
+          "baker-tilly"
+        ],
+        "themes": [
+          "AI & Automation",
+          "Financial Services"
+        ]
+      },
+      {
+        "firm": "Goldman Sachs",
+        "firmId": "goldman-sachs",
+        "title": "Biotech Stocks Are Projected to Extend Rally amid Innovation and M&A",
+        "summary": "Healthcare stocks are outperforming technology shares as biotech breakthroughs and dealmaking activity jumps.",
+        "url": "https://www.goldmansachs.com/insights/articles/biotech-stocks-are-projected-to-extend-rally-amid-innovation",
+        "date": "2026-07-23",
+        "relatedClients": [
+          "baker-tilly",
+          "intuitive-surgical"
+        ],
+        "themes": [
+          "Financial Services",
+          "Healthcare"
+        ]
+      },
+      {
+        "firm": "Bain & Company",
+        "firmId": "bain",
+        "title": "Going Green with Digital Workers",
+        "summary": "Bain & Company&#x2019;s joint report with SS&C Blue Prism shows how companies are embracing automation to help achieve their sustainability goals",
+        "url": "https://www.bain.com/insights/going-green-with-digital-workers/",
+        "date": "2026-07-18",
+        "relatedClients": [
+          "ford-credit",
+          "regal-rexnord"
+        ],
+        "themes": [
+          "AI & Automation",
+          "Tech & Cloud"
+        ]
+      }
+    ]
+  }
+}
