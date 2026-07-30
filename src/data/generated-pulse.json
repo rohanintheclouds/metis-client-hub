@@ -9,15 +9,15 @@
   "pulse": {
     "aflac": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Aflac across news and SEC filings.",
+        "glance": "A mixed week for Aflac: the company disclosed that hackers breached systems at its Japanese subsidiary and accessed bank-account details belonging to 4.38 million customers, reported in an SEC filing, even as the stock held near the top of its 52-week range at roughly +15% year to date. Off the tape, Aflac expanded its WNBPA partnership with a bigger All-Star Weekend prize structure, and valuation commentary flagged the shares as potentially ~10% above fair value on shrinking revenue views.",
         "stats": [
           {
-            "v": "$126.57",
+            "v": "$127.21",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "+14.8%",
+            "v": "+15.4%",
             "l": "YTD",
             "dir": "up"
           },
@@ -29,75 +29,49 @@
         ],
         "items": [
           {
-            "headline": "Aflac: 8-K filed 2026-06-30 — items 8.01.",
+            "headline": "Aflac: 8-K filed 2026-06-30, items 8.01.",
             "body": "Official filing published on SEC EDGAR.",
             "ctx": "Primary-source disclosure.",
             "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026046124/afl-20260630.htm"
           },
           {
-            "headline": "Quantinno Capital Management LP Has $57.01 Million Stock Position in Aflac Incorporated $AFL - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQb2Vmb3JwU1N2YnFzTG1VdG5rUmd1WERFT3kwTjJnNEhUQnJCeFlMZC0wQVRIMHVyWWpwV3ItM2Y3SGtPVzlFSkcta01WUDl4NWtYcUtUUzE1Z3lwTE1ldlBTeVhTVUpJUzRFOWRRVUNRVEgwR1RxM3NKYkM5eE5ieWxwUXYzNk92YmR0SjNwM1Y2cUtndkt3OVFRcmxkeDhLa1pDY2dCcUVQbkI0M0Z2UGNQMVlkZ3VsRlFfQ21WQ085b0NKWW9QV1RFcmR5T0VIMHRIWTZnRlpFd2xiUmd3MVVNNWQ?oc=5"
+            "headline": "Aflac (AFL) Could Be 10% Above Fair Value On Shrinking Revenue Views.",
+            "body": "Aflac (AFL) has attracted fresh attention as investors reassess the stock’s recent performance. The shares closed at $129.55, with returns over the past month, past 3 months, and year all in positive ...",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/aflac-afl-could-10-above-160953231.html"
           },
           {
-            "headline": "Aflac Incorporated (NYSE:AFL) Given Average Recommendation of \"Hold\" by Brokerages - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbHFpTE1fT1NqY0ViYTNxeFpCclhaTFBjU0syVjFCb0hZNVNWTEt1bWhKOXUxNU5fQnN4eVNnX0ZHMHI3bVNmNlNxczhrWmpVQ1F6OHF3d2dERUY1bE8wSzF2SWMta0R2bEFDSzlIdEFFcmo3eDlMN2hmZGlLaWp1QnBJaTRJTVJzZEVjVXZjRzE2aFE3RDdjTGZWNURCeENacl9nQTFhb1ZqdGhmd2V5SHRJaWNXNF9ZOV9zaTdHMV9KZ3NuNXRfc3Z4Zw?oc=5"
+            "headline": "AFLAC says hackers stole bank details on 4.38 million of its customers.",
+            "body": "Aflac Incorporated disclosed that hackers broke into systems at its Japanese subsidiary and accessed bank account details belonging to 4.38 million customers. The company filed a Form 8-K with the U.S ...",
+            "ctx": "Via msn.com.",
+            "url": "https://www.msn.com/en-us/money/other/aflac-says-hackers-stole-bank-details-on-4-38-million-of-its-customers/ar-AA28HRpd"
           },
           {
-            "headline": "Amundi Grows Position in Aflac Incorporated $AFL - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeXdNd3V6bHprVlo5cndmUldJOGlLOVhCM01DMUx4ZTJXb2xFZDhpTVl5eFNCNmIzMXpsclpZZ04yNFFEUW1KTVBzTWgyUGtzSzJHTGJqQ0NnZkJETDE5VmpoN1FCRFFpeE1uV0hSc0d6U0x1U1pnNzNvaU80MzVNWnpvb2c1b2JWM0hjdkpZTmxhZDAxREF0dGFUR2JlX1BxTjl1SVNkYmNQS0tt?oc=5"
-          },
-          {
-            "headline": "Aflac Incorporated $AFL Holdings Raised by Gateway Wealth Partners LLC - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVU5IZDBrZXR3MVQxMkQwRDc4aGt1ekZJMGh5UDRrcVdMVkpobjdXYWU5azE3NWVsR1lCb0VxVnMtRGh1cWFTcjhqcndlZWlaQ3RWTlRqeFhvMVNIaVNKa0FLUjBnMGJOM3ZhYWtrV2FONFFtdWlUcndvdWQ4ZWwwRlhCbERENW9vS1dBanlaaHItRXdfWVIyTDA0djUwOUNfcUVVRUJIRkJkRGxxTEtXdko2NU1vaFZvODV2cE96RktRTS1RYnBVbG93?oc=5"
+            "headline": "Aflac expands WNBPA deal, will offer tiered prize structure at All-Star Weekend.",
+            "body": "Aflac and the WNBPA are expanding their partnership by increasing supplemental prize awards for players competing on Friday events of the WNBA All-Star Weekend in Chicago.",
+            "ctx": "Via sportsbusinessjournal.com.",
+            "url": "https://www.sportsbusinessjournal.com/Articles/2026/07/23/aflac-expands-wnbpa-deal-will-offer-tiered-prize-structure-at-all-star-weekend/"
           }
         ],
         "sources": [
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026046124/afl-20260630.htm"
           },
           {
-            "label": "News — Quantinno Capital Management LP Has $57.01 Million Stock Pos",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQb2Vmb3JwU1N2YnFzTG1VdG5rUmd1WERFT3kwTjJnNEhUQnJCeFlMZC0wQVRIMHVyWWpwV3ItM2Y3SGtPVzlFSkcta01WUDl4NWtYcUtUUzE1Z3lwTE1ldlBTeVhTVUpJUzRFOWRRVUNRVEgwR1RxM3NKYkM5eE5ieWxwUXYzNk92YmR0SjNwM1Y2cUtndkt3OVFRcmxkeDhLa1pDY2dCcUVQbkI0M0Z2UGNQMVlkZ3VsRlFfQ21WQ085b0NKWW9QV1RFcmR5T0VIMHRIWTZnRlpFd2xiUmd3MVVNNWQ?oc=5"
+            "label": "finance.yahoo.com, Aflac (AFL) Could Be 10% Above Fair Value On Shrinking Reven",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/aflac-afl-could-10-above-160953231.html"
           },
           {
-            "label": "News — Aflac Incorporated (NYSE:AFL) Given Average Recommendation o",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbHFpTE1fT1NqY0ViYTNxeFpCclhaTFBjU0syVjFCb0hZNVNWTEt1bWhKOXUxNU5fQnN4eVNnX0ZHMHI3bVNmNlNxczhrWmpVQ1F6OHF3d2dERUY1bE8wSzF2SWMta0R2bEFDSzlIdEFFcmo3eDlMN2hmZGlLaWp1QnBJaTRJTVJzZEVjVXZjRzE2aFE3RDdjTGZWNURCeENacl9nQTFhb1ZqdGhmd2V5SHRJaWNXNF9ZOV9zaTdHMV9KZ3NuNXRfc3Z4Zw?oc=5"
+            "label": "msn.com, AFLAC says hackers stole bank details on 4.38 million of its",
+            "url": "https://www.msn.com/en-us/money/other/aflac-says-hackers-stole-bank-details-on-4-38-million-of-its-customers/ar-AA28HRpd"
           },
           {
-            "label": "News — Amundi Grows Position in Aflac Incorporated $AFL - marketbea",
-            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeXdNd3V6bHprVlo5cndmUldJOGlLOVhCM01DMUx4ZTJXb2xFZDhpTVl5eFNCNmIzMXpsclpZZ04yNFFEUW1KTVBzTWgyUGtzSzJHTGJqQ0NnZkJETDE5VmpoN1FCRFFpeE1uV0hSc0d6U0x1U1pnNzNvaU80MzVNWnpvb2c1b2JWM0hjdkpZTmxhZDAxREF0dGFUR2JlX1BxTjl1SVNkYmNQS0tt?oc=5"
+            "label": "sportsbusinessjournal.com, Aflac expands WNBPA deal, will offer tiered prize structure ",
+            "url": "https://www.sportsbusinessjournal.com/Articles/2026/07/23/aflac-expands-wnbpa-deal-will-offer-tiered-prize-structure-at-all-star-weekend/"
           },
           {
-            "label": "News — Aflac Incorporated $AFL Holdings Raised by Gateway Wealth Pa",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVU5IZDBrZXR3MVQxMkQwRDc4aGt1ekZJMGh5UDRrcVdMVkpobjdXYWU5azE3NWVsR1lCb0VxVnMtRGh1cWFTcjhqcndlZWlaQ3RWTlRqeFhvMVNIaVNKa0FLUjBnMGJOM3ZhYWtrV2FONFFtdWlUcndvdWQ4ZWwwRlhCbERENW9vS1dBanlaaHItRXdfWVIyTDA0djUwOUNfcUVVRUJIRkJkRGxxTEtXdko2NU1vaFZvODV2cE96RktRTS1RYnBVbG93?oc=5"
-          },
-          {
-            "label": "News — Weiss Asset Management LP Boosts Stock Position in Aflac Inc",
-            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZVpGUFBScVAtNGRPb0kxWWRyUGpoS05URkttdUdBdXd3WVVFV0JORHBXdHRTdGw2eWt1WHBFRGFHYWlOV0o3UWpMRjRXWW96ejcwWldodlFQcXJpOGlBWFZ1cDN3azIwT0JIS0dTOVp5bFdDX0tsVVRrOEtuOEtMT2VQRU9ZLTRFNnBzLVZxRlZsM0RYUFhLbG5wV25qWDQtMG9PQ28ybzZ6dHFGZlZkU3g5Ym1NVGVHV0pQWkFjWmtRd25LZlZNSWhBcUxKRHM?oc=5"
-          },
-          {
-            "label": "News — Renaissance Technologies LLC Raises Stock Position in Aflac ",
-            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ1JmYzBDSkpUdXBNb3FJX3FnZWlKY0dXS3NHRlNTVTdWMDBpckpja280WmMzZ21RSUc5SUpKTEFjYk9DcW5EWEI2bkxObVVORnVpa2NsU053RFlabEV6ZlBwZElObHFNcklVRWlhMnpnM2Jrc3hUdGduaTd2WWtUY3RtSVdsMHA3SS1BMTZVM1VtdTVRcFBvLWRFelBBLUxoelBSckRVQWlGUzRweW5Ic2dCdnVDLVJZQnVsbDR4LXRoOG1zV1VLQ1RKSUV0QktTWGsw?oc=5"
-          },
-          {
-            "label": "News — Dickmeyer Boyce Financial Management Inc. Invests $1 Million",
-            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNekl4a2gxcHJHWXhTSmFJb0pmZldjaS12VFJmRkp1aW9BbFB4SzdSUldSal9tSWtjMHFjM0dBc090NXZIYi1yY0lpZG9XQ005STBVa3dtaWRDNjJWLXpVWFZlOS1LU3VYTGZrLW1CTWdnSkFMVmljZG9sWlh2WFBESUMtMGFkSWdVUFlxZ0VZb3F2UTFDZ3BQbXRzWXNkVElsTmx4Umo3MUZVUHNWNjc0VVAwU1E1YTZWMVk4WlpoV0tDemJpVjdMN1FUclB3Qlc0cEVSalN1emJ6WjFhU1E?oc=5"
-          },
-          {
-            "label": "News — Allspring Global Investments Holdings LLC Purchases 15,561 S",
-            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR2J2OE56cDJWR0YteWJNaU9pY3FmYy1nWnhRcURsUGc3REhIcE1PMVdYcHVmNEtJQi1TaWdkWFVleWUxb2g1VmRXemJ2VXlLLVNLUDRzTzUwTGtTXzdZSWNMb3Q3UVdtaUpCejVnNnhMOW1OM3JfcFFrZVJpYTdSRUdacHdDajBldDY1d1NEVHc2NFowRWZFZlNPdHFZNXFzT2liWjQtS2lJakVDSnFKcWUwS1Z2bjlwbXpXaUs0eDRFZE0xUG52MXR3N2NDQjBKNHpLSFVDdkRDMERTcUwzVUt4bzkydw?oc=5"
-          },
-          {
-            "label": "Market data — AFL",
+            "label": "Market data, AFL",
             "url": "https://finance.yahoo.com/quote/AFL/"
           }
         ]
@@ -105,15 +79,15 @@
     },
     "ford-credit": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Ford Credit across news and SEC filings.",
+        "glance": "Earnings week at the parent: Ford reported second-quarter 2026 results (the 8-K landed July 28, with Ford Credit's own 10-Q following July 29), and the stock sits about +12% year to date. In Europe, Ford named Maria Grazia Davino VP of Sales for Ford of Europe and announced a partnership with Geely to produce next-generation multi-energy vehicles in Spain, a notable strategic move for the region's product and volume outlook.",
         "stats": [
           {
-            "v": "$14.84",
+            "v": "$14.95",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "+11.2%",
+            "v": "+12.0%",
             "l": "YTD",
             "dir": "up"
           },
@@ -131,61 +105,57 @@
             "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000156/f-20260630.htm"
           },
           {
-            "headline": "Ford Credit: 8-K filed 2026-07-28 — items 2.02,9.01.",
+            "headline": "Ford Credit: 8-K filed 2026-07-28, items 2.02,9.01.",
             "body": "Official filing published on SEC EDGAR.",
             "ctx": "Primary-source disclosure.",
             "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000155/f-20260728.htm"
           },
           {
-            "headline": "FORD NAMES MARIA GRAZIA DAVINO VICE PRESIDENT, SALES, FORD OF EUROPE - PR Newswire UK.",
+            "headline": "FORD NAMES MARIA GRAZIA DAVINO VICE PRESIDENT, SALES, FORD OF EUROPE – Company Announcement - Financial Times.",
             "body": "Reported by the press on 2026-07-29.",
             "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS0dmbnYtVTZfVXNYOGw1OXNWUHV5Mlp5MEo2RlNJb3VrSTlDLTJXb09sTjZPTG1Zb01vOUdKRmx5WjRKZmpIclV1RjlTNkNBcE9WbzlpU21TcWJaQTZMUnZ0WWlISWdSMnRjRTNNYVJvT01jV0sxOTNMNFpFbDgwX0FNc2VXb3hMWnN0THdvemFDZ2RrZ3FEZmkzU0ZsQ29sOXhOTFBNdWtoanVBM0R0blE4dUhXVFhjcnpKX1NCeGZWdw?oc=5"
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb0p4cHBxUXA0NXBpM3QtMG9wVDFLcTVoWU1uUXE0al9QengxMUg0YzFQbEUzUEozZExNYnlEWGtjR1NKYi1RSGxvbl9oQnFjTk9qb0VtSk54dVcydzN6cGlCZm1ZTkxRTXp5UmNOMEdhZHIzU0hCZGFVb2JQMDdMcUhUZWtLUFZHSk5hbUo4VnQ3N2NQSkdLVA?oc=5"
           },
           {
-            "headline": "Ford Motor Q2 Earnings Call Highlights - TradingView.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRklEZVRTQlVPeU1EQXZEeVZGQS1kZEMyTXprTWlXQ01HVzRpc2tYX0dTX1UzcmVHRG5pbTFncFFaQWlLYi1pa19tNUpPejhhS2cwMzc5b29mTDNyRnlrUWhMV190akpKUWI5UU5qbDlFU1Z4YXkwN2I5Vl82QUFTNVpXeVZheEk0aFVTMDV0YVZuRENwaFNyRXYzZ3hTQm8?oc=5"
-          },
-          {
-            "headline": "Ford Reports Second-Quarter 2026 Financial Results - Business Wire.",
+            "headline": "Ford Reports Second-Quarter 2026 Financial Results - businesswire.com.",
             "body": "Reported by the press on 2026-07-28.",
             "ctx": "",
             "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLTk5WU8zdlk4X2pSX05GQnJjSEQteFl2cXdOQzRUaENkS0ZqczhjZUwzZ25panFjQ0FvRmN0c0N3VEphYzRzSXgyTXByRDBZVjgtNnVPQWJ2T2lsZmg2dEdUS0lUS3YyUmlqSG5UOWRBZl83bm82bklfMjFTYjVOVTh4V3lwRTlRRkExd3dFV21ocHRTVk9uYTNNMS1vcEk0WHo2QWY5U1RCOFE?oc=5"
+          },
+          {
+            "headline": "FORD AND GEELY AUTO JOIN FORCES IN EUROPE TO PRODUCE NEXT-GENERATION MULTI-ENERGY VEHICLES IN SPAIN - Finansavisen.",
+            "body": "Reported by the press on 2026-07-23.",
+            "ctx": "",
+            "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxONUFsTHdRTDc1OGRfNnZETkJMeFdOYV92a053YVBZamUxNFBPWVNzck5KZ0FiMjRjSGFhSFRrbjRjNmY5LWlRWUNRN1N6SXlDUERfOGJDOFp2em4zaF9WTzhJQmdQWVVSS0hYNjk3SEp6c1VCRTRERy1iaWs3b2NDRHJTM3VsazUwSm82YVR2TVFUMzk3QzJuV3RsMHlxdjZaRVJKUmhXSzQyZVcwVE9XNGVXX0RIMTZRUDVjbzJZOXNpZXJ6c1hyVFN0eThHREJ2ck81SlpVSm9lZy1TemhEdGZJb0VUaFVUcFQ2cEtUNm9ha3F0SUUzVlJfRVR0dDBYcHZnYzlVd2Mxa1VTbFdKSzU1R2RENVEz?oc=5"
           }
         ],
         "sources": [
           {
-            "label": "SEC EDGAR — 10-Q",
+            "label": "SEC EDGAR, 10-Q",
             "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000156/f-20260630.htm"
           },
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000155/f-20260728.htm"
           },
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000151/f-20260702.htm"
           },
           {
-            "label": "News — FORD NAMES MARIA GRAZIA DAVINO VICE PRESIDENT, SALES, FORD O",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS0dmbnYtVTZfVXNYOGw1OXNWUHV5Mlp5MEo2RlNJb3VrSTlDLTJXb09sTjZPTG1Zb01vOUdKRmx5WjRKZmpIclV1RjlTNkNBcE9WbzlpU21TcWJaQTZMUnZ0WWlISWdSMnRjRTNNYVJvT01jV0sxOTNMNFpFbDgwX0FNc2VXb3hMWnN0THdvemFDZ2RrZ3FEZmkzU0ZsQ29sOXhOTFBNdWtoanVBM0R0blE4dUhXVFhjcnpKX1NCeGZWdw?oc=5"
+            "label": "News, FORD NAMES MARIA GRAZIA DAVINO VICE PRESIDENT, SALES, FORD O",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb0p4cHBxUXA0NXBpM3QtMG9wVDFLcTVoWU1uUXE0al9QengxMUg0YzFQbEUzUEozZExNYnlEWGtjR1NKYi1RSGxvbl9oQnFjTk9qb0VtSk54dVcydzN6cGlCZm1ZTkxRTXp5UmNOMEdhZHIzU0hCZGFVb2JQMDdMcUhUZWtLUFZHSk5hbUo4VnQ3N2NQSkdLVA?oc=5"
           },
           {
-            "label": "News — Ford Motor Q2 Earnings Call Highlights - TradingView",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRklEZVRTQlVPeU1EQXZEeVZGQS1kZEMyTXprTWlXQ01HVzRpc2tYX0dTX1UzcmVHRG5pbTFncFFaQWlLYi1pa19tNUpPejhhS2cwMzc5b29mTDNyRnlrUWhMV190akpKUWI5UU5qbDlFU1Z4YXkwN2I5Vl82QUFTNVpXeVZheEk0aFVTMDV0YVZuRENwaFNyRXYzZ3hTQm8?oc=5"
-          },
-          {
-            "label": "News — Ford Reports Second-Quarter 2026 Financial Results - Busines",
+            "label": "News, Ford Reports Second-Quarter 2026 Financial Results - busines",
             "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLTk5WU8zdlk4X2pSX05GQnJjSEQteFl2cXdOQzRUaENkS0ZqczhjZUwzZ25panFjQ0FvRmN0c0N3VEphYzRzSXgyTXByRDBZVjgtNnVPQWJ2T2lsZmg2dEdUS0lUS3YyUmlqSG5UOWRBZl83bm82bklfMjFTYjVOVTh4V3lwRTlRRkExd3dFV21ocHRTVk9uYTNNMS1vcEk0WHo2QWY5U1RCOFE?oc=5"
           },
           {
-            "label": "News — FORD AND GEELY AUTO JOIN FORCES IN EUROPE TO PRODUCE NEXT-GE",
+            "label": "News, FORD AND GEELY AUTO JOIN FORCES IN EUROPE TO PRODUCE NEXT-GE",
             "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxONUFsTHdRTDc1OGRfNnZETkJMeFdOYV92a053YVBZamUxNFBPWVNzck5KZ0FiMjRjSGFhSFRrbjRjNmY5LWlRWUNRN1N6SXlDUERfOGJDOFp2em4zaF9WTzhJQmdQWVVSS0hYNjk3SEp6c1VCRTRERy1iaWs3b2NDRHJTM3VsazUwSm82YVR2TVFUMzk3QzJuV3RsMHlxdjZaRVJKUmhXSzQyZVcwVE9XNGVXX0RIMTZRUDVjbzJZOXNpZXJ6c1hyVFN0eThHREJ2ck81SlpVSm9lZy1TemhEdGZJb0VUaFVUcFQ2cEtUNm9ha3F0SUUzVlJfRVR0dDBYcHZnYzlVd2Mxa1VTbFdKSzU1R2RENVEz?oc=5"
           },
           {
-            "label": "Market data — F",
+            "label": "Market data, F",
             "url": "https://finance.yahoo.com/quote/F/"
           }
         ]
@@ -193,15 +163,15 @@
     },
     "lumen-technologies": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Lumen across news.",
+        "glance": "A set-up week for Lumen: earnings previews frame the Q2 print around AI-driven Private Connectivity Fabric and NaaS momentum on one side, and legacy revenue declines plus a heavy debt load on the other. The stock trades at $6.49, down roughly 16% year to date, so the quarter's evidence on the AI-infrastructure pivot carries real weight.",
         "stats": [
           {
-            "v": "$6.58",
+            "v": "$6.49",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "-14.4%",
+            "v": "-15.6%",
             "l": "YTD",
             "dir": "down"
           },
@@ -213,71 +183,29 @@
         ],
         "items": [
           {
-            "headline": "LUMN|Lumen Technologies Inc|Price:6.240|Chg%:+0.050 - TradingKey.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BWXFGVGxWaWxGNDU4OGpESUpjcHJESXBsMVk2LXYtV1U5VkRTRmc3MDhpVHlZV2NxNVFRVHBwQ2hTdjdTQnh3eVZWWVdvSUR1WVprVTJqMmNKZ05ZRUV5ZE9Lb25FOW04Y0Noempn?oc=5"
+            "headline": "Lumen to Report Q2 Earnings: Here's What Investors Should Know.",
+            "body": "LUMN heads into Q2 earnings with AI-driven PCF and NaaS momentum, while legacy declines and heavy debt remain key concerns.",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/lumen-report-q2-earnings-heres-142400331.html"
           },
           {
-            "headline": "Form 4 Lumen Technologies Inc For: 29 July By Investing.com - Investing.com Canada.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM0Y1eWcxNUgxdnlLb2VCaDFHNzVGLVhaWnA1a1VVYnVWZFlfODdqUmRSSUJhVnNlTzM4b3I2a0hKUTFUeU1NcVFJY1RJbDNLRW5xVjBxRS1oTlJzSXBoVjdvbG9qdWRZYktpbjBSN0w0MVZJdC12X19SeUVTRHRDcHlqamtPTTJJNUNlYWRvQmkyVVcwbm15ZHc2M3NucTNPU3hhYQ?oc=5"
-          },
-          {
-            "headline": "Lumen Technologies Inc (LUMN) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ycXZ1bmE1RmMyX1ExY3Z6bnRORUVDUDVPQXprQkphZXczcTlkclk3cVh6OVI3V25NM3V1eFg2WXFDdFR2U0dkMHJrM1l1MUVzbWYwNmo0UTJnemJtdVRQQnN5OEtsR0k?oc=5"
-          },
-          {
-            "headline": "Arrowstreet Capital Limited Partnership Has $55.28 Million Stock Position in Lumen Technologies, Inc. $LUMN - MarketBeat.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPd1pYVDFoVXpFUWdiLThvTVItT2VxUE50TWM4WnFaY0pDQndxQVVYWV92dWVBQ0Qtbnpscnl0d01taGhHa1E4YXY1aGozUjJ4eG5YSzFzSnRqTHV1b1JDRU5ZLUh0Tk9yODRZN2VyWG9zbDRxeDBUbTlydDljdDdZeGdtaWZ4alNGMVo5VEhEN1IxNXA2YUFoRzNvQlA1U1oyVHY5X3kyVmlxaE5Pa18yekRzZ0pCMk9LLUpDbC1RZHMzU0I2QmpBTlJkT0VtVTFGbEVWaEprWUxxWXRmaU5QNXlVWEtkeGpGX3JnaGtlRmFpeFRob1E?oc=5"
-          },
-          {
-            "headline": "Lumen Technologies Inc (LUMN) Cash Flow - TradingKey.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nbWZfR3ZaSmZJc1NmTVkya05TU3RlOVp1VDJETjlyN1BtRmNacXBqdjJnOVh5UWZyTEhSUmgyZ05XYmEyX0RuczZGMjk5cTFZYkpzUWJLVmFoQWNNSmhWQnY2a2I5MVE?oc=5"
+            "headline": "Backflipt Achieves Fortinet Fabric-Ready Validation, Extending the Fortinet AI-Native Security Fabric for Agentic AI.",
+            "body": "Validated integration delivers inline runtime security for AI agents and MCP traffic within the Fortinet AI-Native ...",
+            "ctx": "Via desmoinesregister.com.",
+            "url": "https://www.desmoinesregister.com/press-release/story/104400/backflipt-achieves-fortinet-fabric-ready-validation-extending-the-fortinet-ai-native-security-fabric-for-agentic-ai/"
           }
         ],
         "sources": [
           {
-            "label": "News — LUMN|Lumen Technologies Inc|Price:6.240|Chg%:+0.050 - Tradin",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BWXFGVGxWaWxGNDU4OGpESUpjcHJESXBsMVk2LXYtV1U5VkRTRmc3MDhpVHlZV2NxNVFRVHBwQ2hTdjdTQnh3eVZWWVdvSUR1WVprVTJqMmNKZ05ZRUV5ZE9Lb25FOW04Y0Noempn?oc=5"
+            "label": "finance.yahoo.com, Lumen to Report Q2 Earnings: Here's What Investors Should Kn",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/lumen-report-q2-earnings-heres-142400331.html"
           },
           {
-            "label": "News — Form 4 Lumen Technologies Inc For: 29 July By Investing.com ",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM0Y1eWcxNUgxdnlLb2VCaDFHNzVGLVhaWnA1a1VVYnVWZFlfODdqUmRSSUJhVnNlTzM4b3I2a0hKUTFUeU1NcVFJY1RJbDNLRW5xVjBxRS1oTlJzSXBoVjdvbG9qdWRZYktpbjBSN0w0MVZJdC12X19SeUVTRHRDcHlqamtPTTJJNUNlYWRvQmkyVVcwbm15ZHc2M3NucTNPU3hhYQ?oc=5"
+            "label": "desmoinesregister.com, Backflipt Achieves Fortinet Fabric-Ready Validation, Extendi",
+            "url": "https://www.desmoinesregister.com/press-release/story/104400/backflipt-achieves-fortinet-fabric-ready-validation-extending-the-fortinet-ai-native-security-fabric-for-agentic-ai/"
           },
           {
-            "label": "News — Lumen Technologies Inc (LUMN) Technical Analysis: Support, R",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ycXZ1bmE1RmMyX1ExY3Z6bnRORUVDUDVPQXprQkphZXczcTlkclk3cVh6OVI3V25NM3V1eFg2WXFDdFR2U0dkMHJrM1l1MUVzbWYwNmo0UTJnemJtdVRQQnN5OEtsR0k?oc=5"
-          },
-          {
-            "label": "News — Arrowstreet Capital Limited Partnership Has $55.28 Million S",
-            "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPd1pYVDFoVXpFUWdiLThvTVItT2VxUE50TWM4WnFaY0pDQndxQVVYWV92dWVBQ0Qtbnpscnl0d01taGhHa1E4YXY1aGozUjJ4eG5YSzFzSnRqTHV1b1JDRU5ZLUh0Tk9yODRZN2VyWG9zbDRxeDBUbTlydDljdDdZeGdtaWZ4alNGMVo5VEhEN1IxNXA2YUFoRzNvQlA1U1oyVHY5X3kyVmlxaE5Pa18yekRzZ0pCMk9LLUpDbC1RZHMzU0I2QmpBTlJkT0VtVTFGbEVWaEprWUxxWXRmaU5QNXlVWEtkeGpGX3JnaGtlRmFpeFRob1E?oc=5"
-          },
-          {
-            "label": "News — Lumen Technologies Inc (LUMN) Cash Flow - TradingKey",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nbWZfR3ZaSmZJc1NmTVkya05TU3RlOVp1VDJETjlyN1BtRmNacXBqdjJnOVh5UWZyTEhSUmgyZ05XYmEyX0RuczZGMjk5cTFZYkpzUWJLVmFoQWNNSmhWQnY2a2I5MVE?oc=5"
-          },
-          {
-            "label": "News — Lumen Technologies Inc (LUMN) Balance Sheet - TradingKey",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRSUVFSW5DVXczYUtvZElNRVZWUTBGQUxIT1B4N1J4Sy1nRTR4SmFLM1IxYXBTeUxUbXdweTZaVHJJS2JFWnc1eEZ0azZfdldBUUc5bDRIYjJVMXNxbHJ4WEVHajhzWFh1Qm5GUg?oc=5"
-          },
-          {
-            "label": "News — Lumen Technologies Inc (LUMN) Income Statement - TradingKey",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBuanNSVjczRWh3NU9EeFdEWWNpMnA0VmZXT1U5VmdlaGJWeUxTVmYzSkxzQ0hJVTN3YXZtSzlLTVJ1N1htc2drY3ZrWEw4dmlkTWl3TVN0MW9TOVlrWmFadHBnTFNtTjNoZHhMNW9CUW8?oc=5"
-          },
-          {
-            "label": "News — Renaissance Technologies LLC Sells 322,700 Shares of Lumen T",
-            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZ3Bta1VfS002WG85WEJwVkMwT3ZfUTU3VnVSV0ZyRzJFeWJDcTVDbTF4OFpYV2JkS1FMaHdYY3JsTTJqZm82dFcySUVlQldnNHJpd1I0aFBReF9idGRWbmpKN2JyX2FPWmN0NTRlWDNiMFF5WE0xX1ZybDJGYmwxdTRObU5UY0hNNFpVazZLd0RYQlZqdUlBWGJfOVp1c2h5UkNCbEFUckkxSDlsNFh0VUV4QU5rRUFPUjU2UmZod2NFYUJjOHBoUTlKZTRUNV9SaGVlMUtUbw?oc=5"
-          },
-          {
-            "label": "Market data — LUMN",
+            "label": "Market data, LUMN",
             "url": "https://finance.yahoo.com/quote/LUMN/"
           }
         ]
@@ -285,15 +213,15 @@
     },
     "adp": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for ADP across news and SEC filings.",
+        "glance": "ADP closed out its fiscal year with a beat: fourth-quarter FY2026 adjusted EPS and revenue both topped Wall Street estimates, and the company introduced its fiscal 2027 outlook alongside the print (8-K filed July 29). Shares jumped about 5% on the morning of the report before giving some of it back in the following session, the classic strong-print, high-expectations pattern for a stock still trading mid-range on the year.",
         "stats": [
           {
-            "v": "$257.05",
+            "v": "$263.00",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "+1.6%",
+            "v": "+4.0%",
             "l": "YTD",
             "dir": "up"
           },
@@ -305,75 +233,75 @@
         ],
         "items": [
           {
-            "headline": "ADP: 8-K filed 2026-07-29 — items 2.02,9.01.",
+            "headline": "ADP: 8-K filed 2026-07-29, items 2.02,9.01.",
             "body": "Official filing published on SEC EDGAR.",
             "ctx": "Primary-source disclosure.",
             "url": "https://www.sec.gov/Archives/edgar/data/8670/000000867026000025/adp-20260729.htm"
           },
           {
-            "headline": "ADP|Automatic Data Processing Inc|Price:273.520|Chg%:+9.350 - TradingKey.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2SHRTbnBmaHhnRVJiTVJmT0dZQk5jaHIycXhTUXBYS3prRzNBUk9PcHZ1aFA2VXVZWkRxdVg5bnIzVTJ5RFVVSmZCSzhkNk1zVFJ6M1BvbGhNem5Vc2hYdktFSWc3LVgtUWZrag?oc=5"
+            "headline": "Automatic Data Processing (ADP) Beat Expectations, Is The Stock Still Fully Valued?.",
+            "body": "Automatic Data Processing (ADP) shares were in focus after the company reported fiscal fourth quarter and full year 2026 results that exceeded consensus expectations on revenue and earnings, alongside ...",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-adp-beat-160948540.html"
           },
           {
-            "headline": "Morgan Stanley Adjusts PT on Automatic Data Processing to $286 From $240, Keeps Equalweight Rating - marketscreener.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOejNMMTdGN1V3QnQzMk5YOXdnVVN4NEctb3VzOTFhcTJEa1NidlZWQUpCaWduR01EM0R6X1RNWlFIbkNHQXkxU0pwNlFiUWNOQ3NoS29PTllhZ2pXOEhMVkxlQWdUZHZGT2JSZUpkOHgyYWl2U3h1a2FjaG5IeVRlXzJJaGRlRnkwbl9RVFhPOXd3bGNaWWVDcktGeGV5RThWSzdmQTY1Vmh1ZnRsSDQtNVVGRzNmcFRTZkpZeVQxX2lhRjdDYkpzOTMzQlVaVG9SSXRMS0dOaFQ4WEpyN0ZyOG53?oc=5"
+            "headline": "Automatic Data Processing (ADP) Stock Looks Reasonable After Its 44% Five Year Run.",
+            "body": "Automatic Data Processing stock has delivered a 43.9% return over the past 5 years, yet the current valuation picture is mixed, with an intrinsic value estimate from a Discounted Cash Flow (DCF) model ...",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-adp-stock-120917485.html"
           },
           {
-            "headline": "BMO Capital Adjusts PT on Automatic Data Processing to $305 From $248, Keeps Market Perform Rating - marketscreener.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQW12SDVicTZtX016SXRZZmZ5WVZqT2VXd2E5TndQYlBnSWVxM1FteFBKR3ZfS2NBRGxwdHNSYjhFbzYtT1FEMnBoSTNzQ3hxbFNCTEk0NGVtcU04YjhITWdBYWZscHpaUU5CanRfUkpHZUlPMUh1aUxsQWZIa1dVazBMUE5LNXJHQ2Zza0RnR3NRanRqcGJKeV9BTi05dVNtZ3VFVXpXLWRlRFlaUnlrdFdsbHNDeHBRWHBkRFJ1MDBmLU5HRGg1TUZWWTNFYXE2QzRqS1VpZGt4ZUhtemtsczJ3?oc=5"
+            "headline": "Automatic Data Processing, Inc. (ADP) Q4 2026 Earnings Call Transcript.",
+            "body": "Thank you, Michelle, and welcome, everyone, to ADP's, Fourth Quarter Fiscal 2026 Earnings Call. Participating today are Maria ...",
+            "ctx": "Via seekingalpha.com.",
+            "url": "https://seekingalpha.com/article/4927010-automatic-data-processing-inc-adp-q4-2026-earnings-call-transcript"
           },
           {
-            "headline": "Wells Fargo Adjusts PT on Automatic Data Processing to $283 From $248, Maintains Equalweight Rating - marketscreener.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMTJjSlBidXd5aENzNEJidlBLSGpPZWRDbGczNElSU3h4MzNJUjF3VnJVQ2s3anJpTGpTbWZjZElHVTQxY0lpS19UcTBLR2FWNHVudFFUaU1xY1I5VVY2akYtRmlJQW1WVjMxQVowNmJEY2dhTS1ZRXZrd21ENnlHcUM3SW5xZU5Pc3QyYld2RjZYWnRzdGZkelo3S0RjRTdkM0Fyc0NpTDliQUtxUzVjU1J1cm9pajA5Q2hNYnhtOVNXV0wxZWZOS2RrdnhjRWJQY3NBZHVEMGdtOVhYeWFnMU10OA?oc=5"
+            "headline": "ADP stock gains after Q4 results wrap up strong FY2026; solid guidance introduced.",
+            "body": "Automatic Data Processing (ADP) stock climbed 5.2% in Wednesday morning trading after the company, known for payroll processing services and jobs data, posted stronger-than-expected fiscal Q4 earnings ...",
+            "ctx": "Via msn.com.",
+            "url": "https://www.msn.com/en-us/money/economy/adp-stock-gains-after-q4-results-wrap-up-strong-fy2026-solid-guidance-introduced/ar-AA28Zug2"
           }
         ],
         "sources": [
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/8670/000000867026000025/adp-20260729.htm"
           },
           {
-            "label": "News — ADP|Automatic Data Processing Inc|Price:273.520|Chg%:+9.350 ",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB2SHRTbnBmaHhnRVJiTVJmT0dZQk5jaHIycXhTUXBYS3prRzNBUk9PcHZ1aFA2VXVZWkRxdVg5bnIzVTJ5RFVVSmZCSzhkNk1zVFJ6M1BvbGhNem5Vc2hYdktFSWc3LVgtUWZrag?oc=5"
+            "label": "finance.yahoo.com, Automatic Data Processing (ADP) Beat Expectations, Is The St",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-adp-beat-160948540.html"
           },
           {
-            "label": "News — Morgan Stanley Adjusts PT on Automatic Data Processing to $2",
-            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOejNMMTdGN1V3QnQzMk5YOXdnVVN4NEctb3VzOTFhcTJEa1NidlZWQUpCaWduR01EM0R6X1RNWlFIbkNHQXkxU0pwNlFiUWNOQ3NoS29PTllhZ2pXOEhMVkxlQWdUZHZGT2JSZUpkOHgyYWl2U3h1a2FjaG5IeVRlXzJJaGRlRnkwbl9RVFhPOXd3bGNaWWVDcktGeGV5RThWSzdmQTY1Vmh1ZnRsSDQtNVVGRzNmcFRTZkpZeVQxX2lhRjdDYkpzOTMzQlVaVG9SSXRMS0dOaFQ4WEpyN0ZyOG53?oc=5"
+            "label": "finance.yahoo.com, Automatic Data Processing (ADP) Stock Looks Reasonable After",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-adp-stock-120917485.html"
           },
           {
-            "label": "News — BMO Capital Adjusts PT on Automatic Data Processing to $305 ",
+            "label": "seekingalpha.com, Automatic Data Processing, Inc. (ADP) Q4 2026 Earnings Call ",
+            "url": "https://seekingalpha.com/article/4927010-automatic-data-processing-inc-adp-q4-2026-earnings-call-transcript"
+          },
+          {
+            "label": "msn.com, ADP stock gains after Q4 results wrap up strong FY2026; soli",
+            "url": "https://www.msn.com/en-us/money/economy/adp-stock-gains-after-q4-results-wrap-up-strong-fy2026-solid-guidance-introduced/ar-AA28Zug2"
+          },
+          {
+            "label": "News, Form 144 AUTOMATIC DATA PROCESSING INC For: 30 July By Inves",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObVlPbU1Bc0Y1OWozdGpZRU1jUU10LU1pWTFESFFrdkp3MkFVVEhOX1Jnb3dyRjNlR0oxd3NLcGczWE1rOFF6cWRtSHI3MlZWZG9feS1Ebl92aHJjNXgyOHA2RnVaZnVuNEl6T3QyLUsydVpZdHNidlg5cXl6aG5JNWZ5WXNtMnFJb28wY3B0bVVDWlRHRnd1U3RraE1MeWJPNTEtenl0b0pzRmtQQXJocQ?oc=5"
+          },
+          {
+            "label": "News, BMO Capital Adjusts PT on Automatic Data Processing to $305 ",
             "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQW12SDVicTZtX016SXRZZmZ5WVZqT2VXd2E5TndQYlBnSWVxM1FteFBKR3ZfS2NBRGxwdHNSYjhFbzYtT1FEMnBoSTNzQ3hxbFNCTEk0NGVtcU04YjhITWdBYWZscHpaUU5CanRfUkpHZUlPMUh1aUxsQWZIa1dVazBMUE5LNXJHQ2Zza0RnR3NRanRqcGJKeV9BTi05dVNtZ3VFVXpXLWRlRFlaUnlrdFdsbHNDeHBRWHBkRFJ1MDBmLU5HRGg1TUZWWTNFYXE2QzRqS1VpZGt4ZUhtemtsczJ3?oc=5"
           },
           {
-            "label": "News — Wells Fargo Adjusts PT on Automatic Data Processing to $283 ",
-            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMTJjSlBidXd5aENzNEJidlBLSGpPZWRDbGczNElSU3h4MzNJUjF3VnJVQ2s3anJpTGpTbWZjZElHVTQxY0lpS19UcTBLR2FWNHVudFFUaU1xY1I5VVY2akYtRmlJQW1WVjMxQVowNmJEY2dhTS1ZRXZrd21ENnlHcUM3SW5xZU5Pc3QyYld2RjZYWnRzdGZkelo3S0RjRTdkM0Fyc0NpTDliQUtxUzVjU1J1cm9pajA5Q2hNYnhtOVNXV0wxZWZOS2RrdnhjRWJQY3NBZHVEMGdtOVhYeWFnMU10OA?oc=5"
+            "label": "News, Company News for July 30, 2026 - Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOb1hWakFBRk96UXFxZHFTYVBuVkRjZ01fSFUxS3QzUmJDX0dUMHc3OXhqdDZGeWstMHJreERCM01WMU5fVGNranpDVnYwT0xWa1QxR3RBU08xemNUWWp2RWV5Q1lBTjN0d2RYUDhwWklNZlhuR3hIYlVjblJqOFR0YXA0V3Q1dS1GTDZRV1NGSmtDRmEz?oc=5"
           },
           {
-            "label": "News — Automatic Data Processing, Inc. 2026 Q4 - Results - Earnings",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORUNYVldYYzlWWEQ1bUpJOTRQZ2ZnVEJJX1ltZ095cHlCdnVsV3dJQTZxMUxaOGJENm9rTXgtbHZHNzlFSGtWb3ZiX2xqQmttcXVwaDBQODVlcExfVDlVT05ORTVWMjVjekIxMF9nVXNhVmVjdEFOU3NZX0Q5d3F1OFRFRnNPMnMtcEVydjJfd1ZDNEU3N1RaUlF1aldEU0c3TmVsUWRZaEhrUWY3MzBaMkZyVQ?oc=5"
-          },
-          {
-            "label": "News — Automatic Data Processing (ADP) insider plans $641K sale of ",
+            "label": "News, Automatic Data Processing (ADP) insider plans $641K sale of ",
             "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWXA4OERLV2lONVJVTzBKS2RjNVJ0QnQ3X1ZnMTRIR013SS1tWFRMaC1US3pHQnNQMnlmNHVnR3doUm1ET2RVX2twNWdWN3V6bFV5cEVlamR2YTlEczJIbEI5VjRKM0xqQjJTR0k5UFE1LWdpX0lWems4WnREWDkyZzJYdUxrYllxYXlGTTlUdE00aEs4ODl4TDRTR2JQdHk2VEpNb0duT0s?oc=5"
           },
           {
-            "label": "News — Automatic Data Processing: Post-Earnings Rally Closed The Va",
-            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeTdCR2lzUlRIRVhfMEN4NWRRX2wzT2dYVE1td0Q5MG5YLVVsblNxQllmMFpfZ1lzZlhhaXVFYXBiTlplY1N0WGpzSUNWMVhqWVc5OWZ1c05wZjhDMlFSNjVXQUI5dTFZUHNOYVBQV1VucUtEOHc1SFhXUU8xcm9pd1dxRC1VWk5lOG90ZTdYR0tkQS04bTRVUkY3RjhkOG5Pd3VTQ19KMXNJdDZEX3VicG5oeWstUVBrbjdDbU8xSHY?oc=5"
-          },
-          {
-            "label": "News — Automatic Data Processing Q4 Results: EPS beats estimates, s",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdjV3M21JMTUxNmwyMDcwR0xpczhFNW93YjVqMUJmYU1KV3RqRnpqeEdxLUdkR3JHeDB3QWZqbXZ5QnVSUlNmQ3BWdXVLNnpwNmQzUlplR0p5R0dra0ZrS3FETmlHcGtaME9EeVNISVlJd3NYYWt0TzhMR09BdmttVEVIX3JReTBOZ3FrMVlqNjcwNGVPbzVra3BlcElEZWVzWWNnb1d6ZWRfeFg3RG9Hai1oYTY2aGd5Q3hfS1I0QURSeW00ZEVr?oc=5"
-          },
-          {
-            "label": "Market data — ADP",
+            "label": "Market data, ADP",
             "url": "https://finance.yahoo.com/quote/ADP/"
           }
         ]
@@ -381,7 +309,7 @@
     },
     "ukg": {
       "2026-07-27": {
-        "glance": "3 sourced updates this week for UKG across news.",
+        "glance": "A quiet week in the channels we track: nothing first-party from UKG crossed the wire, only third-party market-research promotion around multi-country payroll and pay-management software categories UKG competes in. No fetched news is a data point too: attention in HR tech sat with ADP's earnings this week.",
         "stats": [],
         "items": [
           {
@@ -405,15 +333,15 @@
         ],
         "sources": [
           {
-            "label": "News — Multi-Country Payroll (MCP) Solutions Market Report Provides",
+            "label": "News, Multi-Country Payroll (MCP) Solutions Market Report Provides",
             "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVXh6NE00Mk1DWGlxT1EtSDhFUnJPOHF2ZHNkYmJwdlhMSGU2cUtURVJmU014OTVLRDROSV9pYVdLaWVNS3k5dF90WHR2clVRRXRmdjFvQzBDdzJMdDVkQjdDenBoSWxiNTk0ZktyYk1RaXFRb2lIdTNiamJHM3J3Vi1BcVd4a2IwU0NudXczYVVta21XR3VvM3Z3?oc=5"
           },
           {
-            "label": "News — Bundled Pay Management Software Market Outlook Signals Expan",
+            "label": "News, Bundled Pay Management Software Market Outlook Signals Expan",
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNczE4NjJrUlRsSERMajlLM21LZ2pYYnQ3M25GbmZKZ0VmaVJrSC00aEpNRlZfQ1U3TFJJNDZUSWxOVTB2QmNuS3Y3UnN1dk1DbWNaajBKNXo4QXI2WWtRNk9ybzc3NEc0QW9URzYydFVMaUFkZ1JiR0VxemlfTGJCWTlPNVpRbE9VWWxXQU92Sk5zMC1R?oc=5"
           },
           {
-            "label": "News — IIM Ahmedabad successfully concluded Summer Internship with ",
+            "label": "News, IIM Ahmedabad successfully concluded Summer Internship with ",
             "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLTJOS0VfM2Y3OUNBY282Y0RhQnhrdDFubVJ6ajI5emI5akQxZHdEUkQ2bW9IbE9uMDMxWjdxMTFSd1g4N3pVRnFpaFpBbkc3Yno3VUJlZ0ZFcDF4cDVaNnhDbmNtbGhNYmgtSl8tdWc1ZGhpajRVYjVoT2VRYlBJOVFhaWN6OW5zY3FxNkNaMy1EZWR1em0wMGtCNkZ1TExCZnk1LTJHXzhpX0hkaHZsanhJS3E5M1QyX3duR0V1UHluc1J0d3gydVNUa014M1B5Rjc2TzFLaXBXUmpURWc?oc=5"
           }
         ]
@@ -421,15 +349,15 @@
     },
     "generac-power-systems": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Generac across news and SEC filings.",
+        "glance": "A blowout quarter: Generac posted $2.91 adjusted EPS against a $2.01 consensus (a ~45% beat), with the data-center backup-power business up 29%, backlog reaching $1.6 billion, and hyperscale orders hitting $1 billion as the company accelerates a plant opening for its data-center unit. CEO Aaron Jagdfeld took the AI-data-center story to CNBC's Squawk Box, and the stock, up ~37% year to date, reflects the pivot from home standby toward powering AI infrastructure.",
         "stats": [
           {
-            "v": "$192.93",
+            "v": "$192.69",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "+36.7%",
+            "v": "+36.6%",
             "l": "YTD",
             "dir": "up"
           },
@@ -441,75 +369,75 @@
         ],
         "items": [
           {
-            "headline": "Generac: 8-K filed 2026-07-29 — items 2.02,9.01.",
+            "headline": "Generac: 8-K filed 2026-07-29, items 2.02,9.01.",
             "body": "Official filing published on SEC EDGAR.",
             "ctx": "Primary-source disclosure.",
             "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926024731/gnrc20260728_8k.htm"
           },
           {
-            "headline": "These Analysts Revise Their Forecasts On Generac After Q2 Results - Benzinga.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbDkyeExIeTlaS1pBd1ZjaE11STNfS29XUGJMRnpqdzhUemFkcDBCcmxUc3FTbDNJc205VklLbVlmZFVKM1dTZHFjbGpRbXpPQ20wSmlxdFVUMG1QOGZzMzZHMDBySEtIb1c0U1dSU0NyUXMzeENHakRsU3EzZTYtRE03RUZSRXMtQVpnb1RtSklWaUZLVlBZcDZ0QnhyQ2UtN2tVaFpDUHpCX0h5eWVjMEF4ZXZlM3JmdWxDY0JFc2cwb3J3VUdDVDkzZTlYVFBvRjhqNmtn?oc=5"
+            "headline": "Generac pivots toward data centers as hyperscale orders reach $1 billion.",
+            "body": "Generac accelerates area plant opening, eyes more sites for data unit © 2026 American City Business Journals. All rights reserved. Use of and/or registration on any portion of this site constitutes ...",
+            "ctx": "Via bizjournals.com.",
+            "url": "https://www.bizjournals.com/milwaukee/news/2026/07/30/generac-data-center-q2.html"
           },
           {
-            "headline": "South Dakota Investment Council Has $13.51 Million Stock Holdings in Generac Holdings Inc. $GNRC - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWWFLejRkTmZJaHZxYXMtM1lmUDJCOWRLTjkzM1RKWTM2SW11WmNwT1FyNkt0ckdKcXQ5eFgyX2RYblpZdERHOXFVVEpEMXZ5SWVqa3hXODlTWGF0MHJTQUtKSzd2T2lEcFE5dmgzdE9GbHlPcXlPa2tTeXNSVlJnaUtWVW5SNmpBb3pMRUJGdDJuSnFnRXV3ODNsbkYtcDVfMmNqX3Q3bWxkNlc4QjdQYmVSS3NnYXhEcUZOWDNIVHdpNUhCTGtXT1JxMFBqUXZLVEk5emdjRTdzeXRxS2p2Sl9MT0g4OW5k?oc=5"
+            "headline": "Is Generac Holdings (GNRC) Undervalued On Its Q2 Earnings Beat And Reaffirmed Outlook?.",
+            "body": "Generac Holdings (GNRC) is back in focus after reporting second quarter 2026 results that outpaced profit expectations, alongside a reaffirmed full year net sales growth outlook in the mid to high ...",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/generac-holdings-gnrc-undervalued-q2-130817361.html"
           },
           {
-            "headline": "Oddo BHF Asset Management Sas Purchases 38,320 Shares of Generac Holdings Inc. $GNRC - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPY1RYZlExLUdZZnpqUnQ4bXVMUl9Vc093T2daWDVZaWhaR21aR291SnduU212T0tsMmVyLWFDZzUzeDM3R1laNC1JSmRlOWFuUUdJY2hGZXZWN2ljdm9qdU1fSlB4ZnpjVU1GZXJJWENwRU43NUN1Q2tWTHFVTWFrS1QxSWFFNTc1VjZDQnNLRS1EclZORUJrTkdNdndsSVYxSWJmd0l0cl9yZHJOTzQ4emU1eS1vN1NnYU5tTGlBYjVPTGhCM1BGQVpIVGRoTzFFRWJwMFVveldsZw?oc=5"
+            "headline": "Generac (GNRC) Q2 2026 Earnings.",
+            "body": "Generac crushed second quarter earnings with $2.91 adjusted EPS, demolishing the $2.01 consensus by 45%, as its data center backup power business surged 29% and backlog hit $1.6 billion. A $71 ...",
+            "ctx": "Via 247wallst.com.",
+            "url": "https://247wallst.com/cards/generac-q2-2026-earnings-gnrc-01kypnvnxyspvb31bb9w5rry9z"
           },
           {
-            "headline": "Generac Reports Second Quarter 2026 Results - manilatimes.net.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdi1hbmFEODlLNVZtQWR5OFFsMm5hbk4xbklFMUZaUHdUNVFxVng2V3BZZmw5UWdpQlB3T2V5cG1mUEMwRGwzamhkWm1jcU5HRFRUN3JNZ3dDSDZlbGdvbWZNMi1ZZF84aDdqNlJ2c3dXc09JZkRDM2o4cHZ2Tmw1Q2x3WEhXLUU4WmtraWtaNE1UOS1Pb29tSXFwUDVqTkV0LV9iWTZKMXd3aV8xN1JGYnpHY3ZaU2do0gG-AUFVX3lxTE5neEYwVFhoQWdLekJ1aUVXdmRyZjJvblVDbWpjZmJUTlhvX2lFYlI0Z1U2TXBXM0tqQjRQSUhGdE8tQS05ZHdqaVFmYVRtdlJzcXNhcndOZWRsNHhWRlNKWEN5WjlRQW11LTJNRVpVR1JvWjczT2Y5bFd4M2pRdEZHdzg2VHpVMUh3WGtqa3hpdmp5aXBjakRJWHRXLTRYaU1ENmdLTWdVTXZ2bUo2QjB3QldYcW9mLW9Tak9zcnc?oc=5"
+            "headline": "Generac CEO Aaron Jagdfeld on Q2 results, powering AI data centers and growth outlook.",
+            "body": "Aaron Jagdfeld, Generac chairman, president and CEO, joins 'Squawk Box' to discuss the company's quarterly earnings results, powering AI data centers, company growth outlook, and more.",
+            "ctx": "Via msn.com.",
+            "url": "https://www.msn.com/en-us/money/news/generac-ceo-aaron-jagdfeld-on-q2-results-powering-ai-data-centers-and-growth-outlook/vi-AA28YcRj"
           }
         ],
         "sources": [
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926024731/gnrc20260728_8k.htm"
           },
           {
-            "label": "News — These Analysts Revise Their Forecasts On Generac After Q2 Re",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbDkyeExIeTlaS1pBd1ZjaE11STNfS29XUGJMRnpqdzhUemFkcDBCcmxUc3FTbDNJc205VklLbVlmZFVKM1dTZHFjbGpRbXpPQ20wSmlxdFVUMG1QOGZzMzZHMDBySEtIb1c0U1dSU0NyUXMzeENHakRsU3EzZTYtRE03RUZSRXMtQVpnb1RtSklWaUZLVlBZcDZ0QnhyQ2UtN2tVaFpDUHpCX0h5eWVjMEF4ZXZlM3JmdWxDY0JFc2cwb3J3VUdDVDkzZTlYVFBvRjhqNmtn?oc=5"
+            "label": "bizjournals.com, Generac pivots toward data centers as hyperscale orders reac",
+            "url": "https://www.bizjournals.com/milwaukee/news/2026/07/30/generac-data-center-q2.html"
           },
           {
-            "label": "News — South Dakota Investment Council Has $13.51 Million Stock Hol",
-            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWWFLejRkTmZJaHZxYXMtM1lmUDJCOWRLTjkzM1RKWTM2SW11WmNwT1FyNkt0ckdKcXQ5eFgyX2RYblpZdERHOXFVVEpEMXZ5SWVqa3hXODlTWGF0MHJTQUtKSzd2T2lEcFE5dmgzdE9GbHlPcXlPa2tTeXNSVlJnaUtWVW5SNmpBb3pMRUJGdDJuSnFnRXV3ODNsbkYtcDVfMmNqX3Q3bWxkNlc4QjdQYmVSS3NnYXhEcUZOWDNIVHdpNUhCTGtXT1JxMFBqUXZLVEk5emdjRTdzeXRxS2p2Sl9MT0g4OW5k?oc=5"
+            "label": "finance.yahoo.com, Is Generac Holdings (GNRC) Undervalued On Its Q2 Earnings Be",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/generac-holdings-gnrc-undervalued-q2-130817361.html"
           },
           {
-            "label": "News — Oddo BHF Asset Management Sas Purchases 38,320 Shares of Gen",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPY1RYZlExLUdZZnpqUnQ4bXVMUl9Vc093T2daWDVZaWhaR21aR291SnduU212T0tsMmVyLWFDZzUzeDM3R1laNC1JSmRlOWFuUUdJY2hGZXZWN2ljdm9qdU1fSlB4ZnpjVU1GZXJJWENwRU43NUN1Q2tWTHFVTWFrS1QxSWFFNTc1VjZDQnNLRS1EclZORUJrTkdNdndsSVYxSWJmd0l0cl9yZHJOTzQ4emU1eS1vN1NnYU5tTGlBYjVPTGhCM1BGQVpIVGRoTzFFRWJwMFVveldsZw?oc=5"
+            "label": "247wallst.com, Generac (GNRC) Q2 2026 Earnings",
+            "url": "https://247wallst.com/cards/generac-q2-2026-earnings-gnrc-01kypnvnxyspvb31bb9w5rry9z"
           },
           {
-            "label": "News — Generac Reports Second Quarter 2026 Results - manilatimes.ne",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdi1hbmFEODlLNVZtQWR5OFFsMm5hbk4xbklFMUZaUHdUNVFxVng2V3BZZmw5UWdpQlB3T2V5cG1mUEMwRGwzamhkWm1jcU5HRFRUN3JNZ3dDSDZlbGdvbWZNMi1ZZF84aDdqNlJ2c3dXc09JZkRDM2o4cHZ2Tmw1Q2x3WEhXLUU4WmtraWtaNE1UOS1Pb29tSXFwUDVqTkV0LV9iWTZKMXd3aV8xN1JGYnpHY3ZaU2do0gG-AUFVX3lxTE5neEYwVFhoQWdLekJ1aUVXdmRyZjJvblVDbWpjZmJUTlhvX2lFYlI0Z1U2TXBXM0tqQjRQSUhGdE8tQS05ZHdqaVFmYVRtdlJzcXNhcndOZWRsNHhWRlNKWEN5WjlRQW11LTJNRVpVR1JvWjczT2Y5bFd4M2pRdEZHdzg2VHpVMUh3WGtqa3hpdmp5aXBjakRJWHRXLTRYaU1ENmdLTWdVTXZ2bUo2QjB3QldYcW9mLW9Tak9zcnc?oc=5"
+            "label": "msn.com, Generac CEO Aaron Jagdfeld on Q2 results, powering AI data c",
+            "url": "https://www.msn.com/en-us/money/news/generac-ceo-aaron-jagdfeld-on-q2-results-powering-ai-data-centers-and-growth-outlook/vi-AA28YcRj"
           },
           {
-            "label": "News — Generac Smashes Profit Estimates on $71 Million Tariff Windf",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE50WlFzWjVUVzBxcVk3ZFhyUWpKbWxJN0tHZ0s1WGJCZS1felNIS1dIYnhCVFo1R2t3TFZ3UHEtWW9LekFWV18yc09qQXdzbENrdW1GcklCRWJrby16WVJKTkRIMnVwTTBFX19TZ3V1UWliYjRIelE?oc=5"
+            "label": "cnbc.com, Stocks making the biggest moves premarket: Biogen, Vertiv, G",
+            "url": "https://www.cnbc.com/2026/07/29/stocks-making-the-biggest-moves-premarket-biib-vrt-gehc-gnrc.html"
           },
           {
-            "label": "News — Generac Holdings Inc (GNRC) Technical Analysis: Support, Res",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5Q05XeXZ3ZHN0dzROZmJZdFlQX3dncmdRV0hqaTgyQXhoc045YzFvVnJlNGpHOFg1MWgzcFliR3p3UC1DM3dXcUpUXzg5UC1oR01XRjNQSUV3NnF0Y09SMElwM3ZuRWc?oc=5"
+            "label": "marketwatch.com, Generac Shares Climb on Data-Center Customer Orders, 2Q Prof",
+            "url": "https://www.marketwatch.com/story/generac-shares-climb-on-data-center-customer-orders-2q-profit-468134cc"
           },
           {
-            "label": "News — Generac Holdings: Q2 Earnings Snapshot - marketscreener.com",
-            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSXVmRk9KaE9LOHBjWk41bDJrcUpEMDdGMEVsTDFrLUhGRy02YkNFTXFKbWFmSEUtb1p1TThrYUdUYW1rdHlna3dFU1FnamRVRlROMmNaRnFRNUdSTVg0dzFvZEotNFBXS0tJTWExT25lTTVIVHJvQjhydzdsNjI1dXZoWGx1V2UwY0hTZ3RVbWVKSGZV?oc=5"
+            "label": "msn.com, Generac beats earnings estimates on data center demand; shar",
+            "url": "https://www.msn.com/en-us/money/economy/generac-beats-earnings-estimates-on-data-center-demand-shares-rise/ar-AA28YWug"
           },
           {
-            "label": "News — Generac Tops Q2 Earnings Estimates, Reaffirms 2026 Revenue O",
-            "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdDF2WnpDTDg2TjdSOWJsSmlRX0xjcTBXcGU2MW1RSDdTb1A3b04yZURjYVFyZEFBVWYzZERfbXdFeVpPblQtaFZzd0pmNVpqMlNRM2x3U1BpV2MtSEEzalVZZUxERGxMOGFKNHY4aFRybTh1RE9YQTdneExjcWI5QmNHMTVLT0ZrWXVlbzBCQUgyUEFKZTV1UWExbWlWdHFkaUdfTllNT3hpZDhGWl95V1A1eDItUHJpZm00RDk1bEl6NV9IYVNhbFI5OUFLNHhqSGNxakNZT0VlclExNlQ1VUtSN1ROSlU?oc=5"
+            "label": "seekingalpha.com, Generac outlines $450M 2026 data center revenue and lifts fu",
+            "url": "https://seekingalpha.com/news/4621094-generac-outlines-450m-2026-data-center-revenue-and-lifts-full-year-c-and-i-growth-outlook-to"
           },
           {
-            "label": "Market data — GNRC",
+            "label": "Market data, GNRC",
             "url": "https://finance.yahoo.com/quote/GNRC/"
           }
         ]
@@ -525,15 +453,15 @@
     },
     "nrg-energy": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for NRG across news and SEC filings.",
+        "glance": "A quiet tape week for NRG: the freshest primary-source item is a July 15 8-K, with earnings-expectation commentary building ahead of the next print. Shares sit at ~$134, down about 19% year to date, so the upcoming quarter is the near-term catalyst to watch.",
         "stats": [
           {
-            "v": "$134.83",
+            "v": "$134.38",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "-18.9%",
+            "v": "-19.1%",
             "l": "YTD",
             "dir": "down"
           },
@@ -545,75 +473,75 @@
         ],
         "items": [
           {
-            "headline": "NRG: 8-K filed 2026-07-15 — items 8.01.",
+            "headline": "NRG: 8-K filed 2026-07-15, items 8.01.",
             "body": "Official filing published on SEC EDGAR.",
             "ctx": "Primary-source disclosure.",
             "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926083743/tm2620335d1_8k.htm"
           },
           {
-            "headline": "NRG|NRG Energy Inc|Price:124.170|Chg%:-3.390 - TradingKey.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBNzVkSExoWkJ1bV9Qcm11YWxKQnlNUW9HNWVIbE00aGNmMWNNRGFoSmpsSEk0N3dCY2xUOGI2WXRINnJFQkt0NXJxMnRyeC0xVGxuTUtBVU1HZjk1N1czcUJFd2h6eDg?oc=5"
+            "headline": "NRG Energy (NRG) ascends while market falls: Some facts to note.",
+            "body": "In the latest close session, NRG Energy (NRG) was up +2.15% at $142.99. The stock's change was more than the S&P 500's daily loss of 1.21%. At the same time, the Dow lost 0.97%, and the tech-heavy ...",
+            "ctx": "Via msn.com.",
+            "url": "https://www.msn.com/en-us/money/general/nrg-energy-nrg-ascends-while-market-falls-some-facts-to-note/ar-AA28yGUD"
           },
           {
-            "headline": "USU66962BB3 Bond Coupon Profile — Rate & Payments - TradingView.",
-            "body": "Reported by the press on 2026-07-29.",
+            "headline": "NRG Energy (NRG) Earnings Expected to Grow: Should You Buy? - Yahoo Finance.",
+            "body": "Reported by the press on 2026-07-28.",
             "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04X09YNVlrMU9JNEI1WlZLWWFkTDZ3ZEhfeHBzaWJUWjBDVDlqNHlVQV9xUjRqWW5FU0NCU3JaZWJqLV9kSzhpaXVHUzlOVXVxeURDRXdsU3h3NHpTOUx5S181OGRIMkZya2Y0eFRUek9ObHlQN2c?oc=5"
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLWVsYlE3MkMzdnJNM0pVRUQydXREakhoWHEybWs0Vy16X1lzb014LWswMklURG1OS0FLYldtVVdOUW5DSURvRl84RlpoT1ZobGhfZjJ5MS0tRk1ha3VRbC1pSVNVMm5pVmZkcl9UVzFITEtVc1E0ZXJrbkJxY2ktZWdSQUg2LVlPYllRWTFIWDVQZnphNmZ2WEN2NFRfdw?oc=5"
           },
           {
-            "headline": "NRG6367724 Bond Coupon Profile — Rate & Payments - TradingView.",
-            "body": "Reported by the press on 2026-07-29.",
+            "headline": "NRG Energy: Mid-Atlantic Capacity Market Prices Heighten Regulatory Concerns - Morningstar.",
+            "body": "Reported by the press on 2026-07-27.",
             "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByM3QtVS1xMEtXSjdJUjhSaXNrVXNmSGdLblV2MFl3ajVJX2RpMlUzZlVUWEJ0WDlVU1lZXzhiNW5BWXowcjM0a3JLa3R6M0hibGV6VHNlUXYxRWJFcG5yalhCbFBkU2NSQjY3ZHRjajdXcWk0Qmpr?oc=5"
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbWhpTnBhWjhsM1h3TmFZYmp4dmh3RnF2eEQ3TnZ0eElhckdUa0p5WUpjVEEta2o4cG1TNzh1ZlRUU01DXzF1ZFBYLUxvTTFRdnQ4NFZSOGFRdDlQZVo3X1paQ05VdlNZdHRvdTFQQ0pNU28xTW1MejBKa25wZnltTmpTemVhNDRsTVhrWXRWTktudmVVSEJqTV94UkRVYUp5eXcwdFpNc09rdTIwN2NadjMxZ1k3LTdRQkl1M0ZBYlRLcUZQWnBLSk4tSWI3TGlhakFLb3VTWGh3cXIzSGRr?oc=5"
           },
           {
-            "headline": "NRG5150112 Bond Risk Profile - TradingView.",
-            "body": "Reported by the press on 2026-07-29.",
+            "headline": "NRG Energy Inc (NRG) Stock Down 3.2% but Still Overvalued -- GF Score: 79/100 - GuruFocus.",
+            "body": "Reported by the press on 2026-07-27.",
             "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45NzF6YXFWVHdnZU5ObjQyU1FvbDhiU094N3FvQThQQWJIU1ZPcURRWDZGajI2dkhmbnNpVE9IbDdHbmx6bjMwMm5JZmR0M0JXcGxfMFhHc29ULWNJa0F4bndnQ2kxUnZEU3NLOVNmcnh0TzdURmc?oc=5"
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTDVITkJmQmZzOGw2QUczVGRnczViYl8wd05KNjFBbDlYSklMcXJiT2ZCam9oZDNuSGROVzd5bVJBSjBYYjNQb2w1OFpZeDRpMWU4Z2RrZmU3dE1CVFF2V1ltdjVMakU3VjFTZV96QVNrSG9pdXRnZ00yZFZPNDlTLUt0RmRJcnc4aG1CWFFaUkhrenZUa1BGTGhlMEN4aE1ILTgyZnVtVDJ2ZXo2cEFHUXpELWRGUWFtc0dB?oc=5"
           }
         ],
         "sources": [
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926083743/tm2620335d1_8k.htm"
           },
           {
-            "label": "News — NRG|NRG Energy Inc|Price:124.170|Chg%:-3.390 - TradingKey",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBNzVkSExoWkJ1bV9Qcm11YWxKQnlNUW9HNWVIbE00aGNmMWNNRGFoSmpsSEk0N3dCY2xUOGI2WXRINnJFQkt0NXJxMnRyeC0xVGxuTUtBVU1HZjk1N1czcUJFd2h6eDg?oc=5"
+            "label": "msn.com, NRG Energy (NRG) ascends while market falls: Some facts to n",
+            "url": "https://www.msn.com/en-us/money/general/nrg-energy-nrg-ascends-while-market-falls-some-facts-to-note/ar-AA28yGUD"
           },
           {
-            "label": "News — USU66962BB3 Bond Coupon Profile — Rate & Payments - TradingV",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04X09YNVlrMU9JNEI1WlZLWWFkTDZ3ZEhfeHBzaWJUWjBDVDlqNHlVQV9xUjRqWW5FU0NCU3JaZWJqLV9kSzhpaXVHUzlOVXVxeURDRXdsU3h3NHpTOUx5S181OGRIMkZya2Y0eFRUek9ObHlQN2c?oc=5"
+            "label": "News, NRG Energy (NRG) Earnings Expected to Grow: Should You Buy? ",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLWVsYlE3MkMzdnJNM0pVRUQydXREakhoWHEybWs0Vy16X1lzb014LWswMklURG1OS0FLYldtVVdOUW5DSURvRl84RlpoT1ZobGhfZjJ5MS0tRk1ha3VRbC1pSVNVMm5pVmZkcl9UVzFITEtVc1E0ZXJrbkJxY2ktZWdSQUg2LVlPYllRWTFIWDVQZnphNmZ2WEN2NFRfdw?oc=5"
           },
           {
-            "label": "News — NRG6367724 Bond Coupon Profile — Rate & Payments - TradingVi",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByM3QtVS1xMEtXSjdJUjhSaXNrVXNmSGdLblV2MFl3ajVJX2RpMlUzZlVUWEJ0WDlVU1lZXzhiNW5BWXowcjM0a3JLa3R6M0hibGV6VHNlUXYxRWJFcG5yalhCbFBkU2NSQjY3ZHRjajdXcWk0Qmpr?oc=5"
+            "label": "News, NRG Energy: Mid-Atlantic Capacity Market Prices Heighten Reg",
+            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbWhpTnBhWjhsM1h3TmFZYmp4dmh3RnF2eEQ3TnZ0eElhckdUa0p5WUpjVEEta2o4cG1TNzh1ZlRUU01DXzF1ZFBYLUxvTTFRdnQ4NFZSOGFRdDlQZVo3X1paQ05VdlNZdHRvdTFQQ0pNU28xTW1MejBKa25wZnltTmpTemVhNDRsTVhrWXRWTktudmVVSEJqTV94UkRVYUp5eXcwdFpNc09rdTIwN2NadjMxZ1k3LTdRQkl1M0ZBYlRLcUZQWnBLSk4tSWI3TGlhakFLb3VTWGh3cXIzSGRr?oc=5"
           },
           {
-            "label": "News — NRG5150112 Bond Risk Profile - TradingView",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45NzF6YXFWVHdnZU5ObjQyU1FvbDhiU094N3FvQThQQWJIU1ZPcURRWDZGajI2dkhmbnNpVE9IbDdHbmx6bjMwMm5JZmR0M0JXcGxfMFhHc29ULWNJa0F4bndnQ2kxUnZEU3NLOVNmcnh0TzdURmc?oc=5"
+            "label": "News, NRG Energy Inc (NRG) Stock Down 3.2% but Still Overvalued --",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTDVITkJmQmZzOGw2QUczVGRnczViYl8wd05KNjFBbDlYSklMcXJiT2ZCam9oZDNuSGROVzd5bVJBSjBYYjNQb2w1OFpZeDRpMWU4Z2RrZmU3dE1CVFF2V1ltdjVMakU3VjFTZV96QVNrSG9pdXRnZ00yZFZPNDlTLUt0RmRJcnc4aG1CWFFaUkhrenZUa1BGTGhlMEN4aE1ILTgyZnVtVDJ2ZXo2cEFHUXpELWRGUWFtc0dB?oc=5"
           },
           {
-            "label": "News — NRG Energy Inc (NRG) Valuation: PE, PB & Fair Value Analysis",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95OG80OFcxTHdTU1FocEhkUjlNTGRUUnVRNExBYUVRT0VIVG0zZW1JU2RBUGVKZnpTV0JjMGtUM0RQeHBpdmFlQmo0aGtXbTBhUXBjdzhXNElkVmo1S0pPZzRhSGg4U3ZKMV84SHRTbW0?oc=5"
+            "label": "News, Data Center Energy Demand Growth Presents Opportunities and ",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVHdOcVo5QnNzbjczYXA3eDVZR3dlamtHcUphYzlnaHkyTDNKbHRtOEJYYlY5d0d4VFdOd0UtNEdlazZTb0xKaDJKUGJJMG55WHFsbnVSaTVLUWt0TGdnNTk3TGxfbDVHLVRwNS1pWHAxZ1M1VXNidDhhNXhuMUNwMU9mQ3NZSGVUMnJoam5HM3BtX2FkbXpBNW9pd3hraEtkZU5GY2xwenpYLVNFc2ZwZnlvSzItSjIyMzlRdmZNUmU5ZU0?oc=5"
           },
           {
-            "label": "News — NRG Energy Inc. stock underperforms Wednesday when compared ",
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNm5KSU9xenVUZFdvZ20xdVZoSm9WTWpCc1c0V1pxTUk5WTVlTXBPbFBNZzJIOUtEQXA4eEpteHpnZTFId1B1S2lpdWdEQ2RWSWRhdXJubHphLVBzeTdBVkZjVy10T0xZMHdTcTlXa2VCNUFsc2o2X0tVaXdFU3pWbXVoQUJhMVo3RHk5V1d3d1ZCZHJxbk1TQkh4S1llMWNjYU9sWE5KTW1zb0ZTYTZmVGJHZEZ2NU43VzhNUkw0U0VHY1ZpWlQ1WFJWTHpOQQ?oc=5"
+            "label": "News, Petra Nova - W.A. Parish Project - Department of Energy (.go",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00S290WEZCUEFNYUQ1NmFMOXN2UFFuSmNvSVNacHZuM0xxNmlnd1RxSHlObjdIR21iT3V2aV9kR05VenBEQjVia21YMVB0LXFBSkRTYlRvTks2ZVFyZHNYandVTUlMNzg?oc=5"
           },
           {
-            "label": "News — Lobbying Update: $90,000 of NRG ENERGY INC lobbying was just",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZFlmaXFhOVlSZFlMWU43ZUdYVnVzazFMdkUyVWMzdnVmOS12SHVNdVhoLVkxUS1HMWxZbEhfNG92VWhKako3aUpoOHJPd2xEczhuWjQ0N0lCYlhlZkVNTUFvVnNBNlVkTFlrSTdFcUpGX3pvdVRKdXZ6QXNiOWpvdDF0TXJ2OTlqTnZNUllXTnpMTk9UZUxKaDFVQkZLWnNBRGh3NW9BODRHZUFZMVE?oc=5"
+            "label": "News, NRG Energy (NRG) Stock Drops Despite Market Gains: Important",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc0FJWm5ydE9tWWdnb3NRMTlSTGFYeDE5TGhyUkpTYXVESDJsQnJscEU3WGhmSFRleXJYZHFCcDYyNGFvRDlHeXJSdlh0WDZEMFFzdGlkUTFfWV83MFpaeTZIcFYtX2h0V2NiU0g4ay10YVh0MHJQblRRcDZVbXMyX1h3LUpYRHdXVGlJOExKUXdydkxmdWc?oc=5"
           },
           {
-            "label": "News — Can CEG's Capital Allocation Strategy Enhance Shareholder Va",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeG5NLURJMkhyeGIyUjBLLWxkd3RvSFFzMy0zRUhzSXNHM2dmTVd0NHFoUk5lV3RsTUtZRzZTVGxKRk5DUUNkOEV3cnlvRlFsNTFkclJuREZqTzBoeFYxTF9vcEJGRU16WmxRalVac1BlYngtcTV2VnYwTXpNQTIwY0t4ejY5SG9OOVFVdzFxU3J0eXlmRWRvUWdlaDMycVdEOUZlNVl5dkhKTUg3dWxqanBuNkt2MDYzY25R?oc=5"
+            "label": "News, NRG Energy announces R$ 1.63 per unit distribution, payable ",
+            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yc3dZZWxmOHUyWmpHbGdLWVhyZXVVdmw5Wm9adG80cjBkZUVJa1dObXZZQVlDMEU4YW5BYXpzVWxQQVo0d0duXzJrTlVYYUI3d0ZETTFQZWpocnphUDVEcXJpc9IBY0FVX3lxTE8yc3dZZWxmOHUyWmpHbGdLWVhyZXVVdmw5Wm9adG80cjBkZUVJa1dObXZZQVlDMEU4YW5BYXpzVWxQQVo0d0duXzJrTlVYYUI3d0ZETTFQZWpocnphUDVEcXJpcw?oc=5"
           },
           {
-            "label": "Market data — NRG",
+            "label": "Market data, NRG",
             "url": "https://finance.yahoo.com/quote/NRG/"
           }
         ]
@@ -621,7 +549,7 @@
     },
     "baker-tilly": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Baker Tilly across news.",
+        "glance": "The week's story was the competitive landscape, not Baker Tilly itself: Grant Thornton sealed a $5 billion takeover of CBIZ, described by the Financial Times as the accounting sector's largest in a generation, expanding its US reach squarely in the middle market where Baker Tilly competes. Consolidation among PE-backed accounting platforms keeps accelerating.",
         "stats": [],
         "items": [
           {
@@ -637,10 +565,10 @@
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNm02eUZkNXVZaks5X0hMaFhsQWRDR3dYQm1lQjF3UVJsUkphV1BzeEZtR1pvOHg3eDN6NFBhNEVnNm5yVHA5VU5ORXZhQm1HTVVubGY5bU1heVdEbGdvSjJoTzlRRVZCWndsSGhvMTg3TUZsR0drTWh0a2lGa1pTQ1hOUm0?oc=5"
           },
           {
-            "headline": "Grant Thornton Advisors to buy CBIZ in $5 billion deal, expand US accounting reach - WTVB.",
+            "headline": "Grant Thornton Advisors to buy CBIZ in $5 billion deal, expand US accounting reach - Reuters.",
             "body": "Reported by the press on 2026-07-29.",
             "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkdDd1F1UXEyYmlvS3FHeEVEdE5DTFFDRzl4d3VnaUNFTzQwNVlZVU1Cb1V5d0ZLTUM3OWNTQlVoczlDWmdfTzJVSk42aFZUT01NQnJSOTRnX1lURXBtYjBfal9QLWQxWjhTTUlCX204S2VnRlNwZloya2JCTTVmU3B3ejlVdF85YlpWUjR3cW5ER2Z6WXdxV2hXNVIwMGNlRnlYNUdVOEtnOXdwa1Eyd1lR?oc=5"
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMFBMbE1fV0tqTDdRT1ktZV8wdGs1QV9CUTV4enlvX1VrYUZHNVkwVHpSVXpZVWlhdkdTQ2Z3TU1sMWNaWFpTeXg1RWF2ZHliS2wtNkE4R1IyaXc0YzVQWkFza05wTU5pQUNsSU9mWnVzMHlYQzllbkRmcnlaa05yZXFwRTRTT1laV2Z1OEdXUjUyd3FTcHRfbzVqNm1GZFdEZldvdENMUHJfUlE2NVdvZ2Y4d1lVdw?oc=5"
           },
           {
             "headline": "Austin spirits company's co-founders clash over money and control - Austin American-Statesman.",
@@ -657,35 +585,35 @@
         ],
         "sources": [
           {
-            "label": "News — Council weighs whether to scrutinize police or fire - Wester",
+            "label": "News, Council weighs whether to scrutinize police or fire - Wester",
             "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUU15VHEzelRvNjBWOTJVZHdJbmFTMDdDWUQ4d21GUTdKdEFpQklLNl9YeDBjSzFCUGN4MTBEQndiaDNteUJXbVpmdEhZem05aGtZSjRFWHpneE41c3V0TUxUclFVWDM0QXcxOUJFczJwd2N0SG1ZSmpzUGR2d1RqeFdNSTQtaW9H?oc=5"
           },
           {
-            "label": "News — Grant Thornton seals accounting sector’s largest takeover in",
+            "label": "News, Grant Thornton seals accounting sector’s largest takeover in",
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNm02eUZkNXVZaks5X0hMaFhsQWRDR3dYQm1lQjF3UVJsUkphV1BzeEZtR1pvOHg3eDN6NFBhNEVnNm5yVHA5VU5ORXZhQm1HTVVubGY5bU1heVdEbGdvSjJoTzlRRVZCWndsSGhvMTg3TUZsR0drTWh0a2lGa1pTQ1hOUm0?oc=5"
           },
           {
-            "label": "News — Grant Thornton Advisors to buy CBIZ in $5 billion deal, expa",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkdDd1F1UXEyYmlvS3FHeEVEdE5DTFFDRzl4d3VnaUNFTzQwNVlZVU1Cb1V5d0ZLTUM3OWNTQlVoczlDWmdfTzJVSk42aFZUT01NQnJSOTRnX1lURXBtYjBfal9QLWQxWjhTTUlCX204S2VnRlNwZloya2JCTTVmU3B3ejlVdF85YlpWUjR3cW5ER2Z6WXdxV2hXNVIwMGNlRnlYNUdVOEtnOXdwa1Eyd1lR?oc=5"
+            "label": "News, Grant Thornton Advisors to buy CBIZ in $5 billion deal, expa",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMFBMbE1fV0tqTDdRT1ktZV8wdGs1QV9CUTV4enlvX1VrYUZHNVkwVHpSVXpZVWlhdkdTQ2Z3TU1sMWNaWFpTeXg1RWF2ZHliS2wtNkE4R1IyaXc0YzVQWkFza05wTU5pQUNsSU9mWnVzMHlYQzllbkRmcnlaa05yZXFwRTRTT1laV2Z1OEdXUjUyd3FTcHRfbzVqNm1GZFdEZldvdENMUHJfUlE2NVdvZ2Y4d1lVdw?oc=5"
           },
           {
-            "label": "News — Austin spirits company's co-founders clash over money and co",
+            "label": "News, Austin spirits company's co-founders clash over money and co",
             "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRmFJYlRCZmJqUVJtTEVBV2hEc2FUUzk5VGlETEJQYWtJelJNdmVrejhvQmtHV3VJQ2RXRGV4dWk5dEhMRG9fU0doWG1VdVBXSWpmbldGVi1qemQtMGMteG1RVVpIRUtCRU5YMDFSZFNZcUZfa0VzQnBaV1pxZGN4MVhSWUhPNWZXMmkwSGdtUVkxQTRZRW5meUFNVi1qQXlRaWo0?oc=5"
           },
           {
-            "label": "News — Lancs expert: Region ready for construction upturn - Lancash",
+            "label": "News, Lancs expert: Region ready for construction upturn - Lancash",
             "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaXFtVHQ0M2RCVkJGNVFXeEJpVmE3ZGJZaEpYMTBHdXRVRmZ5OWlqdEZYS0J5YlVVWDJPSkNvc1hwOGxFR2VsTHJ0Zmswdi0xQkk4aGtsTFFOTnR2UEs5UW1JVVpKdzFJR3pOTV9PTkI2US0xSHNCbzZQVkltYUliNHJQTWFOcllEdzFpUHNEWkltWmdoZVg4d29meUg1RjBxMTZHVWRCTjRuR3BGYWdTUm93YnI5RnhLaVJVSTdlNlJuZGFXREJ4Qg?oc=5"
           },
           {
-            "label": "News — Reader View: Is Edmonds being offered the Kool-Aid again? - ",
+            "label": "News, Reader View: Is Edmonds being offered the Kool-Aid again? - ",
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR3dPRVRVMTUzTlE0NXVOUUtLWVZQUVhYOWJzc3IzdFlyNHZReEZoTVdpeUliSFQ2WUpOU0k5NmxpZl9OdUdGU2dDc1JUM3lQdWU0Ym91dkMwalJROU4zSDJKVENpRE85SjNOWUZxRUxaWmZMMHYyZFQ1SE5Hc3NKX1RiUFVvRU1Gc3d0SF9pZW8yRVZn?oc=5"
           },
           {
-            "label": "News — Polaris E&M shareholders adopted FY2025 audited financial st",
+            "label": "News, Polaris E&M shareholders adopted FY2025 audited financial st",
             "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52UFQtcGhpNmtrd1NyaGk2WkIyY3d2MGNoWDFKYnJCNWhfck5LenFTeW95cGVKWWlJU0FRWlFDLXdCV2tra3hrbFlHcHBQQkxtcEFrN0VKU2lyVmRld0MxSzJYY9IBY0FVX3lxTE52UFQtcGhpNmtrd1NyaGk2WkIyY3d2MGNoWDFKYnJCNWhfck5LenFTeW95cGVKWWlJU0FRWlFDLXdCV2tra3hrbFlHcHBQQkxtcEFrN0VKU2lyVmRld0MxSzJYYw?oc=5"
           },
           {
-            "label": "News — Jerry Jones’ real estate arm sells Frisco Star District offi",
+            "label": "News, Jerry Jones’ real estate arm sells Frisco Star District offi",
             "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWWdZLTl6TUJDd0V5RVpHWldQeTRFUmZ0eTZJWHBaTUZLb0dkbVZqV2dUVmxkSzhCb3kxV0VpZkVTdmhnY29DaTN4Qk1KWTkwTlVfQmdOQ01TTXNhT3A0Y3JmS19uUWFST1huWHdkTS1tcEdxSXVDTkFfSkNTc3pWVHgxNWh3ZlFTRmhHVUdDeDhqTGstWG12VjRIZHhFbGRxQ2tsdFNKdUFDMHJxVlFCel9R?oc=5"
           }
         ]
@@ -693,15 +621,15 @@
     },
     "regal-rexnord": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Regal Rexnord across news.",
+        "glance": "No major first-party news crossed the wire this week, but the market kept moving: shares trade near $202, up roughly 38% year to date and well off the 52-week low of $128, a strong run for the motors, gearing, and actuator portfolio that Morgan Stanley's Humanoid 100 flagged as exposed to the humanoid-robotics build-out (see Market Insights).",
         "stats": [
           {
-            "v": "$200.63",
+            "v": "$202.12",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "+37.3%",
+            "v": "+38.3%",
             "l": "YTD",
             "dir": "up"
           },
@@ -713,71 +641,19 @@
         ],
         "items": [
           {
-            "headline": "Hsbc Holdings PLC Sells 23,734 Shares of Regal Rexnord Corporation $RRX - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN2ZtOWdZaURoZ3NfNEtJVGtGT2pRM2lNRmdwOTNYWDYtdmVXcWRRQnU1NEQzdUp1eWRJUlRLbXFqVVE4ZXBjYWt4REVJQ2dYWW9qVmNpQkI3ODhXZjNvd3NWZHFRTkhvTDEzblZwRDF1cm1qTXoxUm9ybXJ6QkRPekhBNDVIc1V1cjdkRUhuTXJ6M2Q3SThYNm1zWlY2dS1EczN3V216UDZnal8zcU84aUFJTmV6MXZaVWIwRndRazdpOVBEaHBNWXBR?oc=5"
-          },
-          {
-            "headline": "RBLT5804763 Bond Risk Profile - TradingView.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12UG15MFpvYTR2NU44UW9GUDNGLUFTd01lZk5JVG16cFFod1lvdUUxWUxRR3NBdWExYTJrdFJNUWZiUGZ2RjRJaXpIc2pQVDNYTFYycXFMOHJHLURtbmRHNXIxNlJhVl9WeTEwU0FSTnBadU5ZMi1Z?oc=5"
-          },
-          {
-            "headline": "RRX|Regal Rexnord Corp|Price:187.410|Chg%:-15.520 - TradingKey.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwWS1lRVQyUzMzVFNpLXJna2ktVjZUY0I3TGhSdHhHNUo0U1lUOGQzUHNlNHExNXNkMlVaZW1kLVpiY0ZESVZUSXU2VWcwU1JhcmtkMWd4bFpZOC1aMnRLWmQzLVlqZ0d1Nl9SRg?oc=5"
-          },
-          {
-            "headline": "Regal Rexnord Corporation (NYSE:RRX) Receives Average Recommendation of \"Moderate Buy\" from Analysts - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdnd0WVFCTWNwdXVkVExxT21kajhodk1OWmY0bjZwQ0Eyd1JYaWVqWnVMaGduQUVYb2FILVU2WnU1UThseXRvckxEYzdZdWlOdWVwb2JVV2E5V080U0dETHUzcWFqS1dURG9NQlAxNVdJX0ZDZlpod2xKaUdwM3ZpNFE1N29rS19Jc0h1TnZCdnUwOFpQSm96eUt4N0g0UjJoY1FDVEZOODdtTEdtN1djdVNyRzFYaUdTdUl4MEx1MjlWalNrOG5xaEltMjlzdm05b1VDLTRZc0J0bTQtZzFsclRYUQ?oc=5"
-          },
-          {
-            "headline": "Maverick Capital Ltd. Makes New $1.38 Million Investment in Regal Rexnord Corporation $RRX - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY0RDd0ZsRk12eHB3U1hNZFlldVAwYW5VZlBMQWxzRmdQVlZncy1lVTZVYkRaS0JNQWJHbUdKYU15SGJLbkxFMmV4eWxIQjhWMWt6RU9RM1VjMmtwblA0bm9kMy1Xc2s2aTdzbHRGeVg3anNKY0hxTlg0QS1MckxFZkx3QkVoM2VuZHJpX1FsMlRuOUtkdUlBVXdWOHNqRkxrRlRSVUVqVDR1ZDl6ZnE4S2xEeU4zVHNsa20tSVVqelJsQ3BrRzhwbkE4UWJsVDdjZjY1VXB0VG1QNi1zLVBaNw?oc=5"
+            "headline": "Regal Rexnord (RRX) Stock May Be Fairly Priced As Cash Flow Holds Up.",
+            "body": "Regal Rexnord has delivered a 58.8% return over the past five years, yet its current checks paint a picture of a stock that looks roughly in line with its Discounted Cash Flow (DCF) intrinsic value ...",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/regal-rexnord-rrx-stock-may-170731513.html"
           }
         ],
         "sources": [
           {
-            "label": "News — Hsbc Holdings PLC Sells 23,734 Shares of Regal Rexnord Corpo",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNN2ZtOWdZaURoZ3NfNEtJVGtGT2pRM2lNRmdwOTNYWDYtdmVXcWRRQnU1NEQzdUp1eWRJUlRLbXFqVVE4ZXBjYWt4REVJQ2dYWW9qVmNpQkI3ODhXZjNvd3NWZHFRTkhvTDEzblZwRDF1cm1qTXoxUm9ybXJ6QkRPekhBNDVIc1V1cjdkRUhuTXJ6M2Q3SThYNm1zWlY2dS1EczN3V216UDZnal8zcU84aUFJTmV6MXZaVWIwRndRazdpOVBEaHBNWXBR?oc=5"
+            "label": "finance.yahoo.com, Regal Rexnord (RRX) Stock May Be Fairly Priced As Cash Flow ",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/regal-rexnord-rrx-stock-may-170731513.html"
           },
           {
-            "label": "News — RBLT5804763 Bond Risk Profile - TradingView",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12UG15MFpvYTR2NU44UW9GUDNGLUFTd01lZk5JVG16cFFod1lvdUUxWUxRR3NBdWExYTJrdFJNUWZiUGZ2RjRJaXpIc2pQVDNYTFYycXFMOHJHLURtbmRHNXIxNlJhVl9WeTEwU0FSTnBadU5ZMi1Z?oc=5"
-          },
-          {
-            "label": "News — RRX|Regal Rexnord Corp|Price:187.410|Chg%:-15.520 - TradingK",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwWS1lRVQyUzMzVFNpLXJna2ktVjZUY0I3TGhSdHhHNUo0U1lUOGQzUHNlNHExNXNkMlVaZW1kLVpiY0ZESVZUSXU2VWcwU1JhcmtkMWd4bFpZOC1aMnRLWmQzLVlqZ0d1Nl9SRg?oc=5"
-          },
-          {
-            "label": "News — Regal Rexnord Corporation (NYSE:RRX) Receives Average Recomm",
-            "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdnd0WVFCTWNwdXVkVExxT21kajhodk1OWmY0bjZwQ0Eyd1JYaWVqWnVMaGduQUVYb2FILVU2WnU1UThseXRvckxEYzdZdWlOdWVwb2JVV2E5V080U0dETHUzcWFqS1dURG9NQlAxNVdJX0ZDZlpod2xKaUdwM3ZpNFE1N29rS19Jc0h1TnZCdnUwOFpQSm96eUt4N0g0UjJoY1FDVEZOODdtTEdtN1djdVNyRzFYaUdTdUl4MEx1MjlWalNrOG5xaEltMjlzdm05b1VDLTRZc0J0bTQtZzFsclRYUQ?oc=5"
-          },
-          {
-            "label": "News — Maverick Capital Ltd. Makes New $1.38 Million Investment in ",
-            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY0RDd0ZsRk12eHB3U1hNZFlldVAwYW5VZlBMQWxzRmdQVlZncy1lVTZVYkRaS0JNQWJHbUdKYU15SGJLbkxFMmV4eWxIQjhWMWt6RU9RM1VjMmtwblA0bm9kMy1Xc2s2aTdzbHRGeVg3anNKY0hxTlg0QS1MckxFZkx3QkVoM2VuZHJpX1FsMlRuOUtkdUlBVXdWOHNqRkxrRlRSVUVqVDR1ZDl6ZnE4S2xEeU4zVHNsa20tSVVqelJsQ3BrRzhwbkE4UWJsVDdjZjY1VXB0VG1QNi1zLVBaNw?oc=5"
-          },
-          {
-            "label": "News — Castleark Management LLC Makes New $3.63 Million Investment ",
-            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS095QzFTTGJKc29BMUQyT3ZIU1NEVWdCaHpDVmNfTXRPRnhwcl9HanhwczhOMWJqY0FOaFpuUS0wNTdmbF8tRTE5cWNCWmJRTG9SWmlySGFCNS1LdXh5NHVVOTJwb3NweXpoRWVjSEZvc1NsVjF0Q1JCMUpLNzhmSUVGQV9hZkpiQzR3WWRTcmtuUk1leFcxVVBFbEtTaWw1eVRaVDM3TldmZUJFdFZtQnozSmM2LWZoUU0zSGV5a2h0bWlheGRJTjRKS3VyTXRnQ3FNRXRNRUs3Q2NLcjB6THJpaE9kdw?oc=5"
-          },
-          {
-            "label": "News — RBLT5805486 Bond Coupon Profile — Rate & Payments - TradingV",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NYmtFaGp4TTBXZ3Q5ZGVVM2ZTLVY0RzhVd01JcjM5eDhkZTd4TzUzaXBZZWpuTFIwQXp2SWdYNnNUeE5ZUm1hcFZpaGlDbjFhRkpPOVBOQy02U1ZDVDdGRjBPdVdMa3dGbU1qVVJiUy1jd2k1c1k5MQ?oc=5"
-          },
-          {
-            "label": "News — Entropy Technologies LP Acquires 4,990 Shares of Regal Rexno",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRFg4OU5MV29GUWhTSEhXWDJCRDNFRU5OdUp2azVJZUtKRExjbEJieERjMXU2V3JTci04eTM1Vk5iTVFkcm1xT1djbHp4NzhETUt3MWRMamNLUXJyTFVBdWlwN0hwdzQ3aEt1SmdWUmI5Rk5ZUGdFY3ROWUo3VWVPOUpzY25jWUI5Q2YzcTYwbnJyUnB6OHlLaTFOS3ZXb0ZmdnFQaWVneTdPVHNmN1AtQncxRTVWbmpxTjZHbUtBZlMtVU1KY0FmMDU1ckNiZ1NNTXhZbQ?oc=5"
-          },
-          {
-            "label": "Market data — RRX",
+            "label": "Market data, RRX",
             "url": "https://finance.yahoo.com/quote/RRX/"
           }
         ]
@@ -785,15 +661,15 @@
     },
     "vulcan-materials": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Vulcan Materials across news and SEC filings.",
+        "glance": "Vulcan beat and reaffirmed: second-quarter revenue came in at $2.16 billion (up from $2.10 billion a year ago) with earnings ahead of estimates, as pricing gains, higher aggregates volumes, and cost control offset energy inflation. The company reaffirmed its 2026 outlook on infrastructure-driven demand and filed both its 10-Q and 8-K on July 29.",
         "stats": [
           {
-            "v": "$276.28",
+            "v": "$272.37",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "-5.6%",
+            "v": "-6.9%",
             "l": "YTD",
             "dir": "down"
           },
@@ -811,77 +687,77 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1396009/000162828026050486/vmc-20260630.htm"
           },
           {
-            "headline": "Vulcan Materials: 8-K filed 2026-07-29 — items 2.02,9.01.",
+            "headline": "Vulcan Materials: 8-K filed 2026-07-29, items 2.02,9.01.",
             "body": "Official filing published on SEC EDGAR.",
             "ctx": "Primary-source disclosure.",
             "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126029958/ef20078928_8k.htm"
           },
           {
-            "headline": "VMC5942784 Bond Risk Profile - TradingView.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6dTRsYWFYMk5ib1p4RU9teWZWeFI1ODFtSk1od3lTRUxjVFFXR3k5aTlPX2xSbkFva1R5d1RtNHM3dVNZc2lMSFRjQU9TUnNwV0tMVmtuTmxrRjViQnl4dmRwclJiWDlveVpjNzE4OEFBQnJnQUE?oc=5"
+            "headline": "Vulcan Materials Reaffirms 2026 Outlook as Infrastructure Projects Drive Aggregates Growth.",
+            "body": "The Birmingham, Alabama-based company, the largest producer of construction aggregates in the United States, reported second-quarter revenue of $2.16 billion, up from $2.10 billion in the same period ...",
+            "ctx": "Via cceonlinenews.com.",
+            "url": "https://cceonlinenews.com/investment-finance/vulcan-materials-q2-reaffirms-2026-outlook/"
           },
           {
-            "headline": "Vulcan Materials Reports Q2 2026 Results: Record Aggregates Profit, Strong Outlook, and Strategic Growth Actions - Minichart.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTXJvQ0RQWElxMkh0ZENHbkxadWFRMEJWNUNXWklEcWRGSzVJTURoUkZfeDZLLUtpOGFDZzEwVGtYSmdTcTdKMEZCZXFWSTN4ZzZGUUFSaGhZemFBQ2J4Nm9xNTFVNzdYdFlEMkRSSTFrc21EMEpmbktwbEp1T1VSUmhicnZiZkt5RmliaExSVEZZbnlxanJVcjZoSFNJMEphNDlmMXFSWmdTOVlfLWF5ckxJTHpQVnFqOFVxY0Q3MGhUNkdBUVQ0QWpGTHA0NW1zQ3BpWWFZRWUzRE9tVGxIeF8xS2k?oc=5"
+            "headline": "Vulcan Materials Announces Q2 2026 Financial Results in SEC Filing.",
+            "body": "Comprehensive financial details and operational insights available in the company’s press release Vulcan Materials Company, a top U.S. producer of construction aggregates, disclosed its second quarter ...",
+            "ctx": "Via kalkinemedia.com.",
+            "url": "https://kalkinemedia.com/us/news/announcements/vulcan-materials-announces-q2-2026-financial-results-in-sec-filing"
           },
           {
-            "headline": "VMC5942784 Bond Coupon Profile — Rate & Payments - TradingView.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMRXlSOFppcW5fSHpxbldmZG5kcVVMOXMxS0pVSThUeDF0UExEeFRzS0VoT0lRMk5GbG1JeEs1aXlHaFRGWUl3c3JFa19qVXdvSVB3VkdDMTNYUDdEMjhLY2hiSV9FYVgzWFc0dEhXa3VFT2kxOG1B?oc=5"
+            "headline": "Vulcan Materials Q2 Earnings & Revenues Beat Estimates, Stock Up.",
+            "body": "VMC's second-quarter 2026 earnings and revenues beat estimates as pricing gains, higher aggregates volumes and cost control help offset energy inflation.",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/vulcan-materials-q2-earnings-revenues-142700021.html"
           }
         ],
         "sources": [
           {
-            "label": "SEC EDGAR — 10-Q",
+            "label": "SEC EDGAR, 10-Q",
             "url": "https://www.sec.gov/Archives/edgar/data/1396009/000162828026050486/vmc-20260630.htm"
           },
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126029958/ef20078928_8k.htm"
           },
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126029775/ef20078709_8k.htm"
           },
           {
-            "label": "News — VMC5942784 Bond Risk Profile - TradingView",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6dTRsYWFYMk5ib1p4RU9teWZWeFI1ODFtSk1od3lTRUxjVFFXR3k5aTlPX2xSbkFva1R5d1RtNHM3dVNZc2lMSFRjQU9TUnNwV0tMVmtuTmxrRjViQnl4dmRwclJiWDlveVpjNzE4OEFBQnJnQUE?oc=5"
+            "label": "cceonlinenews.com, Vulcan Materials Reaffirms 2026 Outlook as Infrastructure Pr",
+            "url": "https://cceonlinenews.com/investment-finance/vulcan-materials-q2-reaffirms-2026-outlook/"
           },
           {
-            "label": "News — Vulcan Materials Reports Q2 2026 Results: Record Aggregates ",
-            "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTXJvQ0RQWElxMkh0ZENHbkxadWFRMEJWNUNXWklEcWRGSzVJTURoUkZfeDZLLUtpOGFDZzEwVGtYSmdTcTdKMEZCZXFWSTN4ZzZGUUFSaGhZemFBQ2J4Nm9xNTFVNzdYdFlEMkRSSTFrc21EMEpmbktwbEp1T1VSUmhicnZiZkt5RmliaExSVEZZbnlxanJVcjZoSFNJMEphNDlmMXFSWmdTOVlfLWF5ckxJTHpQVnFqOFVxY0Q3MGhUNkdBUVQ0QWpGTHA0NW1zQ3BpWWFZRWUzRE9tVGxIeF8xS2k?oc=5"
+            "label": "kalkinemedia.com, Vulcan Materials Announces Q2 2026 Financial Results in SEC ",
+            "url": "https://kalkinemedia.com/us/news/announcements/vulcan-materials-announces-q2-2026-financial-results-in-sec-filing"
           },
           {
-            "label": "News — VMC5942784 Bond Coupon Profile — Rate & Payments - TradingVi",
-            "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMRXlSOFppcW5fSHpxbldmZG5kcVVMOXMxS0pVSThUeDF0UExEeFRzS0VoT0lRMk5GbG1JeEs1aXlHaFRGWUl3c3JFa19qVXdvSVB3VkdDMTNYUDdEMjhLY2hiSV9FYVgzWFc0dEhXa3VFT2kxOG1B?oc=5"
+            "label": "finance.yahoo.com, Vulcan Materials Q2 Earnings & Revenues Beat Estimates, Stoc",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/vulcan-materials-q2-earnings-revenues-142700021.html"
           },
           {
-            "label": "News — Vulcan Materials Announces Q2 2026 Financial Results in SEC ",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOElLV21SS0JXNmlvWVZTNjA3NVlEcG9JZHZ3cXRURlNVX0MtU2xwZlRIZmJ3WkZPSE9Ebi15dXBTSE5RbkNJc1ZpZ3pZOFd3cEZwSmhjZHFSc21UckVrQm9USEMxNXZFWmJoZDdtTDBoWXI3LWdITDJHNW5mWG9uWkpoMUJPY1paNDdSVkdTZ3ljdmdtTDdUZmFTd2Q0dFVLR3dHUHEyb1ZHbE42Njg5MU9qSQ?oc=5"
+            "label": "marketwatch.com, Vulcan Materials 2Q Sales Rise on Aggregates Growth",
+            "url": "https://www.marketwatch.com/story/vulcan-materials-2q-sales-rise-on-aggregates-growth-2306b24e"
           },
           {
-            "label": "News — Vulcan Materials Q2 Adjusted Earnings, Revenue Increase - ma",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTHpDR0ZRS2FBYmZnTk9RV09rb2FwNFZ6b3g5c2JLZC0zb1EyTUVVLWhQOEdJZ0s2Z0Q0Vk1VSS1nVHlxeEYwTUp1ZVA4NkRlTDdFNDdoNWV2MnNnTmc4d3ZKV2J5WC00bVlRMmJDV3VpdGY2NGp2ek9fcHF4ZGxKQzFzaWZ3UWN5OEp3NmhpN2xZOFFRVFdCdlF3eU91OUJTck05UnVKUUtNa3M?oc=5"
+            "label": "finance.yahoo.com, Vulcan Materials Co (VMC) Q2 2026 Earnings Call Highlights: ",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/vulcan-materials-co-vmc-q2-210525175.html"
           },
           {
-            "label": "News — Vulcan Materials Company Reports Earnings Results for the Se",
-            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOajdTSDV3QktySnNtY1V4RHhOQ3RsRHVtcmt3OTRMSS10ME9LQ0FtLWhkaWVlb1YzQkJWSWRqUnhPRlRzX1I5UUxJOUotamY4TEdkazRlYTdmMGl2MWVsZW1UQlRaTDNFZkdMMy1GNEVJUC1nc1VqMVlBbnQ3bzQ5a3BPQ0pkVDkyRDRlanRjZGhLY0c1THpfRUx5ZmdESlVObURzbjM1M1YxNFFra2o1VTdXdGpRNFB4bWVfNmI1VzY2eWJmOG9PQk1ZZTJrTXFIVGRWZVhZbm5hZUNXOHc0Qkd0aUlFaHBy?oc=5"
+            "label": "msn.com, Vulcan Materials tops estimates as pricing offsets weather, ",
+            "url": "https://www.msn.com/en-us/money/economy/vulcan-materials-tops-estimates-as-pricing-offsets-weather-energy-costs/ar-AA28YSUd"
           },
           {
-            "label": "News — Vulcan Materials (NYSE: VMC) posts Q2 2026 revenue of $2.16B",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONXpTOGhoQmJxM3JLNkx5TTJyZ0hpR1B3aEZ1SjZBU0pUS0FiOFE1eDl6RldhVUtZVUN5SFQxVzFXbHNHLXF2T0ZtOTdHUmZ5RnJ5c3BnQ0VsLVRUU2NOM05FYkdkbVJMc3VTelpwbTRoT1EyNW9ma0RNTzJmUTBlQlowbGhGMXh3LUVGNGVpaWlZMlJodllNZjBEYm1zUzEzb3BacWMxZ3lBeW9HUkFrMw?oc=5"
+            "label": "msn.com, Vulcan Materials beats quarterly profit estimates on strong ",
+            "url": "https://www.msn.com/en-us/money/other/vulcan-materials-beats-quarterly-profit-estimates-on-strong-construction-materials-demand/ar-AA28Z4rs"
           },
           {
-            "label": "News — Earnings Flash (VMC) Vulcan Materials Company Posts Q2 Adjus",
-            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOU2dpR2ViMnNWR01rZm5NeUpCdF9UZkpYc1k2UmV1OFJfTS1pUnNPanNnWnlRMUM5V2xybEgxakMzMlBHWTlfTTBzdXFXT3VyY3gwTVR0NUFaY3l0dVBpajRpOWlVc3lDdmszcEdoLWFYOFVKT29neF9iYkxmQnpPaDVxZnVIcmYweEUwTG44MFJ5ckRwdGQ3MXZiOUpJNEpSWktiQnJqbDZaZjROQ2t6OEZYWDg0WVM4OGFIZkhuZjJSYnJKMmhwTHljUjVsMHJtdjk4M3VKQ0RFZ1FIWXoxWkl3?oc=5"
+            "label": "devdiscourse.com, Mexico's Quarrel with Vulcan Materials: A $1.7 Billion Arbit",
+            "url": "https://www.devdiscourse.com/article/law-order/3956413-mexicos-quarrel-with-vulcan-materials-a-17-billion-arbitration-clash"
           },
           {
-            "label": "Market data — VMC",
+            "label": "Market data, VMC",
             "url": "https://finance.yahoo.com/quote/VMC/"
           }
         ]
@@ -889,15 +765,15 @@
     },
     "loandepot": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for loanDepot across news.",
+        "glance": "One real strategic move this week: loanDepot picked Miami for a new corporate center opening September 2026, supporting technology, marketing, recruiting, and mortgage fulfillment across channels. The backdrop remains harsh, shares trade around $1.01, down over 50% year to date, which makes cost-conscious footprint decisions like this one the story to follow.",
         "stats": [
           {
-            "v": "$0.95",
+            "v": "$1.01",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "-54.4%",
+            "v": "-51.7%",
             "l": "YTD",
             "dir": "down"
           },
@@ -909,71 +785,59 @@
         ],
         "items": [
           {
-            "headline": "loanDepot Inc (LDI) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbjJNME80TnNzcks2VXU3ck9kSm1hYXlmdUtXc2tKSmRpcWlzemdnMGhOMGZOVi1MYmNvRkdLUGpzbkFkdjd5eVhLQnRaSmZUWHlBZmY0NHRlN2ZRSTB0a085Z2RSZw?oc=5"
+            "headline": "'Come To NEXA': CEO Publicly Courts loanDepot Loan Officers.",
+            "body": "Mike Kortas calls loanDepot a \"sinking ship\" in social media post while promoting NEXA's recruiting package as the two companies remain embroiled in litigation The increasingly public rivalry between ...",
+            "ctx": "Via nationalmortgageprofessional.com.",
+            "url": "https://nationalmortgageprofessional.com/news/come-nexa-ceo-publicly-courts-loandepot-loan-officers"
           },
           {
-            "headline": "loanDepot Inc (LDI) Institutional Confidence - TradingKey.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlZEVWeHplVzFaLXFqTTg4U2VKMDI5QkIyOG9WOXdSNlFMdGR2NUh5N3ZnZHVCWkhfUXBMbnlFaXc5ZE9QaUxiUS0wQ2RieU9OMnQyU3dOWVlIRzNHcWh2bEhBUHFzUQ?oc=5"
-          },
-          {
-            "headline": "loanDepot Inc (LDI) Risk Assessment: Volatility, Financial Risk & Investment Risk - TradingKey.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwNXFyZ19XN19ZTHlsb0VZa1lUU1U1VWNMQmZGYU9MaXZuWkttSF9CWGt0bFg1Q3YwYVdRVVdhaHphUTMtQXktUTNyazIwdzlsYVZMb3JMbjJIcW1FOXpncVZtZXlLck5vTDRwZg?oc=5"
-          },
-          {
-            "headline": "loanDepot Inc (LDI) Valuation: PE, PB & Fair Value Analysis - TradingKey.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96S3ppUjZLSjVLQ2MxMXJnREpKQ2ZJaFJUbE8wMGF6eDVrbThyekllaEhNU2VuQWdmb0dVcHh6MEFjY0ZSQVRlT0M5NDc0Z0M5N0MyQl90Wm1helVoRnZZQkhJdzZhZTJIUi1ZbEhzOTg?oc=5"
+            "headline": "loanDepot Expands Corporate Footprint with New Miami Corporate Center.",
+            "body": "(NYSE: LDI) (together with its subsidiaries, \"loanDepot\" or the \"Company\") today announced plans to open a new corporate center in Miami, expanding its national footprint and establishing a strategic ...",
+            "ctx": "Via tmcnet.com.",
+            "url": "https://www.tmcnet.com/usubmit/2026/07/28/10421533.htm"
           },
           {
             "headline": "LDI Looks 60.3% Undervalued on GF Value™ Amid Operational Expans - GuruFocus.",
             "body": "Reported by the press on 2026-07-28.",
             "ctx": "",
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ3IxUllhSlVpT01feXJ3ZG9WUl9FWURiS19iMGZJWTYtZlJNQ3pLUmdCWWxUaUJRRHA0c0lPSHhrSVBaVUN1eElOd2dZTHVsXy1DLVhSalAwY0hiZ0JJQWVJQno1SlE5amI5YUFuMWxCaDByU0hMTkhNZ0RKM05ranRSVi02NnpZRzJrQ0ZFTlI0eXFvanRTWnpjeGYzTkFueGo3Q1RR?oc=5"
+          },
+          {
+            "headline": "loanDepot to open Miami corporate center in September - Investing.com.",
+            "body": "Reported by the press on 2026-07-28.",
+            "ctx": "",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWVA4TjhLODktRzQtUmdwUzR4UDJ5QXRLbU4takpLTmRuVEtDdG9EUXBKclN1eDUtekNvcGhmbEJzbzlNOWFGclZPMFN1b1hmeHJnNVExeUkwSTRPT2kxYlB0SVZJTUNYajd4b2ZjRnhHS1pBRk9nSTcxaDgyNmx0c29WN2FUb1phWUt0bi1KMTNKM2FlNERUVUFUV1MwOWo1S1diZUhqeGJhX0pmTm9V?oc=5"
+          },
+          {
+            "headline": "LoanDepot Expands to Miami - Orange County Business Journal.",
+            "body": "Reported by the press on 2026-07-28.",
+            "ctx": "",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jbm1JT1drZWNwdW1OV1h1a1RSM1cxMF83c0xrM2Z2Z0NZUUlXbGNNWHRqRDR1NERod3pFRlphTTZoYTF6dTM2UnRzdVRNOF9VUHl2M3VVNS1XS29Va01UTFdCYldRUGM?oc=5"
           }
         ],
         "sources": [
           {
-            "label": "News — loanDepot Inc (LDI) Technical Analysis: Support, Resistance,",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbjJNME80TnNzcks2VXU3ck9kSm1hYXlmdUtXc2tKSmRpcWlzemdnMGhOMGZOVi1MYmNvRkdLUGpzbkFkdjd5eVhLQnRaSmZUWHlBZmY0NHRlN2ZRSTB0a085Z2RSZw?oc=5"
+            "label": "nationalmortgageprofessional.com, 'Come To NEXA': CEO Publicly Courts loanDepot Loan Officers",
+            "url": "https://nationalmortgageprofessional.com/news/come-nexa-ceo-publicly-courts-loandepot-loan-officers"
           },
           {
-            "label": "News — loanDepot Inc (LDI) Institutional Confidence - TradingKey",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlZEVWeHplVzFaLXFqTTg4U2VKMDI5QkIyOG9WOXdSNlFMdGR2NUh5N3ZnZHVCWkhfUXBMbnlFaXc5ZE9QaUxiUS0wQ2RieU9OMnQyU3dOWVlIRzNHcWh2bEhBUHFzUQ?oc=5"
+            "label": "tmcnet.com, loanDepot Expands Corporate Footprint with New Miami Corpora",
+            "url": "https://www.tmcnet.com/usubmit/2026/07/28/10421533.htm"
           },
           {
-            "label": "News — loanDepot Inc (LDI) Risk Assessment: Volatility, Financial R",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwNXFyZ19XN19ZTHlsb0VZa1lUU1U1VWNMQmZGYU9MaXZuWkttSF9CWGt0bFg1Q3YwYVdRVVdhaHphUTMtQXktUTNyazIwdzlsYVZMb3JMbjJIcW1FOXpncVZtZXlLck5vTDRwZg?oc=5"
-          },
-          {
-            "label": "News — loanDepot Inc (LDI) Valuation: PE, PB & Fair Value Analysis ",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96S3ppUjZLSjVLQ2MxMXJnREpKQ2ZJaFJUbE8wMGF6eDVrbThyekllaEhNU2VuQWdmb0dVcHh6MEFjY0ZSQVRlT0M5NDc0Z0M5N0MyQl90Wm1helVoRnZZQkhJdzZhZTJIUi1ZbEhzOTg?oc=5"
-          },
-          {
-            "label": "News — LDI Looks 60.3% Undervalued on GF Value™ Amid Operational Ex",
+            "label": "News, LDI Looks 60.3% Undervalued on GF Value™ Amid Operational Ex",
             "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ3IxUllhSlVpT01feXJ3ZG9WUl9FWURiS19iMGZJWTYtZlJNQ3pLUmdCWWxUaUJRRHA0c0lPSHhrSVBaVUN1eElOd2dZTHVsXy1DLVhSalAwY0hiZ0JJQWVJQno1SlE5amI5YUFuMWxCaDByU0hMTkhNZ0RKM05ranRSVi02NnpZRzJrQ0ZFTlI0eXFvanRTWnpjeGYzTkFueGo3Q1RR?oc=5"
           },
           {
-            "label": "News — loanDepot Expands Corporate Footprint with New Miami Corpora",
-            "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPdXhycHZJOHRJRHh6amgzcUJjMDVNcDR5bU1jc296UnVkMHc3SFV2UjdfcnBVTFQ3c1U5YkRjWEtZOExwUEVBbzNzVnAxeTFQNnFvcjd5blBzZnlRN0hWeERPNXJ4SU1qcGJpM2dTY0RHN2Zual9uakhIRTkzNDJTTUVZSG02b19ESHJwTGt4SjI1dzdMR1l1VWw0SWZCT2I0TnpTZHlON2kzQzJlaTRJdUo4OUlDRVp1dnVtcFBBYzJEU2pIckJMSHYwdngzZHplcHR2cDQ0WTREcmJjVXBDNDd6bUEyVnBwQmJPa0pkeURhVVZYMHpINUpTWGtmMTlfbWZkVW41RFhjRUZnWUE?oc=5"
+            "label": "News, loanDepot to open Miami corporate center in September - Inve",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWVA4TjhLODktRzQtUmdwUzR4UDJ5QXRLbU4takpLTmRuVEtDdG9EUXBKclN1eDUtekNvcGhmbEJzbzlNOWFGclZPMFN1b1hmeHJnNVExeUkwSTRPT2kxYlB0SVZJTUNYajd4b2ZjRnhHS1pBRk9nSTcxaDgyNmx0c29WN2FUb1phWUt0bi1KMTNKM2FlNERUVUFUV1MwOWo1S1diZUhqeGJhX0pmTm9V?oc=5"
           },
           {
-            "label": "News — Loandepot Expands Corporate Footprint with New Miami Corpora",
-            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVjNtYWhkMmpJdnB5R0ZyYlk4YkZuQzU2czBxYTQzZjg1SXV5ZklNOHBXcUlSY1dXdXMzd3JnQ0dkN1EzUENURTcxaVJ0Tk1fQkxOdzMtN0ZKS1lhQW90S1VuNzVsekc0cmV3UzRjWW00M2tTWVBsWEFHcG1lMDdJX2lwRkdyVEJ5R19nMmRyWXk3QXhOalBWWXZyWEdvbVNkeXVybHdjTndCOU9NenEtZTc4T2p0WlFBSm5DY0ZIQQ?oc=5"
+            "label": "News, LoanDepot Expands to Miami - Orange County Business Journal",
+            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jbm1JT1drZWNwdW1OV1h1a1RSM1cxMF83c0xrM2Z2Z0NZUUlXbGNNWHRqRDR1NERod3pFRlphTTZoYTF6dTM2UnRzdVRNOF9VUHl2M3VVNS1XS29Va01UTFdCYldRUGM?oc=5"
           },
           {
-            "label": "News — loanDepot to open Miami corporate center in September By Inv",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMGJKbjZlUm1XM0x6ZzVzdEFwTVdjM2J3WkdWYXUwelJRZjE1a1g4QlFJV0Zud3VuNTJYVjBVMEhVcVJZSVExbHdVckNfaFNQWnBCUzZKNjZaR01nLUlPWTZCUldWTUlxTzQ1SVFrXzhHYkdfLUpXSmxCV2dKU3lIb0N3RnZ2N3B0d2I5cS1Vbk56RmQ3SXJ4Y2lwSEcxWC15eG9sNW54ckNOQm5NYWN3RW1scHdFVmRsM2ttalJpaGs5QV96?oc=5"
-          },
-          {
-            "label": "Market data — LDI",
+            "label": "Market data, LDI",
             "url": "https://finance.yahoo.com/quote/LDI/"
           }
         ]
@@ -981,15 +845,15 @@
     },
     "rockwell-automation": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Rockwell Automation across news.",
+        "glance": "An expansion week for Rockwell: New Berlin's council approved zoning and land use for its proposed $200M+, 830,000-square-foot facility (with a possible 425,000-square-foot second phase) despite neighbor opposition, and Luminus selected Rockwell's SecureOT platform for industrial-cybersecurity resilience across its energy operations. With Street previews building toward the Q3 print, the stock sits near its 52-week high, +19% year to date.",
         "stats": [
           {
-            "v": "$473.90",
+            "v": "$473.24",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "+18.9%",
+            "v": "+18.7%",
             "l": "YTD",
             "dir": "up"
           },
@@ -1001,71 +865,71 @@
         ],
         "items": [
           {
-            "headline": "Healthcare of Ontario Pension Plan Trust Fund Has $5.15 Million Stock Holdings in Rockwell Automation, Inc. $ROK - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTk1VVmc3dkF1NTdkeVFOVXpPRmZwbGUxVVl6aHo4LUpkVDAtTzlYWG80S0haOS1WMnlRaFh3WFBwaEkzbXJuMmw1QlhVWFpneUxJRURBSkFsV1FGR2JUazhSREd4Znd4MUNFbTJ5M01TRUxINGlkRFFMZU5INnNEalp5MTI2WTU5QUNNQ0tJcEZCc1pNZ05RSHlYN0p1c19FUlFFQmNVNEM4N2hFZFpoYk1LYWJwVDVaME5jSVVpblh2MXpfRVNFSjhGWHVhTkVBT3huLVJSZDdlS3lHS3FRcjNjQWcxY1IweTA4R3lwZV9hN3JzaTBuOU1KWDU?oc=5"
+            "headline": "Seeking Clues to Rockwell Automation (ROK) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics.",
+            "body": "Looking beyond Wall Street's top-and-bottom-line estimate forecasts for Rockwell Automation (ROK), delve into some of its key metrics to gain a deeper insight into the company's potential performance ...",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/seeking-clues-rockwell-automation-rok-131503129.html"
           },
           {
-            "headline": "Amundi Raises Stock Holdings in Rockwell Automation, Inc. $ROK - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ25uZHpsQXpSV0xIZzIzVnpibGhRb3g2eFhVLXl4UWN1ZGlOQ0Y4SXR0MW9PQ3c1ZFlTN1JhbXlmcGVUd29yenBnaDhDZHNNZzZGN0FyVDlMTWpzMU9NUTV0S0UzTkhiYXhOUXBzUzFrbHdULWRubE5reHR0NjU5YXFaUi00TXhWVmMzamljUnZRb083OWFoa2c0Y0ZETTJvOURSUUUySkxVaERwRGlwZHF6eDZBZE5DUFRzag?oc=5"
+            "headline": "New Berlin council approves Rockwell Automation's $200M plant despite neighbor opposition.",
+            "body": "Rockwell Automation's proposed $200 million-plus facility in New Berlin won votes on key matters that would allow the project to proceed.",
+            "ctx": "Via bizjournals.com.",
+            "url": "https://www.bizjournals.com/milwaukee/news/2026/07/29/rockwell-gets-land-use-zoning-changes-for-project.html"
           },
           {
-            "headline": "Rockwell Automation Inc (ROK) Risk Assessment: Volatility, Financial Risk & Investment Risk - TradingKey.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ENDI4UzUxempPWEt2QU9mMWllT01xYTU0Tm1kSDlyTUdMSEcwckpMVGFoRTdFcDRaY0hVQ05xdzZXNHlDcVBLVUo1V0FlRjVXZ19Vc0hNVFlvaklQcElmbzlDNUkxamdqUHZ1aA?oc=5"
+            "headline": "New Berlin OKs zoning and land use for new Rockwell Automation site.",
+            "body": "Rockwell Automation's plans to build an 830,000-square-foot facility, with a possible 425,000-square-foot second phase, in New Berlin is one step closer to reality.",
+            "ctx": "Via msn.com.",
+            "url": "https://www.msn.com/en-us/news/us/new-berlin-oks-zoning-and-land-use-for-new-rockwell-automation-site/ar-AA28Vgjq"
           },
           {
-            "headline": "Rockwell Automation and Augury Partner to Improve Industrial Performance with Agentic AI - pandct.com.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcUV4VDA2dGdsd2pWcXk2VHpmRWpzR3B0MXhYMzM5Rlh6TUs0TVAwc05uZGczYXBjbUtOcmFROGg1cmFMSERYUTZhaFVFU0s4Y1ZTNmF1Zlp0NGlleGVvY3FQeF96QjJ6UVlqdjAwRUxkcFZUTTliZzd1LWN2SW1fbFJhYkdqQmZ0YUVQMHdleWJPc09jZHlndW1vYlFuVE5NRl9rUlRXaS0tUFZKT3p5SXEzLXBITzg?oc=5"
+            "headline": "Honeywell vs. Rockwell: Which industrial automation stock has greater upside?.",
+            "body": "Honeywell Technologies HON and Rockwell Automation, Inc. ROK are two familiar names operating in the industrial sector. As rivals, both companies compete in multiple industries with significant ...",
+            "ctx": "Via msn.com.",
+            "url": "https://www.msn.com/en-us/money/economy/honeywell-vs-rockwell-which-industrial-automation-stock-has-greater-upside/ar-AA28Sg3H"
           },
           {
-            "headline": "First Trust Advisors LP Purchases 12,643 Shares of Rockwell Automation, Inc. $ROK - marketbeat.com.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN0RMODRqaFVzb2tpeGZZbDM0WFB1WVN6dE03Y2wyTlFrYjdHcnZnZm9UX2d6eVB4cmoteE9BN3d3Slp3bDNEcUxHaEU5bE5KNWNNZUJwQzBVaTdPNUVCX2ZPNHF1ZDBNaTNtUDBDTWNPTnEtRHlvMW9iVnhVRG0zUVJSeVNEN01nWkVpaTB1Q3RzdHFqNWJXaVNqbUJTblduSkl3dU1wNGZzeVFHa2RxUnA2eVctNVhIMXU3TzlESnZqUzZqZlBQdHVOaThCZk9LdTJxcQ?oc=5"
+            "headline": "Rockwell Automation Announces Luminus Selects SecureOT Platform to Support Industrial Cybersecurity Resilience.",
+            "body": "The deployment will help strengthen operational technology visibility and risk management across a diverse energy production environment.",
+            "ctx": "Via automation.com.",
+            "url": "https://www.automation.com/article/rockwell-automation-luminus-secureot-platform-industrial-cybersecurity-resilience"
           }
         ],
         "sources": [
           {
-            "label": "News — Healthcare of Ontario Pension Plan Trust Fund Has $5.15 Mill",
-            "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTk1VVmc3dkF1NTdkeVFOVXpPRmZwbGUxVVl6aHo4LUpkVDAtTzlYWG80S0haOS1WMnlRaFh3WFBwaEkzbXJuMmw1QlhVWFpneUxJRURBSkFsV1FGR2JUazhSREd4Znd4MUNFbTJ5M01TRUxINGlkRFFMZU5INnNEalp5MTI2WTU5QUNNQ0tJcEZCc1pNZ05RSHlYN0p1c19FUlFFQmNVNEM4N2hFZFpoYk1LYWJwVDVaME5jSVVpblh2MXpfRVNFSjhGWHVhTkVBT3huLVJSZDdlS3lHS3FRcjNjQWcxY1IweTA4R3lwZV9hN3JzaTBuOU1KWDU?oc=5"
+            "label": "finance.yahoo.com, Seeking Clues to Rockwell Automation (ROK) Q3 Earnings? A Pe",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/seeking-clues-rockwell-automation-rok-131503129.html"
           },
           {
-            "label": "News — Amundi Raises Stock Holdings in Rockwell Automation, Inc. $R",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ25uZHpsQXpSV0xIZzIzVnpibGhRb3g2eFhVLXl4UWN1ZGlOQ0Y4SXR0MW9PQ3c1ZFlTN1JhbXlmcGVUd29yenBnaDhDZHNNZzZGN0FyVDlMTWpzMU9NUTV0S0UzTkhiYXhOUXBzUzFrbHdULWRubE5reHR0NjU5YXFaUi00TXhWVmMzamljUnZRb083OWFoa2c0Y0ZETTJvOURSUUUySkxVaERwRGlwZHF6eDZBZE5DUFRzag?oc=5"
+            "label": "bizjournals.com, New Berlin council approves Rockwell Automation's $200M plan",
+            "url": "https://www.bizjournals.com/milwaukee/news/2026/07/29/rockwell-gets-land-use-zoning-changes-for-project.html"
           },
           {
-            "label": "News — Rockwell Automation Inc (ROK) Risk Assessment: Volatility, F",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ENDI4UzUxempPWEt2QU9mMWllT01xYTU0Tm1kSDlyTUdMSEcwckpMVGFoRTdFcDRaY0hVQ05xdzZXNHlDcVBLVUo1V0FlRjVXZ19Vc0hNVFlvaklQcElmbzlDNUkxamdqUHZ1aA?oc=5"
+            "label": "msn.com, New Berlin OKs zoning and land use for new Rockwell Automati",
+            "url": "https://www.msn.com/en-us/news/us/new-berlin-oks-zoning-and-land-use-for-new-rockwell-automation-site/ar-AA28Vgjq"
           },
           {
-            "label": "News — Rockwell Automation and Augury Partner to Improve Industrial",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcUV4VDA2dGdsd2pWcXk2VHpmRWpzR3B0MXhYMzM5Rlh6TUs0TVAwc05uZGczYXBjbUtOcmFROGg1cmFMSERYUTZhaFVFU0s4Y1ZTNmF1Zlp0NGlleGVvY3FQeF96QjJ6UVlqdjAwRUxkcFZUTTliZzd1LWN2SW1fbFJhYkdqQmZ0YUVQMHdleWJPc09jZHlndW1vYlFuVE5NRl9rUlRXaS0tUFZKT3p5SXEzLXBITzg?oc=5"
+            "label": "msn.com, Honeywell vs. Rockwell: Which industrial automation stock ha",
+            "url": "https://www.msn.com/en-us/money/economy/honeywell-vs-rockwell-which-industrial-automation-stock-has-greater-upside/ar-AA28Sg3H"
           },
           {
-            "label": "News — First Trust Advisors LP Purchases 12,643 Shares of Rockwell ",
-            "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNN0RMODRqaFVzb2tpeGZZbDM0WFB1WVN6dE03Y2wyTlFrYjdHcnZnZm9UX2d6eVB4cmoteE9BN3d3Slp3bDNEcUxHaEU5bE5KNWNNZUJwQzBVaTdPNUVCX2ZPNHF1ZDBNaTNtUDBDTWNPTnEtRHlvMW9iVnhVRG0zUVJSeVNEN01nWkVpaTB1Q3RzdHFqNWJXaVNqbUJTblduSkl3dU1wNGZzeVFHa2RxUnA2eVctNVhIMXU3TzlESnZqUzZqZlBQdHVOaThCZk9LdTJxcQ?oc=5"
+            "label": "automation.com, Rockwell Automation Announces Luminus Selects SecureOT Platf",
+            "url": "https://www.automation.com/article/rockwell-automation-luminus-secureot-platform-industrial-cybersecurity-resilience"
           },
           {
-            "label": "News — Sei Investments Co. Sells 35,007 Shares of Rockwell Automati",
-            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaVZvdWZwMS1KTWprdWk3MWZiekhtcENoNXh6cTFHc2JpMXBnRVhkbXlKTWItVU5aQTFHem1jR3lla0pXd0YzbEg2d1pzTTVMRnlUOVF6Wjg3Vy1mdUxEc01qZmlPOUt0MzZ6Z2Z5X1BOZmNDeF96TU9zNk9QUG1IdEJDbURKcGllZGF4QzZLbDZqSzQxMWM1NWhCTFljVHAxMURsbm9mb3ZsS0Z3S1paY3F1NldMamdhbVo5WTFPUERIWmJwOVNBVQ?oc=5"
+            "label": "finance.yahoo.com, Rockwell Automation (ROK) Stock Looks Rich On Earnings But S",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/rockwell-automation-rok-stock-looks-221300350.html"
           },
           {
-            "label": "News — Land use, zoning changes approved for Rockwell Automation in",
+            "label": "News, Rockwell Automation and Augury Partner to Improve Industrial",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTM0ejNoRHQ4bmQ4YUc3YU9Xc1BIcFp5eHZRRG9BRE9aT0Y0cmxBYUFqWmhPWUhvM1Awd01UdVc1TC1ob3JnLWF5Q2dYOGpnT2pDeTRnTnNmUjQxdEpEOGR6bWx3SDNtZ2dqeXg5OG12cDh3NXc4eHFjOTVndU5BQUw3QmZOV1lpbkxVRE96T0w4bG5FXzJDQ1JBT3BDbEZfQV83YkJqSVVPanhXUk9jSGljbXdTcl80?oc=5"
+          },
+          {
+            "label": "News, Land use, zoning changes approved for Rockwell Automation in",
             "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XSV83V2ZWWWY0TG5OMG1nLThnUU9vUzNYV01mRGtiaGFuMm84TVlISE15ZlFjLUlfQjNObUh3RnhKcXRNblo4ZEJqVQ?oc=5"
           },
           {
-            "label": "News — Lombard Odier Asset Management Switzerland SA Acquires Share",
-            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMk1mYWpUcFc4ZnY5ZTZVRnRReURJZk43RS1lRk1LX0xxeVhJR1hoX0hDWHBuVFJnaEN0cE9BSlVTQUk3UWVKaXc2b3N6cm4yZE02am9BbUNfODlVZngxU2QwWWlxTm9yWHFwQmZKOHMxX2dueDhUbF85VldkWlFEbENXZlhZU0EteUR2SDRXSTVwNlB5UThmUHd4ZjMwQ0JWTGhhekdQMHVxMG1PSUpBWnlBZUZvcldRRjhnb0JGSXFZdGtkVlFoUmsycDVkTThyQzBFcFB0SnUxSEw3cGdMOGVMWFloS01kNzZpNm1oRQ?oc=5"
-          },
-          {
-            "label": "Market data — ROK",
+            "label": "Market data, ROK",
             "url": "https://finance.yahoo.com/quote/ROK/"
           }
         ]
@@ -1073,15 +937,15 @@
     },
     "workday": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Workday across news.",
+        "glance": "An AI-narrative week for Workday: its new research found 89% of Indian employees say AI improves daily work but only 32% see it embedded in core systems, the integration gap Workday sells into, while EarnIn announced it will integrate earnings-management tools into Workday's Enhanced Direct Deposit Switching platform. The stock also jumped ~10% in a single session as enterprise software rebounded on an AI rotation, though it remains down ~24% year to date.",
         "stats": [
           {
-            "v": "$150.60",
+            "v": "$157.55",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "-26.8%",
+            "v": "-23.4%",
             "l": "YTD",
             "dir": "down"
           },
@@ -1093,71 +957,71 @@
         ],
         "items": [
           {
-            "headline": "New Workday Research Finds Indian Employees Are AI-Ready, but Enterprise Workflows Are Holding Them Back - Newspatrolling.com.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMmtXaUcydDZRSFVJN2ZOT3MzRzRsZWdraW1mbmZ0VURZMFBOYnZtWHBUaFg5TGRUZzl6dV9JRTBVX1hLWkVrQXU5TTRQWE0yamFNM09fczRxRGRhaG9PSDZRR3Utajc5Si1tSWttV1dSUFVMTXlDc2YtZ2psU2tGMV9hYzJQcnZ6NzA5dVdkSVVqZmwxOXZkWG4zdjBsT1d1dWV2ZXMwdEFaNkpoS0NCcHNOT2MybTNhY2JhdDV3TDRlSFE2TFRyVjlHTQ?oc=5"
+            "headline": "Workday, Inc. (WDAY) is a trending stock: Facts to know before betting on it.",
+            "body": "Workday (WDAY) is one of the stocks most watched by Zacks.com visitors lately. So, it might be a good idea to review some of the factors that might affect the near-term performance of the stock.",
+            "ctx": "Via msn.com.",
+            "url": "https://www.msn.com/en-us/money/topstocks/workday-inc-wday-is-a-trending-stock-facts-to-know-before-betting-on-it/ar-AA2943mX"
           },
           {
-            "headline": "Workday Learning, powered by Sana, now generally available - FutureCIO.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQkdBZ3MzSTJHOTFpbVFneEt5VFJGdXFhUVVnbDFLMXc1bEdBbnFKWDVNTkNVMmpadFdUaGVkOE01dDYtMzA1SnBBNG5JLXBqMzVZOVlKTXpja0h6WERIWEVfX0dMM1F5NGw4TndNc3RGblc2M2RGU2JiY2RqeWlhaUt4a0hDTzg?oc=5"
+            "headline": "Is Workday’s (WDAY) EarnIn Tie-Up a Small Step or a Shift in Its AI Payroll Edge?.",
+            "body": "EarnIn recently announced it will integrate its earnings management tools into Workday’s Enhanced Direct Deposit Switching platform, aiming to streamline payroll enrollment and improve data integrity ...",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/technology/ai/articles/workday-wday-earnin-tie-small-190755134.html"
           },
           {
-            "headline": "Workday Inc (WDAY) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81d3g2cXN6UGVmMzR3QmZYRlpVU21mX2daS1RxUU1wY1Npckt6aHEwQjlpcG1VdUdVdlVmTFctRmd4Vm9hczFwZXBaN3o5X19FUVhkNmZWSFgzT3p2ZzRodFRNVzJrODA?oc=5"
+            "headline": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and more stocks that explain today’s market.",
+            "body": "Chip stocks fall as China plays the role of disrupter.",
+            "ctx": "Via msn.com.",
+            "url": "https://www.msn.com/en-us/money/general/cxmt-sandisk-asml-spacex-d-wave-quantum-workday-and-more-stocks-that-explain-today-s-market/ar-AA28McRw"
           },
           {
-            "headline": "Workday Inc (WDAY) Shares Surge 5.2% -- What GF Score of 70 Tells Investors - GuruFocus.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX2xNZXVLNWFlYVdWbWJJRUdBeGt0TjFoMzFnam9QTTRneVlFQ0JlVlBBZ19GNEpGSjVXWWFCOFhrMnF0UjRaV25DRDVjTXpjdXNZeE5nSjJVb0x1clJFRk9VVWo1X01jcUVMVmNLWjE2bnlwbjd0MGN5NUFYa3FQSVFnMmhnZWNnQ1htdE5UeTZ6ZVJoazZPVGQ0Y19PMm0zV2hqakY4eGxJNUU?oc=5"
+            "headline": "Salesforce Surges 7%, ServiceNow Jumps 8%, Workday Jumps 10% as Software Rebounds on AI Rotation.",
+            "body": "Enterprise software names are staging one of their sharpest single-day reversals of the year, and the catalyst has less to do with their own fundamentals than with what is happening in a completely ...",
+            "ctx": "Via 247wallst.com.",
+            "url": "https://247wallst.com/investing/2026/07/27/salesforce-surges-7-servicenow-jumps-8-workday-jumps-10-as-software-rebounds-on-ai-rotation/"
           },
           {
-            "headline": "Workday, Inc.’s stock price soars to $168.01, marking a robust 5.21% increase - Smartkarma.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX2xpY3d2MkR1OWctX0NFY1l4bzhpY3V0VEo2S1haRDVldkx1SWdVcGRrOVk3SzFsMzZWNmxLaHgwNUdsR2thWktMYWJ1STNJQTlmM01qOENoUHdwa2ZnLXA3VUdLSVd2Z3htNVdxOUFIaEkzc0hGM2hQZTNJdEZ5NUluYWgzc1h5RkpnMURFMnVjencyUFpVbGhCbGpkTWh1aVRUQnZ2cTF0MjBEWmZJWDNjN3RPVGJweUw0?oc=5"
+            "headline": "Why Mobley v. Workday has far-reaching legal impacts for HR leaders.",
+            "body": "Courts have started reaching the merits of the first wave of AI-related discrimination cases like Mobley v. Workday, which may open the door for similar suits.",
+            "ctx": "Via hrexecutive.com.",
+            "url": "https://hrexecutive.com/why-mobley-v-workday-has-far-reaching-legal-impacts-for-hr-leaders/"
           }
         ],
         "sources": [
           {
-            "label": "News — New Workday Research Finds Indian Employees Are AI-Ready, bu",
+            "label": "msn.com, Workday, Inc. (WDAY) is a trending stock: Facts to know befo",
+            "url": "https://www.msn.com/en-us/money/topstocks/workday-inc-wday-is-a-trending-stock-facts-to-know-before-betting-on-it/ar-AA2943mX"
+          },
+          {
+            "label": "finance.yahoo.com, Is Workday’s (WDAY) EarnIn Tie-Up a Small Step or a Shift in",
+            "url": "https://finance.yahoo.com/technology/ai/articles/workday-wday-earnin-tie-small-190755134.html"
+          },
+          {
+            "label": "msn.com, CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and mo",
+            "url": "https://www.msn.com/en-us/money/general/cxmt-sandisk-asml-spacex-d-wave-quantum-workday-and-more-stocks-that-explain-today-s-market/ar-AA28McRw"
+          },
+          {
+            "label": "247wallst.com, Salesforce Surges 7%, ServiceNow Jumps 8%, Workday Jumps 10%",
+            "url": "https://247wallst.com/investing/2026/07/27/salesforce-surges-7-servicenow-jumps-8-workday-jumps-10-as-software-rebounds-on-ai-rotation/"
+          },
+          {
+            "label": "hrexecutive.com, Why Mobley v. Workday has far-reaching legal impacts for HR ",
+            "url": "https://hrexecutive.com/why-mobley-v-workday-has-far-reaching-legal-impacts-for-hr-leaders/"
+          },
+          {
+            "label": "News, New Workday Research Finds Indian Employees Are AI-Ready, bu",
             "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMmtXaUcydDZRSFVJN2ZOT3MzRzRsZWdraW1mbmZ0VURZMFBOYnZtWHBUaFg5TGRUZzl6dV9JRTBVX1hLWkVrQXU5TTRQWE0yamFNM09fczRxRGRhaG9PSDZRR3Utajc5Si1tSWttV1dSUFVMTXlDc2YtZ2psU2tGMV9hYzJQcnZ6NzA5dVdkSVVqZmwxOXZkWG4zdjBsT1d1dWV2ZXMwdEFaNkpoS0NCcHNOT2MybTNhY2JhdDV3TDRlSFE2TFRyVjlHTQ?oc=5"
           },
           {
-            "label": "News — Workday Learning, powered by Sana, now generally available -",
+            "label": "News, Workday Plunges 10.3% Amid Sector-Wide Selling - AlphaStreet",
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORW16OExURlBSbUpzM0RnYU85TEJQUmp0alBCZFZFc0NzRUFNOHZVaEpfc1JTNmc4LWh0TlVjbEpCNkNmeWhxbmFFS1pMNm43eEZuZjNsZUNHaEgzYnJSY1FlOXlNU2wxT0QzNExlOFhkT2Q5VzRWSXJWS012MWFmMGpHTE5aQdIBhgFBVV95cUxORW16OExURlBSbUpzM0RnYU85TEJQUmp0alBCZFZFc0NzRUFNOHZVaEpfc1JTNmc4LWh0TlVjbEpCNkNmeWhxbmFFS1pMNm43eEZuZjNsZUNHaEgzYnJSY1FlOXlNU2wxT0QzNExlOFhkT2Q5VzRWSXJWS012MWFmMGpHTE5aQQ?oc=5"
+          },
+          {
+            "label": "News, Workday Learning, powered by Sana, now generally available -",
             "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQkdBZ3MzSTJHOTFpbVFneEt5VFJGdXFhUVVnbDFLMXc1bEdBbnFKWDVNTkNVMmpadFdUaGVkOE01dDYtMzA1SnBBNG5JLXBqMzVZOVlKTXpja0h6WERIWEVfX0dMM1F5NGw4TndNc3RGblc2M2RGU2JiY2RqeWlhaUt4a0hDTzg?oc=5"
           },
           {
-            "label": "News — Workday Inc (WDAY) Technical Analysis: Support, Resistance, ",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE81d3g2cXN6UGVmMzR3QmZYRlpVU21mX2daS1RxUU1wY1Npckt6aHEwQjlpcG1VdUdVdlVmTFctRmd4Vm9hczFwZXBaN3o5X19FUVhkNmZWSFgzT3p2ZzRodFRNVzJrODA?oc=5"
-          },
-          {
-            "label": "News — Workday Inc (WDAY) Shares Surge 5.2% -- What GF Score of 70 ",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX2xNZXVLNWFlYVdWbWJJRUdBeGt0TjFoMzFnam9QTTRneVlFQ0JlVlBBZ19GNEpGSjVXWWFCOFhrMnF0UjRaV25DRDVjTXpjdXNZeE5nSjJVb0x1clJFRk9VVWo1X01jcUVMVmNLWjE2bnlwbjd0MGN5NUFYa3FQSVFnMmhnZWNnQ1htdE5UeTZ6ZVJoazZPVGQ0Y19PMm0zV2hqakY4eGxJNUU?oc=5"
-          },
-          {
-            "label": "News — Workday, Inc.’s stock price soars to $168.01, marking a robu",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX2xpY3d2MkR1OWctX0NFY1l4bzhpY3V0VEo2S1haRDVldkx1SWdVcGRrOVk3SzFsMzZWNmxLaHgwNUdsR2thWktMYWJ1STNJQTlmM01qOENoUHdwa2ZnLXA3VUdLSVd2Z3htNVdxOUFIaEkzc0hGM2hQZTNJdEZ5NUluYWgzc1h5RkpnMURFMnVjencyUFpVbGhCbGpkTWh1aVRUQnZ2cTF0MjBEWmZJWDNjN3RPVGJweUw0?oc=5"
-          },
-          {
-            "label": "News — S&P 500 Edges Up 0.02% as Workday Soars 9.01% Amid Strong In",
-            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT3RNNTJNcmV1YnR0X2VBalppYi1ydHVPSUpROFNNN2hRWVNTeFBmZW5DaGdMNTFGRDFYQmpOU19KVWczNk44dHR1QjVLVFY5TDF5WDVIcjY1Z2VyM0J2ckRMZDVFTUoyN2hway1aMFNtV0JHbWllQVlIdXI1bzF5X0tMVHA1NkkxTm5FdHJld2JzV0lEWkxlbnRkQV9ucDhwMkZVd2RPV1Jlb0N6MVBYbnU2WnFxUmlyZDNya01BSDdkUExYRzRxT09n?oc=5"
-          },
-          {
-            "label": "News — Workday, Inc.’s Stock Price Skyrockets to $159.69, Registeri",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYnZIS25PUEFERkxHWW8yc2Q1TklKUkhJY00wbzFEeDdPVW43MG5MUUdMNE5xdzRteUlZVGJoZ2pzcE5sdjZYeGVDV0htTWxJWWpqNXlzTjFnWlRzQnRUVE9CWXJDdmFteEd0WDY5TGJyT01iZjAyc2pWQWpYNjVERnNFY3Z6Uk8wWHFENUJHaGhUWF9lNFZMbDNUT0hZVVVaUksyaDF3UFZ0SUdaSHBZVkRpRGQyVm1KdldqbkNlcExJMS1x?oc=5"
-          },
-          {
-            "label": "News — Workday, Inc.’s Stock Price Skyrockets to $147.54, Marking a",
-            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWmJ1WGdmX2tqSWM0NjBURGFmSUVqRzd2THBHLUxLU0pJb1lZQmR3aEZ3cU5RaVJvYktvY21UajAybllNWlVZbDZRMUtYZkRhMVhIRl9pSVp6Tm43a3VEYjhjVTlOakFZTXNKNmpfY1RhRHE4MUN5TF8tdlo5VTRGV1VBQ0RfMXJMV0xXT0JhMVRZTWlIVXNiMWxxOEFDNjZkbFVqQTd3dGJVeWlqQ1dvVklZMGlEdXhvdGhMelJJcS12bms?oc=5"
-          },
-          {
-            "label": "Market data — WDAY",
+            "label": "Market data, WDAY",
             "url": "https://finance.yahoo.com/quote/WDAY/"
           }
         ]
@@ -1165,15 +1029,15 @@
     },
     "intuitive-surgical": {
       "2026-07-27": {
-        "glance": "5 sourced updates this week for Intuitive Surgical across news and SEC filings.",
+        "glance": "A post-earnings reset: Intuitive posted its fifth consecutive earnings beat, yet the stock plunged on slowing domestic procedure-growth concerns and now sits at ~$352, down 37% year to date near its 52-week low, with commentary noting management began buying back shares above current prices and one analyst maintaining a $685 target. The company also overhauled its bylaws (8-K filed July 27), reshaping how shareholders nominate directors and call special meetings.",
         "stats": [
           {
-            "v": "$349.33",
+            "v": "$351.44",
             "l": "Price · 2026-07-30",
             "dir": null
           },
           {
-            "v": "-37.8%",
+            "v": "-37.5%",
             "l": "YTD",
             "dir": "down"
           },
@@ -1185,7 +1049,7 @@
         ],
         "items": [
           {
-            "headline": "Intuitive Surgical: 8-K filed 2026-07-27 — items 5.03,9.01.",
+            "headline": "Intuitive Surgical: 8-K filed 2026-07-27, items 5.03,9.01.",
             "body": "Official filing published on SEC EDGAR.",
             "ctx": "Primary-source disclosure.",
             "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000063/isrg-20260723.htm"
@@ -1197,71 +1061,71 @@
             "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000058/isrg-20260630.htm"
           },
           {
-            "headline": "Intuitive Surgical Inc (ISRG) Risk Assessment: Volatility, Financial Risk & Investment Risk - TradingKey.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05eGNMTXFPNVZWTEhrT0VES3N3V05mdDdDTDdoUnVISTBNcTRNTU1qRXg2OEl4WXhsSnJOdmdUQkVMUFpsQjFBbDQycl92dFRlY0xfZW9IdzVjaHVzenJtSnFGaE50enAwLWdwWG1n?oc=5"
+            "headline": "Intuitive Surgical (ISRG) Could Be 43% Undervalued On Bylaw Changes And Share Price Weakness.",
+            "body": "Intuitive Surgical (ISRG) has just overhauled its bylaws, reshaping how shareholders can nominate directors, submit proposals, and call special meetings. These governance changes arrive while the ...",
+            "ctx": "Via finance.yahoo.com.",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-could-43-200949008.html"
           },
           {
-            "headline": "Intuitive Surgical (ISRG) Amends Bylaws to Enhance Shareholder P - GuruFocus.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeTIwcWw0Wkk3YkdGT1JnbWhQQUFDVUJITzZKZjhfQ1F3bGNHejJaTmNkQlIxSDFtc1JnMUVtd0dhTDNBaTFCajhXdHpCa1VOWjNXUm4zaXJZd1NnU25rbVg3NG1Kd1FzbG1BMjdRS0pIMkNnNm9FR0djTVpzYzVqdnBkSGJ1MGpMRmh3QlN6eURuX3ZZaUdYMlE1WmVpM1ZGajRMblV3Ykg5ZmRjLXZBVjBCbl93blltZUVMdy0yZzJLdjlHYlloMzJSNmNvZXlJS3ktR3JTRjB4Zw?oc=5"
+            "headline": "Is Intuitive Surgical's post-earnings selloff a buying opportunity?.",
+            "body": "Intuitive Surgical (ISRG) reported strong second-quarter 2026 results, but its stock plunged on concerns about slowing domestic procedure growth. Despite beating both top- and bottom-line consensus ...",
+            "ctx": "Via msn.com.",
+            "url": "https://www.msn.com/en-us/money/economy/is-intuitive-surgical-s-post-earnings-selloff-a-buying-opportunity/ar-AA28T477"
           },
           {
-            "headline": "Form 4 Intuitive Surgical Inc For: 29 July By Investing.com - Investing.com Canada.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb2JqT3ctQkZaZkREcDAtYVlDbGpVY3gxZjBDaTRjbWlpZkVrczJWVll4aURrYkRYSmp5WHlzdWctMlg5ZmxFTUpPX1dGcWNMakwzYktGOEY3Zk9iTDIweGpnTkppUm5IUmJ3c3pQQnAzQVhjVFQzRlN5V1FfaUNaRVB4VVV3STZwUTZRSC1QUjRreF9rcXFhTnpZeWgxRVA0cTVNbQ?oc=5"
+            "headline": "Intuitive Surgical Fell 37% to $355 With This Wall Street Pro Is Calling for $685.",
+            "body": "Intuitive Surgical just posted its fifth consecutive earnings beat and management started buying back shares above current prices, yet the stock sits at a level that implies something far worse than a ...",
+            "ctx": "Via 247wallst.com.",
+            "url": "https://247wallst.com/investing/2026/07/28/intuitive-surgical-fell-37-to-355-with-this-wall-street-pro-is-calling-for-685/"
           }
         ],
         "sources": [
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000063/isrg-20260723.htm"
           },
           {
-            "label": "SEC EDGAR — 10-Q",
+            "label": "SEC EDGAR, 10-Q",
             "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000058/isrg-20260630.htm"
           },
           {
-            "label": "SEC EDGAR — 8-K",
+            "label": "SEC EDGAR, 8-K",
             "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000047/isrg-20260716.htm"
           },
           {
-            "label": "News — Intuitive Surgical Inc (ISRG) Risk Assessment: Volatility, F",
-            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE05eGNMTXFPNVZWTEhrT0VES3N3V05mdDdDTDdoUnVISTBNcTRNTU1qRXg2OEl4WXhsSnJOdmdUQkVMUFpsQjFBbDQycl92dFRlY0xfZW9IdzVjaHVzenJtSnFGaE50enAwLWdwWG1n?oc=5"
+            "label": "finance.yahoo.com, Intuitive Surgical (ISRG) Could Be 43% Undervalued On Bylaw ",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-could-43-200949008.html"
           },
           {
-            "label": "News — Intuitive Surgical (ISRG) Amends Bylaws to Enhance Sharehold",
+            "label": "msn.com, Is Intuitive Surgical's post-earnings selloff a buying oppor",
+            "url": "https://www.msn.com/en-us/money/economy/is-intuitive-surgical-s-post-earnings-selloff-a-buying-opportunity/ar-AA28T477"
+          },
+          {
+            "label": "247wallst.com, Intuitive Surgical Fell 37% to $355 With This Wall Street Pr",
+            "url": "https://247wallst.com/investing/2026/07/28/intuitive-surgical-fell-37-to-355-with-this-wall-street-pro-is-calling-for-685/"
+          },
+          {
+            "label": "msn.com, Here's exactly why Wall Street thinks Intuitive Surgical sto",
+            "url": "https://www.msn.com/en-us/money/topstocks/here-s-exactly-why-wall-street-thinks-intuitive-surgical-stock-could-soar-102-over-the-next-12-months/ar-AA28RTsw"
+          },
+          {
+            "label": "blockonomi.com, Intuitive Surgical (ISRG) Stock Gains as Coach Prime Backs R",
+            "url": "https://blockonomi.com/intuitive-surgical-isrg-stock-gains-as-coach-prime-backs-robotic-surgery-awareness/"
+          },
+          {
+            "label": "News, Intuitive Surgical (ISRG) EVP & Chief Manufacturing and Supp",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYU9oMzFrdzhuWFhOcUxBRnlSLTRVUDI3dmFzMWtUMnN5eGRYeFJ3Vm42VTFBWjd4MnBNcXQ0akJIZGZaLTZGdGhJNFhraFlCSmFudzNDSldvXzhPdTdRSGwwUUxYVUtiOEZhRU5tRmNkazJmY0NRUUdoUjZadmNjMHdjOGxvelZxODhNV19MbEtZUmI4TlhIckNmZm9jeWhrcTk1aG85TFg1a2tfUWNPSDZpQ1REWnhCakZjYU84RktnNE9IS2pjem1QdXc?oc=5"
+          },
+          {
+            "label": "News, UBS reveals what’s next for Intuitive Surgical stock - thest",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa0VCeGNYZ0FfTmtCcVg0dnR2Qm82Z3Z1cVdPM256ZjROZnl5OE9FWDdMLWZpWUdUNVhCVzFiM0hWZGdvN1E3ZkwxMjl2MTRhcnlvYmU2Z09MUHJFWURSby1sald4bDYzUkRjanhHZVZZNnluc2hZUHZiM0lZWXh2ZDZFYnljWEdrX1BXem9Pb3JTeGNOM0d6d2lOYlA4Z1hjaHltX0J2Zw?oc=5"
+          },
+          {
+            "label": "News, Intuitive Surgical (ISRG) Amends Bylaws to Enhance Sharehold",
             "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeTIwcWw0Wkk3YkdGT1JnbWhQQUFDVUJITzZKZjhfQ1F3bGNHejJaTmNkQlIxSDFtc1JnMUVtd0dhTDNBaTFCajhXdHpCa1VOWjNXUm4zaXJZd1NnU25rbVg3NG1Kd1FzbG1BMjdRS0pIMkNnNm9FR0djTVpzYzVqdnBkSGJ1MGpMRmh3QlN6eURuX3ZZaUdYMlE1WmVpM1ZGajRMblV3Ykg5ZmRjLXZBVjBCbl93blltZUVMdy0yZzJLdjlHYlloMzJSNmNvZXlJS3ktR3JTRjB4Zw?oc=5"
           },
           {
-            "label": "News — Form 4 Intuitive Surgical Inc For: 29 July By Investing.com ",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb2JqT3ctQkZaZkREcDAtYVlDbGpVY3gxZjBDaTRjbWlpZkVrczJWVll4aURrYkRYSmp5WHlzdWctMlg5ZmxFTUpPX1dGcWNMakwzYktGOEY3Zk9iTDIweGpnTkppUm5IUmJ3c3pQQnAzQVhjVFQzRlN5V1FfaUNaRVB4VVV3STZwUTZRSC1QUjRreF9rcXFhTnpZeWgxRVA0cTVNbQ?oc=5"
-          },
-          {
-            "label": "News — Intuitive surgical EVP Mark Brosius sells $29,954 in stock -",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMkZ4YTBwZEJnc3NxNlJSWlV0eXJBUlFEd1NpaE1SUFV0SDVmbDViQmktVHhyRlQ3RzdzZDBtZVVnbWpFY2hVN2hOZmZ0NkpzSXI3YW92b2JScThLVHU1cHpfZmlqcmp5em9KVENDRTdTOFRvODdRX1BBQjYxS1Iyc3FEQ0lHbi1POGZ1YkJaSVZiS3J3WWo2cUNwazU4NTZ2QlNXc1NMX3o4WW1adFh6TGIxdjZKVzVkNG5LTUZR?oc=5"
-          },
-          {
-            "label": "News — Intuitive Surgical (NASDAQ: ISRG) EVP sells 84 shares in 10b",
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUXVaUmFlcFlxU2hYWEU4TDB5QmdTYTdMaUxMWlBvR3hJUzN5elJKNnJfUU5GV1AyemQteTZnY1NROW9Vb2pKVXozLWpZZ0thTkRwRGVDLWh1V0ZMaXFTU1dMT1JiT1RicUpabnlISnM2OVpzWkp6OS1BYW1Bb2ttYThZOS1qeVh2WlZhSlhaaDBaWjFrOElST1RrTnBSRzNfSmx6WHN3WUZkWHlMc0QxTjMyRE5HeDg?oc=5"
-          },
-          {
-            "label": "News — Intuitive Surgical Inc. stock underperforms Wednesday when c",
-            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcGF4aXZIdTZLWWtickVKTDE2LTFPcDlsZnRTLTUwbE0tajlycC1tbHBfLWRmeFp5Z1lrRDd4dGtnclFMSm1BWHJVMldXX2t5M0NkblU0NHhNbVZlS3NYcHFIQVctRTRpcUo5YVVjcTFpUWUyM3NHa3pEcTBwSWNNdDhpZDVqb2JVS21HTHRVaHJXVFVDUFUtdzB5SGlELVpEcUJ6RjdNN2VlYmpwYmZ0RWt4QzdOZHVtVTdMTW5oXzJDT0drOWp2Y1pZTXNOajB0ODU5eGxKNUhnSzdCdjR3eEFQTFAxaEpHTUxiY1hGdHg?oc=5"
-          },
-          {
-            "label": "News — Intuitive Surgical Amends Bylaws to Enhance Shareholder Prox",
-            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONE9LYnBkT0RxUWlldDFCRUluVTA0aVUzSHBydVdaZU9qSzRpQU53Y3Nub2kzclQ3OE9UNHM0eU5Sak0xeTBBQk9pVm5ndG5KVDhYbmRiZGFTSUJBeEZ5TENDWDJRc3R5RUttSzVGU2diaDZ0N0tiZUV4dkx1TjFIcFFvVElxeVE3WlZEZ1A3ZDVTMWxHTjRxUHlFWEEtXzQyWUJidDRrUDd3LXJxSlVnZFFRQi1hVXVvWU5wS2JSeEZ2dHZTRVpvWVFMa0NOYTlRemc?oc=5"
-          },
-          {
-            "label": "News — ISRG Q2 Earnings Call Signals Durable Demand & U.S. Caution ",
-            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeDNHMGo5M2FycEhkRkdMQWJUaklhQm94eGIyYkxkT0IxR21kSU9pb1JiY25KdGhzdngzNFJ6Q1gxWHZuZDJYY0JUUlU0YXgwNUVjUTlhY2hzLW1lSUVseHlZOTVTR09LZ3NRSFFkLXl1OFBPSWZqSHpmR2JiR0NFeVd2S3JmLUtrQXl6WnNndnlPZjBLTG9oZ1MtVVRRRVFfTTM4NV9GcnFUOEw2R1BqWTNIVGJPaDloaE8wVnJQRVpBdVVxLUFIMzM5WmdCTE84QkswbERkQzVPOFk?oc=5"
-          },
-          {
-            "label": "Market data — ISRG",
+            "label": "Market data, ISRG",
             "url": "https://finance.yahoo.com/quote/ISRG/"
           }
         ]

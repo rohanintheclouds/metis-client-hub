@@ -210,6 +210,7 @@ export default function ClientDetail({ id }) {
                 <Zap size={15} /> This week at a glance
                 <span className="gc-sub">click "More on this" for the full story</span>
               </div>
+              {d?.glance && <p className="gc-glance">{d.glance}</p>}
               <div className="gc-list">
                 {d?.items.map((it, i) => (
                   <div className="gc-item" key={`${current?.id}-${i}`} style={{ "--i": i }}>

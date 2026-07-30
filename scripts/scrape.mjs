@@ -51,7 +51,7 @@ async function main() {
   const wk = weekId();
   const llm = Boolean(process.env.ANTHROPIC_API_KEY);
   const channels = [
-    "google-news", "sec-edgar", "yahoo-finance",
+    "bing-news", "google-news", "sec-edgar", "yahoo-finance",
     process.env.FINNHUB_API_KEY && "finnhub",
     process.env.NYT_API_KEY && "nyt",
     process.env.GUARDIAN_API_KEY && "guardian",

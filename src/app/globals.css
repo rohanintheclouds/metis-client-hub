@@ -653,3 +653,4 @@ a.src{color:var(--green-2);border-bottom:1px solid #b7ece4;font-weight:600;}
 .id-chart{margin:22px 0 6px;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px;}
 .id-chart figcaption{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:10px;}
 .id-chart-src{font-weight:400;color:var(--muted);}
+.gc-glance{margin:2px 0 14px;padding:0 2px;font-size:14px;line-height:1.65;color:#dfe6ef;max-width:78ch;}

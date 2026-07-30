@@ -64,6 +64,7 @@ export const ROSTER = [
     id: "adp",
     name: "ADP",
     legalName: "Automatic Data Processing, Inc.",
+    newsQuery: "Automatic Data Processing",
     ticker: "NASDAQ: ADP",
     coast: "East Coast",
     sector: "HCM / Payroll",
