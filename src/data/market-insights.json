@@ -257,8 +257,12 @@
               "body": "Prices stay high because of a chronic shortage of affordable homes rooted in more than a decade of underbuilding since the 2008 financial crisis, compounded by zoning laws, land-use restrictions, and high labor costs. Construction has picked up recently, with parts of the West Coast and Sun Belt even seeing a glut of new homes, but overall inventory remains tight."
             },
             {
-              "heading": "The policy response",
-              "body": "Congress passed the bipartisan 21st Century ROAD to Housing Act in July, aimed at reducing housing costs and increasing supply. J.P. Morgan frames it as potential relief for buyers, though the structural shortage took a decade-plus to build and will not unwind quickly."
+              "heading": "Demand is buckling too",
+              "body": "Affordability is now visibly weighing on volume: existing-home sales fell 2.4% in June to a 4.09 million seasonally adjusted annual rate, down 4.2% over the first half of 2026. The lock-in effect compounds the shortage, since owners holding pandemic-era mortgages cannot carry those rates to a new home with current rates around 6.6%, so listings were up just 1.3% year over year in June. J.P. Morgan's Richard Shane warns origination growth could stall if elevated rates persist, with industry forecasts already moving lower."
+            },
+            {
+              "heading": "The policy response and the forecast",
+              "body": "The bipartisan 21st Century ROAD to Housing Act, signed July 11 as the most significant federal housing legislation in decades, carries more than 40 supply-side provisions: streamlined environmental reviews, zoning-reform incentives for municipalities, and a potentially consequential change to manufactured-home rules (removing the permanent-chassis requirement). It only takes effect January 7, 2027, and its impact depends on implementation. J.P. Morgan's base case: home prices flat in 2026, up 3% in 2027, with affordability staying strained."
             }
           ],
           "figures": [
@@ -267,19 +271,37 @@
               "l": "Median US home price, all-time high"
             },
             {
-              "v": "36 mo",
-              "l": "Consecutive months of price increases"
+              "v": "6.6%",
+              "l": "Current mortgage rates (lock-in effect)"
             },
             {
-              "v": "35%",
-              "l": "Cost-to-income ratio to buy"
+              "v": "-4.2%",
+              "l": "Existing-home sales, H1 2026"
             },
             {
               "v": "~2%",
               "l": "Metros where buying beats renting"
             }
           ],
-          "charts": [],
+          "charts": [
+            {
+              "kind": "cat-bars",
+              "title": "J.P. Morgan home-price forecast (annual change)",
+              "source": "J.P. Morgan Global Research",
+              "unit": "%",
+              "max": 5,
+              "rows": [
+                [
+                  "2026 (forecast)",
+                  0
+                ],
+                [
+                  "2027 (forecast)",
+                  3
+                ]
+              ]
+            }
+          ],
           "metisAngle": "This is loanDepot's operating environment in one page: originations stay suppressed while affordability is this stretched, which is why the company's story is cost reset and channel efficiency rather than volume growth. The ROAD to Housing Act is the variable to watch, and any supply-side thaw changes the demand curve loanDepot's Vision 2027 plan is built against."
         },
         "shortTitle": "US Housing Outlook",
@@ -376,8 +398,12 @@
               "body": "J.P. Morgan describes AI data-center construction as one of the largest capital-expenditure cycles in a generation, with hyperscalers projected to invest a combined $600 billion in 2026. For the industrial suppliers of power, cooling, and infrastructure, the order books are transformative, but the cash mechanics are punishing: manufacturing cycles run 12 to 18 months, inventory is procured earlier and held longer, and revenue recognition hinges on milestone schedules subject to construction and power-infrastructure delays."
             },
             {
-              "heading": "From peripheral vendors to essential enablers",
-              "body": "The build-out is transforming industrial suppliers from peripheral vendors into essential enablers of the AI economy, and shifting bargaining power along the way. Cash conversion cycles are lengthening across the supply chain even as reported growth accelerates, widening the disconnect between the income statement and available liquidity."
+              "heading": "The power shift, made explicit",
+              "body": "J.P. Morgan describes a systematic transfer of working capital upstream: hyperscalers are larger, better capitalized, and increasingly able to dictate terms, expecting guaranteed inventory, reserved capacity, flexible delivery, and extended payment windows. Suppliers procure materials months before purchase orders, absorb construction-delay schedule risk, and extend credit, often without compensation for the capital deployed. The piece's sharpest line: for many suppliers, the constraint is no longer demand, but balance-sheet capacity."
+            },
+            {
+              "heading": "Why early discipline pays",
+              "body": "Once data-center infrastructure is installed, contracts tend to be long-term, so suppliers that solve the cash-cycle problem early lock in durable returns. Speed and scale of execution become the differentiator, and payment-term flexibility is increasingly a competitive weapon rather than a finance afterthought."
             },
             {
               "heading": "The financing toolkit",

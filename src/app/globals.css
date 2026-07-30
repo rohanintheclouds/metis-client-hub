@@ -716,3 +716,11 @@ a.src{color:var(--green-2);border-bottom:1px solid #b7ece4;font-weight:600;}
 .itile-art{padding:16%;}
 .itile-art .ih-art{width:100%;height:100%;}
 .itile-foot{color:rgba(255,255,255,.85);font-size:11px;letter-spacing:.5px;text-transform:uppercase;}
+
+/* == Interactive chart tooltip ========================== */
+.id-chart-plot{position:relative;}
+.id-tip{position:absolute;transform:translate(-50%,-100%);pointer-events:none;z-index:5;
+  background:var(--blue-2);color:#fff;border-radius:8px;padding:6px 10px;font-size:12px;line-height:1.3;
+  box-shadow:0 6px 18px rgba(20,21,36,.25);white-space:nowrap;display:flex;gap:8px;align-items:baseline;}
+.id-tip-l{color:rgba(255,255,255,.7);}
+.id-tip-v{font-weight:800;color:var(--green);font-size:13px;}
