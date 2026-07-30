@@ -86,7 +86,7 @@ export default function InsightDetail({ detail }) {
         <figure key={c.title} className="id-chart">
           <figcaption>
             {c.title}
-            {c.source && <span className="id-chart-src"> · {c.source}, Morgan Stanley Research</span>}
+            {c.source && <span className="id-chart-src"> · {c.source}</span>}
           </figcaption>
           {c.kind === "time-bars" ? <TimeBars chart={c} /> : <CatBars chart={c} />}
         </figure>

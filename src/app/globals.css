@@ -654,3 +654,58 @@ a.src{color:var(--green-2);border-bottom:1px solid #b7ece4;font-weight:600;}
 .id-chart figcaption{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:10px;}
 .id-chart-src{font-weight:400;color:var(--muted);}
 .gc-glance{margin:2px 0 14px;padding:0 2px;font-size:14px;line-height:1.65;color:#dfe6ef;max-width:78ch;}
+
+/* == Insight hero (detail pages) ======================== */
+.ihero{background:linear-gradient(135deg,var(--blue-2) 0%,#1b2a52 55%,#123a3f 100%);color:#fff;overflow:hidden;}
+.ihero-inner{display:flex;align-items:center;gap:24px;padding:44px 32px 40px;min-height:250px;}
+.ihero-copy{flex:1;min-width:0;}
+.ihero-back{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:var(--green);margin-bottom:14px;}
+.ihero-back:hover{color:#fff;}
+.ihero-firm{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;}
+.ihero-badge{background:var(--green);color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.3px;border-radius:999px;padding:4px 12px;}
+.ihero-date{font-size:12.5px;color:rgba(255,255,255,.65);}
+.ihero-theme{font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--green-soft);border:1px solid rgba(8,222,197,.4);border-radius:999px;padding:3px 10px;}
+.ihero h1{margin:0;font-size:clamp(24px,3.4vw,38px);line-height:1.15;letter-spacing:-.5px;}
+.ihero-note{margin-top:10px;font-size:13px;color:rgba(255,255,255,.6);font-style:italic;}
+.ihero-artwrap{flex:0 0 300px;max-width:300px;}
+.ih-art{width:100%;height:auto;display:block;}
+@media (max-width:760px){.ihero-artwrap{display:none;}}
+
+/* hero animations */
+@keyframes ih-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes ih-swing{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(5deg)}}
+@keyframes ih-blink{0%,88%,100%{opacity:1}92%,96%{opacity:.15}}
+@keyframes ih-pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes ih-float{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-12px) rotate(2deg)}}
+@keyframes ih-flow{to{stroke-dashoffset:-72}}
+@keyframes ih-draw{0%{stroke-dashoffset:520}55%,100%{stroke-dashoffset:0}}
+@keyframes ih-glow{0%,100%{opacity:.85}50%{opacity:.25}}
+@keyframes ih-drift{0%{transform:translateX(0)}100%{transform:translateX(28px)}}
+.ih-bob{animation:ih-bob 4.5s ease-in-out infinite;transform-origin:center;}
+.ih-swing{animation:ih-swing 4.5s ease-in-out infinite;transform-origin:top center;transform-box:fill-box;}
+.ih-blink{animation:ih-blink 5s infinite;}
+.ih-pulse{animation:ih-pulse 2.6s ease-in-out infinite;}
+.ih-float{animation:ih-float 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center;}
+.ih-flow{animation:ih-flow 3.2s linear infinite;}
+.ih-draw{stroke-dasharray:520;animation:ih-draw 7s ease-in-out infinite;}
+.ih-glow{animation:ih-glow 3.4s ease-in-out infinite;}
+.ih-drift{animation:ih-drift 7s ease-in-out infinite alternate;}
+.ih-drift-x{animation:ih-drift 9s ease-in-out infinite alternate;}
+.d2{animation-delay:1.1s;}
+.d3{animation-delay:2.2s;}
+@media (prefers-reduced-motion:reduce){.ih-art *{animation:none!important;}}
+
+/* == Insight detail page body =========================== */
+.ipage{padding:36px 32px 70px;}
+.ipage-lead{font-size:16.5px;line-height:1.7;color:#2c3540;max-width:82ch;margin:0 0 26px;}
+.fig-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:0 0 26px;}
+.fig-tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);}
+.fig-v{font-size:24px;font-weight:800;color:var(--blue);letter-spacing:-.5px;}
+.fig-l{font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.35;}
+.ipage .id-body{padding:0;border-top:none;}
+.ipage-metis{margin:30px 0 6px;padding:20px 24px;border-left:4px solid var(--green);background:rgba(8,222,197,.07);border-radius:0 14px 14px 0;}
+.ipage-metis h3{margin:0 0 8px;font-size:14px;text-transform:uppercase;letter-spacing:.5px;color:var(--blue);}
+.ipage-metis p{margin:0 0 12px;font-size:14.5px;color:#22303c;max-width:82ch;}
+.ipage-src{margin-top:26px;}
+.ic-brief-link{display:inline-block;margin:2px 0 12px;font-size:13px;font-weight:700;color:var(--green-2);}
+.ic-brief-link:hover{color:var(--blue);}

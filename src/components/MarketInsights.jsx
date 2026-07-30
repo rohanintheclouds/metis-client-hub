@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { getClient } from "@/lib/clients";
-import InsightDetail from "@/components/InsightDetail";
 import INSIGHTS from "@/data/market-insights.json";
 
 const FIRM_INITIALS = {
@@ -90,7 +89,9 @@ export default function MarketInsights() {
                   )}
                 </div>
                 <h3 className="ic-title">
-                  {r.url ? (
+                  {r.slug ? (
+                    <Link href={`/insights/${r.slug}`}>{r.title} <span className="ar">→</span></Link>
+                  ) : r.url ? (
                     <a href={r.url} target="_blank" rel="noreferrer">
                       {r.title} <span className="ar">↗</span>
                     </a>
@@ -100,13 +101,11 @@ export default function MarketInsights() {
                 </h3>
                 {r.sourceNote && <div className="ic-source-note">{r.sourceNote}</div>}
                 {r.summary && <p className="ic-summary">{r.summary}</p>}
-                {r.analysis && <p className="ic-tieback">{r.analysis}</p>}
-                {r.tieBack && <p className="ic-tieback">{r.tieBack}</p>}
-                {r.detail && (
-                  <details className="id-details">
-                    <summary>Open the full brief — summary &amp; charts</summary>
-                    <InsightDetail detail={r.detail} />
-                  </details>
+                {!r.slug && r.tieBack && <p className="ic-tieback">{r.tieBack}</p>}
+                {r.slug && (
+                  <Link href={`/insights/${r.slug}`} className="ic-brief-link">
+                    Open the Metis brief — analysis, figures &amp; charts →
+                  </Link>
                 )}
                 <div className="ic-clients">
                   <span className="ic-clients-label">In this market:</span>
