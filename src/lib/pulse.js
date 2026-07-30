@@ -1,19 +1,23 @@
 // ─────────────────────────────────────────────────────────────────────────
 // Client Pulse content store.
 //
-// In production this is populated by the weekly scrape job (scripts/scrape.mjs
-// → data store). For the prototype it is seeded with real, sourced research
-// (week of July 6, 2026) plus condensed prior editions so the per-client
-// archive ("newest first, browse previous weeks") is fully navigable.
+// Two layers, merged below:
+//   • SEED_* — the hand-seeded prototype archive (editions up to July 6,
+//     2026). Kept browsable as history; nothing new is added here.
+//   • src/data/generated-pulse.json — written by the live scrape pipeline
+//     (scripts/scrape.mjs). Every stat/item there is grounded in data
+//     fetched from real channels (Google News RSS, SEC EDGAR, market data,
+//     NYT, Tavily). Generated editions win on conflict.
 //
 // Shape:
 //   PULSE[clientId][editionId] = { glance, stats[], items[], sources[] }
 //   stat  = { v, l, dir: 'up'|'down'|null }
-//   item  = { headline, body, ctx }
+//   item  = { headline, body, ctx, url? }
 //   src   = { label, url }
 // ─────────────────────────────────────────────────────────────────────────
+import GENERATED from "../data/generated-pulse.json";
 
-export const EDITIONS = [
+const SEED_EDITIONS = [
   { id: "2026-07-06", label: "Week of July 6, 2026", date: "July 6, 2026" },
   { id: "2026-06-29", label: "Week of June 29, 2026", date: "June 29, 2026" },
   { id: "2026-06-22", label: "Week of June 22, 2026", date: "June 22, 2026" },
@@ -22,9 +26,7 @@ export const EDITIONS = [
   { id: "2026-06-01", label: "Week of June 1, 2026", date: "June 1, 2026" },
 ];
 
-export const LATEST_EDITION = EDITIONS[0].id;
-
-export const PULSE = {
+const SEED_PULSE = {
   // ─────────────────────────── AFLAC ────────────────────────────
   aflac: {
     "2026-07-06": {
@@ -734,6 +736,21 @@ export const PULSE = {
     },
   },
 };
+
+// ── Merge: seeded archive + generated (live-scraped) editions ──────────────
+export const EDITIONS = [
+  ...(GENERATED.editions || []).filter((g) => !SEED_EDITIONS.some((s) => s.id === g.id)),
+  ...SEED_EDITIONS,
+].sort((a, b) => (a.id < b.id ? 1 : -1));
+
+export const LATEST_EDITION = EDITIONS[0].id;
+
+export const PULSE = (() => {
+  const merged = {};
+  const ids = new Set([...Object.keys(SEED_PULSE), ...Object.keys(GENERATED.pulse || {})]);
+  for (const id of ids) merged[id] = { ...SEED_PULSE[id], ...(GENERATED.pulse || {})[id] };
+  return merged;
+})();
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 export function editionsForClient(clientId) {

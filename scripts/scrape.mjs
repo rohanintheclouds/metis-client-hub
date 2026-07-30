@@ -1,64 +1,90 @@
 #!/usr/bin/env node
 /**
- * Weekly Client Pulse scraper (pipeline scaffold).
+ * Weekly Client Pulse scraper — LIVE pipeline.
  *
- * This is the job that refreshes src/lib/pulse.js each week. It is intentionally
- * a documented scaffold: with no ANTHROPIC_API_KEY set it prints the plan and
- * exits. Wire the marked step to your LLM/search stack to go live.
+ * For each client in src/lib/clients.js:
+ *   1. Gather real data from every configured channel (scripts/lib/channels.mjs):
+ *        • Google News RSS      — no key
+ *        • SEC EDGAR filings    — no key
+ *        • Stooq market data    — no key
+ *        • Finnhub market data  — FINNHUB_API_KEY (richer: mkt cap, earnings date)
+ *        • NYT Article Search   — NYT_API_KEY
+ *        • Tavily news search   — SEARCH_API_KEY
+ *   2. Summarize ONLY the fetched material (scripts/lib/summarize.mjs):
+ *        • ANTHROPIC_API_KEY set → Claude writes the brief, hard-constrained to
+ *          fetched facts; items citing unfetched URLs are dropped in validation.
+ *        • no key → deterministic edition assembled straight from the fetched
+ *          headlines and market data. Zero model, zero hallucination.
+ *   3. Persist as a new edition in src/data/generated-pulse.json, which
+ *      src/lib/pulse.js merges with the seeded archive at build time.
  *
- * Intended flow (per client in src/lib/clients.js):
- *   1. Gather this week's news    → web search over the company + ticker
- *   2. Pull market data           → price, mkt cap, 52-wk range, next earnings
- *   3. Summarize into the schema   → { glance, stats[], items[], sources[] }
- *   4. Append as a new edition     → PULSE[clientId][<new-week-id>]
- *
- * Run: npm run scrape
+ * Run: npm run scrape            (all clients)
+ *      npm run scrape -- aflac   (one client)
  */
-import { CLIENTS } from "../src/lib/clients.js";
+import { readFileSync, writeFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
+import { ROSTER as CLIENTS } from "../src/lib/roster.js";
+import { gatherClient } from "./lib/channels.mjs";
+import { summarizeEdition } from "./lib/summarize.mjs";
 
-const hasKey = Boolean(process.env.ANTHROPIC_API_KEY);
+const DATA_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "src", "data", "generated-pulse.json");
 
 function weekId(d = new Date()) {
-  // ISO date of the most recent Monday
-  const day = d.getDay();
   const monday = new Date(d);
-  monday.setDate(d.getDate() - ((day + 6) % 7));
+  monday.setDate(d.getDate() - ((d.getDay() + 6) % 7));
   return monday.toISOString().slice(0, 10);
 }
 
-async function researchClient(client) {
-  // ── WIRE HERE ────────────────────────────────────────────────────────────
-  // const res = await anthropic.messages.create({
-  //   model: "claude-opus-4-8",
-  //   tools: [{ type: "web_search_20250305", name: "web_search" }],
-  //   messages: [{ role: "user", content: buildPrompt(client) }],
-  // });
-  // return parseIntoSchema(res);
-  // ─────────────────────────────────────────────────────────────────────────
-  return null;
+function weekLabel(id) {
+  const d = new Date(`${id}T12:00:00Z`);
+  const label = d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
+  return { label: `Week of ${label}`, date: label };
 }
 
 async function main() {
+  const only = process.argv[2];
+  const clients = only ? CLIENTS.filter((c) => c.id === only) : CLIENTS;
+  if (!clients.length) throw new Error(`No client with id "${only}"`);
+
   const wk = weekId();
+  const llm = Boolean(process.env.ANTHROPIC_API_KEY);
+  const channels = [
+    "google-news", "sec-edgar", "yahoo-finance",
+    process.env.FINNHUB_API_KEY && "finnhub",
+    process.env.NYT_API_KEY && "nyt",
+    process.env.GUARDIAN_API_KEY && "guardian",
+    process.env.SEARCH_API_KEY && "tavily",
+  ].filter(Boolean);
+
   console.log(`\n📡 Client Pulse scrape — week ${wk}`);
-  console.log(`   ${CLIENTS.length} clients · LLM ${hasKey ? "ENABLED" : "DISABLED (stub)"}\n`);
+  console.log(`   ${clients.length} client(s) · channels: ${channels.join(", ")} · summarizer: ${llm ? "Claude (grounded)" : "deterministic (no LLM)"}\n`);
 
-  if (!hasKey) {
-    console.log("   ANTHROPIC_API_KEY not set — nothing fetched.");
-    console.log("   Set it in .env.local and wire researchClient() to run live.\n");
-    CLIENTS.forEach((c) => console.log(`   • ${c.name.padEnd(22)} ${c.ticker}`));
-    console.log("\n   Then persist results as a new edition in src/lib/pulse.js (or your DB).\n");
-    return;
+  const store = JSON.parse(readFileSync(DATA_FILE, "utf8"));
+  let ok = 0;
+
+  for (const c of clients) {
+    process.stdout.write(`   • ${c.name.padEnd(22)} `);
+    try {
+      const gathered = await gatherClient(c);
+      const edition = await summarizeEdition(c, gathered);
+      store.pulse[c.id] = store.pulse[c.id] || {};
+      store.pulse[c.id][wk] = edition;
+      ok++;
+      const note = gathered.errors.length ? `  (channel errors: ${gathered.errors.join("; ")})` : "";
+      console.log(`✓ ${gathered.articles.length} articles, ${gathered.filings.length} filings, market ${gathered.market ? "✓" : "—"}${note}`);
+    } catch (e) {
+      console.log(`✗ ${e.message}`);
+    }
   }
 
-  const results = {};
-  for (const c of CLIENTS) {
-    process.stdout.write(`   • ${c.name} … `);
-    results[c.id] = await researchClient(c);
-    console.log("done");
+  if (!store.editions.some((e) => e.id === wk)) {
+    store.editions.unshift({ id: wk, ...weekLabel(wk) });
+    store.editions.sort((a, b) => (a.id < b.id ? 1 : -1));
   }
-  // Persist `results` under edition `wk`. (Write to DB or regenerate pulse.js.)
-  console.log(`\n✅ Scraped ${Object.keys(results).length} clients for week ${wk}.\n`);
+  writeFileSync(DATA_FILE, JSON.stringify(store, null, 2) + "\n");
+  console.log(`\n✅ ${ok}/${clients.length} clients written to src/data/generated-pulse.json (edition ${wk}).`);
+  console.log(`   Rebuild/redeploy the app to publish.\n`);
 }
 
 main().catch((e) => {
