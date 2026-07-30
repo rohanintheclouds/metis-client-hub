@@ -200,7 +200,9 @@ export async function guardianArticles(client, { days = 8, max = 6 } = {}) {
   const key = process.env.GUARDIAN_API_KEY;
   if (!key) return [];
   const from = new Date(Date.now() - days * 864e5).toISOString().slice(0, 10);
-  const q = encodeURIComponent(`"${client.legalName || client.name}"`);
+  // Guardian copy uses short names ("Workday"), never legal names ("Workday, Inc.").
+  // Clients with generic-phrase names set roster.newsQuery to disambiguate.
+  const q = encodeURIComponent(`"${client.newsQuery || client.name}"`);
   const data = await getJson(
     `https://content.guardianapis.com/search?q=${q}&from-date=${from}&order-by=newest&show-fields=trailText&page-size=${max}&api-key=${key}`
   );

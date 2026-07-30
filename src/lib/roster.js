@@ -117,6 +117,7 @@ export const ROSTER = [
     id: "take-command",
     name: "Take Command",
     legalName: "Take Command Health",
+    newsQuery: "Take Command Health",
     ticker: "Private",
     coast: "Central",
     sector: "Health Benefits / Fintech",
