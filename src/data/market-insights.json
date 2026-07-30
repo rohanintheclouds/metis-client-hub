@@ -142,7 +142,9 @@
           "Industrials & Supply Chain"
         ],
         "slug": "humanoid-100",
-        "heroTheme": "robot"
+        "heroTheme": "robot",
+        "shortTitle": "The Humanoid 100",
+        "hook": "Morgan Stanley maps the 100 public companies building the humanoid robot, and two Metis clients are on the list."
       },
       {
         "firm": "Goldman Sachs",
@@ -192,7 +194,9 @@
           ],
           "charts": [],
           "metisAngle": "Rare-earth magnets and copper sit inside every electric motor and actuator Regal Rexnord ships, and the same minerals equation shapes Ford's EV cost base through its battery and motor supply chain. For Baker Tilly, a sector where M&A, IPOs, and government-backed joint ventures are accelerating is precisely the deal-advisory demand the piece describes. Supply-chain security has become a board-level strategy topic for every industrial client we serve."
-        }
+        },
+        "shortTitle": "Rare Earths M&A",
+        "hook": "AI power demand and export controls are driving a wave of M&A in copper and rare earths."
       },
       {
         "firm": "McKinsey & Company",
@@ -223,7 +227,9 @@
           "figures": [],
           "charts": [],
           "metisAngle": "This is the same argument Metis makes in every AI engagement: the operating model, not the model, is the constraint. Workday's positioning (AI agents for the back office) makes it the client most directly in this conversation, and the executive interviews are useful ammunition for change-management discussions with any client whose AI pilots are stuck at the tool stage."
-        }
+        },
+        "shortTitle": "AI Transformations",
+        "hook": "AMD, Dell, Liquid AI, and Mercedes-Benz executives on why AI transformation is about people, not tools."
       },
       {
         "firm": "J.P. Morgan",
@@ -275,7 +281,9 @@
           ],
           "charts": [],
           "metisAngle": "This is loanDepot's operating environment in one page: originations stay suppressed while affordability is this stretched, which is why the company's story is cost reset and channel efficiency rather than volume growth. The ROAD to Housing Act is the variable to watch, and any supply-side thaw changes the demand curve loanDepot's Vision 2027 plan is built against."
-        }
+        },
+        "shortTitle": "US Housing Outlook",
+        "hook": "US home prices hit a record $440,600 as a new federal law tries to crack the supply shortage."
       },
       {
         "firm": "Bain & Company",
@@ -341,7 +349,9 @@
             }
           ],
           "metisAngle": "NRG lives on both sides of this equation: rising power demand lifts its generation economics while capacity-price spikes invite the regulatory scrutiny Morningstar flagged this same week. Generac is a direct beneficiary of the reliability anxiety Bain describes, from home standby through its new hyperscale data-center backup business. The cost-allocation fight over large new users is literally a fight about data centers, which also touches Lumen's buildout economics."
-        }
+        },
+        "shortTitle": "The $560B Energy Question",
+        "hook": "US utilities face a $560 billion funding gap as the era of flat electricity prices ends."
       },
       {
         "firm": "J.P. Morgan",
@@ -386,7 +396,9 @@
           ],
           "charts": [],
           "metisAngle": "This is the finance-side mirror of what our industrial clients are living. Generac is standing up data-center backup-power capacity against exactly these milestone-driven order books, and Lumen's Private Connectivity Fabric deals share the same long-cycle cash profile. When a client's growth story runs ahead of its cash conversion, operating-model and working-capital design become the engagement."
-        }
+        },
+        "shortTitle": "AI Data-Center Suppliers",
+        "hook": "Hyperscalers will spend $600B in 2026, and their industrial suppliers are straining to fund the growth."
       },
       {
         "firm": "J.P. Morgan",
@@ -415,7 +427,9 @@
           "figures": [],
           "charts": [],
           "metisAngle": "The strategic signal is where this lives: inside ERP and procurement platforms. That is Workday's home turf, and the EarnIn integration this same week shows Workday actively opening its payroll and payments rails to partners. For clients weighing finance-transformation roadmaps, embedded B2B payments is becoming a standard module of the stack rather than an add-on."
-        }
+        },
+        "shortTitle": "Embedded Virtual Cards",
+        "hook": "B2B supplier payments are moving inside the ERP, with virtual cards as the rails."
       },
       {
         "firm": "Bain & Company",
@@ -450,7 +464,9 @@
           "figures": [],
           "charts": [],
           "metisAngle": "The maturity framing maps directly onto client conversations: most of our clients are at the copilot stage while their boards ask about agents. Workday is building the agentic back office this piece describes; ADP and UKG will face the same architecture questions in payroll and workforce management; and the insurance use cases put Aflac's claims operations in scope. Bain's redesign-over-rollout argument is the Metis operating-model thesis stated by a competitor, which makes it useful validation in proposals."
-        }
+        },
+        "shortTitle": "Agentic AI",
+        "hook": "Bain on the next wave of AI: agents that plan, act, and adapt across enterprise workflows."
       },
       {
         "firm": "Goldman Sachs",
@@ -496,7 +512,9 @@
           ],
           "charts": [],
           "metisAngle": "Two direct reads for our roster. Lumen's stock trades inside the AI-infrastructure complex whose volatility Goldman describes, so the client's narrative work matters as much as its execution this quarter. And a 32% M&A surge is demand fuel for Baker Tilly's transaction advisory practice, while several industrial clients fit Goldman's 'compounder' profile, useful framing for how their boards think about the next leg of value creation."
-        }
+        },
+        "shortTitle": "Beyond the AI Trade",
+        "hook": "With the AI trade at record volatility, Goldman names three investment themes that don't move with it."
       },
       {
         "firm": "Goldman Sachs",
@@ -563,7 +581,9 @@
             }
           ],
           "metisAngle": "Healthcare capital flowing toward innovation is the demand backdrop for Intuitive Surgical: a sector rewarded for product cycles is one that funds robotic-surgery expansion, and the procedure-growth scare in ISRG's own print contrasts with a sector tape this strong. The M&A appetite also matters to Baker Tilly's healthcare advisory work. Worth noting the consumer-driven obesity market as a case study in healthcare demand behaving like consumer demand."
-        }
+        },
+        "shortTitle": "Biotech Rally",
+        "hook": "Biotech returned 56% in a year, and Goldman sees obesity drugs and M&A extending the rally."
       }
     ]
   }

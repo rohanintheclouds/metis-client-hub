@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { getClient } from "@/lib/clients";
+import InsightHero from "@/components/InsightHero";
 import INSIGHTS from "@/data/market-insights.json";
 
 const FIRM_INITIALS = {
@@ -71,56 +71,36 @@ export default function MarketInsights() {
             No insights for this week yet — run <code>npm run scrape:insights</code>.
           </div>
         ) : (
-          <div className="insight-list">
-            {reports.map((r, i) => (
-              <article key={r.url} className="insight-card reveal" style={{ transitionDelay: `${(i % 8) * 45}ms` }}>
-                <div className="ic-head">
-                  <span className="ic-firm">{FIRM_INITIALS[r.firmId] || "•"}</span>
-                  <div className="ic-meta">
-                    <span className="ic-firm-name">{r.firm}</span>
-                    <span className="ic-date">{r.date}</span>
+          <div className="wall">
+            {reports.map((r, i) => {
+              const inner = (
+                <>
+                  <span className="tile-chip itile-chip">{FIRM_INITIALS[r.firmId] || r.firm}</span>
+                  <div className="tile-logo itile-art">
+                    <InsightHero theme={r.heroTheme} />
                   </div>
-                  {r.themes?.length > 0 && (
-                    <div className="ic-themes">
-                      {r.themes.map((t) => (
-                        <span key={t} className="ic-theme">{t}</span>
-                      ))}
-                    </div>
-                  )}
-                </div>
-                <h3 className="ic-title">
-                  {r.slug ? (
-                    <Link href={`/insights/${r.slug}`}>{r.title} <span className="ar">→</span></Link>
-                  ) : r.url ? (
-                    <a href={r.url} target="_blank" rel="noreferrer">
-                      {r.title} <span className="ar">↗</span>
-                    </a>
-                  ) : (
-                    <span>{r.title}</span>
-                  )}
-                </h3>
-                {r.sourceNote && <div className="ic-source-note">{r.sourceNote}</div>}
-                {r.summary && <p className="ic-summary">{r.summary}</p>}
-                {!r.slug && r.tieBack && <p className="ic-tieback">{r.tieBack}</p>}
-                {r.slug && (
-                  <Link href={`/insights/${r.slug}`} className="ic-brief-link">
-                    Open the Metis brief — analysis, figures &amp; charts →
-                  </Link>
-                )}
-                <div className="ic-clients">
-                  <span className="ic-clients-label">In this market:</span>
-                  {r.relatedClients.map((id) => {
-                    const c = getClient(id);
-                    if (!c) return null;
-                    return (
-                      <Link key={id} href={`/clients/${id}`} className="ic-client-chip" style={{ "--chip-brand": c.mono }}>
-                        {c.name}
-                      </Link>
-                    );
-                  })}
-                </div>
-              </article>
-            ))}
+                  <span className="tile-foot itile-foot">{r.shortTitle || r.firm}</span>
+                  <div className="tile-preview" aria-hidden>
+                    <div className="tp-ticker">{r.firm} · {r.date}</div>
+                    <div className="tp-name">{r.shortTitle || r.title}</div>
+                    <p className="tp-glance">{r.hook || r.summary}</p>
+                    <span className="tp-cta">
+                      Open the Metis brief <span className="ar">→</span>
+                    </span>
+                  </div>
+                </>
+              );
+              const style = { transitionDelay: `${(i % 10) * 45}ms` };
+              return r.slug ? (
+                <Link key={r.url || r.title} href={`/insights/${r.slug}`} className="tile itile reveal" style={style}>
+                  {inner}
+                </Link>
+              ) : (
+                <a key={r.url || r.title} href={r.url} target="_blank" rel="noreferrer" className="tile itile reveal" style={style}>
+                  {inner}
+                </a>
+              );
+            })}
           </div>
         )}
       </div>
