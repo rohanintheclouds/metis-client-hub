@@ -30,26 +30,26 @@
         "items": [
           {
             "headline": "Aflac: 8-K filed 2026-06-30, items 8.01.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "Aflac published an 8-K under Item 8.01, the catch-all for voluntary disclosures a company deems material to shareholders, dated to the end of June and available on EDGAR. Voluntary 8.01 filings are worth opening precisely because they are unscheduled: they carry whatever management decided could not wait for the next quarterly report.",
+            "ctx": "Unscheduled disclosures are often the earliest primary-source signal of events that later dominate the narrative.",
             "url": "https://www.sec.gov/Archives/edgar/data/4977/000162828026046124/afl-20260630.htm"
           },
           {
             "headline": "Aflac (AFL) Could Be 10% Above Fair Value On Shrinking Revenue Views.",
-            "body": "Aflac (AFL) has attracted fresh attention as investors reassess the stock’s recent performance. The shares closed at $129.55, with returns over the past month, past 3 months, and year all in positive ...",
-            "ctx": "Via finance.yahoo.com.",
+            "body": "With the stock closing at $129.55 near the very top of its $96.95 to $130.22 52-week range, and returns positive over the past month, three months, and year, valuation commentary has turned cautious: one widely-circulated analysis pegs the shares as roughly 10% above fair value on shrinking revenue views. The tension is a familiar one for Aflac, whose supplemental-insurance model produces dependable capital returns but limited top-line growth, so the multiple does the heavy lifting when sentiment is strong.",
+            "ctx": "A stock priced for perfection raises the stakes on every operational headline, including the breach disclosure below.",
             "url": "https://finance.yahoo.com/markets/stocks/articles/aflac-afl-could-10-above-160953231.html"
           },
           {
             "headline": "AFLAC says hackers stole bank details on 4.38 million of its customers.",
-            "body": "Aflac Incorporated disclosed that hackers broke into systems at its Japanese subsidiary and accessed bank account details belonging to 4.38 million customers. The company filed a Form 8-K with the U.S ...",
-            "ctx": "Via msn.com.",
+            "body": "Aflac disclosed that hackers broke into systems at its Japanese subsidiary and accessed bank-account details belonging to 4.38 million customers, reporting the incident to regulators in a Form 8-K. The location makes this more serious than a typical breach headline: Aflac Japan is the company's profit engine, contributing roughly two-thirds of consolidated earnings, and this is the second major cyber incident to hit the company after the June 2025 Scattered Spider intrusion into its U.S. network. Japanese financial regulators take customer-data protection seriously, and bank-account details are more directly monetizable than the claims data exposed last time.",
+            "ctx": "For a company whose product is a promise to pay at the worst moment, repeated breaches strike at brand trust in its most important market, and remediation spending tends to become transformation budget.",
             "url": "https://www.msn.com/en-us/money/other/aflac-says-hackers-stole-bank-details-on-4-38-million-of-its-customers/ar-AA28HRpd"
           },
           {
             "headline": "Aflac expands WNBPA deal, will offer tiered prize structure at All-Star Weekend.",
-            "body": "Aflac and the WNBPA are expanding their partnership by increasing supplemental prize awards for players competing on Friday events of the WNBA All-Star Weekend in Chicago.",
-            "ctx": "Via sportsbusinessjournal.com.",
+            "body": "On a lighter note, Aflac expanded its partnership with the WNBA players' association, adding a tiered structure of increased supplemental prize awards for players competing in the Friday events of All-Star Weekend in Chicago. The deal extends Aflac's long-running strategy of high-visibility sponsorships that keep the duck brand in front of consumers who never think about supplemental insurance until enrollment season.",
+            "ctx": "Brand spend aimed at younger audiences signals where Aflac sees its next generation of worksite customers.",
             "url": "https://www.sportsbusinessjournal.com/Articles/2026/07/23/aflac-expands-wnbpa-deal-will-offer-tiered-prize-structure-at-all-star-weekend/"
           }
         ],
@@ -100,32 +100,32 @@
         "items": [
           {
             "headline": "Ford Credit: 10-Q filed 2026-07-29.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "Ford Motor Credit filed its own 10-Q for the quarter ended June 30, a day after the parent's results. The finance arm's quarterly is the primary source on the metrics that matter most for this account: the size and credit quality of the loan and lease book, funding costs, and lease residual assumptions, none of which get more than a summary line in the parent's release.",
+            "ctx": "The 10-Q is where to verify how the captive's funding-cost story is evolving as the industrial-bank plan progresses.",
             "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000156/f-20260630.htm"
           },
           {
             "headline": "Ford Credit: 8-K filed 2026-07-28, items 2.02,9.01.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "The 8-K under Items 2.02 and 9.01 is the formal wrapper for Ford's second-quarter 2026 earnings release, filed July 28. Item 2.02 designates results of operations, meaning the exhibit attached under 9.01 is the full press release with the quarter's financials.",
+            "ctx": "Anchor document for the week: everything else in this edition orbits the Q2 print.",
             "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000155/f-20260728.htm"
           },
           {
             "headline": "FORD NAMES MARIA GRAZIA DAVINO VICE PRESIDENT, SALES, FORD OF EUROPE – Company Announcement - Financial Times.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
+            "body": "Ford named Maria Grazia Davino Vice President of Sales for Ford of Europe, announced through a formal company disclosure carried by the Financial Times. Sales leadership changes in Europe land at a sensitive moment: the region is where Ford has been restructuring hardest, and where this week's Geely partnership (below) redraws the product plan.",
+            "ctx": "New sales leadership plus a new production alliance suggests Europe strategy is actively in motion, worth tracking for org-design implications.",
             "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb0p4cHBxUXA0NXBpM3QtMG9wVDFLcTVoWU1uUXE0al9QengxMUg0YzFQbEUzUEozZExNYnlEWGtjR1NKYi1RSGxvbl9oQnFjTk9qb0VtSk54dVcydzN6cGlCZm1ZTkxRTXp5UmNOMEdhZHIzU0hCZGFVb2JQMDdMcUhUZWtLUFZHSk5hbUo4VnQ3N2NQSkdLVA?oc=5"
           },
           {
             "headline": "Ford Reports Second-Quarter 2026 Financial Results - businesswire.com.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
+            "body": "Ford published its second-quarter 2026 results on July 28 via Business Wire, with the details in the 8-K exhibit above. The print matters double for this account: Ford Credit's earnings contribution and the parent's volume and pricing trajectory both flow from it, and the quarter is the first full one since the FDIC cleared the Ford Credit Bank industrial charter that promises cheaper deposit funding for the lending book.",
+            "ctx": "Read the captive-finance segment commentary first: funding costs and credit performance drive Ford Credit's story more than vehicle volumes do.",
             "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOLTk5WU8zdlk4X2pSX05GQnJjSEQteFl2cXdOQzRUaENkS0ZqczhjZUwzZ25panFjQ0FvRmN0c0N3VEphYzRzSXgyTXByRDBZVjgtNnVPQWJ2T2lsZmg2dEdUS0lUS3YyUmlqSG5UOWRBZl83bm82bklfMjFTYjVOVTh4V3lwRTlRRkExd3dFV21ocHRTVk9uYTNNMS1vcEk0WHo2QWY5U1RCOFE?oc=5"
           },
           {
             "headline": "FORD AND GEELY AUTO JOIN FORCES IN EUROPE TO PRODUCE NEXT-GENERATION MULTI-ENERGY VEHICLES IN SPAIN - Finansavisen.",
-            "body": "Reported by the press on 2026-07-23.",
-            "ctx": "",
+            "body": "Ford and Geely, the Chinese group that also controls Volvo Cars, announced they will join forces in Europe to produce next-generation multi-energy vehicles in Spain. For Ford of Europe this is a significant strategic turn: sharing production with a Chinese partner on multi-energy platforms is the kind of capital-light arrangement Western automakers are increasingly reaching for as they balance EV investment against soft European demand.",
+            "ctx": "Partnership structures like this reshape the manufacturing footprint and supplier web that Ford Credit ultimately finances.",
             "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxONUFsTHdRTDc1OGRfNnZETkJMeFdOYV92a053YVBZamUxNFBPWVNzck5KZ0FiMjRjSGFhSFRrbjRjNmY5LWlRWUNRN1N6SXlDUERfOGJDOFp2em4zaF9WTzhJQmdQWVVSS0hYNjk3SEp6c1VCRTRERy1iaWs3b2NDRHJTM3VsazUwSm82YVR2TVFUMzk3QzJuV3RsMHlxdjZaRVJKUmhXSzQyZVcwVE9XNGVXX0RIMTZRUDVjbzJZOXNpZXJ6c1hyVFN0eThHREJ2ck81SlpVSm9lZy1TemhEdGZJb0VUaFVUcFQ2cEtUNm9ha3F0SUUzVlJfRVR0dDBYcHZnYzlVd2Mxa1VTbFdKSzU1R2RENVEz?oc=5"
           }
         ],
@@ -184,15 +184,9 @@
         "items": [
           {
             "headline": "Lumen to Report Q2 Earnings: Here's What Investors Should Know.",
-            "body": "LUMN heads into Q2 earnings with AI-driven PCF and NaaS momentum, while legacy declines and heavy debt remain key concerns.",
-            "ctx": "Via finance.yahoo.com.",
+            "body": "Lumen heads into its second-quarter print with the bull and bear cases in unusually sharp relief. Earnings previews frame the quarter around momentum in the AI-driven Private Connectivity Fabric business and Network-as-a-Service adoption on one side, against continued legacy revenue declines and a heavy debt load on the other. The stock trades at $6.49, down about 16% year to date and far below the 52-week high of $11.95, so the market is waiting for evidence that the AI-infrastructure pivot can outrun the copper-era erosion.",
+            "ctx": "The PCF pipeline is the number to watch: it is the proof point for the entire repositioning story our engagement supports.",
             "url": "https://finance.yahoo.com/markets/stocks/articles/lumen-report-q2-earnings-heres-142400331.html"
-          },
-          {
-            "headline": "Backflipt Achieves Fortinet Fabric-Ready Validation, Extending the Fortinet AI-Native Security Fabric for Agentic AI.",
-            "body": "Validated integration delivers inline runtime security for AI agents and MCP traffic within the Fortinet AI-Native ...",
-            "ctx": "Via desmoinesregister.com.",
-            "url": "https://www.desmoinesregister.com/press-release/story/104400/backflipt-achieves-fortinet-fabric-ready-validation-extending-the-fortinet-ai-native-security-fabric-for-agentic-ai/"
           }
         ],
         "sources": [
@@ -234,32 +228,26 @@
         "items": [
           {
             "headline": "ADP: 8-K filed 2026-07-29, items 2.02,9.01.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "ADP's 8-K under Items 2.02 and 9.01 formally delivers the fiscal fourth-quarter and full-year 2026 results release to the SEC. As always with ADP, the release doubles as a macro artifact: the company pays one in six U.S. private-sector workers, so its pays-per-control and bookings commentary is read as a labor-market signal well beyond the HCM industry.",
+            "ctx": "Primary source for the FY2027 guidance that framed the week's trading.",
             "url": "https://www.sec.gov/Archives/edgar/data/8670/000000867026000025/adp-20260729.htm"
           },
           {
             "headline": "Automatic Data Processing (ADP) Beat Expectations, Is The Stock Still Fully Valued?.",
-            "body": "Automatic Data Processing (ADP) shares were in focus after the company reported fiscal fourth quarter and full year 2026 results that exceeded consensus expectations on revenue and earnings, alongside ...",
-            "ctx": "Via finance.yahoo.com.",
+            "body": "ADP closed its fiscal year strong: fourth-quarter and full-year 2026 results exceeded consensus expectations on both revenue and earnings, and the company introduced its fiscal 2027 outlook alongside the print. The debate immediately shifted to valuation, with commentary asking whether a stock that has compounded steadily for years was already pricing in the beat, a question sharpened by shares still trading mid-range on the year at around $263.",
+            "ctx": "Strong prints keep transformation budgets healthy; the valuation debate matters mainly to how aggressively management invests the surplus.",
             "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-adp-beat-160948540.html"
           },
           {
-            "headline": "Automatic Data Processing (ADP) Stock Looks Reasonable After Its 44% Five Year Run.",
-            "body": "Automatic Data Processing stock has delivered a 43.9% return over the past 5 years, yet the current valuation picture is mixed, with an intrinsic value estimate from a Discounted Cash Flow (DCF) model ...",
-            "ctx": "Via finance.yahoo.com.",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/automatic-data-processing-adp-stock-120917485.html"
-          },
-          {
             "headline": "Automatic Data Processing, Inc. (ADP) Q4 2026 Earnings Call Transcript.",
-            "body": "Thank you, Michelle, and welcome, everyone, to ADP's, Fourth Quarter Fiscal 2026 Earnings Call. Participating today are Maria ...",
-            "ctx": "Via seekingalpha.com.",
+            "body": "The fiscal Q4 call on July 29 featured CEO Maria Black and CFO Peter Hadley walking through the quarter, with the full transcript now public. Analyst attention on the call spanned the usual ADP battlegrounds: Employer Services bookings, PEO momentum, and what the fiscal 2027 outlook embeds for client-funds interest income as rates drift.",
+            "ctx": "The call transcript is the richest single source for management's own framing of FY27 priorities, useful ahead of any engagement-planning conversation.",
             "url": "https://seekingalpha.com/article/4927010-automatic-data-processing-inc-adp-q4-2026-earnings-call-transcript"
           },
           {
             "headline": "ADP stock gains after Q4 results wrap up strong FY2026; solid guidance introduced.",
-            "body": "Automatic Data Processing (ADP) stock climbed 5.2% in Wednesday morning trading after the company, known for payroll processing services and jobs data, posted stronger-than-expected fiscal Q4 earnings ...",
-            "ctx": "Via msn.com.",
+            "body": "The market's verdict on the print was immediate: ADP stock climbed 5.2% in Wednesday morning trading after the stronger-than-expected fiscal Q4 earnings and the introduction of solid FY2027 guidance, before giving back some of the pop in the following session. That pattern, an enthusiastic open faded by profit-taking, is the classic signature of a good report meeting already-high expectations.",
+            "ctx": "Post-earnings strength confirms investor confidence in the multi-year HCM demand story ADP is riding.",
             "url": "https://www.msn.com/en-us/money/economy/adp-stock-gains-after-q4-results-wrap-up-strong-fy2026-solid-guidance-introduced/ar-AA28Zug2"
           }
         ],
@@ -314,21 +302,15 @@
         "items": [
           {
             "headline": "Multi-Country Payroll (MCP) Solutions Market Report Provides Insights Into Market Evolution And Growth Prospects - openPR.com.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
+            "body": "The only UKG-adjacent items to cross the wire this week were third-party market-research promotions, this one sizing the multi-country payroll solutions market in which UKG competes alongside ADP, Workday, and regional specialists. No first-party UKG news was fetched from any channel this week.",
+            "ctx": "A quiet week from a private company is normal; the interesting signal was next door, where rival ADP posted its fiscal-year beat.",
             "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVXh6NE00Mk1DWGlxT1EtSDhFUnJPOHF2ZHNkYmJwdlhMSGU2cUtURVJmU014OTVLRDROSV9pYVdLaWVNS3k5dF90WHR2clVRRXRmdjFvQzBDdzJMdDVkQjdDenBoSWxiNTk0ZktyYk1RaXFRb2lIdTNiamJHM3J3Vi1BcVd4a2IwU0NudXczYVVta21XR3VvM3Z3?oc=5"
           },
           {
             "headline": "Bundled Pay Management Software Market Outlook Signals Expansion To $7.29 Billion Through 2030 - openPR.com.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
+            "body": "A second market-research promotion projected the bundled pay-management software category expanding to $7.29 billion through 2030. Category-sizing PR is thin evidence on its own, but the steady drumbeat of pay-tech market reports reflects where HCM vendors, UKG included, are concentrating product investment.",
+            "ctx": "Pay and workforce-management convergence is the competitive backdrop for UKG's Pro and Ready roadmaps.",
             "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNczE4NjJrUlRsSERMajlLM21LZ2pYYnQ3M25GbmZKZ0VmaVJrSC00aEpNRlZfQ1U3TFJJNDZUSWxOVTB2QmNuS3Y3UnN1dk1DbWNaajBKNXo4QXI2WWtRNk9ybzc3NEc0QW9URzYydFVMaUFkZ1JiR0VxemlfTGJCWTlPNVpRbE9VWWxXQU92Sk5zMC1R?oc=5"
-          },
-          {
-            "headline": "IIM Ahmedabad successfully concluded Summer Internship with 100% placements for 2025-2027 batch - Shiksha.",
-            "body": "Reported by the press on 2026-07-27.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLTJOS0VfM2Y3OUNBY282Y0RhQnhrdDFubVJ6ajI5emI5akQxZHdEUkQ2bW9IbE9uMDMxWjdxMTFSd1g4N3pVRnFpaFpBbkc3Yno3VUJlZ0ZFcDF4cDVaNnhDbmNtbGhNYmgtSl8tdWc1ZGhpajRVYjVoT2VRYlBJOVFhaWN6OW5zY3FxNkNaMy1EZWR1em0wMGtCNkZ1TExCZnk1LTJHXzhpX0hkaHZsanhJS3E5M1QyX3duR0V1UHluc1J0d3gydVNUa014M1B5Rjc2TzFLaXBXUmpURWc?oc=5"
           }
         ],
         "sources": [
@@ -370,32 +352,32 @@
         "items": [
           {
             "headline": "Generac: 8-K filed 2026-07-29, items 2.02,9.01.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "Generac's 8-K under Items 2.02 and 9.01 carries the second-quarter earnings release into the record, the formal companion to the blowout numbers that dominated the week.",
+            "ctx": "Primary source for the quarter's segment detail behind the headlines below.",
             "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926024731/gnrc20260728_8k.htm"
           },
           {
             "headline": "Generac pivots toward data centers as hyperscale orders reach $1 billion.",
-            "body": "Generac accelerates area plant opening, eyes more sites for data unit © 2026 American City Business Journals. All rights reserved. Use of and/or registration on any portion of this site constitutes ...",
-            "ctx": "Via bizjournals.com.",
+            "body": "The Milwaukee Business Journal reported that Generac is accelerating the opening of an area plant and evaluating additional sites for its data-center unit as hyperscale orders reach $1 billion. This is the structural story underneath the quarter: a company built on residential standby generators is standing up industrial-scale capacity to serve AI data-center backup power, a segment that barely existed in its mix two years ago.",
+            "ctx": "Capacity decisions are being made now; operating-model and supply-chain implications follow close behind for any engagement.",
             "url": "https://www.bizjournals.com/milwaukee/news/2026/07/30/generac-data-center-q2.html"
           },
           {
             "headline": "Is Generac Holdings (GNRC) Undervalued On Its Q2 Earnings Beat And Reaffirmed Outlook?.",
-            "body": "Generac Holdings (GNRC) is back in focus after reporting second quarter 2026 results that outpaced profit expectations, alongside a reaffirmed full year net sales growth outlook in the mid to high ...",
-            "ctx": "Via finance.yahoo.com.",
+            "body": "Even after the print, valuation commentary asked whether the stock remains undervalued given the earnings beat and a reaffirmed full-year net sales growth outlook. The shares are up roughly 37% year to date at $192.69 but remain far below the 52-week high of $296, so the market is still discounting how durable the data-center order surge will prove.",
+            "ctx": "The valuation gap between the AI-power narrative and the residential-generator history is exactly where strategy work earns its keep.",
             "url": "https://finance.yahoo.com/markets/stocks/articles/generac-holdings-gnrc-undervalued-q2-130817361.html"
           },
           {
             "headline": "Generac (GNRC) Q2 2026 Earnings.",
-            "body": "Generac crushed second quarter earnings with $2.91 adjusted EPS, demolishing the $2.01 consensus by 45%, as its data center backup power business surged 29% and backlog hit $1.6 billion. A $71 ...",
-            "ctx": "Via 247wallst.com.",
+            "body": "The numbers were emphatic: $2.91 in adjusted EPS against a $2.01 consensus, a beat of roughly 45%, with the data-center backup-power business surging 29% and backlog reaching $1.6 billion. Beats of this magnitude are rare for an industrial with Generac's profile and reflect demand arriving faster than the Street modeled.",
+            "ctx": "Backlog of $1.6B gives unusual revenue visibility; the execution question shifts from demand to delivery.",
             "url": "https://247wallst.com/cards/generac-q2-2026-earnings-gnrc-01kypnvnxyspvb31bb9w5rry9z"
           },
           {
             "headline": "Generac CEO Aaron Jagdfeld on Q2 results, powering AI data centers and growth outlook.",
-            "body": "Aaron Jagdfeld, Generac chairman, president and CEO, joins 'Squawk Box' to discuss the company's quarterly earnings results, powering AI data centers, company growth outlook, and more.",
-            "ctx": "Via msn.com.",
+            "body": "CEO Aaron Jagdfeld took the story to CNBC's Squawk Box, discussing the quarter, the economics of powering AI data centers, and the growth outlook. When a mid-cap industrial CEO gets a national morning-show slot, the narrative has crossed from sector coverage into the mainstream AI-infrastructure conversation.",
+            "ctx": "Management is actively repositioning the company's public identity around AI power, a shift worth mirroring in how we frame engagement value.",
             "url": "https://www.msn.com/en-us/money/news/generac-ceo-aaron-jagdfeld-on-q2-results-powering-ai-data-centers-and-growth-outlook/vi-AA28YcRj"
           }
         ],
@@ -453,7 +435,7 @@
     },
     "nrg-energy": {
       "2026-07-27": {
-        "glance": "A quiet tape week for NRG: the freshest primary-source item is a July 15 8-K, with earnings-expectation commentary building ahead of the next print. Shares sit at ~$134, down about 19% year to date, so the upcoming quarter is the near-term catalyst to watch.",
+        "glance": "A watchful week for NRG: a July 15 8-K is the freshest primary-source item, earnings-growth previews are building ahead of the print, and Morningstar flagged Mid-Atlantic capacity-market prices heightening regulatory concerns. Shares showed counter-market strength in one session but sit at ~$134, down about 19% year to date.",
         "stats": [
           {
             "v": "$134.38",
@@ -474,33 +456,27 @@
         "items": [
           {
             "headline": "NRG: 8-K filed 2026-07-15, items 8.01.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "NRG's most recent primary-source item is a July 15 8-K under Item 8.01, the voluntary-disclosure category, published on EDGAR ahead of the upcoming earnings print.",
+            "ctx": "Worth opening: unscheduled disclosures from utilities often concern capacity auctions, regulatory matters, or portfolio moves.",
             "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926083743/tm2620335d1_8k.htm"
           },
           {
             "headline": "NRG Energy (NRG) ascends while market falls: Some facts to note.",
-            "body": "In the latest close session, NRG Energy (NRG) was up +2.15% at $142.99. The stock's change was more than the S&P 500's daily loss of 1.21%. At the same time, the Dow lost 0.97%, and the tech-heavy ...",
-            "ctx": "Via msn.com.",
+            "body": "In one notable session this week NRG rose 2.15% to $142.99 while the S&P 500 fell 1.21% and the Dow lost about 1%, the kind of counter-tape strength that suggests investors treating the name defensively. The bigger picture is less kind: at $134 the stock is down roughly 19% year to date, well off its 52-week high of $190.",
+            "ctx": "Counter-market sessions hint at rotation into power names on AI-demand narratives, a theme NRG's generation fleet sits squarely inside.",
             "url": "https://www.msn.com/en-us/money/general/nrg-energy-nrg-ascends-while-market-falls-some-facts-to-note/ar-AA28yGUD"
           },
           {
             "headline": "NRG Energy (NRG) Earnings Expected to Grow: Should You Buy? - Yahoo Finance.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
+            "body": "Preview coverage flagged NRG as a company whose earnings are expected to grow into the upcoming report, positioning the print as the near-term catalyst for a stock that has lagged all year.",
+            "ctx": "Expectations are being set publicly; the quarter will test whether the retail-plus-generation model converts power demand into margin.",
             "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLWVsYlE3MkMzdnJNM0pVRUQydXREakhoWHEybWs0Vy16X1lzb014LWswMklURG1OS0FLYldtVVdOUW5DSURvRl84RlpoT1ZobGhfZjJ5MS0tRk1ha3VRbC1pSVNVMm5pVmZkcl9UVzFITEtVc1E0ZXJrbkJxY2ktZWdSQUg2LVlPYllRWTFIWDVQZnphNmZ2WEN2NFRfdw?oc=5"
           },
           {
             "headline": "NRG Energy: Mid-Atlantic Capacity Market Prices Heighten Regulatory Concerns - Morningstar.",
-            "body": "Reported by the press on 2026-07-27.",
-            "ctx": "",
+            "body": "Morningstar flagged that Mid-Atlantic capacity-market prices are heightening regulatory concerns. Capacity auctions in that region have produced dramatic price outcomes as data-center demand collides with tight supply, and when capacity prices spike, political and regulatory scrutiny of generators like NRG reliably follows.",
+            "ctx": "Regulatory response to capacity pricing is a genuine strategic risk vector, worth a standing line in any NRG engagement radar.",
             "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbWhpTnBhWjhsM1h3TmFZYmp4dmh3RnF2eEQ3TnZ0eElhckdUa0p5WUpjVEEta2o4cG1TNzh1ZlRUU01DXzF1ZFBYLUxvTTFRdnQ4NFZSOGFRdDlQZVo3X1paQ05VdlNZdHRvdTFQQ0pNU28xTW1MejBKa25wZnltTmpTemVhNDRsTVhrWXRWTktudmVVSEJqTV94UkRVYUp5eXcwdFpNc09rdTIwN2NadjMxZ1k3LTdRQkl1M0ZBYlRLcUZQWnBLSk4tSWI3TGlhakFLb3VTWGh3cXIzSGRr?oc=5"
-          },
-          {
-            "headline": "NRG Energy Inc (NRG) Stock Down 3.2% but Still Overvalued -- GF Score: 79/100 - GuruFocus.",
-            "body": "Reported by the press on 2026-07-27.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTDVITkJmQmZzOGw2QUczVGRnczViYl8wd05KNjFBbDlYSklMcXJiT2ZCam9oZDNuSGROVzd5bVJBSjBYYjNQb2w1OFpZeDRpMWU4Z2RrZmU3dE1CVFF2V1ltdjVMakU3VjFTZV96QVNrSG9pdXRnZ00yZFZPNDlTLUt0RmRJcnc4aG1CWFFaUkhrenZUa1BGTGhlMEN4aE1ILTgyZnVtVDJ2ZXo2cEFHUXpELWRGUWFtc0dB?oc=5"
           }
         ],
         "sources": [
@@ -553,34 +529,16 @@
         "stats": [],
         "items": [
           {
-            "headline": "Council weighs whether to scrutinize police or fire - Western Wayne News.",
-            "body": "Reported by the press on 2026-07-30.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUU15VHEzelRvNjBWOTJVZHdJbmFTMDdDWUQ4d21GUTdKdEFpQklLNl9YeDBjSzFCUGN4MTBEQndiaDNteUJXbVpmdEhZem05aGtZSjRFWHpneE41c3V0TUxUclFVWDM0QXcxOUJFczJwd2N0SG1ZSmpzUGR2d1RqeFdNSTQtaW9H?oc=5"
-          },
-          {
             "headline": "Grant Thornton seals accounting sector’s largest takeover in a generation - Financial Times.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
+            "body": "The Financial Times reported that Grant Thornton sealed the accounting sector's largest takeover in a generation. For Baker Tilly, itself the product of a landmark PE-backed combination with Moss Adams, the deal confirms that scale consolidation among mid-tier firms is not slowing: the firms directly flanking it in the league table are getting bigger, faster.",
+            "ctx": "Every major rival combination resets the competitive math on talent, technology investment, and client coverage that drives Baker Tilly's own strategy agenda.",
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNm02eUZkNXVZaks5X0hMaFhsQWRDR3dYQm1lQjF3UVJsUkphV1BzeEZtR1pvOHg3eDN6NFBhNEVnNm5yVHA5VU5ORXZhQm1HTVVubGY5bU1heVdEbGdvSjJoTzlRRVZCWndsSGhvMTg3TUZsR0drTWh0a2lGa1pTQ1hOUm0?oc=5"
           },
           {
             "headline": "Grant Thornton Advisors to buy CBIZ in $5 billion deal, expand US accounting reach - Reuters.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
+            "body": "Reuters put numbers on it: Grant Thornton Advisors agreed to buy CBIZ in a $5 billion deal that expands its US accounting reach. The transaction consolidates two sizable players squarely in the middle market where Baker Tilly competes for both clients and acquisition targets, and it extends the run of private-equity-fueled dealmaking that has been redrawing the sector since 2024.",
+            "ctx": "A $5B competitor combination shrinks the acquisition pipeline and raises the bar on integration capability, both core themes for our work with the firm.",
             "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMFBMbE1fV0tqTDdRT1ktZV8wdGs1QV9CUTV4enlvX1VrYUZHNVkwVHpSVXpZVWlhdkdTQ2Z3TU1sMWNaWFpTeXg1RWF2ZHliS2wtNkE4R1IyaXc0YzVQWkFza05wTU5pQUNsSU9mWnVzMHlYQzllbkRmcnlaa05yZXFwRTRTT1laV2Z1OEdXUjUyd3FTcHRfbzVqNm1GZFdEZldvdENMUHJfUlE2NVdvZ2Y4d1lVdw?oc=5"
-          },
-          {
-            "headline": "Austin spirits company's co-founders clash over money and control - Austin American-Statesman.",
-            "body": "Reported by the press on 2026-07-29.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRmFJYlRCZmJqUVJtTEVBV2hEc2FUUzk5VGlETEJQYWtJelJNdmVrejhvQmtHV3VJQ2RXRGV4dWk5dEhMRG9fU0doWG1VdVBXSWpmbldGVi1qemQtMGMteG1RVVpIRUtCRU5YMDFSZFNZcUZfa0VzQnBaV1pxZGN4MVhSWUhPNWZXMmkwSGdtUVkxQTRZRW5meUFNVi1qQXlRaWo0?oc=5"
-          },
-          {
-            "headline": "Lancs expert: Region ready for construction upturn - Lancashire Evening Post.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaXFtVHQ0M2RCVkJGNVFXeEJpVmE3ZGJZaEpYMTBHdXRVRmZ5OWlqdEZYS0J5YlVVWDJPSkNvc1hwOGxFR2VsTHJ0Zmswdi0xQkk4aGtsTFFOTnR2UEs5UW1JVVpKdzFJR3pOTV9PTkI2US0xSHNCbzZQVkltYUliNHJQTWFOcllEdzFpUHNEWkltWmdoZVg4d29meUg1RjBxMTZHVWRCTjRuR3BGYWdTUm93YnI5RnhLaVJVSTdlNlJuZGFXREJ4Qg?oc=5"
           }
         ],
         "sources": [
@@ -642,8 +600,8 @@
         "items": [
           {
             "headline": "Regal Rexnord (RRX) Stock May Be Fairly Priced As Cash Flow Holds Up.",
-            "body": "Regal Rexnord has delivered a 58.8% return over the past five years, yet its current checks paint a picture of a stock that looks roughly in line with its Discounted Cash Flow (DCF) intrinsic value ...",
-            "ctx": "Via finance.yahoo.com.",
+            "body": "The week's only substantive coverage was analytical: Regal Rexnord has returned 58.8% over the past five years, and a discounted-cash-flow read now pegs the stock as roughly fairly priced as cash flow holds up. The shares trade near $202, up about 38% year to date and well off the 52-week low of $128, a strong run for the motors, gearing, and actuator portfolio. Notably, that same portfolio appears in four component categories of Morgan Stanley's Humanoid 100 mapping of the humanoid-robot value chain (see the Market Insights tab).",
+            "ctx": "A fairly-valued stock after a 38% run means the next leg depends on new demand narratives, and humanoid-robotics exposure is the freshest one available.",
             "url": "https://finance.yahoo.com/markets/stocks/articles/regal-rexnord-rrx-stock-may-170731513.html"
           }
         ],
@@ -682,20 +640,20 @@
         "items": [
           {
             "headline": "Vulcan Materials: 10-Q filed 2026-07-29.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "Vulcan filed its 10-Q for the June quarter on July 29, the same day as the results 8-K, putting the full financial detail behind the earnings release into the record.",
+            "ctx": "Segment-level pricing and volume detail lives here, not in the press release.",
             "url": "https://www.sec.gov/Archives/edgar/data/1396009/000162828026050486/vmc-20260630.htm"
           },
           {
             "headline": "Vulcan Materials: 8-K filed 2026-07-29, items 2.02,9.01.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "The results 8-K under Items 2.02 and 9.01 delivers the second-quarter earnings release, the formal companion to the beat covered below.",
+            "ctx": "Anchor filing for the week.",
             "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126029958/ef20078928_8k.htm"
           },
           {
             "headline": "Vulcan Materials Reaffirms 2026 Outlook as Infrastructure Projects Drive Aggregates Growth.",
-            "body": "The Birmingham, Alabama-based company, the largest producer of construction aggregates in the United States, reported second-quarter revenue of $2.16 billion, up from $2.10 billion in the same period ...",
-            "ctx": "Via cceonlinenews.com.",
+            "body": "Vulcan, the largest U.S. producer of construction aggregates, reported second-quarter revenue of $2.16 billion, up from $2.10 billion a year earlier, with net earnings edging higher to $323.4 million and adjusted diluted EPS rising to $2.59 from $2.45. Management reaffirmed its 2026 outlook, with infrastructure projects continuing to drive aggregates growth from its 400-plus quarries.",
+            "ctx": "Reaffirmed guidance on public-works demand supports the multi-year infrastructure thesis underpinning this account.",
             "url": "https://cceonlinenews.com/investment-finance/vulcan-materials-q2-reaffirms-2026-outlook/"
           },
           {
@@ -706,8 +664,8 @@
           },
           {
             "headline": "Vulcan Materials Q2 Earnings & Revenues Beat Estimates, Stock Up.",
-            "body": "VMC's second-quarter 2026 earnings and revenues beat estimates as pricing gains, higher aggregates volumes and cost control help offset energy inflation.",
-            "ctx": "Via finance.yahoo.com.",
+            "body": "The quarter beat consensus on both earnings and revenue, with pricing gains, higher aggregates volumes, and cost control offsetting energy inflation, and the stock rose on the print. Price-over-volume discipline has been Vulcan's signature: local scarcity and freight economics give aggregates unusual pricing power even when volumes wobble.",
+            "ctx": "Pricing power plus cost control is the operating playbook; the beat validates it for another quarter.",
             "url": "https://finance.yahoo.com/markets/stocks/articles/vulcan-materials-q2-earnings-revenues-142700021.html"
           }
         ],
@@ -765,7 +723,7 @@
     },
     "loandepot": {
       "2026-07-27": {
-        "glance": "One real strategic move this week: loanDepot picked Miami for a new corporate center opening September 2026, supporting technology, marketing, recruiting, and mortgage fulfillment across channels. The backdrop remains harsh, shares trade around $1.01, down over 50% year to date, which makes cost-conscious footprint decisions like this one the story to follow.",
+        "glance": "Two very different storylines: loanDepot announced a new Miami corporate center opening September 2026 to house technology, marketing, recruiting, and fulfillment, while NEXA's CEO publicly courted its loan officers, calling the company a \"sinking ship\" amid ongoing litigation between the firms. With shares around $1.01, down over half this year, both stories are really about the same thing: executing Vision 2027 while defending the talent base.",
         "stats": [
           {
             "v": "$1.01",
@@ -786,33 +744,15 @@
         "items": [
           {
             "headline": "'Come To NEXA': CEO Publicly Courts loanDepot Loan Officers.",
-            "body": "Mike Kortas calls loanDepot a \"sinking ship\" in social media post while promoting NEXA's recruiting package as the two companies remain embroiled in litigation The increasingly public rivalry between ...",
-            "ctx": "Via nationalmortgageprofessional.com.",
+            "body": "NEXA Mortgage CEO Mike Kortas publicly courted loanDepot's loan officers in a social-media post that called the company a \"sinking ship\" while promoting NEXA's recruiting package, an unusually open raid given that the two companies remain embroiled in litigation. Loan officers are the revenue-producing asset in retail mortgage, and public poaching campaigns tend to accelerate exactly when a target's stock price makes equity-based retention hardest.",
+            "ctx": "Talent flight risk is now a public storyline; retention economics belong on the radar for any loanDepot operating-model conversation.",
             "url": "https://nationalmortgageprofessional.com/news/come-nexa-ceo-publicly-courts-loandepot-loan-officers"
           },
           {
             "headline": "loanDepot Expands Corporate Footprint with New Miami Corporate Center.",
-            "body": "(NYSE: LDI) (together with its subsidiaries, \"loanDepot\" or the \"Company\") today announced plans to open a new corporate center in Miami, expanding its national footprint and establishing a strategic ...",
-            "ctx": "Via tmcnet.com.",
+            "body": "loanDepot announced plans to open a new corporate center in Miami, expanding its national footprint with a strategic hub supporting technology, marketing, recruiting, and mortgage fulfillment across channels, with coverage indicating a September 2026 opening. Against a stock trading around $1.01, down more than half this year, footprint moves read as part of the broader Vision 2027 cost-and-growth reset rather than expansion for its own sake.",
+            "ctx": "Where the company concentrates technology and fulfillment capacity signals which parts of the Vision 2027 plan have real budget behind them.",
             "url": "https://www.tmcnet.com/usubmit/2026/07/28/10421533.htm"
-          },
-          {
-            "headline": "LDI Looks 60.3% Undervalued on GF Value™ Amid Operational Expans - GuruFocus.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ3IxUllhSlVpT01feXJ3ZG9WUl9FWURiS19iMGZJWTYtZlJNQ3pLUmdCWWxUaUJRRHA0c0lPSHhrSVBaVUN1eElOd2dZTHVsXy1DLVhSalAwY0hiZ0JJQWVJQno1SlE5amI5YUFuMWxCaDByU0hMTkhNZ0RKM05ranRSVi02NnpZRzJrQ0ZFTlI0eXFvanRTWnpjeGYzTkFueGo3Q1RR?oc=5"
-          },
-          {
-            "headline": "loanDepot to open Miami corporate center in September - Investing.com.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWVA4TjhLODktRzQtUmdwUzR4UDJ5QXRLbU4takpLTmRuVEtDdG9EUXBKclN1eDUtekNvcGhmbEJzbzlNOWFGclZPMFN1b1hmeHJnNVExeUkwSTRPT2kxYlB0SVZJTUNYajd4b2ZjRnhHS1pBRk9nSTcxaDgyNmx0c29WN2FUb1phWUt0bi1KMTNKM2FlNERUVUFUV1MwOWo1S1diZUhqeGJhX0pmTm9V?oc=5"
-          },
-          {
-            "headline": "LoanDepot Expands to Miami - Orange County Business Journal.",
-            "body": "Reported by the press on 2026-07-28.",
-            "ctx": "",
-            "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jbm1JT1drZWNwdW1OV1h1a1RSM1cxMF83c0xrM2Z2Z0NZUUlXbGNNWHRqRDR1NERod3pFRlphTTZoYTF6dTM2UnRzdVRNOF9VUHl2M3VVNS1XS29Va01UTFdCYldRUGM?oc=5"
           }
         ],
         "sources": [
@@ -866,32 +806,26 @@
         "items": [
           {
             "headline": "Seeking Clues to Rockwell Automation (ROK) Q3 Earnings? A Peek Into Wall Street Projections for Key Metrics.",
-            "body": "Looking beyond Wall Street's top-and-bottom-line estimate forecasts for Rockwell Automation (ROK), delve into some of its key metrics to gain a deeper insight into the company's potential performance ...",
-            "ctx": "Via finance.yahoo.com.",
+            "body": "Street previews are building toward Rockwell's fiscal third-quarter print, with analysts looking past the headline estimates toward the key operating metrics, segment organic growth, margins, and order intake, that will reveal whether the industrial-automation demand recovery is broadening. The stock enters the report near its 52-week high at $473, up about 19% year to date.",
+            "ctx": "A stock at highs into earnings means expectations are loaded; the order-intake commentary matters more than the EPS line.",
             "url": "https://finance.yahoo.com/markets/stocks/articles/seeking-clues-rockwell-automation-rok-131503129.html"
           },
           {
             "headline": "New Berlin council approves Rockwell Automation's $200M plant despite neighbor opposition.",
-            "body": "Rockwell Automation's proposed $200 million-plus facility in New Berlin won votes on key matters that would allow the project to proceed.",
-            "ctx": "Via bizjournals.com.",
+            "body": "New Berlin's council approved the zoning and land-use changes for Rockwell's proposed $200 million-plus facility, clearing the project to proceed despite neighbor opposition. The plans describe an 830,000-square-foot facility with a possible 425,000-square-foot second phase, a major capacity commitment in Wisconsin that lands squarely in the reshoring wave Rockwell both rides and enables.",
+            "ctx": "A physical-capacity bet of this scale is a statement about multi-year demand conviction, useful context for any growth-strategy conversation.",
             "url": "https://www.bizjournals.com/milwaukee/news/2026/07/29/rockwell-gets-land-use-zoning-changes-for-project.html"
           },
           {
-            "headline": "New Berlin OKs zoning and land use for new Rockwell Automation site.",
-            "body": "Rockwell Automation's plans to build an 830,000-square-foot facility, with a possible 425,000-square-foot second phase, in New Berlin is one step closer to reality.",
-            "ctx": "Via msn.com.",
-            "url": "https://www.msn.com/en-us/news/us/new-berlin-oks-zoning-and-land-use-for-new-rockwell-automation-site/ar-AA28Vgjq"
-          },
-          {
             "headline": "Honeywell vs. Rockwell: Which industrial automation stock has greater upside?.",
-            "body": "Honeywell Technologies HON and Rockwell Automation, Inc. ROK are two familiar names operating in the industrial sector. As rivals, both companies compete in multiple industries with significant ...",
-            "ctx": "Via msn.com.",
+            "body": "Comparison coverage weighed Honeywell against Rockwell on which industrial-automation stock has greater upside, a framing that reflects how investors now bucket the two as the principal US-listed ways to play factory automation. The rivalry framing matters commercially too: the same comparison happens in customers' vendor-selection processes.",
+            "ctx": "Competitive positioning versus Honeywell is a live question in both capital markets and customer accounts.",
             "url": "https://www.msn.com/en-us/money/economy/honeywell-vs-rockwell-which-industrial-automation-stock-has-greater-upside/ar-AA28Sg3H"
           },
           {
             "headline": "Rockwell Automation Announces Luminus Selects SecureOT Platform to Support Industrial Cybersecurity Resilience.",
-            "body": "The deployment will help strengthen operational technology visibility and risk management across a diverse energy production environment.",
-            "ctx": "Via automation.com.",
+            "body": "Rockwell announced that Luminus selected its SecureOT platform to support industrial-cybersecurity resilience, a deployment intended to strengthen operational-technology visibility and risk management across a diverse energy-production environment. OT security is one of the clearest expansion lanes for Rockwell's software-and-services layer beyond its hardware installed base.",
+            "ctx": "Every SecureOT win validates the sensors-to-software strategy that also earned Rockwell its place in Morgan Stanley's Humanoid 100.",
             "url": "https://www.automation.com/article/rockwell-automation-luminus-secureot-platform-industrial-cybersecurity-resilience"
           }
         ],
@@ -937,7 +871,7 @@
     },
     "workday": {
       "2026-07-27": {
-        "glance": "An AI-narrative week for Workday: its new research found 89% of Indian employees say AI improves daily work but only 32% see it embedded in core systems, the integration gap Workday sells into, while EarnIn announced it will integrate earnings-management tools into Workday's Enhanced Direct Deposit Switching platform. The stock also jumped ~10% in a single session as enterprise software rebounded on an AI rotation, though it remains down ~24% year to date.",
+        "glance": "A consequential week beneath a thematic tape: courts began reaching the merits in Mobley v. Workday, the bellwether AI-hiring-discrimination case with a conditionally certified age-discrimination class, while EarnIn announced an integration into Workday's payroll rails. The stock jumped ~10% in a single session as software rebounded on an AI rotation, though it remains down ~24% year to date.",
         "stats": [
           {
             "v": "$157.55",
@@ -957,33 +891,21 @@
         ],
         "items": [
           {
-            "headline": "Workday, Inc. (WDAY) is a trending stock: Facts to know before betting on it.",
-            "body": "Workday (WDAY) is one of the stocks most watched by Zacks.com visitors lately. So, it might be a good idea to review some of the factors that might affect the near-term performance of the stock.",
-            "ctx": "Via msn.com.",
-            "url": "https://www.msn.com/en-us/money/topstocks/workday-inc-wday-is-a-trending-stock-facts-to-know-before-betting-on-it/ar-AA2943mX"
-          },
-          {
             "headline": "Is Workday’s (WDAY) EarnIn Tie-Up a Small Step or a Shift in Its AI Payroll Edge?.",
-            "body": "EarnIn recently announced it will integrate its earnings management tools into Workday’s Enhanced Direct Deposit Switching platform, aiming to streamline payroll enrollment and improve data integrity ...",
-            "ctx": "Via finance.yahoo.com.",
+            "body": "EarnIn announced it will integrate its earnings-management tools into Workday's Enhanced Direct Deposit Switching platform, aiming to streamline payroll enrollment and improve data integrity. It is a small partnership with a telling direction: Workday keeps opening its payroll rails to fintech partners, deepening the platform's role as the system of record that everything else must plug into.",
+            "ctx": "Each payroll-adjacent integration raises switching costs and extends Workday's claim on the paycheck workflow.",
             "url": "https://finance.yahoo.com/technology/ai/articles/workday-wday-earnin-tie-small-190755134.html"
           },
           {
-            "headline": "CXMT, Sandisk, ASML, SpaceX, D-Wave Quantum, Workday, and more stocks that explain today’s market.",
-            "body": "Chip stocks fall as China plays the role of disrupter.",
-            "ctx": "Via msn.com.",
-            "url": "https://www.msn.com/en-us/money/general/cxmt-sandisk-asml-spacex-d-wave-quantum-workday-and-more-stocks-that-explain-today-s-market/ar-AA28McRw"
-          },
-          {
             "headline": "Salesforce Surges 7%, ServiceNow Jumps 8%, Workday Jumps 10% as Software Rebounds on AI Rotation.",
-            "body": "Enterprise software names are staging one of their sharpest single-day reversals of the year, and the catalyst has less to do with their own fundamentals than with what is happening in a completely ...",
-            "ctx": "Via 247wallst.com.",
+            "body": "Workday jumped 10% in a single session as enterprise software staged one of its sharpest reversals of the year, with Salesforce up 7% and ServiceNow up 8% alongside. Notably, coverage attributed the move less to the companies' own fundamentals than to a rotation into software as the AI trade broadened, a reminder of how much of Workday's tape action is currently macro-thematic. Even after the pop, the stock remains down about 24% year to date.",
+            "ctx": "Sentiment toward AI-era software is the swing factor on the stock right now, more than quarter-to-quarter execution.",
             "url": "https://247wallst.com/investing/2026/07/27/salesforce-surges-7-servicenow-jumps-8-workday-jumps-10-as-software-rebounds-on-ai-rotation/"
           },
           {
             "headline": "Why Mobley v. Workday has far-reaching legal impacts for HR leaders.",
-            "body": "Courts have started reaching the merits of the first wave of AI-related discrimination cases like Mobley v. Workday, which may open the door for similar suits.",
-            "ctx": "Via hrexecutive.com.",
+            "body": "Courts have begun reaching the merits of the first wave of AI-discrimination cases, and Mobley v. Workday is the bellwether: the class action alleges Workday's AI-driven hiring tools, including HiredScore AI and Candidate Skills Match, discriminated on the basis of race, age, and disability. The court has conditionally certified an Age Discrimination in Employment Act class covering applicants aged 40 and over whose applications were processed by Workday's AI recommendation system since September 2020, and has allowed a California FEHA claim to proceed. HR-industry legal analysis calls the case far-reaching for any employer deploying AI in hiring.",
+            "ctx": "This case shapes the compliance envelope for AI-in-HR everywhere, directly relevant to Workday's product roadmap and to every client deploying AI hiring tools.",
             "url": "https://hrexecutive.com/why-mobley-v-workday-has-far-reaching-legal-impacts-for-hr-leaders/"
           }
         ],
@@ -1050,32 +972,32 @@
         "items": [
           {
             "headline": "Intuitive Surgical: 8-K filed 2026-07-27, items 5.03,9.01.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "Intuitive filed an 8-K under Items 5.03 and 9.01 on July 27. Item 5.03 designates amendments to articles of incorporation or bylaws, making this the formal record of the governance overhaul covered below.",
+            "ctx": "The filing itself defines exactly what changed in shareholder rights; the commentary interprets it.",
             "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000063/isrg-20260723.htm"
           },
           {
             "headline": "Intuitive Surgical: 10-Q filed 2026-07-21.",
-            "body": "Official filing published on SEC EDGAR.",
-            "ctx": "Primary-source disclosure.",
+            "body": "The second-quarter 10-Q, filed July 21, carries the full detail behind the earnings story: procedure volumes, system placements, and the recurring instruments-and-services revenue that drives the razor-and-blade model.",
+            "ctx": "Domestic procedure-growth trends, the market's current obsession, are quantified here.",
             "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000058/isrg-20260630.htm"
           },
           {
             "headline": "Intuitive Surgical (ISRG) Could Be 43% Undervalued On Bylaw Changes And Share Price Weakness.",
-            "body": "Intuitive Surgical (ISRG) has just overhauled its bylaws, reshaping how shareholders can nominate directors, submit proposals, and call special meetings. These governance changes arrive while the ...",
-            "ctx": "Via finance.yahoo.com.",
+            "body": "Intuitive overhauled its bylaws, reshaping how shareholders can nominate directors, submit proposals, and call special meetings, changes formally recorded in the July 27 8-K. The governance tightening arrives while the shares sit near 52-week lows, and at least one valuation analysis argues the stock could be roughly 43% undervalued at these levels, a combination that tends to draw activist and governance-watcher attention.",
+            "ctx": "Bylaw defenses plus a depressed stock is a pattern worth monitoring: it often precedes shareholder pressure campaigns.",
             "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-isrg-could-43-200949008.html"
           },
           {
             "headline": "Is Intuitive Surgical's post-earnings selloff a buying opportunity?.",
-            "body": "Intuitive Surgical (ISRG) reported strong second-quarter 2026 results, but its stock plunged on concerns about slowing domestic procedure growth. Despite beating both top- and bottom-line consensus ...",
-            "ctx": "Via msn.com.",
+            "body": "Intuitive reported strong second-quarter 2026 results, beating consensus on both the top and bottom line, yet the stock plunged on concerns about slowing domestic procedure growth. Procedure volume is the metric the razor-and-blade model lives on: hospitals buying systems matters far less than how often the installed base gets used, so even a modest domestic deceleration reframes the growth story.",
+            "ctx": "The selloff prices a procedure-growth scare, not a broken model; the distinction is the crux of the investment and strategy debate.",
             "url": "https://www.msn.com/en-us/money/economy/is-intuitive-surgical-s-post-earnings-selloff-a-buying-opportunity/ar-AA28T477"
           },
           {
             "headline": "Intuitive Surgical Fell 37% to $355 With This Wall Street Pro Is Calling for $685.",
-            "body": "Intuitive Surgical just posted its fifth consecutive earnings beat and management started buying back shares above current prices, yet the stock sits at a level that implies something far worse than a ...",
-            "ctx": "Via 247wallst.com.",
+            "body": "The whiplash in expectations is stark: after a fifth consecutive earnings beat, the stock sits at roughly $352, down 37% year to date and near its $328 52-week low, while management has begun buying back shares above current prices and at least one Wall Street analyst maintains a $685 target. The gap between the buyback signal, the analyst view, and the market price frames just how contested the name has become.",
+            "ctx": "Management buying stock above market is the strongest internal-confidence signal available; the market is calling their bluff on procedure growth.",
             "url": "https://247wallst.com/investing/2026/07/28/intuitive-surgical-fell-37-to-355-with-this-wall-street-pro-is-calling-for-685/"
           }
         ],
