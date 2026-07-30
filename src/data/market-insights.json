@@ -13,11 +13,61 @@
         "firmId": "morgan-stanley",
         "manual": true,
         "title": "The Humanoid 100: Mapping the Humanoid Robot Value Chain",
-        "sourceNote": "Morgan Stanley Research BluePaper (Feb 6, 2025) — internal copy in Romain-Metis/NewsReports on OneDrive",
+        "sourceNote": "Morgan Stanley Research BluePaper (Feb 6, 2025)",
         "summary": "Morgan Stanley's global research team maps 100 public companies across the humanoid-robot value chain — Brain (22 semis/software names), Body (64 industrial-component suppliers: actuators, bearings, screws, reducers, motors, sensors, batteries), and Integrators building full humanoids. Its US TAM model projects 8 million humanoid units by 2040 (~$357B wage impact) rising to 63 million by 2050 (~$3T wage impact, ~$1T annual US humanoid revenue), against a global labor market it sizes near $30T.",
         "analysis": "Metis angle: two of our clients are on the list itself. Regal Rexnord appears in four Body categories (bearings, gears/reducers, motors, complete actuators) and is called a leading US supplier of electric motors, gearing, and linear actuators; Rockwell Automation is listed under Diversified Automation for its sensors-to-software stack. The report's sharpest finding is geographic: 73% of companies confirmed to be involved are Asia-based (56% China), and Morgan Stanley explicitly compares the West's position to its EV supply-chain experience. For engagements with Rockwell and Regal Rexnord, humanoids are both a long-dated demand tailwind for their component portfolios and a near-term strategy question: component orders and partnership decisions arrive years before the 2040-2050 adoption inflection the model projects.",
-        "url": "",
+        "url": "https://advisor.morganstanley.com/john.howard/documents/field/j/jo/john-howard/The_Humanoid_100_-_Mapping_the_Humanoid_Robot_Value_Chain.pdf",
         "date": "2025-02-06",
+        "detail": {
+          "sections": [
+            {
+              "heading": "What the report covers",
+              "body": "The Humanoid 100 is Morgan Stanley's cross-sector mapping of the public companies most exposed to humanoid robots, built with dozens of its sector teams after investor interest surged following Jensen Huang's CES 2025 physical-AI keynote. Companies are grouped into Brain (22 semis and software names), Body (64 industrial-component suppliers), and Integrators (22 companies developing full humanoids). 52% are already reported to be involved in humanoids; the other 48% are close competitors or names MS analysts believe have material potential to enter."
+            },
+            {
+              "heading": "The anatomy: where the value sits",
+              "body": "The brain combines foundational GenAI models (NVIDIA Gr00t, Alphabet, Meta, Microsoft), simulation and digital-twin software for training (Dassault, Siemens, Hexagon), and vision/compute/memory semis. The body is actuators and their parts — bearings, screws, gears/reducers, motors, encoders — plus rare-earth magnets, sensors, wiring, and a lithium-ion battery. Tesla's Optimus Gen2 alone uses 50 degrees of freedom driven by 28 actuators; humanoid makers design proprietary actuators but source components from the same global supplier web as autos."
+            },
+            {
+              "heading": "The geographic imbalance",
+              "body": "73% of companies confirmed to be involved (and 77% of integrators) are Asia-based, 56% out of China. Only 31% of the US & Canada names are reported involved, versus 83% of the China & Taiwan names. MS explicitly compares the West's position to its EV supply-chain experience, and notes Chinese startups benefit from established supply chains, local adoption, and state support. The scarcity of Western pure plays beyond Tesla and NVIDIA is itself the finding."
+            },
+            {
+              "heading": "The market model",
+              "body": "MS assumes a $150k average selling price in 2028 falling to ~$50k by 2040 on an 8-year replacement cycle. Its US TAM model reaches 8 million installed humanoids by 2040 (~$357B wage impact) and 63 million by 2050 (~$3T wage impact), with US market revenue of ~$4B in 2030, ~$240B in 2040, and ~$1T by 2050 — the inflection lands in the 2040s. A parallel China model projects 1.5M/7.4M/59M units by 2030/2035/2050 on faster price declines and lower labor-cost adoptability."
+            },
+            {
+              "heading": "The Metis client read",
+              "body": "Regal Rexnord appears in four Body categories (bearings, gears/reducers, motors, complete actuators) and is described as a leading US supplier of electric motors, gearing, and linear actuators. Rockwell Automation is listed under Diversified Automation for its sensors-to-software industrial stack. For both accounts this is a long-dated demand tailwind with near-term strategy consequences: component sourcing, capacity, and partnership decisions get made years before the model's adoption inflection — and the report frames exactly which parts of their portfolios the market will price on this theme."
+            }
+          ],
+          "charts": [
+            {
+              "kind": "time-bars",
+              "title": "US humanoid market revenue — MS model ($bn per year)",
+              "source": "Exhibit 71",
+              "unit": "$bn",
+              "labels": ["2028", "2030", "2032", "2034", "2036", "2038", "2040", "2042", "2044", "2046", "2048", "2050"],
+              "values": [0, 4, 9, 24, 59, 119, 238, 413, 595, 734, 931, 1001],
+              "mark": ["2030", "2040", "2050"]
+            },
+            {
+              "kind": "cat-bars",
+              "title": "Share of Humanoid 100 reported involved, by region",
+              "source": "Exhibit 4",
+              "unit": "%",
+              "max": 100,
+              "rows": [["China & Taiwan", 83], ["Rest of APAC", 50], ["USA & Canada", 31], ["EMEA", 25], ["Total", 52]]
+            },
+            {
+              "kind": "cat-bars",
+              "title": "Value-chain composition (companies per category)",
+              "source": "Exhibits 8-13",
+              "unit": "companies",
+              "rows": [["Body — industrial components", 64], ["Brain — semis & software", 22], ["Integrators — full humanoids", 22]]
+            }
+          ]
+        },
         "relatedClients": [
           "regal-rexnord",
           "rockwell-automation"

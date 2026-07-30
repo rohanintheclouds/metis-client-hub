@@ -29,7 +29,8 @@ const MODEL = process.env.PULSE_MODEL || "claude-sonnet-5";
 function weekId(d = new Date()) {
   const monday = new Date(d);
   monday.setDate(d.getDate() - ((d.getDay() + 6) % 7));
-  return monday.toISOString().slice(0, 10);
+  // Build from local parts — toISOString() is UTC and can roll the date.
+  return `${monday.getFullYear()}-${String(monday.getMonth() + 1).padStart(2, "0")}-${String(monday.getDate()).padStart(2, "0")}`;
 }
 
 function weekLabel(id) {

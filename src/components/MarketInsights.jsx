@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { getClient } from "@/lib/clients";
+import InsightDetail from "@/components/InsightDetail";
 import INSIGHTS from "@/data/market-insights.json";
 
 const FIRM_INITIALS = {
@@ -101,6 +102,12 @@ export default function MarketInsights() {
                 {r.summary && <p className="ic-summary">{r.summary}</p>}
                 {r.analysis && <p className="ic-tieback">{r.analysis}</p>}
                 {r.tieBack && <p className="ic-tieback">{r.tieBack}</p>}
+                {r.detail && (
+                  <details className="id-details">
+                    <summary>Open the full brief — summary &amp; charts</summary>
+                    <InsightDetail detail={r.detail} />
+                  </details>
+                )}
                 <div className="ic-clients">
                   <span className="ic-clients-label">In this market:</span>
                   {r.relatedClients.map((id) => {
