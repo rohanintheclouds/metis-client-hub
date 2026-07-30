@@ -89,11 +89,17 @@ export default function MarketInsights() {
                   )}
                 </div>
                 <h3 className="ic-title">
-                  <a href={r.url} target="_blank" rel="noreferrer">
-                    {r.title} <span className="ar">↗</span>
-                  </a>
+                  {r.url ? (
+                    <a href={r.url} target="_blank" rel="noreferrer">
+                      {r.title} <span className="ar">↗</span>
+                    </a>
+                  ) : (
+                    <span>{r.title}</span>
+                  )}
                 </h3>
+                {r.sourceNote && <div className="ic-source-note">{r.sourceNote}</div>}
                 {r.summary && <p className="ic-summary">{r.summary}</p>}
+                {r.analysis && <p className="ic-tieback">{r.analysis}</p>}
                 {r.tieBack && <p className="ic-tieback">{r.tieBack}</p>}
                 <div className="ic-clients">
                   <span className="ic-clients-label">In this market:</span>

@@ -87,7 +87,10 @@ async function main() {
   }
 
   const store = JSON.parse(readFileSync(DATA_FILE, "utf8"));
-  store.insights[wk] = top;
+  // Hand-added reports (manual: true) survive re-scrapes.
+  const manual = (store.insights[wk] || []).filter((r) => r.manual);
+  const manualUrls = new Set(manual.map((r) => r.url).filter(Boolean));
+  store.insights[wk] = [...manual, ...top.filter((r) => !manualUrls.has(r.url))];
   if (!store.editions.some((e) => e.id === wk)) {
     store.editions.unshift({ id: wk, ...weekLabel(wk) });
     store.editions.sort((a, b) => (a.id < b.id ? 1 : -1));

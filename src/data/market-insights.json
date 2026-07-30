@@ -9,6 +9,25 @@
   "insights": {
     "2026-07-27": [
       {
+        "firm": "Morgan Stanley",
+        "firmId": "morgan-stanley",
+        "manual": true,
+        "title": "The Humanoid 100: Mapping the Humanoid Robot Value Chain",
+        "sourceNote": "Morgan Stanley Research BluePaper (Feb 6, 2025) — internal copy in Romain-Metis/NewsReports on OneDrive",
+        "summary": "Morgan Stanley's global research team maps 100 public companies across the humanoid-robot value chain — Brain (22 semis/software names), Body (64 industrial-component suppliers: actuators, bearings, screws, reducers, motors, sensors, batteries), and Integrators building full humanoids. Its US TAM model projects 8 million humanoid units by 2040 (~$357B wage impact) rising to 63 million by 2050 (~$3T wage impact, ~$1T annual US humanoid revenue), against a global labor market it sizes near $30T.",
+        "analysis": "Metis angle: two of our clients are on the list itself. Regal Rexnord appears in four Body categories (bearings, gears/reducers, motors, complete actuators) and is called a leading US supplier of electric motors, gearing, and linear actuators; Rockwell Automation is listed under Diversified Automation for its sensors-to-software stack. The report's sharpest finding is geographic: 73% of companies confirmed to be involved are Asia-based (56% China), and Morgan Stanley explicitly compares the West's position to its EV supply-chain experience. For engagements with Rockwell and Regal Rexnord, humanoids are both a long-dated demand tailwind for their component portfolios and a near-term strategy question: component orders and partnership decisions arrive years before the 2040-2050 adoption inflection the model projects.",
+        "url": "",
+        "date": "2025-02-06",
+        "relatedClients": [
+          "regal-rexnord",
+          "rockwell-automation"
+        ],
+        "themes": [
+          "AI & Automation",
+          "Industrials & Supply Chain"
+        ]
+      },
+      {
         "firm": "Goldman Sachs",
         "firmId": "goldman-sachs",
         "title": "The Mine-to-Magnet Strategy Is Spurring M&A in Rare Earths",
