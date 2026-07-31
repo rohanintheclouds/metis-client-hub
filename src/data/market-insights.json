@@ -1,0 +1,616 @@
+{
+  "editions": [
+    {
+      "id": "2026-07-27",
+      "label": "Week of July 27, 2026",
+      "date": "July 27, 2026"
+    }
+  ],
+  "insights": {
+    "2026-07-27": [
+      {
+        "firm": "Morgan Stanley",
+        "firmId": "morgan-stanley",
+        "manual": true,
+        "title": "The Humanoid 100: Mapping the Humanoid Robot Value Chain",
+        "sourceNote": "Morgan Stanley Research BluePaper (Feb 6, 2025)",
+        "summary": "Morgan Stanley's global research team maps 100 public companies across the humanoid-robot value chain — Brain (22 semis/software names), Body (64 industrial-component suppliers: actuators, bearings, screws, reducers, motors, sensors, batteries), and Integrators building full humanoids. Its US TAM model projects 8 million humanoid units by 2040 (~$357B wage impact) rising to 63 million by 2050 (~$3T wage impact, ~$1T annual US humanoid revenue), against a global labor market it sizes near $30T.",
+        "analysis": "Metis angle: two of our clients are on the list itself. Regal Rexnord appears in four Body categories (bearings, gears/reducers, motors, complete actuators) and is called a leading US supplier of electric motors, gearing, and linear actuators; Rockwell Automation is listed under Diversified Automation for its sensors-to-software stack. The report's sharpest finding is geographic: 73% of companies confirmed to be involved are Asia-based (56% China), and Morgan Stanley explicitly compares the West's position to its EV supply-chain experience. For engagements with Rockwell and Regal Rexnord, humanoids are both a long-dated demand tailwind for their component portfolios and a near-term strategy question: component orders and partnership decisions arrive years before the 2040-2050 adoption inflection the model projects.",
+        "url": "https://advisor.morganstanley.com/john.howard/documents/field/j/jo/john-howard/The_Humanoid_100_-_Mapping_the_Humanoid_Robot_Value_Chain.pdf",
+        "date": "2025-02-06",
+        "detail": {
+          "sections": [
+            {
+              "heading": "What the report covers",
+              "body": "The Humanoid 100 is Morgan Stanley's cross-sector mapping of the public companies most exposed to humanoid robots, built with dozens of its sector teams after investor interest surged following Jensen Huang's CES 2025 physical-AI keynote. Companies are grouped into Brain (22 semis and software names), Body (64 industrial-component suppliers), and Integrators (22 companies developing full humanoids). 52% are already reported to be involved in humanoids; the other 48% are close competitors or names MS analysts believe have material potential to enter."
+            },
+            {
+              "heading": "The anatomy: where the value sits",
+              "body": "The brain combines foundational GenAI models (NVIDIA Gr00t, Alphabet, Meta, Microsoft), simulation and digital-twin software for training (Dassault, Siemens, Hexagon), and vision/compute/memory semis. The body is actuators and their parts — bearings, screws, gears/reducers, motors, encoders — plus rare-earth magnets, sensors, wiring, and a lithium-ion battery. Tesla's Optimus Gen2 alone uses 50 degrees of freedom driven by 28 actuators; humanoid makers design proprietary actuators but source components from the same global supplier web as autos."
+            },
+            {
+              "heading": "The geographic imbalance",
+              "body": "73% of companies confirmed to be involved (and 77% of integrators) are Asia-based, 56% out of China. Only 31% of the US & Canada names are reported involved, versus 83% of the China & Taiwan names. MS explicitly compares the West's position to its EV supply-chain experience, and notes Chinese startups benefit from established supply chains, local adoption, and state support. The scarcity of Western pure plays beyond Tesla and NVIDIA is itself the finding."
+            },
+            {
+              "heading": "The market model",
+              "body": "MS assumes a $150k average selling price in 2028 falling to ~$50k by 2040 on an 8-year replacement cycle. Its US TAM model reaches 8 million installed humanoids by 2040 (~$357B wage impact) and 63 million by 2050 (~$3T wage impact), with US market revenue of ~$4B in 2030, ~$240B in 2040, and ~$1T by 2050 — the inflection lands in the 2040s. A parallel China model projects 1.5M/7.4M/59M units by 2030/2035/2050 on faster price declines and lower labor-cost adoptability."
+            },
+            {
+              "heading": "The Metis client read",
+              "body": "Regal Rexnord appears in four Body categories (bearings, gears/reducers, motors, complete actuators) and is described as a leading US supplier of electric motors, gearing, and linear actuators. Rockwell Automation is listed under Diversified Automation for its sensors-to-software industrial stack. For both accounts this is a long-dated demand tailwind with near-term strategy consequences: component sourcing, capacity, and partnership decisions get made years before the model's adoption inflection — and the report frames exactly which parts of their portfolios the market will price on this theme."
+            }
+          ],
+          "charts": [
+            {
+              "kind": "time-bars",
+              "title": "US humanoid market revenue — MS model ($bn per year)",
+              "source": "Exhibit 71, Morgan Stanley Research",
+              "unit": "$bn",
+              "labels": [
+                "2028",
+                "2030",
+                "2032",
+                "2034",
+                "2036",
+                "2038",
+                "2040",
+                "2042",
+                "2044",
+                "2046",
+                "2048",
+                "2050"
+              ],
+              "values": [
+                0,
+                4,
+                9,
+                24,
+                59,
+                119,
+                238,
+                413,
+                595,
+                734,
+                931,
+                1001
+              ],
+              "mark": [
+                "2030",
+                "2040",
+                "2050"
+              ]
+            },
+            {
+              "kind": "cat-bars",
+              "title": "Share of Humanoid 100 reported involved, by region",
+              "source": "Exhibit 4, Morgan Stanley Research",
+              "unit": "%",
+              "max": 100,
+              "rows": [
+                [
+                  "China & Taiwan",
+                  83
+                ],
+                [
+                  "Rest of APAC",
+                  50
+                ],
+                [
+                  "USA & Canada",
+                  31
+                ],
+                [
+                  "EMEA",
+                  25
+                ],
+                [
+                  "Total",
+                  52
+                ]
+              ]
+            },
+            {
+              "kind": "cat-bars",
+              "title": "Value-chain composition (companies per category)",
+              "source": "Exhibits 8-13, Morgan Stanley Research",
+              "unit": "companies",
+              "rows": [
+                [
+                  "Body — industrial components",
+                  64
+                ],
+                [
+                  "Brain — semis & software",
+                  22
+                ],
+                [
+                  "Integrators — full humanoids",
+                  22
+                ]
+              ]
+            }
+          ],
+          "metisAngle": "Metis angle: two of our clients are on the list itself. Regal Rexnord appears in four Body categories (bearings, gears/reducers, motors, complete actuators) and is called a leading US supplier of electric motors, gearing, and linear actuators; Rockwell Automation is listed under Diversified Automation for its sensors-to-software stack. The report's sharpest finding is geographic: 73% of companies confirmed to be involved are Asia-based (56% China), and Morgan Stanley explicitly compares the West's position to its EV supply-chain experience. For engagements with Rockwell and Regal Rexnord, humanoids are both a long-dated demand tailwind for their component portfolios and a near-term strategy question: component orders and partnership decisions arrive years before the 2040-2050 adoption inflection the model projects."
+        },
+        "relatedClients": [
+          "regal-rexnord",
+          "rockwell-automation"
+        ],
+        "themes": [
+          "AI & Automation",
+          "Industrials & Supply Chain"
+        ],
+        "slug": "humanoid-100",
+        "heroTheme": "robot",
+        "shortTitle": "The Humanoid 100",
+        "hook": "Morgan Stanley maps the 100 public companies building the humanoid robot, and two Metis clients are on the list."
+      },
+      {
+        "firm": "Goldman Sachs",
+        "firmId": "goldman-sachs",
+        "title": "The Mine-to-Magnet Strategy Is Spurring M&A in Rare Earths",
+        "summary": "Electric vehicles, AI, and alternative energy all have something in common: critical minerals and rare earths.",
+        "url": "https://www.goldmansachs.com/insights/articles/the-mine-to-magnet-strategy-is-spurring-m-a-in-rare-earths",
+        "date": "2026-07-30",
+        "relatedClients": [
+          "ford-credit",
+          "baker-tilly"
+        ],
+        "themes": [
+          "Energy & Power",
+          "Financial Services"
+        ],
+        "slug": "rare-earths-mine-to-magnet",
+        "heroTheme": "minerals",
+        "detail": {
+          "sections": [
+            {
+              "heading": "What Goldman is saying",
+              "body": "Goldman's Americas metals-and-mining co-heads, Andrew Timbers and Nicholas Smith, argue that critical minerals now sit at the intersection of electrification, AI-driven power demand, and supply-chain security. What was a quiet industry has become a priority for institutional investors, with deal activity spanning M&A, IPOs, and direct investment from the US government as Washington races to close the gap with China, the global leader in critical minerals and rare earths."
+            },
+            {
+              "heading": "Copper and the data-center bill of materials",
+              "body": "Copper anchors the story: a single gigawatt-scale data center requires up to 50,000 metric tons for cabling and grid upgrades, and developing a new copper mine can take 15 years or more from discovery to production. That timeline mismatch makes acquiring existing projects the fastest route to supply, so Goldman expects continued consolidation as mining majors buy junior developers. Lithium is back in focus for battery backup that keeps data centers running around the clock."
+            },
+            {
+              "heading": "The mine-to-magnet shift",
+              "body": "The rare-earth landscape is shifting toward vertical integration: to capture downstream value and bypass processing bottlenecks, companies are pursuing a mine-to-magnet strategy, triggering strategic M&A and joint ventures, some heavily backed by Western governments, targeting heavy rare earths like dysprosium and terbium hit by tightening export restrictions."
+            }
+          ],
+          "figures": [
+            {
+              "v": "50,000t",
+              "l": "Copper per GW-scale data center"
+            },
+            {
+              "v": "15+ yrs",
+              "l": "New copper mine, discovery to production"
+            },
+            {
+              "v": "US gov't",
+              "l": "Now a direct investor in the sector"
+            }
+          ],
+          "charts": [],
+          "metisAngle": "Rare-earth magnets and copper sit inside every electric motor and actuator Regal Rexnord ships, and the same minerals equation shapes Ford's EV cost base through its battery and motor supply chain. For Baker Tilly, a sector where M&A, IPOs, and government-backed joint ventures are accelerating is precisely the deal-advisory demand the piece describes. Supply-chain security has become a board-level strategy topic for every industrial client we serve."
+        },
+        "shortTitle": "Rare Earths M&A",
+        "hook": "AI power demand and export controls are driving a wave of M&A in copper and rare earths."
+      },
+      {
+        "firm": "McKinsey & Company",
+        "firmId": "mckinsey",
+        "title": "AI transformations: Views from AMD, Dell, Liquid AI, and Mercedes-Benz",
+        "summary": "Executives from AMD, Dell, Liquid AI, and Mercedes-Benz discuss how to structure processes with AI in mind and why enterprise-wide transformation is about people, not just technology.",
+        "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/ai-transformations-views-from-amd-dell-liquid-ai-and-mercedes-benz",
+        "date": "2026-07-30",
+        "relatedClients": [
+          "workday"
+        ],
+        "themes": [
+          "AI & Automation"
+        ],
+        "slug": "mckinsey-ai-transformations",
+        "heroTheme": "network",
+        "detail": {
+          "sections": [
+            {
+              "heading": "What McKinsey published",
+              "body": "McKinsey convened executives from AMD, Dell, Liquid AI, and Mercedes-Benz on how to structure processes with AI in mind. The through-line of the conversation: enterprise-wide AI transformation is about people, not just technology, and companies that redesign processes around AI outperform those that bolt tools onto existing workflows."
+            },
+            {
+              "heading": "A note on sourcing",
+              "body": "McKinsey's site blocks automated retrieval, so this brief is built from the article's published summary rather than its full text. The full interview is at the source link below."
+            }
+          ],
+          "figures": [],
+          "charts": [],
+          "metisAngle": "This is the same argument Metis makes in every AI engagement: the operating model, not the model, is the constraint. Workday's positioning (AI agents for the back office) makes it the client most directly in this conversation, and the executive interviews are useful ammunition for change-management discussions with any client whose AI pilots are stuck at the tool stage."
+        },
+        "shortTitle": "AI Transformations",
+        "hook": "AMD, Dell, Liquid AI, and Mercedes-Benz executives on why AI transformation is about people, not tools."
+      },
+      {
+        "firm": "J.P. Morgan",
+        "firmId": "jpmorgan",
+        "title": "US Housing Market Outlook | J.P. Morgan Global Research",
+        "summary": "Home prices remain stubbornly high amid chronic supply constraints, but a new federal statute could offer buyers some relief.",
+        "url": "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook",
+        "date": "2026-07-29",
+        "relatedClients": [
+          "loandepot"
+        ],
+        "themes": [
+          "Macro & Markets"
+        ],
+        "slug": "us-housing-outlook",
+        "heroTheme": "housing",
+        "detail": {
+          "sections": [
+            {
+              "heading": "The affordability wall",
+              "body": "J.P. Morgan Research describes a deepening affordability crisis: median home prices have risen for 36 straight months to an all-time high of $440,600 in July, up 1.8% year over year. The cost-to-income ratio for buying sits at 35%, and buying is cheaper than renting in only about 2% of US metropolitan areas, a historic imbalance between owning and renting economics."
+            },
+            {
+              "heading": "Why supply stays broken",
+              "body": "Prices stay high because of a chronic shortage of affordable homes rooted in more than a decade of underbuilding since the 2008 financial crisis, compounded by zoning laws, land-use restrictions, and high labor costs. Construction has picked up recently, with parts of the West Coast and Sun Belt even seeing a glut of new homes, but overall inventory remains tight."
+            },
+            {
+              "heading": "Demand is buckling too",
+              "body": "Affordability is now visibly weighing on volume: existing-home sales fell 2.4% in June to a 4.09 million seasonally adjusted annual rate, down 4.2% over the first half of 2026. The lock-in effect compounds the shortage, since owners holding pandemic-era mortgages cannot carry those rates to a new home with current rates around 6.6%, so listings were up just 1.3% year over year in June. J.P. Morgan's Richard Shane warns origination growth could stall if elevated rates persist, with industry forecasts already moving lower."
+            },
+            {
+              "heading": "The policy response and the forecast",
+              "body": "The bipartisan 21st Century ROAD to Housing Act, signed July 11 as the most significant federal housing legislation in decades, carries more than 40 supply-side provisions: streamlined environmental reviews, zoning-reform incentives for municipalities, and a potentially consequential change to manufactured-home rules (removing the permanent-chassis requirement). It only takes effect January 7, 2027, and its impact depends on implementation. J.P. Morgan's base case: home prices flat in 2026, up 3% in 2027, with affordability staying strained."
+            }
+          ],
+          "figures": [
+            {
+              "v": "$440,600",
+              "l": "Median US home price, all-time high"
+            },
+            {
+              "v": "6.6%",
+              "l": "Current mortgage rates (lock-in effect)"
+            },
+            {
+              "v": "-4.2%",
+              "l": "Existing-home sales, H1 2026"
+            },
+            {
+              "v": "~2%",
+              "l": "Metros where buying beats renting"
+            }
+          ],
+          "charts": [
+            {
+              "kind": "cat-bars",
+              "title": "J.P. Morgan home-price forecast (annual change)",
+              "source": "J.P. Morgan Global Research",
+              "unit": "%",
+              "max": 5,
+              "rows": [
+                [
+                  "2026 (forecast)",
+                  0
+                ],
+                [
+                  "2027 (forecast)",
+                  3
+                ]
+              ]
+            }
+          ],
+          "metisAngle": "This is loanDepot's operating environment in one page: originations stay suppressed while affordability is this stretched, which is why the company's story is cost reset and channel efficiency rather than volume growth. The ROAD to Housing Act is the variable to watch, and any supply-side thaw changes the demand curve loanDepot's Vision 2027 plan is built against."
+        },
+        "shortTitle": "US Housing Outlook",
+        "hook": "US home prices hit a record $440,600 as a new federal law tries to crack the supply shortage."
+      },
+      {
+        "firm": "Bain & Company",
+        "firmId": "bain",
+        "title": "The $560 Billion Energy Question",
+        "summary": "With an aging grid and rising demand, time is running out for utilities to bridge a generational funding gap.",
+        "url": "https://www.bain.com/insights/the-560-billion-energy-question-infographic/",
+        "date": "2026-07-29",
+        "relatedClients": [
+          "generac-power-systems",
+          "nrg-energy"
+        ],
+        "themes": [
+          "Energy & Power"
+        ],
+        "slug": "energy-560-billion-question",
+        "heroTheme": "energy",
+        "detail": {
+          "sections": [
+            {
+              "heading": "The end of flat",
+              "body": "For decades US electricity prices were remarkably stable: efficiency gains, flat demand, and periodic government support kept costs in check. Bain argues that era is over. Utilities' total revenue requirement was an estimated $540 billion in 2025 and is on track to reach $1.1 trillion by 2035, moving from roughly 1.5% of US GDP to 2.5%."
+            },
+            {
+              "heading": "The $560 billion gap",
+              "body": "Deferred infrastructure investment, regional service gaps, data-center power demand, and the rollback of federal subsidies are hitting at once, leaving utilities facing a $560 billion funding gap. Rate increases alone cannot cover it: operational efficiency and smarter capital deployment address only $60 to $140 billion. The bigger levers are making large new users pay their true cost of service, bringing in outside partners to fund infrastructure, and building the regulatory and public case for value-tied rate increases."
+            },
+            {
+              "heading": "The narrative problem",
+              "body": "Bain's most consulting-shaped point: utilities have struggled to tell a compelling story. Customers do not connect higher bills to reliability and cleaner energy, or to offsetting savings like cheaper EV charging versus gasoline. Every year of delay steepens the curve and makes the eventual price increases harder for consumers to accept."
+            }
+          ],
+          "figures": [
+            {
+              "v": "$560B",
+              "l": "Utility funding gap to 2035"
+            },
+            {
+              "v": "1.5%→2.5%",
+              "l": "Utility revenue as share of US GDP"
+            },
+            {
+              "v": "$60-140B",
+              "l": "Max gap addressable by efficiency alone"
+            }
+          ],
+          "charts": [
+            {
+              "kind": "cat-bars",
+              "title": "US utilities' total revenue requirement ($bn)",
+              "source": "Bain & Company",
+              "unit": "$bn",
+              "rows": [
+                [
+                  "2025 (estimated)",
+                  540
+                ],
+                [
+                  "2035 (projected)",
+                  1100
+                ]
+              ]
+            }
+          ],
+          "metisAngle": "NRG lives on both sides of this equation: rising power demand lifts its generation economics while capacity-price spikes invite the regulatory scrutiny Morningstar flagged this same week. Generac is a direct beneficiary of the reliability anxiety Bain describes, from home standby through its new hyperscale data-center backup business. The cost-allocation fight over large new users is literally a fight about data centers, which also touches Lumen's buildout economics."
+        },
+        "shortTitle": "The $560B Energy Question",
+        "hook": "US utilities face a $560 billion funding gap as the era of flat electricity prices ends."
+      },
+      {
+        "firm": "J.P. Morgan",
+        "firmId": "jpmorgan",
+        "title": "Working Capital Strategies for AI Data Center Suppliers",
+        "summary": "Learn how working capital solutions can help suppliers navigate lengthening cash conversion cycles and fund growth in the AI infrastructure market.",
+        "url": "https://www.jpmorgan.com/insights/treasury/trade-working-capital/ai-infrastructure-working-capital-liquidity-solutions",
+        "date": "2026-07-27",
+        "relatedClients": [
+          "lumen-technologies"
+        ],
+        "themes": [
+          "AI & Automation",
+          "Tech & Cloud"
+        ],
+        "slug": "ai-datacenter-working-capital",
+        "heroTheme": "datacenter",
+        "detail": {
+          "sections": [
+            {
+              "heading": "The growth-liquidity paradox",
+              "body": "J.P. Morgan describes AI data-center construction as one of the largest capital-expenditure cycles in a generation, with hyperscalers projected to invest a combined $600 billion in 2026. For the industrial suppliers of power, cooling, and infrastructure, the order books are transformative, but the cash mechanics are punishing: manufacturing cycles run 12 to 18 months, inventory is procured earlier and held longer, and revenue recognition hinges on milestone schedules subject to construction and power-infrastructure delays."
+            },
+            {
+              "heading": "The power shift, made explicit",
+              "body": "J.P. Morgan describes a systematic transfer of working capital upstream: hyperscalers are larger, better capitalized, and increasingly able to dictate terms, expecting guaranteed inventory, reserved capacity, flexible delivery, and extended payment windows. Suppliers procure materials months before purchase orders, absorb construction-delay schedule risk, and extend credit, often without compensation for the capital deployed. The piece's sharpest line: for many suppliers, the constraint is no longer demand, but balance-sheet capacity."
+            },
+            {
+              "heading": "Why early discipline pays",
+              "body": "Once data-center infrastructure is installed, contracts tend to be long-term, so suppliers that solve the cash-cycle problem early lock in durable returns. Speed and scale of execution become the differentiator, and payment-term flexibility is increasingly a competitive weapon rather than a finance afterthought."
+            },
+            {
+              "heading": "The financing toolkit",
+              "body": "The piece positions working capital as a strategic and commercial lever, not just treasury hygiene: inventory finance, receivables financing, and core trade solutions let suppliers fund growth without starving operations. The CFO challenge is managing competing priorities: capacity investment, liquidity buffers, and commercial terms that win milestone-driven contracts."
+            }
+          ],
+          "figures": [
+            {
+              "v": "$600B",
+              "l": "Projected hyperscaler capex, 2026"
+            },
+            {
+              "v": "12-18 mo",
+              "l": "Typical data-center equipment manufacturing cycle"
+            }
+          ],
+          "charts": [],
+          "metisAngle": "This is the finance-side mirror of what our industrial clients are living. Generac is standing up data-center backup-power capacity against exactly these milestone-driven order books, and Lumen's Private Connectivity Fabric deals share the same long-cycle cash profile. When a client's growth story runs ahead of its cash conversion, operating-model and working-capital design become the engagement."
+        },
+        "shortTitle": "AI Data-Center Suppliers",
+        "hook": "Hyperscalers will spend $600B in 2026, and their industrial suppliers are straining to fund the growth."
+      },
+      {
+        "firm": "J.P. Morgan",
+        "firmId": "jpmorgan",
+        "title": "Embedded Virtual Card Solutions for Global Supplier Payments",
+        "summary": "Learn how embedding Virtual Card into ERP and procurement platforms can simplify payment workflows and unlock value across global supplier networks.",
+        "url": "https://www.jpmorgan.com/insights/treasury/cards-expense-management/embedded-virtual-card-supplier-payments",
+        "date": "2026-07-27",
+        "relatedClients": [
+          "workday"
+        ],
+        "themes": [],
+        "slug": "embedded-virtual-cards",
+        "heroTheme": "payments",
+        "detail": {
+          "sections": [
+            {
+              "heading": "The pitch",
+              "body": "J.P. Morgan's payments team argues that supplier payments remain surprisingly manual: disconnected systems, reconciliation burden, and fraud risk. Virtual cards generate a unique card number per transaction with custom controls (spend limits, supplier restrictions, defined usage windows), making payments more secure and automated."
+            },
+            {
+              "heading": "Why 'embedded' is the operative word",
+              "body": "The value unlock comes from embedding virtual cards inside the ERP and procurement platforms teams already use: payments become part of the workflow rather than a separate step, eliminating screen-switching and duplicate entry, and increasing rebate revenue as card usage grows. J.P. Morgan pairs this with supplier enablement, identifying which suppliers suit card payment and supporting onboarding."
+            }
+          ],
+          "figures": [],
+          "charts": [],
+          "metisAngle": "The strategic signal is where this lives: inside ERP and procurement platforms. That is Workday's home turf, and the EarnIn integration this same week shows Workday actively opening its payroll and payments rails to partners. For clients weighing finance-transformation roadmaps, embedded B2B payments is becoming a standard module of the stack rather than an add-on."
+        },
+        "shortTitle": "Embedded Virtual Cards",
+        "hook": "B2B supplier payments are moving inside the ERP, with virtual cards as the rails."
+      },
+      {
+        "firm": "Bain & Company",
+        "firmId": "bain",
+        "title": "What Is Agentic AI and How Does It Work in Enterprises?",
+        "summary": "Agentic AI is the next wave of AI. It plans, acts, and adapts across enterprise workflows, transforming the business.",
+        "url": "https://www.bain.com/insights/what-is-agentic-ai-and-how-does-it-work-in-enterprises/",
+        "date": "2026-07-23",
+        "relatedClients": [
+          "workday"
+        ],
+        "themes": [
+          "AI & Automation"
+        ],
+        "slug": "agentic-ai-enterprises",
+        "heroTheme": "network",
+        "detail": {
+          "sections": [
+            {
+              "heading": "Bain's definition",
+              "body": "Agentic AI is artificial intelligence that pursues a defined goal on its own: planning steps, using tools and systems, and adjusting course as conditions change. Where generative AI gave enterprises copilots that assist a human in control, agentic AI executes complex, multistep, nondeterministic workflows spanning business domains, with minimal human input."
+            },
+            {
+              "heading": "The organizational consequence",
+              "body": "Bain's core claim is organizational: people become AI supervisors rather than task executors. Agentic AI shifts roles and decision rights, democratizes technical skills, increases employee autonomy, and accelerates decision cycles. Leaders must treat it as a business transformation, marrying business and technology expertise, not a technology rollout, and real ROI comes from business redesign rather than deploying tools."
+            },
+            {
+              "heading": "Where it lands first",
+              "body": "Bain maps early enterprise use to customer experience, retail and commerce, marketing, sales, banking and financial services, and insurance, the functions with high-volume, multistep workflows where autonomous execution pays fastest."
+            }
+          ],
+          "figures": [],
+          "charts": [],
+          "metisAngle": "The maturity framing maps directly onto client conversations: most of our clients are at the copilot stage while their boards ask about agents. Workday is building the agentic back office this piece describes; ADP and UKG will face the same architecture questions in payroll and workforce management; and the insurance use cases put Aflac's claims operations in scope. Bain's redesign-over-rollout argument is the Metis operating-model thesis stated by a competitor, which makes it useful validation in proposals."
+        },
+        "shortTitle": "Agentic AI",
+        "hook": "Bain on the next wave of AI: agents that plan, act, and adapt across enterprise workflows."
+      },
+      {
+        "firm": "Goldman Sachs",
+        "firmId": "goldman-sachs",
+        "title": "Three New Stock Themes Are in Focus as the AI Trade Gyrates",
+        "summary": "As volatility rises in popular stocks related to AI infrastructure, investors are looking for trade ideas that are unrelated to the emerging technology. Goldman Sachs Research highlights consumer-experience companies, “compounder” stocks, and M&A candidates as potential themes for investors to consider.",
+        "url": "https://www.goldmansachs.com/insights/articles/three-new-stock-themes-are-in-focus-as-the-ai-trade-gyrates",
+        "date": "2026-07-23",
+        "relatedClients": [
+          "lumen-technologies",
+          "baker-tilly"
+        ],
+        "themes": [
+          "AI & Automation",
+          "Financial Services"
+        ],
+        "slug": "ai-trade-three-themes",
+        "heroTheme": "markets",
+        "detail": {
+          "sections": [
+            {
+              "heading": "The AI trade is wobbling",
+              "body": "Goldman's momentum factor, which largely reflects the AI trade, just recorded its highest realized volatility in its 45-year history outside of recessions. Chief US Equity Strategist Ben Snider warns extreme volatility encourages position cuts, creating a vicious cycle, and expects only modest near-term revisions to hyperscaler capex estimates since it is too early for 2027 guidance."
+            },
+            {
+              "heading": "Three places to hide",
+              "body": "With most sectors now trading in strong correlation to AI and momentum, Goldman identifies three ideas with minimal AI correlation: consumer-experience stocks (secular growth in spending on experiences at undemanding valuations), 'compounders' (strong earnings growth and balance sheets, with median EPS growth more than twice the median S&P 500 stock over three years, now at a historically large valuation discount), and M&A candidates that have not priced in the deal surge, with announced US M&A up 32% year over year to $1.2 trillion in 2026."
+            }
+          ],
+          "figures": [
+            {
+              "v": "45-yr high",
+              "l": "Momentum volatility outside recessions"
+            },
+            {
+              "v": "+32%",
+              "l": "US announced M&A, YoY"
+            },
+            {
+              "v": "$1.2T",
+              "l": "US M&A volume, 2026 YTD (Jul 17)"
+            }
+          ],
+          "charts": [],
+          "metisAngle": "Two direct reads for our roster. Lumen's stock trades inside the AI-infrastructure complex whose volatility Goldman describes, so the client's narrative work matters as much as its execution this quarter. And a 32% M&A surge is demand fuel for Baker Tilly's transaction advisory practice, while several industrial clients fit Goldman's 'compounder' profile, useful framing for how their boards think about the next leg of value creation."
+        },
+        "shortTitle": "Beyond the AI Trade",
+        "hook": "With the AI trade at record volatility, Goldman names three investment themes that don't move with it."
+      },
+      {
+        "firm": "Goldman Sachs",
+        "firmId": "goldman-sachs",
+        "title": "Biotech Stocks Are Projected to Extend Rally amid Innovation and M&A",
+        "summary": "Healthcare stocks are outperforming technology shares as biotech breakthroughs and dealmaking activity jumps.",
+        "url": "https://www.goldmansachs.com/insights/articles/biotech-stocks-are-projected-to-extend-rally-amid-innovation",
+        "date": "2026-07-23",
+        "relatedClients": [
+          "baker-tilly",
+          "intuitive-surgical"
+        ],
+        "themes": [
+          "Financial Services",
+          "Healthcare"
+        ],
+        "slug": "biotech-rally",
+        "heroTheme": "biotech",
+        "detail": {
+          "sections": [
+            {
+              "heading": "A rally with fundamentals",
+              "body": "The NYSE Arca Biotechnology and Nasdaq Biotechnology indices both returned more than 56% in the twelve months to July 7, nearly double the Nasdaq 100's 29%. Goldman's healthcare heads Asad Haider and Salveen Richter argue the rally can extend: key clinical data in cardiovascular disease, cancer, and Alzheimer's lands from the second half onward, and the mood at Goldman's 47th Annual Global Healthcare Conference was outright bullish after a guarded 2025."
+            },
+            {
+              "heading": "Obesity goes oral",
+              "body": "A new generation of oral obesity drugs is set to accelerate one of healthcare's fastest-growing markets. Goldman raised its 2030 global obesity-drug sales forecast 15% to $114 billion, with oral medications expected to make up 40% of the market. Strikingly, the analysts describe a market driven by consumers as much as patients: 'behaving like no other pharmaceutical market we have ever seen.'"
+            },
+            {
+              "heading": "M&A as the release valve",
+              "body": "Large-cap biopharma leaned into dealmaking at the June conference, needing innovation to refill pipelines and offset losses of exclusivity. Small- and mid-cap biotechs stand to benefit, with oncology, immunology, neuroscience, and cardiometabolic health the hot zones."
+            }
+          ],
+          "figures": [
+            {
+              "v": "+56%",
+              "l": "Biotech indices, 12-mo return (to Jul 7)"
+            },
+            {
+              "v": "$114B",
+              "l": "GS 2030 obesity-drug sales forecast (+15%)"
+            },
+            {
+              "v": "40%",
+              "l": "Expected oral share of obesity market"
+            }
+          ],
+          "charts": [
+            {
+              "kind": "cat-bars",
+              "title": "12-month index returns (to July 7, 2026)",
+              "source": "Goldman Sachs Research",
+              "unit": "%",
+              "rows": [
+                [
+                  "Biotech indices (Arca / Nasdaq Biotech)",
+                  56
+                ],
+                [
+                  "Nasdaq 100",
+                  29
+                ]
+              ]
+            }
+          ],
+          "metisAngle": "Healthcare capital flowing toward innovation is the demand backdrop for Intuitive Surgical: a sector rewarded for product cycles is one that funds robotic-surgery expansion, and the procedure-growth scare in ISRG's own print contrasts with a sector tape this strong. The M&A appetite also matters to Baker Tilly's healthcare advisory work. Worth noting the consumer-driven obesity market as a case study in healthcare demand behaving like consumer demand."
+        },
+        "shortTitle": "Biotech Rally",
+        "hook": "Biotech returned 56% in a year, and Goldman sees obesity drugs and M&A extending the rally."
+      }
+    ]
+  }
+}

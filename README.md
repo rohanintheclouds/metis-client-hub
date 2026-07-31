@@ -25,6 +25,11 @@ the Client Pulse newsletter (ink `#111`, teal `#3FC9BE`).
 - **Weekly email** — Monday 7:00 AM ET digest per user (Vercel Cron → Resend).
 - **Podcast** — two-host audio episode per client (ElevenLabs), UI-ready with a
   drafted script; flips to real synthesis when a key is present.
+- **Market Insights** (`/insights`) — weekly research from Goldman Sachs,
+  Morgan Stanley, J.P. Morgan, Bain and McKinsey, kept only when it covers a
+  market one of our clients operates in, with client tie-back chips.
+  Refreshed by `npm run scrape:insights` (sources in
+  `scripts/lib/insightSources.mjs`, market mapping in `scripts/lib/marketMap.mjs`).
 
 Every backend feature runs in **stub mode** with zero config and flips to live
 when you add the matching key to `.env.local`.

@@ -617,3 +617,110 @@ a.src{color:var(--green-2);border-bottom:1px solid #b7ece4;font-weight:600;}
   .lp-cable .flow,.lp-circuit .flow,.lp-cable .port,.lp-tunnel .spoke,.lp-tunnel .ring,.lp-spine .head{animation:none!important;}
   .lp-cable .dot{display:none;}
 }
+
+/* == Market Insights ==================================== */
+.insight-list{display:flex;flex-direction:column;gap:18px;padding:34px 0 60px;}
+.insight-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 26px;box-shadow:var(--shadow);}
+.ic-head{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+.ic-firm{width:44px;height:44px;border-radius:10px;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12.5px;letter-spacing:.3px;flex:none;}
+.ic-meta{display:flex;flex-direction:column;line-height:1.25;}
+.ic-firm-name{font-weight:700;font-size:13.5px;color:var(--blue);}
+.ic-date{font-size:12px;color:var(--muted);}
+.ic-themes{margin-left:auto;display:flex;gap:6px;flex-wrap:wrap;}
+.ic-theme{font-size:11px;font-weight:600;letter-spacing:.3px;text-transform:uppercase;color:var(--green-2);background:rgba(8,222,197,.09);border:1px solid rgba(8,222,197,.25);border-radius:999px;padding:3px 10px;}
+.ic-title{margin:2px 0 6px;font-size:19px;line-height:1.3;}
+.ic-title a{color:var(--ink);}
+.ic-title a:hover{color:var(--green-2);}
+.ic-title .ar{font-size:14px;color:var(--green-2);}
+.ic-summary{margin:0 0 10px;color:#3c4550;font-size:14.5px;max-width:76ch;}
+.ic-tieback{margin:0 0 12px;padding:10px 14px;border-left:3px solid var(--green);background:rgba(8,222,197,.06);border-radius:0 10px 10px 0;font-size:14px;color:var(--blue);max-width:76ch;}
+.ic-clients{display:flex;align-items:center;gap:8px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:12px;}
+.ic-clients-label{font-size:11.5px;font-weight:600;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);}
+.ic-client-chip{font-size:12.5px;font-weight:700;color:var(--chip-brand,var(--blue));border:1px solid var(--line);border-radius:999px;padding:4px 12px;transition:border-color .2s,background .2s;}
+.ic-client-chip:hover{border-color:var(--chip-brand,var(--blue));background:rgba(20,21,36,.03);}
+@media (max-width:700px){.ic-themes{display:none;}.insight-card{padding:18px;}}
+.ic-source-note{font-size:12px;color:var(--muted);margin:-2px 0 8px;font-style:italic;}
+
+/* == Insight full brief (drill-down) ==================== */
+.id-details{margin:4px 0 12px;border:1px solid var(--line);border-radius:12px;background:#fbfcfd;}
+.id-details summary{cursor:pointer;padding:12px 16px;font-size:13px;font-weight:700;color:var(--blue);list-style:none;display:flex;align-items:center;gap:8px;}
+.id-details summary::before{content:"+";display:inline-flex;width:20px;height:20px;border-radius:6px;background:var(--green);color:var(--blue);align-items:center;justify-content:center;font-weight:800;}
+.id-details[open] summary::before{content:"\2212";}
+.id-details summary::-webkit-details-marker{display:none;}
+.id-body{padding:4px 20px 20px;border-top:1px solid var(--line);}
+.id-section h4{margin:16px 0 4px;font-size:13.5px;color:var(--blue);text-transform:uppercase;letter-spacing:.4px;}
+.id-section p{margin:0;font-size:14px;color:#3c4550;max-width:80ch;}
+.id-chart{margin:22px 0 6px;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px;}
+.id-chart figcaption{font-size:13px;font-weight:700;color:var(--ink);margin-bottom:10px;}
+.id-chart-src{font-weight:400;color:var(--muted);}
+.gc-glance{margin:2px 0 14px;padding:0 2px;font-size:14px;line-height:1.65;color:#dfe6ef;max-width:78ch;}
+
+/* == Insight hero (detail pages) ======================== */
+.ihero{background:linear-gradient(135deg,var(--blue-2) 0%,#1b2a52 55%,#123a3f 100%);color:#fff;overflow:hidden;}
+.ihero-inner{display:flex;align-items:center;gap:24px;padding:44px 32px 40px;min-height:250px;}
+.ihero-copy{flex:1;min-width:0;}
+.ihero-back{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:var(--green);margin-bottom:14px;}
+.ihero-back:hover{color:#fff;}
+.ihero-firm{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px;}
+.ihero-badge{background:var(--green);color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.3px;border-radius:999px;padding:4px 12px;}
+.ihero-date{font-size:12.5px;color:rgba(255,255,255,.65);}
+.ihero-theme{font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--green-soft);border:1px solid rgba(8,222,197,.4);border-radius:999px;padding:3px 10px;}
+.ihero h1{margin:0;font-size:clamp(24px,3.4vw,38px);line-height:1.15;letter-spacing:-.5px;}
+.ihero-note{margin-top:10px;font-size:13px;color:rgba(255,255,255,.6);font-style:italic;}
+.ihero-artwrap{flex:0 0 300px;max-width:300px;}
+.ih-art{width:100%;height:auto;display:block;}
+@media (max-width:760px){.ihero-artwrap{display:none;}}
+
+/* hero animations */
+@keyframes ih-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes ih-swing{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(5deg)}}
+@keyframes ih-blink{0%,88%,100%{opacity:1}92%,96%{opacity:.15}}
+@keyframes ih-pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes ih-float{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-12px) rotate(2deg)}}
+@keyframes ih-flow{to{stroke-dashoffset:-72}}
+@keyframes ih-draw{0%{stroke-dashoffset:520}55%,100%{stroke-dashoffset:0}}
+@keyframes ih-glow{0%,100%{opacity:.85}50%{opacity:.25}}
+@keyframes ih-drift{0%{transform:translateX(0)}100%{transform:translateX(28px)}}
+.ih-bob{animation:ih-bob 4.5s ease-in-out infinite;transform-origin:center;}
+.ih-swing{animation:ih-swing 4.5s ease-in-out infinite;transform-origin:top center;transform-box:fill-box;}
+.ih-blink{animation:ih-blink 5s infinite;}
+.ih-pulse{animation:ih-pulse 2.6s ease-in-out infinite;}
+.ih-float{animation:ih-float 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center;}
+.ih-flow{animation:ih-flow 3.2s linear infinite;}
+.ih-draw{stroke-dasharray:520;animation:ih-draw 7s ease-in-out infinite;}
+.ih-glow{animation:ih-glow 3.4s ease-in-out infinite;}
+.ih-drift{animation:ih-drift 7s ease-in-out infinite alternate;}
+.ih-drift-x{animation:ih-drift 9s ease-in-out infinite alternate;}
+.d2{animation-delay:1.1s;}
+.d3{animation-delay:2.2s;}
+@media (prefers-reduced-motion:reduce){.ih-art *{animation:none!important;}}
+
+/* == Insight detail page body =========================== */
+.ipage{padding:36px 32px 70px;}
+.ipage-lead{font-size:16.5px;line-height:1.7;color:#2c3540;max-width:82ch;margin:0 0 26px;}
+.fig-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:0 0 26px;}
+.fig-tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);}
+.fig-v{font-size:24px;font-weight:800;color:var(--blue);letter-spacing:-.5px;}
+.fig-l{font-size:12.5px;color:var(--muted);margin-top:3px;line-height:1.35;}
+.ipage .id-body{padding:0;border-top:none;}
+.ipage-metis{margin:30px 0 6px;padding:20px 24px;border-left:4px solid var(--green);background:rgba(8,222,197,.07);border-radius:0 14px 14px 0;}
+.ipage-metis h3{margin:0 0 8px;font-size:14px;text-transform:uppercase;letter-spacing:.5px;color:var(--blue);}
+.ipage-metis p{margin:0 0 12px;font-size:14.5px;color:#22303c;max-width:82ch;}
+.ipage-src{margin-top:26px;}
+.ic-brief-link{display:inline-block;margin:2px 0 12px;font-size:13px;font-weight:700;color:var(--green-2);}
+.ic-brief-link:hover{color:var(--blue);}
+
+/* == Insight tiles (wall) =============================== */
+.itile{background:linear-gradient(150deg,var(--blue-2) 0%,#1b2a52 60%,#123a3f 100%);border:1px solid rgba(255,255,255,.08);}
+.itile-chip{background:var(--green);color:var(--blue);}
+.itile-art{padding:16%;}
+.itile-art .ih-art{width:100%;height:100%;}
+.itile-foot{color:rgba(255,255,255,.85);font-size:11px;letter-spacing:.5px;text-transform:uppercase;}
+
+/* == Interactive chart tooltip ========================== */
+.id-chart-plot{position:relative;}
+.id-tip{position:absolute;transform:translate(-50%,-100%);pointer-events:none;z-index:5;
+  background:var(--blue-2);color:#fff;border-radius:8px;padding:6px 10px;font-size:12px;line-height:1.3;
+  box-shadow:0 6px 18px rgba(20,21,36,.25);white-space:nowrap;display:flex;gap:8px;align-items:baseline;}
+.id-tip-l{color:rgba(255,255,255,.7);}
+.id-tip-v{font-weight:800;color:var(--green);font-size:13px;}

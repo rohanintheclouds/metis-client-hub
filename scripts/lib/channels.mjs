@@ -32,6 +32,7 @@ function decodeEntities(s) {
     .replace(/<!\[CDATA\[(.*?)\]\]>/gs, "$1")
     .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/<[^>]+>/g, "")
     .trim();
 }
@@ -55,8 +56,8 @@ function isoDate(s) {
 
 // Finance-SEO churn that adds noise, not news: institutional stake-change
 // posts, auto-generated forecast/valuation pages, old earnings-page recrawls.
-const JUNK_SOURCES = /marketbeat|tipranks|tradingview|simply wall|zacks|benzinga|etf daily|defense world|stocktitan|gurufocus|insider monkey|stock traders daily/i;
-const JUNK_TITLES = /shares? (sold|bought|acquired)|(trims|boosts|raises|lowers|increases|decreases|cuts) (its )?(stake|position|holdings)|stock forecasts?|revenue breakdown|price target|q[1-4] 20\d\d earnings report|short interest|13F|dividend announcement/i;
+const JUNK_SOURCES = /marketbeat|tipranks|tradingview|tradingkey|simply wall|zacks|benzinga|etf daily|defense world|stock ?titan|gurufocus|insider monkey|stock traders daily|morningstar|investing\.com|openpr|quiver|acquirer'?s multiple/i;
+const JUNK_TITLES = /shares? (sold|bought|acquired)|(trims|boosts|raises|lowers|increases|decreases|cuts) (its )?(stake|position|holdings)|stock forecasts?|revenue breakdown|price target|q[1-4] 20\d\d earnings report - |short interest|13F|dividend announcement|bond (coupon|risk) profile|form 4 |institutional confidence|technical analysis|risk assessment|valuation: p[eb]|financial health|stock (under|out)performs|options market|fantasy football|adp risers|- (marketbeat|tradingview|tradingkey)|price:\d|top-ranked|lobbying update|beneficial stake|smart money|stock price, news, quote/i;
 
 // ── Google News RSS (no key) ─────────────────────────────────────────────
 // Real headlines with publisher + link, last N days.
@@ -77,6 +78,35 @@ export async function googleNewsRss(client, { days = 8, max = 10 } = {}) {
     if (seen.has(key)) continue;
     seen.add(key);
     items.push({ channel: "google-news", title, url: link, source, date });
+  }
+  return items.sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, max);
+}
+
+// ── Bing News RSS (no key) ───────────────────────────────────────────────
+// Unlike Google News, Bing's feed carries real article snippets, and the
+// publisher URL is recoverable from the apiclick redirect's url= param.
+export async function bingNewsRss(client, { days = 8, max = 10 } = {}) {
+  const q = encodeURIComponent(`"${client.newsQuery || client.name}"`);
+  const xml = await getText(`https://www.bing.com/news/search?q=${q}&format=rss`);
+  const cutoff = new Date(Date.now() - days * 864e5);
+  const items = [];
+  const seen = new Set();
+  for (const b of xml.split("<item>").slice(1)) {
+    const pick = (tag) => decodeEntities((b.split(`<${tag}>`)[1] || "").split(`</${tag}>`)[0]);
+    const title = pick("title");
+    let url = pick("link");
+    const m = /[?&]url=([^&]+)/.exec(url);
+    if (m) { try { url = decodeURIComponent(m[1]); } catch { /* keep redirect */ } }
+    const d = new Date(pick("pubDate"));
+    if (Number.isNaN(d.getTime()) || d < cutoff) continue;
+    let source = "";
+    try { source = new URL(url).hostname.replace(/^www\./, ""); } catch { /* leave blank */ }
+    if (!title || !url) continue;
+    if (JUNK_SOURCES.test(source) || JUNK_TITLES.test(title)) continue;
+    const key = title.toLowerCase().replace(/\W+/g, " ").trim();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    items.push({ channel: "bing-news", title, url, source, date: isoDate(d), snippet: pick("description") });
   }
   return items.sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, max);
 }
@@ -200,7 +230,9 @@ export async function guardianArticles(client, { days = 8, max = 6 } = {}) {
   const key = process.env.GUARDIAN_API_KEY;
   if (!key) return [];
   const from = new Date(Date.now() - days * 864e5).toISOString().slice(0, 10);
-  const q = encodeURIComponent(`"${client.legalName || client.name}"`);
+  // Guardian copy uses short names ("Workday"), never legal names ("Workday, Inc.").
+  // Clients with generic-phrase names set roster.newsQuery to disambiguate.
+  const q = encodeURIComponent(`"${client.newsQuery || client.name}"`);
   const data = await getJson(
     `https://content.guardianapis.com/search?q=${q}&from-date=${from}&order-by=newest&show-fields=trailText&page-size=${max}&api-key=${key}`
   );
@@ -244,7 +276,8 @@ export async function tavilyNews(client, { days = 8, max = 8 } = {}) {
 // ── Aggregate all channels for one client ────────────────────────────────
 export async function gatherClient(client) {
   const settle = (p) => p.then((v) => v).catch((e) => ({ __error: String(e.message || e) }));
-  const [news, nyt, guardian, tavily, filings, finnhub, yahoo] = await Promise.all([
+  const [bing, news, nyt, guardian, tavily, filings, finnhub, yahoo] = await Promise.all([
+    settle(bingNewsRss(client)),
     settle(googleNewsRss(client)),
     settle(nytArticles(client)),
     settle(guardianArticles(client)),
@@ -256,8 +289,18 @@ export async function gatherClient(client) {
   const errs = [];
   const arr = (x, name) => (Array.isArray(x) ? x : (x?.__error && errs.push(`${name}: ${x.__error}`), []));
   const obj = (x, name) => (x && !x.__error ? x : (x?.__error && errs.push(`${name}: ${x.__error}`), null));
+  // Snippet-bearing channels first, then dedupe by normalized title so the
+  // readable version of a story wins over a bare-headline duplicate.
+  const merged = [];
+  const seen = new Set();
+  for (const a of [...arr(bing, "bing-news"), ...arr(nyt, "nyt"), ...arr(guardian, "guardian"), ...arr(tavily, "tavily"), ...arr(news, "google-news")]) {
+    const key = a.title.toLowerCase().replace(/\W+/g, " ").trim().slice(0, 60);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    merged.push(a);
+  }
   return {
-    articles: [...arr(news, "google-news"), ...arr(nyt, "nyt"), ...arr(guardian, "guardian"), ...arr(tavily, "tavily")],
+    articles: merged,
     filings: arr(filings, "sec-edgar"),
     market: obj(finnhub, "finnhub") || obj(yahoo, "yahoo"),
     errors: errs,

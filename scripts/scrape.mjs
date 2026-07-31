@@ -33,7 +33,8 @@ const DATA_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", 
 function weekId(d = new Date()) {
   const monday = new Date(d);
   monday.setDate(d.getDate() - ((d.getDay() + 6) % 7));
-  return monday.toISOString().slice(0, 10);
+  // Build from local parts — toISOString() is UTC and can roll the date.
+  return `${monday.getFullYear()}-${String(monday.getMonth() + 1).padStart(2, "0")}-${String(monday.getDate()).padStart(2, "0")}`;
 }
 
 function weekLabel(id) {
@@ -50,7 +51,7 @@ async function main() {
   const wk = weekId();
   const llm = Boolean(process.env.ANTHROPIC_API_KEY);
   const channels = [
-    "google-news", "sec-edgar", "yahoo-finance",
+    "bing-news", "google-news", "sec-edgar", "yahoo-finance",
     process.env.FINNHUB_API_KEY && "finnhub",
     process.env.NYT_API_KEY && "nyt",
     process.env.GUARDIAN_API_KEY && "guardian",
