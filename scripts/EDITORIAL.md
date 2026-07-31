@@ -16,6 +16,31 @@ edition below A in any dimension for any client does not ship.
 3. `npm run grade` — iterate until every client is A across all dimensions.
 4. Commit. CI re-runs the grade and blocks anything below A.
 
+## Adding a new client
+
+The pipeline is roster-driven: add an entry to `src/lib/roster.js` and the
+client is automatically gathered, authored, and graded on the next scrape —
+same channels, same contract, same A-or-block gate. The grade FAILS for any
+roster client missing an edition, so a new client can't silently ship empty.
+
+A roster lint runs at the top of `npm run grade` (and in CI) and rejects
+entries that would degrade content quality. Requirements:
+
+- `id` (kebab-case), `name`, `legalName` (news channels query it), `sector`,
+  `domain`, `coast`, and ≥2 project-type `tags` (they drive Metis-lens
+  grading and My Pulse personalization).
+- `ticker` — `"NYSE: XYZ"` style (enables SEC EDGAR filings + market data)
+  or `"Private"` (no stats; qualitative items instead).
+- `newsQuery` — REQUIRED when the name is generic ("Take Command" would
+  return military articles); set it to the unambiguous legal name.
+- `feeds` (optional, high leverage) — `[{ url, source? }]` RSS/Atom feeds
+  fetched first in every gather. Add the company newsroom or IR feed and the
+  client gets primary-source coverage from day one.
+- `about` / `model` blurbs for the client page (lint warns if missing).
+
+After adding: `npm run gather -- <id>` to pull material, author per this
+contract, `npm run grade`, push.
+
 ## Grounding (accuracy)
 
 - Use ONLY fetched material: the raw gather, or pages you actually opened this

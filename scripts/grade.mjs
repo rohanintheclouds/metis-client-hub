@@ -11,9 +11,21 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { ROSTER } from "../src/lib/roster.js";
 import { gradeStore } from "./lib/quality.mjs";
+import { lintRoster } from "./lib/roster-lint.mjs";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const store = JSON.parse(readFileSync(path.join(root, "src", "data", "generated-pulse.json"), "utf8"));
+
+// ── Roster lint first: a new client must carry everything the pipeline
+// needs to produce A-grade content for it before content is even graded.
+const { errors: rosterErrors, warnings: rosterWarnings } = lintRoster(ROSTER);
+for (const w of rosterWarnings) console.log(`  ⚠ roster: ${w}`);
+if (rosterErrors.length) {
+  console.error("\n❌ Roster lint failed — fix these entries before scraping:\n");
+  for (const e of rosterErrors) console.error(`  ✗ ${e}`);
+  console.error("");
+  process.exit(1);
+}
 
 const weekId = process.argv[2] || store.editions?.[0]?.id;
 if (!weekId) {

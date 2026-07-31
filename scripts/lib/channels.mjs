@@ -280,6 +280,44 @@ export async function tavilyNews(client, { days = 8, max = 8 } = {}) {
   }));
 }
 
+// ── Per-client custom feeds (no key) ─────────────────────────────────────
+// Any roster entry may declare feeds: [{ url, source? }] — company newsroom
+// RSS, sector trade-press RSS, IR feeds. Adding a client with its newsroom
+// feed is the single highest-leverage way to guarantee primary-source
+// coverage from day one. Parses generic RSS/Atom.
+export async function customFeeds(client, { days = 8, max = 8 } = {}) {
+  if (!Array.isArray(client.feeds) || !client.feeds.length) return [];
+  const cutoff = new Date(Date.now() - days * 864e5);
+  const out = [];
+  for (const feed of client.feeds) {
+    try {
+      const xml = await getText(feed.url);
+      const blocks = xml.includes("<entry") ? xml.split("<entry") : xml.split("<item>");
+      for (const b of blocks.slice(1)) {
+        const pick = (tag) => decodeEntities((b.split(`<${tag}>`)[1] || "").split(`</${tag}>`)[0]);
+        const title = pick("title");
+        let url = pick("link");
+        if (!url || url.startsWith("<")) {
+          const href = /href="([^"]+)"/.exec(b.split(">")[0] + b);
+          url = href ? href[1] : "";
+        }
+        const d = new Date(pick("pubDate") || pick("published") || pick("updated"));
+        if (!title || !url) continue;
+        if (!Number.isNaN(d.getTime()) && d < cutoff) continue;
+        out.push({
+          channel: "custom-feed",
+          title,
+          url,
+          source: feed.source || new URL(feed.url).hostname.replace(/^www\./, ""),
+          date: Number.isNaN(d.getTime()) ? "" : isoDate(d),
+          snippet: pick("description") || pick("summary") || "",
+        });
+      }
+    } catch { /* a broken feed never blocks the gather */ }
+  }
+  return out.slice(0, max);
+}
+
 // ── Source quality tiers ─────────────────────────────────────────────────
 // primary    — the company itself or a regulator (IR, newsroom, SEC, FDIC…)
 // tier1      — major national/business press
@@ -333,18 +371,20 @@ export async function gatherClient(client, { minArticles = 4 } = {}) {
   const obj = (x, name) => (x && !x.__error ? x : (x?.__error && errs.push(`${name}: ${x.__error}`), null));
 
   async function articlesForWindow(days) {
-    const [bing, news, nyt, guardian, tavily] = await Promise.all([
+    const [custom, bing, news, nyt, guardian, tavily] = await Promise.all([
+      settle(customFeeds(client, { days })),
       settle(bingNewsRss(client, { days })),
       settle(googleNewsRss(client, { days })),
       settle(nytArticles(client, { days })),
       settle(guardianArticles(client, { days })),
       settle(tavilyNews(client, { days })),
     ]);
-    // Snippet-bearing channels first, then dedupe by normalized title so the
-    // readable version of a story wins over a bare-headline duplicate.
+    // Client-declared feeds first (usually the company's own newsroom), then
+    // snippet-bearing channels, then dedupe by normalized title so the best
+    // version of a story wins over a bare-headline duplicate.
     const merged = [];
     const seen = new Set();
-    for (const a of [...arr(bing, "bing-news"), ...arr(nyt, "nyt"), ...arr(guardian, "guardian"), ...arr(tavily, "tavily"), ...arr(news, "google-news")]) {
+    for (const a of [...arr(custom, "custom-feed"), ...arr(bing, "bing-news"), ...arr(nyt, "nyt"), ...arr(guardian, "guardian"), ...arr(tavily, "tavily"), ...arr(news, "google-news")]) {
       const key = a.title.toLowerCase().replace(/\W+/g, " ").trim().slice(0, 60);
       if (seen.has(key)) continue;
       seen.add(key);

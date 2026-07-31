@@ -99,6 +99,15 @@ No-API weekly workflow (run the scrape through your own Claude session):
 With `ANTHROPIC_API_KEY` set, `npm run scrape` does steps 1–2 automatically
 using the same editorial contract; the grade gate still applies.
 
+**Adding a client:** the whole mechanism is roster-driven — add an entry to
+`src/lib/roster.js` and the new client is gathered, authored, and graded
+identically on the next scrape (and the grade fails until it has an edition,
+so it can't ship empty). A roster lint inside `npm run grade` rejects entries
+missing what A-grade content needs (legalName, ticker/Private, tags,
+`newsQuery` for ambiguous names). Optionally add `feeds: [{url}]` with the
+company's newsroom RSS for guaranteed primary-source coverage. Details in
+`scripts/EDITORIAL.md` → "Adding a new client".
+
 ### Grounded scrape pipeline (no hallucination)
 
 `npm run scrape` (or `npm run scrape -- <clientId>`) gathers **real data** per
