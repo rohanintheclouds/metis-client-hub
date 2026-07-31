@@ -68,30 +68,36 @@ export async function summarizeEdition(client, gathered) {
   if (!articles.length && !filings.length) return assembleEdition(client, gathered);
 
   const corpus = [
-    ...articles.map((a, i) => `[A${i}] ${a.title}\n    url: ${a.url}\n    source: ${a.source} ${a.date}\n    ${a.snippet || ""}`),
-    ...filings.map((f, i) => `[F${i}] ${f.title}\n    url: ${f.url}\n    source: SEC EDGAR ${f.date}`),
+    ...articles.map((a, i) => `[A${i}] ${a.title}\n    url: ${a.url}\n    source: ${a.source} | tier: ${a.tier || "trade"} | date: ${a.date}\n    ${a.snippet || ""}`),
+    ...filings.map((f, i) => `[F${i}] ${f.title}\n    url: ${f.url}\n    source: SEC EDGAR | tier: primary | date: ${f.date}`),
   ].join("\n\n");
 
-  const prompt = `You are compiling the weekly "Client Pulse" brief for ${client.legalName || client.name} (${client.ticker}), a ${client.sector} client of Metis Strategy.
+  const prompt = `You are compiling the weekly "Client Pulse" brief for ${client.legalName || client.name} (${client.ticker}), a ${client.sector} client of Metis Strategy (a strategy & technology consulting firm). This client's Metis project-type tags: ${(client.tags || []).join(", ")}.
 
-Below is the ONLY material you may use. It was fetched this week from real channels.
+Below is the ONLY material you may use. It was fetched this week from real channels. Each entry carries url, source, tier, and date.
 
 <fetched_material>
 ${corpus}
 </fetched_material>
 
-Rules — these are hard constraints:
-- Use ONLY facts stated in the fetched material above. Do not add anything from memory: no numbers, dates, names, or events that do not appear above.
+Rules — these are hard constraints (the full contract is scripts/EDITORIAL.md; a deterministic grader enforces it):
+- Use ONLY facts stated in the fetched material above. No memory, no invention: no numbers, dates, names, or events that do not appear above.
 - Every item's "url" MUST be copied exactly from one of the urls above. An item without a supporting url must be omitted.
+- Every item carries the source's "date" (YYYY-MM-DD) and "tier" copied from the material. Items older than 8 days before the edition week get category "Context".
 - Do not invent statistics. The stats block is handled separately; do not produce one.
-- If the material is thin, return fewer items (even 1). Never pad.
-- "ctx" is one sentence on why this matters for a consulting engagement with this client.
+- 3-6 items. ≥1 strategy-class category (Leadership, Tech & AI, M&A, Cost & Ops, Regulatory, Product, Risk). ≤1 "Financial" item. ≤1 aggregator-tier item, never first.
+- "headline": the takeaway in ≤100 chars, verb-led — never the raw article title, never a "— Source" suffix.
+- "tldr": one-line so-what, ≤200 chars. "body": 30–160 words, fetched facts only.
+- "ctx": one sentence on why this matters for the client's situation.
+- "lens": one sentence on the Metis angle — what it means for consulting work with this client, in the language of the project-type tags. Must be distinct from ctx.
+- "priority": 1 = most material story, ascending. Order items by priority.
+- Ban filler: never write an item about the mere existence of a filing.
 
 Return ONLY JSON, no markdown fences:
-{"glance": "1-2 sentence week-at-a-glance grounded in the material",
- "items": [{"headline": "...", "body": "2-4 sentences, only fetched facts", "ctx": "...", "url": "..."}],
- "sources": [{"label": "Publisher — short title", "url": "..."}]}
-Aim for 3-4 items when the material supports it.`;
+{"glance": "2-3 sentences, the week's story for a consultant walking into this client",
+ "delta": "1-2 sentences: what changed vs the prior week",
+ "items": [{"headline": "...", "tldr": "...", "body": "...", "ctx": "...", "lens": "...", "url": "...", "source": "...", "tier": "...", "date": "YYYY-MM-DD", "category": "...", "priority": 1}],
+ "sources": [{"label": "Publisher — short title (≤70 chars)", "url": "..."}]}`;
 
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -113,5 +119,12 @@ Aim for 3-4 items when the material supports it.`;
   if (market?.sourceUrl && !sources.some((s) => s.url === market.sourceUrl))
     sources.push({ label: `Market data — ${market.symbol}`, url: market.sourceUrl });
 
-  return { glance: parsed.glance || "", stats: marketStats(market), items, sources };
+  return {
+    glance: parsed.glance || "",
+    delta: parsed.delta || "",
+    stats: marketStats(market),
+    items,
+    sources,
+    meta: { generatedAt: new Date().toISOString(), windowDays: gathered.windowDays || 8, author: "api" },
+  };
 }

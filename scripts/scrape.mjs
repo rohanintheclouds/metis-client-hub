@@ -44,9 +44,38 @@ function weekLabel(id) {
 }
 
 async function main() {
-  const only = process.argv[2];
+  const args = process.argv.slice(2);
+  const gatherOnly = args.includes("--gather");
+  const only = args.find((a) => !a.startsWith("--"));
   const clients = only ? CLIENTS.filter((c) => c.id === only) : CLIENTS;
   if (!clients.length) throw new Error(`No client with id "${only}"`);
+
+  // ── Gather mode (no-API workflow) ────────────────────────────────────
+  // Fetch every channel and write the raw, dated, tiered material to
+  // src/data/raw-gather.json. A Claude Code session (or any editor) then
+  // authors the edition from that material following scripts/EDITORIAL.md,
+  // and `npm run grade` enforces the quality contract before publishing.
+  if (gatherOnly) {
+    const RAW_FILE = path.join(path.dirname(DATA_FILE), "raw-gather.json");
+    const raw = { gatheredAt: new Date().toISOString(), week: weekId(), clients: {} };
+    console.log(`\n📥 Gather-only mode — raw material for week ${raw.week}\n`);
+    for (const c of clients) {
+      process.stdout.write(`   • ${c.name.padEnd(22)} `);
+      try {
+        const g = await gatherClient(c);
+        raw.clients[c.id] = g;
+        const note = g.errors.length ? `  (errors: ${g.errors.join("; ")})` : "";
+        console.log(`✓ ${g.articles.length} articles (window ${g.windowDays}d), ${g.filings.length} filings, market ${g.market ? "✓" : "—"}${note}`);
+      } catch (e) {
+        raw.clients[c.id] = { articles: [], filings: [], market: null, errors: [String(e.message || e)] };
+        console.log(`✗ ${e.message}`);
+      }
+    }
+    writeFileSync(RAW_FILE, JSON.stringify(raw, null, 2) + "\n");
+    console.log(`\n✅ Raw material written to src/data/raw-gather.json.`);
+    console.log(`   Author the edition per scripts/EDITORIAL.md, then run: npm run grade\n`);
+    return;
+  }
 
   const wk = weekId();
   const llm = Boolean(process.env.ANTHROPIC_API_KEY);

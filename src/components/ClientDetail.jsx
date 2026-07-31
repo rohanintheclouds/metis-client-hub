@@ -211,14 +211,27 @@ export default function ClientDetail({ id }) {
                 <span className="gc-sub">click "More on this" for the full story</span>
               </div>
               {d?.glance && <p className="gc-glance">{d.glance}</p>}
+              {d?.delta && (
+                <p className="gc-delta">
+                  <b>What changed:</b> {d.delta}
+                </p>
+              )}
               <div className="gc-list">
                 {d?.items.map((it, i) => (
                   <div className="gc-item" key={`${current?.id}-${i}`} style={{ "--i": i }}>
                     <span className="gc-dot" aria-hidden />
                     <div className="gc-main">
                       <span className="gc-hl">{it.headline.replace(/\.$/, "")}</span>
+                      {(it.category || it.date) && (
+                        <span className="gc-chips">
+                          {it.category && <em className={`gc-cat c-${(it.category || "").split(" ")[0].toLowerCase().replace(/[^a-z]/g, "")}`}>{it.category}</em>}
+                          {it.date && <em className="gc-date">{it.date}</em>}
+                          {it.source && <em className="gc-pub">{it.source}</em>}
+                        </span>
+                      )}
+                      {it.tldr && <p className="gc-tldr">{it.tldr}</p>}
                       <p className="gc-lead">{it.body}</p>
-                      {(it.ctx || it.url) && (
+                      {(it.ctx || it.lens || it.url) && (
                         <details className="gc-more">
                           <summary>
                             More on this <ChevronDown size={13} className="gc-chev" aria-hidden />
@@ -227,6 +240,11 @@ export default function ClientDetail({ id }) {
                             {it.ctx && (
                               <p className="gc-why">
                                 <b>Why it matters:</b> {it.ctx}
+                              </p>
+                            )}
+                            {it.lens && (
+                              <p className="gc-lens">
+                                <b>Metis lens:</b> {it.lens}
                               </p>
                             )}
                             {it.url && (
@@ -241,6 +259,12 @@ export default function ClientDetail({ id }) {
                   </div>
                 ))}
               </div>
+              {d?.meta?.generatedAt && (
+                <p className="gc-meta">
+                  Grounded in {d?.sources?.length || 0} fetched sources · {d.meta.windowDays || 8}-day window ·
+                  generated {String(d.meta.generatedAt).slice(0, 10)} · graded A by the quality gate
+                </p>
+              )}
             </div>
 
             {/* current news links */}

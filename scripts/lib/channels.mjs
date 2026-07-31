@@ -68,11 +68,18 @@ export async function googleNewsRss(client, { days = 8, max = 10 } = {}) {
   const seen = new Set();
   for (const b of xml.split("<item>").slice(1)) {
     const pick = (tag) => decodeEntities((b.split(`<${tag}>`)[1] || "").split(`</${tag}>`)[0]);
-    const title = pick("title");
+    let title = pick("title");
     const link = pick("link");
     const date = isoDate(pick("pubDate"));
-    const source = pick("source");
+    let source = pick("source");
     if (!title || !link) continue;
+    // Google News titles end in " - Publisher"; recover it when <source> is
+    // empty and strip it from the title either way.
+    const m = /\s+-\s+([^-]{2,40})$/.exec(title);
+    if (m) {
+      if (!source) source = m[1].trim();
+      title = title.slice(0, m.index).trim();
+    }
     if (JUNK_SOURCES.test(source) || JUNK_TITLES.test(title)) continue;
     const key = title.toLowerCase().replace(/\W+/g, " ").trim();
     if (seen.has(key)) continue;
@@ -273,36 +280,98 @@ export async function tavilyNews(client, { days = 8, max = 8 } = {}) {
   }));
 }
 
+// ── Source quality tiers ─────────────────────────────────────────────────
+// primary    — the company itself or a regulator (IR, newsroom, SEC, FDIC…)
+// tier1      — major national/business press
+// trade      — sector trade press (the most consulting-relevant coverage)
+// financial  — market-focused outlets (fine, capped by the quality gate)
+// aggregator — syndicators/re-hosts; allowed sparingly, never as the lead
+const TIER_PATTERNS = [
+  [/sec\.gov|fdic\.gov|federalreserve|\.mil|\.gov$/i, "primary"],
+  [/investor|ir\.|newsroom|press|media(center|room)|businesswire|prnewswire|globenewswire/i, "primary"],
+  [/nytimes|wsj\.com|bloomberg|reuters|ft\.com|cnbc|washingtonpost|theguardian|apnews|axios|economist|fortune\.com|forbes\.com|barrons/i, "tier1"],
+  [/techcrunch|theverge|wired|arstechnica|fierce|lightreading|housingwire|nationalmortgagenews|autofinancenews|modernhealthcare|medtechdive|healthcaredive|hrdive|utilitydive|constructiondive|supplychaindive|industrydive|adage|sportsbusinessjournal|hrexecutive|joshbersin|accountingtoday|consulting\.(us|uk)|betakit|geekwire|crainsdetroit|bizjournals|biztimes/i, "trade"],
+  [/yahoo|marketwatch|fool\.com|seekingalpha|investopedia|thestreet|stocktwits|barchart|streetinsider/i, "financial"],
+  [/msn\.com|news\.google|aol\.com|flipboard|smartnews|apple\.news/i, "aggregator"],
+];
+
+export function tierFor(url = "", source = "") {
+  // Match on hostname + publisher name only — never the URL slug, where words
+  // like "investors" or "press" appear incidentally.
+  let host = "";
+  try {
+    host = new URL(url).hostname.replace(/^www\./, "");
+  } catch { /* keep blank */ }
+  // Google News redirect URLs resolve to the real publisher; tier by the
+  // publisher name the feed reported, not by Google's redirect host.
+  if (/news\.google\./.test(host) && source) {
+    const s = source.toLowerCase();
+    for (const [re, tier] of TIER_PATTERNS) if (re.test(s)) return tier;
+    return "trade";
+  }
+  const hay = `${host} ${source}`.toLowerCase();
+  for (const [re, tier] of TIER_PATTERNS) if (re.test(hay)) return tier;
+  return "trade"; // unknown independent outlet — treat as trade press
+}
+
+// Known syndicators re-hosting wire/original stories. When we can't recover
+// the original URL, we keep the item but tag it aggregator so the quality
+// gate caps how much of it an edition can carry.
+export function canonicalize(item) {
+  const tier = tierFor(item.url, item.source);
+  return { ...item, tier };
+}
+
 // ── Aggregate all channels for one client ────────────────────────────────
-export async function gatherClient(client) {
+// Coverage floor: when the default window is thin (<4 usable articles), the
+// window widens (8 → 21 → 45 days). Every item carries its own date + tier,
+// so honest labeling downstream ("Context" for older material) stays possible.
+export async function gatherClient(client, { minArticles = 4 } = {}) {
   const settle = (p) => p.then((v) => v).catch((e) => ({ __error: String(e.message || e) }));
-  const [bing, news, nyt, guardian, tavily, filings, finnhub, yahoo] = await Promise.all([
-    settle(bingNewsRss(client)),
-    settle(googleNewsRss(client)),
-    settle(nytArticles(client)),
-    settle(guardianArticles(client)),
-    settle(tavilyNews(client)),
+  const errs = [];
+  const arr = (x, name) => (Array.isArray(x) ? x : (x?.__error && errs.push(`${name}: ${x.__error}`), []));
+  const obj = (x, name) => (x && !x.__error ? x : (x?.__error && errs.push(`${name}: ${x.__error}`), null));
+
+  async function articlesForWindow(days) {
+    const [bing, news, nyt, guardian, tavily] = await Promise.all([
+      settle(bingNewsRss(client, { days })),
+      settle(googleNewsRss(client, { days })),
+      settle(nytArticles(client, { days })),
+      settle(guardianArticles(client, { days })),
+      settle(tavilyNews(client, { days })),
+    ]);
+    // Snippet-bearing channels first, then dedupe by normalized title so the
+    // readable version of a story wins over a bare-headline duplicate.
+    const merged = [];
+    const seen = new Set();
+    for (const a of [...arr(bing, "bing-news"), ...arr(nyt, "nyt"), ...arr(guardian, "guardian"), ...arr(tavily, "tavily"), ...arr(news, "google-news")]) {
+      const key = a.title.toLowerCase().replace(/\W+/g, " ").trim().slice(0, 60);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      merged.push(canonicalize(a));
+    }
+    return merged;
+  }
+
+  let windowDays = 8;
+  let articles = await articlesForWindow(windowDays);
+  for (const wider of [21, 45]) {
+    if (articles.length >= minArticles) break;
+    windowDays = wider;
+    articles = await articlesForWindow(wider);
+  }
+
+  const [filings, finnhub, yahoo] = await Promise.all([
     settle(secEdgarFilings(client)),
     settle(finnhubMarketData(client)),
     settle(yahooMarketData(client)),
   ]);
-  const errs = [];
-  const arr = (x, name) => (Array.isArray(x) ? x : (x?.__error && errs.push(`${name}: ${x.__error}`), []));
-  const obj = (x, name) => (x && !x.__error ? x : (x?.__error && errs.push(`${name}: ${x.__error}`), null));
-  // Snippet-bearing channels first, then dedupe by normalized title so the
-  // readable version of a story wins over a bare-headline duplicate.
-  const merged = [];
-  const seen = new Set();
-  for (const a of [...arr(bing, "bing-news"), ...arr(nyt, "nyt"), ...arr(guardian, "guardian"), ...arr(tavily, "tavily"), ...arr(news, "google-news")]) {
-    const key = a.title.toLowerCase().replace(/\W+/g, " ").trim().slice(0, 60);
-    if (seen.has(key)) continue;
-    seen.add(key);
-    merged.push(a);
-  }
+
   return {
-    articles: merged,
-    filings: arr(filings, "sec-edgar"),
+    articles,
+    filings: arr(filings, "sec-edgar").map(canonicalize),
     market: obj(finnhub, "finnhub") || obj(yahoo, "yahoo"),
+    windowDays,
     errors: errs,
   };
 }

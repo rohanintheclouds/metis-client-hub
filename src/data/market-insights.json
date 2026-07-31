@@ -14,7 +14,7 @@
         "manual": true,
         "title": "The Humanoid 100: Mapping the Humanoid Robot Value Chain",
         "sourceNote": "Morgan Stanley Research BluePaper (Feb 6, 2025)",
-        "summary": "Morgan Stanley's global research team maps 100 public companies across the humanoid-robot value chain — Brain (22 semis/software names), Body (64 industrial-component suppliers: actuators, bearings, screws, reducers, motors, sensors, batteries), and Integrators building full humanoids. Its US TAM model projects 8 million humanoid units by 2040 (~$357B wage impact) rising to 63 million by 2050 (~$3T wage impact, ~$1T annual US humanoid revenue), against a global labor market it sizes near $30T.",
+        "summary": "Morgan Stanley's global research team maps 100 public companies across the humanoid-robot value chain \u2014 Brain (22 semis/software names), Body (64 industrial-component suppliers: actuators, bearings, screws, reducers, motors, sensors, batteries), and Integrators building full humanoids. Its US TAM model projects 8 million humanoid units by 2040 (~$357B wage impact) rising to 63 million by 2050 (~$3T wage impact, ~$1T annual US humanoid revenue), against a global labor market it sizes near $30T.",
         "analysis": "Metis angle: two of our clients are on the list itself. Regal Rexnord appears in four Body categories (bearings, gears/reducers, motors, complete actuators) and is called a leading US supplier of electric motors, gearing, and linear actuators; Rockwell Automation is listed under Diversified Automation for its sensors-to-software stack. The report's sharpest finding is geographic: 73% of companies confirmed to be involved are Asia-based (56% China), and Morgan Stanley explicitly compares the West's position to its EV supply-chain experience. For engagements with Rockwell and Regal Rexnord, humanoids are both a long-dated demand tailwind for their component portfolios and a near-term strategy question: component orders and partnership decisions arrive years before the 2040-2050 adoption inflection the model projects.",
         "url": "https://advisor.morganstanley.com/john.howard/documents/field/j/jo/john-howard/The_Humanoid_100_-_Mapping_the_Humanoid_Robot_Value_Chain.pdf",
         "date": "2025-02-06",
@@ -26,7 +26,7 @@
             },
             {
               "heading": "The anatomy: where the value sits",
-              "body": "The brain combines foundational GenAI models (NVIDIA Gr00t, Alphabet, Meta, Microsoft), simulation and digital-twin software for training (Dassault, Siemens, Hexagon), and vision/compute/memory semis. The body is actuators and their parts — bearings, screws, gears/reducers, motors, encoders — plus rare-earth magnets, sensors, wiring, and a lithium-ion battery. Tesla's Optimus Gen2 alone uses 50 degrees of freedom driven by 28 actuators; humanoid makers design proprietary actuators but source components from the same global supplier web as autos."
+              "body": "The brain combines foundational GenAI models (NVIDIA Gr00t, Alphabet, Meta, Microsoft), simulation and digital-twin software for training (Dassault, Siemens, Hexagon), and vision/compute/memory semis. The body is actuators and their parts \u2014 bearings, screws, gears/reducers, motors, encoders \u2014 plus rare-earth magnets, sensors, wiring, and a lithium-ion battery. Tesla's Optimus Gen2 alone uses 50 degrees of freedom driven by 28 actuators; humanoid makers design proprietary actuators but source components from the same global supplier web as autos."
             },
             {
               "heading": "The geographic imbalance",
@@ -34,17 +34,17 @@
             },
             {
               "heading": "The market model",
-              "body": "MS assumes a $150k average selling price in 2028 falling to ~$50k by 2040 on an 8-year replacement cycle. Its US TAM model reaches 8 million installed humanoids by 2040 (~$357B wage impact) and 63 million by 2050 (~$3T wage impact), with US market revenue of ~$4B in 2030, ~$240B in 2040, and ~$1T by 2050 — the inflection lands in the 2040s. A parallel China model projects 1.5M/7.4M/59M units by 2030/2035/2050 on faster price declines and lower labor-cost adoptability."
+              "body": "MS assumes a $150k average selling price in 2028 falling to ~$50k by 2040 on an 8-year replacement cycle. Its US TAM model reaches 8 million installed humanoids by 2040 (~$357B wage impact) and 63 million by 2050 (~$3T wage impact), with US market revenue of ~$4B in 2030, ~$240B in 2040, and ~$1T by 2050 \u2014 the inflection lands in the 2040s. A parallel China model projects 1.5M/7.4M/59M units by 2030/2035/2050 on faster price declines and lower labor-cost adoptability."
             },
             {
               "heading": "The Metis client read",
-              "body": "Regal Rexnord appears in four Body categories (bearings, gears/reducers, motors, complete actuators) and is described as a leading US supplier of electric motors, gearing, and linear actuators. Rockwell Automation is listed under Diversified Automation for its sensors-to-software industrial stack. For both accounts this is a long-dated demand tailwind with near-term strategy consequences: component sourcing, capacity, and partnership decisions get made years before the model's adoption inflection — and the report frames exactly which parts of their portfolios the market will price on this theme."
+              "body": "Regal Rexnord appears in four Body categories (bearings, gears/reducers, motors, complete actuators) and is described as a leading US supplier of electric motors, gearing, and linear actuators. Rockwell Automation is listed under Diversified Automation for its sensors-to-software industrial stack. For both accounts this is a long-dated demand tailwind with near-term strategy consequences: component sourcing, capacity, and partnership decisions get made years before the model's adoption inflection \u2014 and the report frames exactly which parts of their portfolios the market will price on this theme."
             }
           ],
           "charts": [
             {
               "kind": "time-bars",
-              "title": "US humanoid market revenue — MS model ($bn per year)",
+              "title": "US humanoid market revenue \u2014 MS model ($bn per year)",
               "source": "Exhibit 71, Morgan Stanley Research",
               "unit": "$bn",
               "labels": [
@@ -117,15 +117,15 @@
               "unit": "companies",
               "rows": [
                 [
-                  "Body — industrial components",
+                  "Body \u2014 industrial components",
                   64
                 ],
                 [
-                  "Brain — semis & software",
+                  "Brain \u2014 semis & software",
                   22
                 ],
                 [
-                  "Integrators — full humanoids",
+                  "Integrators \u2014 full humanoids",
                   22
                 ]
               ]
@@ -344,7 +344,7 @@
               "l": "Utility funding gap to 2035"
             },
             {
-              "v": "1.5%→2.5%",
+              "v": "1.5%\u21922.5%",
               "l": "Utility revenue as share of US GDP"
             },
             {
@@ -498,7 +498,7 @@
         "firm": "Goldman Sachs",
         "firmId": "goldman-sachs",
         "title": "Three New Stock Themes Are in Focus as the AI Trade Gyrates",
-        "summary": "As volatility rises in popular stocks related to AI infrastructure, investors are looking for trade ideas that are unrelated to the emerging technology. Goldman Sachs Research highlights consumer-experience companies, “compounder” stocks, and M&A candidates as potential themes for investors to consider.",
+        "summary": "As volatility rises in popular stocks related to AI infrastructure, investors are looking for trade ideas that are unrelated to the emerging technology. Goldman Sachs Research highlights consumer-experience companies, \u201ccompounder\u201d stocks, and M&A candidates as potential themes for investors to consider.",
         "url": "https://www.goldmansachs.com/insights/articles/three-new-stock-themes-are-in-focus-as-the-ai-trade-gyrates",
         "date": "2026-07-23",
         "relatedClients": [
@@ -610,6 +610,80 @@
         },
         "shortTitle": "Biotech Rally",
         "hook": "Biotech returned 56% in a year, and Goldman sees obesity drugs and M&A extending the rally."
+      },
+      {
+        "firm": "Goldman Sachs",
+        "firmId": "goldman-sachs",
+        "manual": true,
+        "title": "AI to Drive a 165% Increase in Data Center Power Demand by 2030",
+        "sourceNote": "Goldman Sachs Research (Feb 2025 report; 2026 demand updates accessed Jul 31, 2026)",
+        "summary": "Goldman Sachs Research projects AI will drive a 165% increase in data-center power demand by 2030. Its 2026 update sharpens the near-term picture: US data-center power demand climbing from 31 GW in 2025 to 41 GW in 2026, capacity roughly doubling to ~95 GW by end-2027 (at ~70% utilization), and data centers' share of US peak summer demand jumping from 4.1% in 2025 to 8.5% in 2027 \u2014 tightening power markets nationwide.",
+        "analysis": "Metis angle: four of our clients sit directly on this curve. NRG is the demand story's supply side \u2014 its LS Power fleet and long-dated data-center contracts monetize exactly the ERCOT/PJM tightening Goldman describes. Generac's $1B hyperscale order book is backup power for the same buildout. Lumen's Private Connectivity Fabric carries the traffic between these facilities, and Regal Rexnord's E-Pod power systems and motion components feed the physical fit-out. When a client asks 'how long does the data-center cycle run,' this is the demand-side evidence base.",
+        "url": "https://www.goldmansachs.com/insights/articles/ai-to-drive-165-increase-in-data-center-power-demand-by-2030",
+        "date": "2026-07-31",
+        "detail": {
+          "sections": [
+            {
+              "heading": "What the research says",
+              "body": "Goldman's commodities team (Hongcen Wei, Daan Struyven, Samantha Dart) models US data-center power demand rising from 31 GW in 2025 to 41 GW in 2026, on capacity additions of 13.6 GW in 2026 and 36.3 GW in 2027 \u2014 versus just 6.4 GW realized in 2024. The headline projection: AI drives a 165% increase in data-center power demand by 2030, with data centers reaching 8.5% of US peak summer demand by 2027."
+            },
+            {
+              "heading": "Why it matters for client markets",
+              "body": "A demand curve this steep against multi-year generation lead times means power availability \u2014 not chips or capital \u2014 becomes the binding constraint on AI infrastructure. That favors incumbent generators with existing fleets (NRG), backup and distributed power suppliers (Generac), the fiber connecting stranded-power sites to users (Lumen), and the electrical components inside every new hall (Regal Rexnord)."
+            }
+          ]
+        },
+        "relatedClients": [
+          "nrg-energy",
+          "generac-power-systems",
+          "lumen-technologies",
+          "regal-rexnord"
+        ],
+        "themes": [
+          "Energy & Infrastructure",
+          "AI & Automation"
+        ],
+        "slug": "gs-datacenter-power-2030",
+        "heroTheme": "energy",
+        "shortTitle": "AI's power demand curve",
+        "hook": "Goldman Sachs sizes the power bill for the AI buildout \u2014 and four Metis clients sit directly on the curve."
+      },
+      {
+        "firm": "McKinsey",
+        "firmId": "mckinsey",
+        "manual": true,
+        "title": "The State of AI: Agents Move from Pilots into the Enterprise Core",
+        "sourceNote": "McKinsey QuantumBlack, The State of AI; March 2026 agent-adoption findings (accessed Jul 31, 2026)",
+        "summary": "McKinsey's State of AI research tracks the shift from generative-AI experimentation to agentic deployment: 23% of organizations are actively scaling an agentic system in at least one business function and another 39% are experimenting, yet only ~10% of enterprise functions use AI agents today. System integration is the most-cited barrier (46%), and McKinsey has added agentic governance and controls as a new dimension of its AI Trust Maturity Model.",
+        "analysis": "Metis angle: the gap McKinsey measures \u2014 most companies experimenting, few scaling \u2014 is precisely the terrain of our AI & Automation engagements. Our client roster shows what scaling actually looks like: ADP crediting AI for margin expansion in reported earnings, UKG shipping cross-vendor agents into Google's Gemini Enterprise, Workday putting Sana-powered learning into GA, and Rockwell pushing agentic AI onto the plant floor with Augury. The integration barrier (46%) is the consulting opportunity: agents fail at the seams between systems, and the seams are where we work.",
+        "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+        "date": "2026-07-31",
+        "detail": {
+          "sections": [
+            {
+              "heading": "What the research says",
+              "body": "McKinsey finds 23% of organizations actively scaling agentic AI in at least one function, 39% experimenting, and roughly 10% of enterprise functions running agents in production \u2014 with banking and insurance leading adoption. System integration tops the barrier list at 46%, ahead of regulatory and organizational concerns. The firm's AI Trust Maturity Model now carries a dedicated agentic-governance dimension."
+            },
+            {
+              "heading": "Why it matters for client work",
+              "body": "The scaling gap is an operating-model problem, not a model-capability problem: agents demand redesigned workflows, integration architecture, and governance that most organizations haven't built. Every HCM, industrial and financial-services client in our portfolio is somewhere on this curve \u2014 and the vendors serving them (ADP, UKG, Workday, Rockwell) are racing to sell the scaling layer."
+            }
+          ]
+        },
+        "relatedClients": [
+          "adp",
+          "ukg",
+          "workday",
+          "rockwell-automation"
+        ],
+        "themes": [
+          "AI & Automation",
+          "Enterprise Software"
+        ],
+        "slug": "mckinsey-state-of-ai-agents",
+        "heroTheme": "network",
+        "shortTitle": "State of AI: the agentic era",
+        "hook": "McKinsey measures the gap between AI-agent pilots and production \u2014 the gap four Metis clients' vendors and platforms are racing to close."
       }
     ]
   }

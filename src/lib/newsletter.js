@@ -35,7 +35,23 @@ function statHtml(s) {
 }
 
 function itemHtml(it) {
-  return `<li><b>${esc(it.headline)}</b> ${esc(it.body)} <span class="ctx">${esc(it.ctx)}</span></li>`;
+  const chips =
+    it.category || it.date
+      ? `<span style="display:block;font-size:10.5px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#1f9d93;margin-bottom:3px;">${esc(
+          [it.category, it.date, it.source].filter(Boolean).join(" · ")
+        )}</span>`
+      : "";
+  const tldr = it.tldr
+    ? `<span style="display:block;font-weight:700;color:#111;margin:2px 0 4px;">${esc(it.tldr)}</span>`
+    : "";
+  const lens = it.lens
+    ? `<span style="display:block;margin-top:6px;padding:7px 10px;border-left:2px solid #3FC9BE;background:#f4fbfa;color:#3a4048;font-size:13px;"><b style="color:#1f9d93;">Metis lens:</b> ${esc(
+        it.lens
+      )}</span>`
+    : "";
+  return `<li>${chips}<b>${esc(it.headline)}</b>${tldr} ${esc(it.body)} <span class="ctx">${esc(
+    it.ctx
+  )}</span>${lens}</li>`;
 }
 
 function sourceHtml(sources = []) {

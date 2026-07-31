@@ -78,6 +78,27 @@ with no setup. To switch to real SSO restricted to the firm:
   for all clients. Schedule it ahead of the email (e.g. Sundays).
 - **Email** (`/api/cron/weekly`) fans out the personalized digest — see below.
 
+### Content quality system (A-grade, enforced)
+
+Every Client Pulse edition is graded on **accuracy, news mix, Metis relevancy,
+and readability** by a deterministic scorecard (`scripts/lib/quality.mjs`).
+The contract lives in `scripts/EDITORIAL.md`; CI runs `npm run grade` and
+**blocks any deploy whose latest edition is below A** for any client.
+
+No-API weekly workflow (run the scrape through your own Claude session):
+1. `npm run gather` — pulls dated, source-tiered raw material per client
+   (Google/Bing News, SEC EDGAR, Yahoo market data; window widens 8→21→45
+   days until coverage is sufficient) into `src/data/raw-gather.json`.
+2. In Claude Code: *"Author this week's Pulse from the raw gather, per
+   scripts/EDITORIAL.md."* Claude writes the edition — takeaway headlines,
+   TL;DRs, event dates, categories, a Metis lens on every item, a
+   what-changed delta — grounded only in the fetched material.
+3. `npm run grade` — iterate until every client is A on all four dimensions.
+4. Commit and push. CI re-grades; below-A content cannot ship.
+
+With `ANTHROPIC_API_KEY` set, `npm run scrape` does steps 1–2 automatically
+using the same editorial contract; the grade gate still applies.
+
 ### Grounded scrape pipeline (no hallucination)
 
 `npm run scrape` (or `npm run scrape -- <clientId>`) gathers **real data** per

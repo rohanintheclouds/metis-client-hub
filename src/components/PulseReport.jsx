@@ -33,7 +33,19 @@ export function PulseSection({ client, data, open = false, lead = false }) {
         <ul className="items">
           {data.items.map((it, i) => (
             <li key={i}>
-              <b>{it.headline}</b> {it.body} <span className="ctx">{it.ctx}</span>
+              {(it.category || it.date) && (
+                <span className="item-chips">
+                  {[it.category, it.date, it.source].filter(Boolean).join(" · ")}
+                </span>
+              )}
+              <b>{it.headline}</b>
+              {it.tldr && <span className="item-tldr">{it.tldr}</span>} {it.body}{" "}
+              <span className="ctx">{it.ctx}</span>
+              {it.lens && (
+                <span className="item-lens">
+                  <b>Metis lens:</b> {it.lens}
+                </span>
+              )}
             </li>
           ))}
         </ul>
