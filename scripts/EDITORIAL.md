@@ -14,7 +14,16 @@ edition below A in any dimension for any client does not ship.
    only, following the rules below. (In Claude Code: "author this week's Pulse
    from the raw gather, per scripts/EDITORIAL.md".)
 3. `npm run grade` — iterate until every client is A across all dimensions.
-4. Commit. CI re-runs the grade and blocks anything below A.
+4. `npm run verify` — the anti-hallucination QA pass. Refetches every cited
+   source: checks liveness, provenance (URL must exist in raw-gather.json or
+   scripts/session-sources.json — a fabricated URL exists in neither), and
+   that the item's key numbers appear in the source text. FAILED items must
+   be fixed or cut; REVIEW items need a human eyeball before commit. When
+   citing a URL found via in-session research (not the gather), append it to
+   scripts/session-sources.json.
+5. Commit. CI re-runs the grade AND the provenance check
+   (`verify.mjs --provenance-only`) — an edition with a below-A grade or an
+   unprovenanced citation cannot deploy.
 
 ## Adding a new client
 

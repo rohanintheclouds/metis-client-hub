@@ -14,7 +14,7 @@
         "stats": [
           {
             "v": "$127.48",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": null
           },
           {
@@ -23,7 +23,7 @@
             "dir": "up"
           },
           {
-            "v": "$96.95\u2013$130.22",
+            "v": "$96.95–$130.22",
             "l": "52-wk range",
             "dir": null
           }
@@ -31,10 +31,10 @@
         "items": [
           {
             "headline": "Hackers accessed bank details of 4.38M Aflac Japan customers",
-            "tldr": "Second major Aflac breach in about a year \u2014 and this one hit the market that produces two-thirds of earnings.",
-            "body": "Aflac disclosed that attackers broke into systems at its Japanese subsidiary and accessed personal data on 4.38 million customers \u2014 names, addresses, phone numbers, dates of birth and insurance details, plus premium payment account information for roughly 230,000 of them. The systems were penetrated on June 15 and accessed repeatedly until discovery on June 25; Aflac Japan suspended affected systems, notified Japanese financial regulators, and says the incident is isolated from U.S. operations. It is the company's second major cyber incident in about a year, following the June 2025 U.S. breach.",
+            "tldr": "Second major Aflac breach in about a year — and this one hit the market that produces two-thirds of earnings.",
+            "body": "Aflac disclosed that attackers broke into systems at its Japanese subsidiary and accessed personal data on 4.38 million customers — names, addresses, phone numbers, dates of birth and insurance details, plus premium payment account information for roughly 230,000 of them. The systems were penetrated on June 15 and accessed repeatedly until discovery on June 25; Aflac Japan suspended affected systems, notified Japanese financial regulators, and says the incident is isolated from U.S. operations. It is the company's second major cyber incident in about a year, following the June 2025 U.S. breach.",
             "ctx": "Aflac Japan contributes roughly two-thirds of consolidated earnings, so trust damage in that market outweighs any single U.S. quarter.",
-            "lens": "Breach remediation at this scale typically unlocks security-transformation budget \u2014 identity, data governance, and vendor-risk programs are the near-term consulting adjacencies to watch in both Tokyo and Columbus.",
+            "lens": "Breach remediation at this scale typically unlocks security-transformation budget — identity, data governance, and vendor-risk programs are the near-term consulting adjacencies to watch in both Tokyo and Columbus.",
             "url": "https://www.msn.com/en-us/money/other/aflac-says-hackers-stole-bank-details-on-4-38-million-of-its-customers/ar-AA28HRpd",
             "source": "MSN (syndicated)",
             "tier": "aggregator",
@@ -44,10 +44,10 @@
           },
           {
             "headline": "Former Aflac president Frederick Crawford joins Humana's board",
-            "tldr": "A senior Aflac alumnus lands at a managed-care giant \u2014 a network node worth tracking.",
+            "tldr": "A senior Aflac alumnus lands at a managed-care giant — a network node worth tracking.",
             "body": "Humana elected Frederick Crawford, formerly President and Chief Operating Officer of Aflac, to its board of directors, alongside Paul Smith, Chief Commercial Officer at AI firm Anthropic. For Aflac watchers the move is a reminder of how much senior operating talent the company has exported to the broader insurance ecosystem, and of the increasingly explicit AI orientation of health-insurer boards.",
             "ctx": "Board appointments at adjacent insurers signal where supplemental and managed care strategy conversations are heading.",
-            "lens": "An Aflac-trained operator now sits in a buyer-side boardroom pairing insurance operations with AI leadership \u2014 useful context for how Aflac's own digital transformation agenda gets benchmarked.",
+            "lens": "An Aflac-trained operator now sits in a buyer-side boardroom pairing insurance operations with AI leadership — useful context for how Aflac's own digital transformation agenda gets benchmarked.",
             "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-adds-anthropic-aflac-160943819.html",
             "source": "Yahoo Finance",
             "tier": "financial",
@@ -60,7 +60,7 @@
             "tldr": "Brand spend keeps targeting younger audiences through women's sports.",
             "body": "Aflac and the WNBA players' association expanded their partnership, adding a tiered structure of increased supplemental prize awards for players competing in the Friday events of All-Star Weekend in Chicago. The deal extends Aflac's long-running strategy of high-visibility sponsorships that keep the duck brand in front of consumers who rarely think about supplemental insurance until enrollment season.",
             "ctx": "Consistent brand investment through women's sports aims at the next generation of worksite-benefits customers.",
-            "lens": "Customer-experience and brand analytics around these sponsorships are where Aflac's marketing and data teams intersect \u2014 a live example of the CX-and-analytics agenda in its project mix.",
+            "lens": "Customer-experience and brand analytics around these sponsorships are where Aflac's marketing and data teams intersect — a live example of the CX-and-analytics agenda in its project mix.",
             "url": "https://www.sportsbusinessjournal.com/Articles/2026/07/23/aflac-expands-wnbpa-deal-will-offer-tiered-prize-structure-at-all-star-weekend/",
             "source": "Sports Business Journal",
             "tier": "trade",
@@ -71,41 +71,58 @@
         ],
         "sources": [
           {
-            "label": "SecurityWeek \u2014 Aflac Japan breach impacts 4.38 million",
+            "label": "SecurityWeek — Aflac Japan breach impacts 4.38 million",
             "url": "https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million/"
           },
           {
-            "label": "Nikkei Asia \u2014 Aflac Japan reports breach on 4.38M customers",
+            "label": "Nikkei Asia — Aflac Japan reports breach on 4.38M customers",
             "url": "https://asia.nikkei.com/spotlight/cybersecurity/aflac-japan-reports-breach-on-4.38-million-customers-includes-bank-details"
           },
           {
-            "label": "Yahoo Finance \u2014 Humana adds Aflac veteran to board",
+            "label": "Yahoo Finance — Humana adds Aflac veteran to board",
             "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-adds-anthropic-aflac-160943819.html"
           },
           {
-            "label": "Sports Business Journal \u2014 WNBPA deal expansion",
+            "label": "Sports Business Journal — WNBPA deal expansion",
             "url": "https://www.sportsbusinessjournal.com/Articles/2026/07/23/aflac-expands-wnbpa-deal-will-offer-tiered-prize-structure-at-all-star-weekend/"
           },
           {
-            "label": "Market data \u2014 AFL (Yahoo Finance)",
+            "label": "Market data — AFL (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/AFL/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 21,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Hackers accessed bank details of 4.38M Aflac Japan customers",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "Former Aflac president Frederick Crawford joins Humana's boa",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Aflac deepens WNBPA deal with tiered All-Star prize money",
+                "v": "VERIFIED"
+              }
+            ]
+          }
         }
       }
     },
     "ford-credit": {
       "2026-07-27": {
         "glance": "Earnings week delivered for the parent: Ford beat on second-quarter results and raised full-year EBIT guidance by $1 billion at the midpoint, with Ford Credit's own 10-Q following a day later. In Europe, Ford named a new sales chief and moved on a multi-energy vehicle production venture with Geely in Spain.",
-        "delta": "Early-July coverage centered on the FDIC-approved industrial bank and lease-mix questions; this week shifted to delivered results \u2014 a Q2 beat, a second guidance raise of the year, and fresh European strategy moves.",
+        "delta": "Early-July coverage centered on the FDIC-approved industrial bank and lease-mix questions; this week shifted to delivered results — a Q2 beat, a second guidance raise of the year, and fresh European strategy moves.",
         "stats": [
           {
             "v": "$14.68",
-            "l": "Price \u00b7 Jul 31 (F)",
+            "l": "Price · Jul 31 (F)",
             "dir": null
           },
           {
@@ -114,7 +131,7 @@
             "dir": "up"
           },
           {
-            "v": "$10.68\u2013$17.78",
+            "v": "$10.68–$17.78",
             "l": "52-wk range",
             "dir": null
           }
@@ -122,10 +139,10 @@
         "items": [
           {
             "headline": "Ford beats Q2 and raises full-year EBIT guidance by $1B",
-            "tldr": "Revenue of $48.3B, adjusted EBIT of $2.5B (+17%), and a raised $10\u201311B FY outlook set a stronger backdrop for the captive.",
-            "body": "Ford reported second-quarter revenue of $48.3 billion and adjusted EBIT of $2.5 billion, up 17% year over year, and raised its full-year adjusted EBIT outlook by $1 billion at the midpoint to $10\u201311 billion. Adjusted free cash flow came in at $2.1 billion with total liquidity above $43 billion; full-year free cash flow guidance rose to $6\u20137 billion. Ford Blue earned $1.1 billion (+72%) on pricing and mix, while Ford Pro delivered $1.7 billion despite a $1.5 billion full-year hit from the Novelis aluminum supply disruption.",
+            "tldr": "Revenue of $48.3B, adjusted EBIT of $2.5B (+17%), and a raised $10–11B FY outlook set a stronger backdrop for the captive.",
+            "body": "Ford reported second-quarter revenue of $48.3 billion and adjusted EBIT of $2.5 billion, up 17% year over year, and raised its full-year adjusted EBIT outlook by $1 billion at the midpoint to $10–11 billion. Adjusted free cash flow came in at $2.1 billion with total liquidity above $43 billion; full-year free cash flow guidance rose to $6–7 billion. Ford Blue earned $1.1 billion (+72%) on pricing and mix, while Ford Pro delivered $1.7 billion despite a $1.5 billion full-year hit from the Novelis aluminum supply disruption.",
             "ctx": "A healthier parent P&L and raised cash-flow guidance directly support Ford Credit's funding position and its distribution capacity.",
-            "lens": "Guidance raises grounded in pricing and mix discipline \u2014 not volume \u2014 tell us where Ford's operating-model and data agenda is producing measurable returns, a template relevant to our work with the finance arm.",
+            "lens": "Guidance raises grounded in pricing and mix discipline — not volume — tell us where Ford's operating-model and data agenda is producing measurable returns, a template relevant to our work with the finance arm.",
             "url": "https://www.businesswire.com/news/home/20260728809116/en/Ford-Reports-Second-Quarter-2026-Financial-Results",
             "source": "Business Wire (Ford release)",
             "tier": "primary",
@@ -138,7 +155,7 @@
             "tldr": "A European production alliance with China's Geely reshapes Ford's regional footprint.",
             "body": "Ford and Geely Auto announced they are joining forces in Europe to produce next-generation multi-energy vehicles in Spain. Pairing Ford's European manufacturing base with Geely's multi-energy vehicle platforms marks a significant partnership move for a region where Ford has been restructuring for years, and follows the industry pattern of Western OEMs leveraging Chinese platform technology to stay cost-competitive across powertrain types.",
             "ctx": "European production strategy directly shapes the asset mix Ford Credit finances across the region.",
-            "lens": "Platform partnerships of this kind create integration workstreams \u2014 systems, data flows, dealer and financing operations \u2014 that are exactly the operating-model terrain in this account's project tags.",
+            "lens": "Platform partnerships of this kind create integration workstreams — systems, data flows, dealer and financing operations — that are exactly the operating-model terrain in this account's project tags.",
             "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxONUFsTHdRTDc1OGRfNnZETkJMeFdOYV92a053YVBZamUxNFBPWVNzck5KZ0FiMjRjSGFhSFRrbjRjNmY5LWlRWUNRN1N6SXlDUERfOGJDOFp2em4zaF9WTzhJQmdQWVVSS0hYNjk3SEp6c1VCRTRERy1iaWs3b2NDRHJTM3VsazUwSm82YVR2TVFUMzk3QzJuV3RsMHlxdjZaRVJKUmhXSzQyZVcwVE9XNGVXX0RIMTZRUDVjbzJZOXNpZXJ6c1hyVFN0eThHREJ2ck81SlpVSm9lZy1TemhEdGZJb0VUaFVUcFQ2cEtUNm9ha3F0SUUzVlJfRVR0dDBYcHZnYzlVd2Mxa1VTbFdKSzU1R2RENVEz?oc=5",
             "source": "Finansavisen (via Google News)",
             "tier": "trade",
@@ -151,7 +168,7 @@
             "tldr": "New European sales leadership lands the same week as the Geely production deal.",
             "body": "Ford named Maria Grazia Davino Vice President, Sales, Ford of Europe. The appointment puts new commercial leadership in place just as Ford commits to producing next-generation multi-energy vehicles in Spain with Geely, signaling that the European turnaround is moving from restructuring into a go-to-market phase with refreshed leadership at the front of it.",
             "ctx": "European sales leadership sets the retail and fleet demand signals that flow through to Ford Credit's European origination volumes.",
-            "lens": "Leadership changes at the sales-organization level often precede changes in dealer and financing journeys \u2014 worth tracking for the customer-experience side of the Ford Credit relationship.",
+            "lens": "Leadership changes at the sales-organization level often precede changes in dealer and financing journeys — worth tracking for the customer-experience side of the Ford Credit relationship.",
             "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaWdVNDYzeTFJbkVCQjMtR09fMi1XQm9Mb1lYdl96Z1B6QlAxTHpKSnJmWXBrREdITHJPdFNjUlBIQnhENGJBVXg1N2IydlI4RGJxa3JNU2RIZnN2X0pyMFpfWDRpQVF1RlF4VUw2aFlNMUFIVTRZb0hncDNTTnBldThTam9oZFg1dk02UHlIeXlfSzJ0Nnp0al9YbW10SEtrWW1wclptTjBPd3A4c3lONjVzOHVJdFdZeXk0Qno1XzJUZnU3SERtaw?oc=5",
             "source": "AD HOC News (via Google News)",
             "tier": "trade",
@@ -162,7 +179,7 @@
           {
             "headline": "Ford Credit's own Q2 report lands on EDGAR",
             "tldr": "The captive's 10-Q, filed a day after parent results, is the primary source on funding mix and credit performance.",
-            "body": "Ford Motor Credit filed its quarterly report for the period ended June 30 on July 29, one day after the parent's earnings release. For anyone working the finance-arm angle, the 10-Q is where the details live that headline coverage skips: receivables and lease portfolio composition, funding structure and unsecured debt maturities, credit-loss allowances, and residual-value assumptions \u2014 the raw material for assessing how the captive is positioned as the industrial-bank charter work proceeds.",
+            "body": "Ford Motor Credit filed its quarterly report for the period ended June 30 on July 29, one day after the parent's earnings release. For anyone working the finance-arm angle, the 10-Q is where the details live that headline coverage skips: receivables and lease portfolio composition, funding structure and unsecured debt maturities, credit-loss allowances, and residual-value assumptions — the raw material for assessing how the captive is positioned as the industrial-bank charter work proceeds.",
             "ctx": "Primary-source financials for the captive, published the same week as the parent's raised guidance.",
             "lens": "The 10-Q's funding and credit-performance detail is the fact base for any operating-model or data work we do with the finance arm this quarter.",
             "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000156/f-20260630.htm",
@@ -175,46 +192,67 @@
         ],
         "sources": [
           {
-            "label": "Business Wire \u2014 Ford Q2 2026 results",
+            "label": "Business Wire — Ford Q2 2026 results",
             "url": "https://www.businesswire.com/news/home/20260728809116/en/Ford-Reports-Second-Quarter-2026-Financial-Results"
           },
           {
-            "label": "SEC EDGAR \u2014 Ford Credit 10-Q (Q2 2026)",
+            "label": "SEC EDGAR — Ford Credit 10-Q (Q2 2026)",
             "url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000156/f-20260630.htm"
           },
           {
-            "label": "Ford \u2014 4 things to know about Q2 results",
+            "label": "Ford — 4 things to know about Q2 results",
             "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-reports-second-quarter-2026-financial-results"
           },
           {
-            "label": "Market data \u2014 F (Yahoo Finance)",
+            "label": "Market data — F (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/F/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 21,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Ford beats Q2 and raises full-year EBIT guidance by $1B",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Ford and Geely to build next-gen multi-energy vehicles in Sp",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "Maria Grazia Davino named VP of Sales for Ford of Europe",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "Ford Credit's own Q2 report lands on EDGAR",
+                "v": "VERIFIED"
+              }
+            ]
+          }
         }
       }
     },
     "lumen-technologies": {
       "2026-07-27": {
         "glance": "Lumen spent the run-up to its Q2 print stacking proof points for the enterprise pivot: an expanded AI-driven security service with Palo Alto Networks, a marquee Yankees connectivity win tied to a Tampa data-center expansion, and continued integration of the Alkira acquisition across its 17 million intercity fiber miles. The stock sits at $6.38, down 17% year to date, so the quarter's evidence carries real weight.",
-        "delta": "Since the July 6 edition the story has moved from index-removal pressure and debt-exchange mechanics to commercial proof points \u2014 new security and connectivity wins \u2014 ahead of the Q2 report.",
+        "delta": "Since the July 6 edition the story has moved from index-removal pressure and debt-exchange mechanics to commercial proof points — new security and connectivity wins — ahead of the Q2 report.",
         "stats": [
           {
             "v": "$6.38",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": "down"
           },
           {
-            "v": "\u221217.0%",
+            "v": "−17.0%",
             "l": "YTD",
             "dir": "down"
           },
           {
-            "v": "$3.37\u2013$11.95",
+            "v": "$3.37–$11.95",
             "l": "52-wk range",
             "dir": null
           }
@@ -222,10 +260,10 @@
         "items": [
           {
             "headline": "Lumen launches AI-driven MDR service with Palo Alto Networks",
-            "tldr": "Defender AMDR pairs Lumen's Black Lotus Labs threat intel with Cortex XSIAM \u2014 a security-services revenue play on top of the network.",
-            "body": "Lumen announced Defender Advanced Managed Detection and Response for Palo Alto Networks Cortex XSIAM, combining its managed detection capabilities and the Lumen Defender Threat Feed \u2014 powered by Black Lotus Labs' network-embedded threat intelligence \u2014 with Palo Alto's AI-driven SOC platform. The service targets enterprises struggling with alert fatigue and detection speed, and positions Lumen to monetize what its backbone sees rather than just the bandwidth it carries.",
+            "tldr": "Defender AMDR pairs Lumen's Black Lotus Labs threat intel with Cortex XSIAM — a security-services revenue play on top of the network.",
+            "body": "Lumen announced Defender Advanced Managed Detection and Response for Palo Alto Networks Cortex XSIAM, combining its managed detection capabilities and the Lumen Defender Threat Feed — powered by Black Lotus Labs' network-embedded threat intelligence — with Palo Alto's AI-driven SOC platform. The service targets enterprises struggling with alert fatigue and detection speed, and positions Lumen to monetize what its backbone sees rather than just the bandwidth it carries.",
             "ctx": "Security services are a margin-bearing growth line that doesn't depend on the declining legacy voice and copper base.",
-            "lens": "This is the clearest recent example of Lumen converting network assets into AI-era managed services \u2014 the exact motion its transformation agenda (and our cloud-and-AI work) is meant to accelerate.",
+            "lens": "This is the clearest recent example of Lumen converting network assets into AI-era managed services — the exact motion its transformation agenda (and our cloud-and-AI work) is meant to accelerate.",
             "url": "https://ir.lumen.com/news/news-details/2026/Lumen-Expands-Managed-Detection-and-Response-Services-for-Palo-Alto-Networks-to-Strengthen-Cyber-Defense/default.aspx",
             "source": "Lumen IR",
             "tier": "primary",
@@ -236,9 +274,9 @@
           {
             "headline": "Yankees pick Lumen for game-day connectivity and Tampa expansion",
             "tldr": "Two 100-gigabit paths and a data-center buildout make this a visible enterprise reference win.",
-            "body": "The New York Yankees tapped Lumen to power game-day connectivity, data resilience and the fan experience, including support for a Tampa data-center expansion. The deployment centers on dual 100-gigabit network paths \u2014 capacity sized for tens of thousands of concurrent users on stadium Wi-Fi and for moving the organization's growing data workloads between venues and facilities.",
+            "body": "The New York Yankees tapped Lumen to power game-day connectivity, data resilience and the fan experience, including support for a Tampa data-center expansion. The deployment centers on dual 100-gigabit network paths — capacity sized for tens of thousands of concurrent users on stadium Wi-Fi and for moving the organization's growing data workloads between venues and facilities.",
             "ctx": "Named enterprise wins with recognizable brands are the sales-side evidence the turnaround narrative needs ahead of earnings.",
-            "lens": "Sports and venue deals showcase the edge-plus-fiber architecture Lumen sells into every large enterprise \u2014 a referenceable pattern for the infrastructure modernization conversations in our lane.",
+            "lens": "Sports and venue deals showcase the edge-plus-fiber architecture Lumen sells into every large enterprise — a referenceable pattern for the infrastructure modernization conversations in our lane.",
             "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUWJmVzBNcDFfWXVRRUUyRmRMb0VldXhWNTlvZHJFY2Z6bWhUb1hlYWtEdDE1OGd5bS1IQVNvV1RMZEdhMEhyUnpsWXZoSlQxVjZiU0xiTDFBUEJWUFowcGJWN1MxdDJzNmhDeUpkekJ5Tzk2Q3pzSmI4Y0s3b3BWWEROSQ?oc=5",
             "source": "The Business Journals (via Google News)",
             "tier": "trade",
@@ -249,7 +287,7 @@
           {
             "headline": "Alkira integration pairs cloud networking with 17M fiber miles",
             "tldr": "The $475M acquisition is now being sold as one platform: cloud-native control plane on Lumen's intercity fiber.",
-            "body": "Coverage this month detailed how Lumen is combining Alkira's cloud networking control plane with its 17 million intercity fiber miles, turning the acquisition announced in the spring into an integrated enterprise offer. The framing matters: rather than running Alkira as a bolt-on, Lumen is positioning cloud-like provisioning as the front end for its physical network \u2014 the 'cloud-like enterprise networking' thesis that justified the deal.",
+            "body": "Coverage this month detailed how Lumen is combining Alkira's cloud networking control plane with its 17 million intercity fiber miles, turning the acquisition announced in the spring into an integrated enterprise offer. The framing matters: rather than running Alkira as a bolt-on, Lumen is positioning cloud-like provisioning as the front end for its physical network — the 'cloud-like enterprise networking' thesis that justified the deal.",
             "ctx": "Successful integration is the difference between a $475M capability acquisition and a $475M write-down risk.",
             "lens": "Post-acquisition integration of a cloud-native platform into a legacy carrier's operating model is a live case of the exact cloud-infrastructure transformation work this account is tagged for.",
             "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUngycXF2YkZIOXZEeW5OdGJYOE1pdXllUFFMRnl5N0RvNnRLM1lZUzhiamhZTklIWnZNRjZzcDJkN1d1OHlsVzhwTjZYdUxrR1U0ZkRQZ1RVYmEtcWtBcnE3UmphRmRGQmdNZHpPNVB0SGFnT0pYakRhRzhrZ01BV1RrMnNKWFE3aXNlWThZbzMzZkdUbEJlNl9YTzFQdw?oc=5",
@@ -262,9 +300,9 @@
           {
             "headline": "Bull-bear debate sharpens ahead of the Q2 print",
             "tldr": "Comparison coverage frames Lumen as deep value with crushing debt versus healthier-balance-sheet peers.",
-            "body": "Pre-earnings coverage this month put the Lumen debate in unusually sharp relief: the stock trades at a steep discount reflecting its heavy debt load and shrinking legacy revenue, while peers with stronger cash flow command premium multiples. The Q2 report becomes the referendum on whether AI-infrastructure momentum \u2014 Private Connectivity Fabric, NaaS growth, security services \u2014 is scaling fast enough to outrun the legacy decline.",
-            "ctx": "At $6.38 and \u221217% YTD, execution evidence matters more to this client's stakeholders than any single announcement.",
-            "lens": "Quarters like this determine transformation-budget confidence inside the client \u2014 the financial context every engagement conversation happens against.",
+            "body": "Pre-earnings coverage this month put the Lumen debate in unusually sharp relief: the stock trades at a steep discount reflecting its heavy debt load and shrinking legacy revenue, while peers with stronger cash flow command premium multiples. The Q2 report becomes the referendum on whether AI-infrastructure momentum — Private Connectivity Fabric, NaaS growth, security services — is scaling fast enough to outrun the legacy decline.",
+            "ctx": "At $6.38 and −17% YTD, execution evidence matters more to this client's stakeholders than any single announcement.",
+            "lens": "Quarters like this determine transformation-budget confidence inside the client — the financial context every engagement conversation happens against.",
             "url": "https://www.fool.com/coverage/better-buy/2026/07/16/lumen-technologies-vs-viasat-which-data-network-stock-is-a-better-buy-in-2026/",
             "source": "The Motley Fool",
             "tier": "financial",
@@ -275,37 +313,58 @@
         ],
         "sources": [
           {
-            "label": "Lumen IR \u2014 Defender AMDR with Palo Alto Networks",
+            "label": "Lumen IR — Defender AMDR with Palo Alto Networks",
             "url": "https://ir.lumen.com/news/news-details/2026/Lumen-Expands-Managed-Detection-and-Response-Services-for-Palo-Alto-Networks-to-Strengthen-Cyber-Defense/default.aspx"
           },
           {
-            "label": "Help Net Security \u2014 Lumen Defender AMDR launch",
+            "label": "Help Net Security — Lumen Defender AMDR launch",
             "url": "https://www.helpnetsecurity.com/2026/07/13/lumen-defender-amdr/"
           },
           {
-            "label": "The Business Journals \u2014 Yankees / Tampa data center",
+            "label": "The Business Journals — Yankees / Tampa data center",
             "url": "https://www.stocktitan.net/news/LUMN/new-york-yankees-choose-lumen-to-power-game-day-connectivity-data-wmpzj7p7t17t.html"
           },
           {
-            "label": "Market data \u2014 LUMN (Yahoo Finance)",
+            "label": "Market data — LUMN (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/LUMN/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 21,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Lumen launches AI-driven MDR service with Palo Alto Networks",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Yankees pick Lumen for game-day connectivity and Tampa expan",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "Alkira integration pairs cloud networking with 17M fiber mil",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "Bull-bear debate sharpens ahead of the Q2 print",
+                "v": "VERIFIED"
+              }
+            ]
+          }
         }
       }
     },
     "adp": {
       "2026-07-27": {
         "glance": "ADP closed fiscal 2026 with a beat-and-raise quarter that credits AI directly: Q4 adjusted EPS of $2.64 on $5.47 billion revenue, full-year revenue of $21.95 billion (+7%), record bookings of $2.2 billion, and margin expansion management attributes in part to AI-driven efficiency. Shares jumped double digits on the print before settling at $266, up 5.4% year to date.",
-        "delta": "Last edition previewed the July 29 print and the AI-agent Marketplace strategy; this week ADP delivered the numbers \u2014 a fifth straight beat, FY27 guidance, and margin gains explicitly tied to the AI investments.",
+        "delta": "Last edition previewed the July 29 print and the AI-agent Marketplace strategy; this week ADP delivered the numbers — a fifth straight beat, FY27 guidance, and margin gains explicitly tied to the AI investments.",
         "stats": [
           {
             "v": "$266.46",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": null
           },
           {
@@ -314,7 +373,7 @@
             "dir": "up"
           },
           {
-            "v": "$188.16\u2013$310.08",
+            "v": "$188.16–$310.08",
             "l": "52-wk range",
             "dir": null
           }
@@ -322,10 +381,10 @@
         "items": [
           {
             "headline": "ADP beats Q4, closes FY26 at $21.95B with FY27 guide intact",
-            "tldr": "Adjusted EPS $2.64 vs $2.59 expected on $5.47B revenue; FY27 guided to 5\u20136% growth with more margin expansion.",
-            "body": "ADP reported fourth-quarter adjusted EPS of $2.64, beating the $2.59 consensus, on revenue of $5.47 billion (+7%). Full-year fiscal 2026 revenue reached $21.95 billion, up 7% (6% organic constant-currency), with adjusted EBIT up 10% to $5.88 billion and adjusted EPS up 11% to $11.12. Fiscal 2027 guidance calls for 5\u20136% revenue growth, 70\u201390 basis points of margin expansion, and 9\u201311% adjusted EPS growth. Employer Services retention held at 92.1% with client satisfaction at record highs for a third straight year.",
+            "tldr": "Adjusted EPS $2.64 vs $2.59 expected on $5.47B revenue; FY27 guided to 5–6% growth with more margin expansion.",
+            "body": "ADP reported fourth-quarter adjusted EPS of $2.64, beating the $2.59 consensus, on revenue of $5.47 billion (+7%). Full-year fiscal 2026 revenue reached $21.95 billion, up 7% (6% organic constant-currency), with adjusted EBIT up 10% to $5.88 billion and adjusted EPS up 11% to $11.12. Fiscal 2027 guidance calls for 5–6% revenue growth, 70–90 basis points of margin expansion, and 9–11% adjusted EPS growth. Employer Services retention held at 92.1% with client satisfaction at record highs for a third straight year.",
             "ctx": "A fifth consecutive beat plus confident FY27 guidance reinforces the reliability premium ADP trades on.",
-            "lens": "Retention and satisfaction records alongside margin expansion give a measurable answer to 'is the platform investment paying off' \u2014 benchmarks worth citing in any enterprise-apps business case we build.",
+            "lens": "Retention and satisfaction records alongside margin expansion give a measurable answer to 'is the platform investment paying off' — benchmarks worth citing in any enterprise-apps business case we build.",
             "url": "https://mediacenter.adp.com/2026-07-29-ADP-Reports-Fourth-Quarter-and-Fiscal-2026-Results",
             "source": "ADP Media Center",
             "tier": "primary",
@@ -338,7 +397,7 @@
             "tldr": "Management ties the quarter's 17% EPS growth and $2.2B bookings to AI-driven efficiency and demand.",
             "body": "The earnings materials and call put AI at the center of the FY26 finish: 140 basis points of adjusted EBIT margin expansion in the fourth quarter, 17% quarterly EPS growth, and record new business bookings of $2.2 billion in Employer Services (+6%), with management describing AI tools as both a demand driver for HCM products and an internal efficiency engine. The framing extends the ADP Assist and AI-agent Marketplace strategy from product announcements into reported financial results.",
             "ctx": "ADP is becoming one of the cleanest public case studies of AI investment showing up in enterprise-software margins.",
-            "lens": "When a payroll processor can quantify AI's margin contribution, every HCM and shared-services client will ask for the same math \u2014 a ready-made proof point for our AI-and-automation engagements.",
+            "lens": "When a payroll processor can quantify AI's margin contribution, every HCM and shared-services client will ask for the same math — a ready-made proof point for our AI-and-automation engagements.",
             "url": "https://www.investing.com/news/company-news/adp-q4-fy2026-slides-17-eps-growth-ai-drives-margins-93CH-4820624",
             "source": "Investing.com",
             "tier": "financial",
@@ -348,10 +407,10 @@
           },
           {
             "headline": "Client metrics hit records: 92.1% retention, satisfaction highs",
-            "tldr": "The operational story under the financials \u2014 retention, satisfaction, and bookings all at or near records.",
+            "tldr": "The operational story under the financials — retention, satisfaction, and bookings all at or near records.",
             "body": "Beneath the headline numbers, ADP's fiscal-year close showcased the operating metrics that compound over time: Employer Services client revenue retention of 92.1%, company-wide client satisfaction scores at record levels for the third consecutive year, and $2.2 billion in new business bookings. For a business whose economics rest on multi-decade client relationships and per-employee-per-month pricing, these are the numbers that make the growth guidance credible.",
             "ctx": "Retention is the engine of ADP's recurring-revenue model; records here de-risk the FY27 outlook.",
-            "lens": "Client-experience metrics driving enterprise-value growth is the CX-to-P&L linkage we help clients build \u2014 ADP's disclosure discipline here is a model worth borrowing.",
+            "lens": "Client-experience metrics driving enterprise-value growth is the CX-to-P&L linkage we help clients build — ADP's disclosure discipline here is a model worth borrowing.",
             "url": "https://mediacenter.adp.com/2026-07-29-ADP-Reports-Fourth-Quarter-and-Fiscal-2026-Results",
             "source": "ADP Media Center",
             "tier": "primary",
@@ -362,41 +421,58 @@
         ],
         "sources": [
           {
-            "label": "ADP Media Center \u2014 Q4 and FY2026 results",
+            "label": "ADP Media Center — Q4 and FY2026 results",
             "url": "https://mediacenter.adp.com/2026-07-29-ADP-Reports-Fourth-Quarter-and-Fiscal-2026-Results"
           },
           {
-            "label": "Investing.com \u2014 Q4 slides: AI drives margins",
+            "label": "Investing.com — Q4 slides: AI drives margins",
             "url": "https://www.investing.com/news/company-news/adp-q4-fy2026-slides-17-eps-growth-ai-drives-margins-93CH-4820624"
           },
           {
-            "label": "SEC EDGAR \u2014 ADP 8-K (Q4 results)",
+            "label": "SEC EDGAR — ADP 8-K (Q4 results)",
             "url": "https://www.sec.gov/Archives/edgar/data/8670/000000867026000025/adp-20260729.htm"
           },
           {
-            "label": "Market data \u2014 ADP (Yahoo Finance)",
+            "label": "Market data — ADP (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/ADP/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 8,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "ADP beats Q4, closes FY26 at $21.95B with FY27 guide intact",
+                "v": "VERIFIED"
+              },
+              {
+                "h": "AI gets the credit: 140bps Q4 margin gain and record booking",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Client metrics hit records: 92.1% retention, satisfaction hi",
+                "v": "REVIEW"
+              }
+            ]
+          }
         }
       }
     },
     "ukg": {
       "2026-07-27": {
-        "glance": "UKG's Workforce Operating Platform strategy showed up this month as named customer wins \u2014 Menzies Aviation standardizing workforce management across 65 countries and BPO provider Afni running frontline operations on the platform \u2014 while the People Assist agent heads toward general availability inside Google Cloud's Gemini Enterprise.",
+        "glance": "UKG's Workforce Operating Platform strategy showed up this month as named customer wins — Menzies Aviation standardizing workforce management across 65 countries and BPO provider Afni running frontline operations on the platform — while the People Assist agent heads toward general availability inside Google Cloud's Gemini Enterprise.",
         "delta": "The prior edition led with strategy architecture (ServiceNow agent pact, leadership hires, UKG Ventures); this week the platform pivot shows up as concrete enterprise deployments and the Google agent reaching GA.",
         "stats": [],
         "items": [
           {
             "headline": "Menzies Aviation standardizes on UKG across 65 countries",
             "tldr": "A 65,000-employee global aviation-services deployment is exactly the frontline scale UKG's platform pitch targets.",
-            "body": "Menzies Aviation, one of the world's largest aviation services providers, is transforming workforce operations with UKG \u2014 standardizing scheduling, timekeeping, compliance and employee communications across global operations spanning 65 countries and roughly 65,000 employees. Aviation ground handling is about as frontline as workforces get: shift-based, safety-regulated, and spread across time zones, making it a showcase for the platform's scheduling and compliance engine.",
+            "body": "Menzies Aviation, one of the world's largest aviation services providers, is transforming workforce operations with UKG — standardizing scheduling, timekeeping, compliance and employee communications across global operations spanning 65 countries and roughly 65,000 employees. Aviation ground handling is about as frontline as workforces get: shift-based, safety-regulated, and spread across time zones, making it a showcase for the platform's scheduling and compliance engine.",
             "ctx": "Named global deployments at this scale validate the Workforce Operating Platform repositioning under CEO Jennifer Morgan.",
-            "lens": "Multi-country workforce standardization programs like this are heavyweight change-management and ERP-adjacent work \u2014 the pattern to reference when scoping frontline-workforce transformation with or against UKG.",
+            "lens": "Multi-country workforce standardization programs like this are heavyweight change-management and ERP-adjacent work — the pattern to reference when scoping frontline-workforce transformation with or against UKG.",
             "url": "https://www.aviationpros.com/ground-support-worldwide/ground-handling/news/55392383/menzies-aviation-standardizes-workforce-management-across-global-operations",
             "source": "AviationPros",
             "tier": "trade",
@@ -407,8 +483,8 @@
           {
             "headline": "BPO provider Afni runs frontline ops on UKG's platform",
             "tldr": "A contact-center win extends the platform story from scheduling into engagement, retention and performance.",
-            "body": "UKG announced that Afni, a global business process outsourcing company specializing in customer experience and contact centers, uses the UKG Workforce Operating Platform to give leaders real-time visibility and execution capabilities \u2014 strengthening frontline performance, improving employee experience, and addressing workforce risks. Contact centers pair chronic attrition with tight service-level economics, which makes them a proving ground for UKG's claim that workforce data can drive operational outcomes, not just payroll accuracy.",
-            "ctx": "BPO wins matter because outsourcers buy on measurable productivity \u2014 a harder sale than compliance-driven adoption.",
+            "body": "UKG announced that Afni, a global business process outsourcing company specializing in customer experience and contact centers, uses the UKG Workforce Operating Platform to give leaders real-time visibility and execution capabilities — strengthening frontline performance, improving employee experience, and addressing workforce risks. Contact centers pair chronic attrition with tight service-level economics, which makes them a proving ground for UKG's claim that workforce data can drive operational outcomes, not just payroll accuracy.",
+            "ctx": "BPO wins matter because outsourcers buy on measurable productivity — a harder sale than compliance-driven adoption.",
             "lens": "The engagement-retention-performance framing is people-analytics language; deployments like this are reference points for the workforce-data work in this account's AI and product tags.",
             "url": "https://finance.yahoo.com/technology/articles/global-contact-center-uses-ukg-130000040.html",
             "source": "Yahoo Finance (UKG release)",
@@ -420,9 +496,9 @@
           {
             "headline": "People Assist agent heads to GA in Google's Gemini Enterprise",
             "tldr": "UKG's first agent in the Gemini Enterprise Gallery reaches general availability this month, per the April announcement.",
-            "body": "UKG's People Assist agent \u2014 announced in April as the company's entry into Google Cloud's Gemini Enterprise Agent Gallery and Google Cloud Marketplace \u2014 carries a general-availability target of July 2026. The agent handles workplace knowledge and requests conversationally and can execute cross-system workflows: UKG's example has a hiring manager initiating onboarding inside Gemini Enterprise, with the agent creating the employee record, triggering HR and payroll processes, and coordinating with ServiceNow to provision equipment. UKG serves more than 80,000 organizations across 150 countries.",
+            "body": "UKG's People Assist agent — announced in April as the company's entry into Google Cloud's Gemini Enterprise Agent Gallery and Google Cloud Marketplace — carries a general-availability target of July 2026. The agent handles workplace knowledge and requests conversationally and can execute cross-system workflows: UKG's example has a hiring manager initiating onboarding inside Gemini Enterprise, with the agent creating the employee record, triggering HR and payroll processes, and coordinating with ServiceNow to provision equipment. UKG serves more than 80,000 organizations across 150 countries.",
             "ctx": "Agent distribution through Google's enterprise channel extends the interoperable-agent strategy begun with the ServiceNow pact.",
-            "lens": "Cross-vendor agent orchestration (UKG + Google + ServiceNow) is the emerging integration architecture our AI-and-automation clients will need reference designs for \u2014 this is one of the first production examples in HCM.",
+            "lens": "Cross-vendor agent orchestration (UKG + Google + ServiceNow) is the emerging integration architecture our AI-and-automation clients will need reference designs for — this is one of the first production examples in HCM.",
             "url": "https://www.ukg.com/company/newsroom/ukg-launches-google-clouds-gemini-enterprise-agent-gallery",
             "source": "UKG Newsroom",
             "tier": "primary",
@@ -433,33 +509,50 @@
         ],
         "sources": [
           {
-            "label": "AviationPros \u2014 Menzies standardizes on UKG",
+            "label": "AviationPros — Menzies standardizes on UKG",
             "url": "https://www.aviationpros.com/ground-support-worldwide/ground-handling/news/55392383/menzies-aviation-standardizes-workforce-management-across-global-operations"
           },
           {
-            "label": "UKG Newsroom \u2014 Gemini Enterprise Agent Gallery",
+            "label": "UKG Newsroom — Gemini Enterprise Agent Gallery",
             "url": "https://www.ukg.com/company/newsroom/ukg-launches-google-clouds-gemini-enterprise-agent-gallery"
           },
           {
-            "label": "Yahoo Finance \u2014 Afni on UKG platform",
+            "label": "Yahoo Finance — Afni on UKG platform",
             "url": "https://finance.yahoo.com/technology/articles/global-contact-center-uses-ukg-130000040.html"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 21,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Menzies Aviation standardizes on UKG across 65 countries",
+                "v": "VERIFIED"
+              },
+              {
+                "h": "BPO provider Afni runs frontline ops on UKG's platform",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "People Assist agent heads to GA in Google's Gemini Enterpris",
+                "v": "PROVENANCED"
+              }
+            ]
+          }
         }
       }
     },
     "generac-power-systems": {
       "2026-07-27": {
         "glance": "Generac's data-center bet stopped being a story and became a P&L line: Q2 adjusted EPS of $2.91 demolished the $2.01 consensus as hyperscale orders reached $1 billion and the data-center backup business surged 29%. Management is accelerating the Belvidere plant opening and scouting additional sites, and CEO Aaron Jagdfeld took the AI-power narrative to CNBC the morning of the print.",
-        "delta": "Earlier editions tracked rising analyst targets on the AI-power thesis; this week the thesis printed \u2014 a 45% EPS beat, $1B in hyperscale orders, and an accelerated capacity buildout.",
+        "delta": "Earlier editions tracked rising analyst targets on the AI-power thesis; this week the thesis printed — a 45% EPS beat, $1B in hyperscale orders, and an accelerated capacity buildout.",
         "stats": [
           {
             "v": "$197.11",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": null
           },
           {
@@ -468,7 +561,7 @@
             "dir": "up"
           },
           {
-            "v": "$134.80\u2013$296.44",
+            "v": "$134.80–$296.44",
             "l": "52-wk range",
             "dir": null
           }
@@ -477,9 +570,9 @@
           {
             "headline": "Hyperscale orders hit $1B as Generac pivots to data centers",
             "tldr": "The Milwaukee-area maker of home generators now has a billion-dollar hyperscale order book and is accelerating plant capacity to serve it.",
-            "body": "Generac's pivot toward data centers reached a milestone this week: hyperscale customer orders have reached $1 billion, and the company is accelerating the opening of its Belvidere-area packaging plant while eyeing additional sites for the data-center unit. For a company built on residential standby generators, a billion-dollar order book from hyperscale operators represents a structurally different business \u2014 larger units, industrial buyers, and multi-year delivery schedules.",
+            "body": "Generac's pivot toward data centers reached a milestone this week: hyperscale customer orders have reached $1 billion, and the company is accelerating the opening of its Belvidere-area packaging plant while eyeing additional sites for the data-center unit. For a company built on residential standby generators, a billion-dollar order book from hyperscale operators represents a structurally different business — larger units, industrial buyers, and multi-year delivery schedules.",
             "ctx": "Data-center demand is the re-rating driver behind the stock's ~40% YTD gain; capacity is now the constraint to manage.",
-            "lens": "A manufacturer standing up a new industrial business line at speed \u2014 plant capacity, supply chain, commercial model \u2014 is a textbook operating-model buildout, squarely in this account's project-type focus.",
+            "lens": "A manufacturer standing up a new industrial business line at speed — plant capacity, supply chain, commercial model — is a textbook operating-model buildout, squarely in this account's project-type focus.",
             "url": "https://www.bizjournals.com/milwaukee/news/2026/07/30/generac-data-center-q2.html",
             "source": "Milwaukee Business Journal",
             "tier": "trade",
@@ -490,9 +583,9 @@
           {
             "headline": "Q2 EPS of $2.91 beats consensus by 45% on 29% data-center surge",
             "tldr": "A blowout quarter: $2.91 adjusted EPS vs $2.01 expected, backlog building, margin outlook raised.",
-            "body": "Generac reported second-quarter adjusted EPS of $2.91 against a $2.01 consensus \u2014 a roughly 45% beat \u2014 as the data-center backup power business surged 29%. Coverage of the print highlighted a ballooning backlog from hyperscale deals (cited around $1.6 billion) and a raised margin outlook. Shares jumped on the report, extending a year in which the stock has climbed nearly 40% even after a mid-summer pullback from its highs.",
+            "body": "Generac reported second-quarter adjusted EPS of $2.91 against a $2.01 consensus — a roughly 45% beat — as the data-center backup power business surged 29%. Coverage of the print highlighted a ballooning backlog from hyperscale deals (cited around $1.6 billion) and a raised margin outlook. Shares jumped on the report, extending a year in which the stock has climbed nearly 40% even after a mid-summer pullback from its highs.",
             "ctx": "The beat converts the AI-power narrative from analyst thesis into reported earnings, raising the bar for the second half.",
-            "lens": "When a client's growth engine shifts this fast, the operational questions \u2014 capacity planning, order-to-delivery data, industrial go-to-market \u2014 become the consulting agenda; the numbers here are the business case.",
+            "lens": "When a client's growth engine shifts this fast, the operational questions — capacity planning, order-to-delivery data, industrial go-to-market — become the consulting agenda; the numbers here are the business case.",
             "url": "https://247wallst.com/cards/generac-q2-2026-earnings-gnrc-01kypnvnxyspvb31bb9w5rry9z",
             "source": "24/7 Wall St.",
             "tier": "trade",
@@ -505,7 +598,7 @@
             "tldr": "The CEO spent earnings morning on CNBC framing Generac as infrastructure for the AI buildout.",
             "body": "Chairman, president and CEO Aaron Jagdfeld appeared on CNBC's Squawk Box the morning of the Q2 release to discuss the results, powering AI data centers, and the growth outlook. The media placement matters as much as the content: Generac is deliberately repositioning itself in the investor and customer imagination from storm-season consumer brand to energy-technology company serving mission-critical AI infrastructure.",
             "ctx": "CEO-level narrative work shapes how customers, talent and investors price the company's next phase.",
-            "lens": "Executive repositioning of a legacy brand around a new growth market is the communications layer of transformation \u2014 worth studying as Generac's data and product strategy work matures.",
+            "lens": "Executive repositioning of a legacy brand around a new growth market is the communications layer of transformation — worth studying as Generac's data and product strategy work matures.",
             "url": "https://www.msn.com/en-us/money/news/generac-ceo-aaron-jagdfeld-on-q2-results-powering-ai-data-centers-and-growth-outlook/vi-AA28YcRj",
             "source": "CNBC (via MSN)",
             "tier": "aggregator",
@@ -516,41 +609,58 @@
         ],
         "sources": [
           {
-            "label": "Milwaukee Business Journal \u2014 $1B hyperscale orders",
+            "label": "Milwaukee Business Journal — $1B hyperscale orders",
             "url": "https://www.bizjournals.com/milwaukee/news/2026/07/30/generac-data-center-q2.html"
           },
           {
-            "label": "24/7 Wall St. \u2014 Q2 2026 earnings detail",
+            "label": "24/7 Wall St. — Q2 2026 earnings detail",
             "url": "https://247wallst.com/cards/generac-q2-2026-earnings-gnrc-01kypnvnxyspvb31bb9w5rry9z"
           },
           {
-            "label": "SEC EDGAR \u2014 Generac 8-K (Q2 results)",
+            "label": "SEC EDGAR — Generac 8-K (Q2 results)",
             "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926024731/gnrc20260728_8k.htm"
           },
           {
-            "label": "Market data \u2014 GNRC (Yahoo Finance)",
+            "label": "Market data — GNRC (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/GNRC/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 8,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Hyperscale orders hit $1B as Generac pivots to data centers",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Q2 EPS of $2.91 beats consensus by 45% on 29% data-center su",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Jagdfeld takes the AI-power story to Squawk Box",
+                "v": "LIVE-ONLY"
+              }
+            ]
+          }
         }
       }
     },
     "take-command": {
       "2026-07-27": {
-        "glance": "Take Command shipped Partner Hub, a design platform that lets benefits consultants build ICHRA plans for their clients \u2014 a channel play aimed at the advisers who control employer benefits decisions \u2014 while its content engine kept pressing the case that HRAs are displacing traditional group plans.",
-        "delta": "The last edition centered on the $25M Edison Partners round and tripled enrollment; this week the growth capital shows up as product \u2014 a consultant-facing platform to scale distribution beyond direct sales.",
+        "glance": "Take Command shipped Partner Hub, a design platform that lets benefits consultants build ICHRA plans for their clients — a channel play aimed at the advisers who control employer benefits decisions — while its content engine kept pressing the case that HRAs are displacing traditional group plans.",
+        "delta": "The last edition centered on the $25M Edison Partners round and tripled enrollment; this week the growth capital shows up as product — a consultant-facing platform to scale distribution beyond direct sales.",
         "stats": [],
         "items": [
           {
             "headline": "Partner Hub launches to put ICHRA design in consultants' hands",
             "tldr": "A self-serve design platform for benefits consultants turns Take Command's channel program into product.",
-            "body": "Take Command introduced Partner Hub, giving members of its Preferred Benefits Consultant Program the ability to explore and create ICHRA designs for their clients directly. The company frames the launch around the pressures consultants face \u2014 rising healthcare costs, changing workforce expectations, and growing demand for employee choice \u2014 and it converts what was a referral relationship into a workflow product that keeps advisers inside Take Command's platform.",
+            "body": "Take Command introduced Partner Hub, giving members of its Preferred Benefits Consultant Program the ability to explore and create ICHRA designs for their clients directly. The company frames the launch around the pressures consultants face — rising healthcare costs, changing workforce expectations, and growing demand for employee choice — and it converts what was a referral relationship into a workflow product that keeps advisers inside Take Command's platform.",
             "ctx": "Benefits consultants are the gatekeepers of employer plan decisions; tooling them is how an ICHRA administrator scales past direct sales.",
-            "lens": "Partner-led product distribution is a classic platform inflection for a growth-stage company \u2014 the kind of go-to-market architecture our product and digital-transformation work is built around.",
+            "lens": "Partner-led product distribution is a classic platform inflection for a growth-stage company — the kind of go-to-market architecture our product and digital-transformation work is built around.",
             "url": "https://www.takecommandhealth.com/blog/partner-hub-2026",
             "source": "Take Command",
             "tier": "primary",
@@ -561,9 +671,9 @@
           {
             "headline": "Take Command presses the 'HRAs replace group plans' narrative",
             "tldr": "Fresh company messaging positions ICHRA as the lead option, not the alternative, for employer coverage.",
-            "body": "Coverage of Take Command's recent messaging highlights the company emphasizing individual-coverage HRAs as a genuine alternative to traditional group health plans \u2014 framing that has sharpened from 'emerging option' to 'the tables have turned.' The thought-leadership cadence matters commercially: as the largest ICHRA administrator, Take Command wins whenever an employer's broker or CFO first entertains the defined-contribution model at renewal time.",
+            "body": "Coverage of Take Command's recent messaging highlights the company emphasizing individual-coverage HRAs as a genuine alternative to traditional group health plans — framing that has sharpened from 'emerging option' to 'the tables have turned.' The thought-leadership cadence matters commercially: as the largest ICHRA administrator, Take Command wins whenever an employer's broker or CFO first entertains the defined-contribution model at renewal time.",
             "ctx": "Category-creation messaging is the demand engine for a company whose product rides a structural shift in employer health benefits.",
-            "lens": "Take Command is doing category marketing the way strategy firms advise: own the narrative before competitors do \u2014 context for any CX or growth work in this account.",
+            "lens": "Take Command is doing category marketing the way strategy firms advise: own the narrative before competitors do — context for any CX or growth work in this account.",
             "url": "https://www.tipranks.com/news/private-companies/take-command-emphasizes-ichra-as-alternative-to-traditional-group-health-plans",
             "source": "TipRanks",
             "tier": "financial",
@@ -574,9 +684,9 @@
           {
             "headline": "Industry press works through ICHRA continuity mechanics",
             "tldr": "Benefits trade coverage on minimizing disruption when sticking with ICHRAs signals the model's maturation.",
-            "body": "A benefits-industry piece from late June \u2014 part two of a series on how sticking with ICHRAs minimizes disruption \u2014 walks through the operational continuity questions employers face as individual-coverage HRAs move from experiment to standing benefits strategy. The existence of 'how to keep it running smoothly' coverage, rather than 'what is an ICHRA' explainers, marks where the category sits on the adoption curve heading into the fall enrollment season.",
+            "body": "A benefits-industry piece from late June — part two of a series on how sticking with ICHRAs minimizes disruption — walks through the operational continuity questions employers face as individual-coverage HRAs move from experiment to standing benefits strategy. The existence of 'how to keep it running smoothly' coverage, rather than 'what is an ICHRA' explainers, marks where the category sits on the adoption curve heading into the fall enrollment season.",
             "ctx": "Older piece included for context: the trade conversation has shifted from ICHRA adoption to ICHRA operations.",
-            "lens": "Operational maturity content signals the services layer forming around ICHRA \u2014 administration, compliance, employee support \u2014 which is where Take Command's platform economics live.",
+            "lens": "Operational maturity content signals the services layer forming around ICHRA — administration, compliance, employee support — which is where Take Command's platform economics live.",
             "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYTg2NnBmYy1jVTZBLVF2R0RWalc2eHg4eDhjRV9QOE5sNEx5d21Jb202bWdZNFF4b0tXUlZKN1psSlpVUjBhYzRkUGVFN2ZwLTd1WFNjZzM5eVowSVZhQmJCX3BVcldJcDA2TEZicFJiN1AteFItc2F1R3BOcl9RN1JOTjh5a1UzMjRjMUt3?oc=5",
             "source": "BenefitsPRO / Employee Benefit News (via Google News)",
             "tier": "trade",
@@ -587,42 +697,59 @@
         ],
         "sources": [
           {
-            "label": "Take Command \u2014 Partner Hub launch",
+            "label": "Take Command — Partner Hub launch",
             "url": "https://www.takecommandhealth.com/blog/partner-hub-2026"
           },
           {
-            "label": "TipRanks \u2014 ICHRA-as-alternative messaging",
+            "label": "TipRanks — ICHRA-as-alternative messaging",
             "url": "https://www.tipranks.com/news/private-companies/take-command-emphasizes-ichra-as-alternative-to-traditional-group-health-plans"
           },
           {
-            "label": "Take Command \u2014 press page",
+            "label": "Take Command — press page",
             "url": "https://www.takecommandhealth.com/press"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 45,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Partner Hub launches to put ICHRA design in consultants' han",
+                "v": "VERIFIED"
+              },
+              {
+                "h": "Take Command presses the 'HRAs replace group plans' narrativ",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Industry press works through ICHRA continuity mechanics",
+                "v": "LIVE-ONLY"
+              }
+            ]
+          }
         }
       }
     },
     "nrg-energy": {
       "2026-07-27": {
         "glance": "A set-up week for NRG: shares jumped 7.4% on Thursday as investors leaned into the data-center power demand theme ahead of the August 4 second-quarter report, the first full-quarter read on the doubled generation fleet acquired from LS Power.",
-        "delta": "The prior edition covered the LS Power integration and long-dated data-center contracts; this week is positioning \u2014 a sharp pre-earnings rally and the August 4 print now in view.",
+        "delta": "The prior edition covered the LS Power integration and long-dated data-center contracts; this week is positioning — a sharp pre-earnings rally and the August 4 print now in view.",
         "stats": [
           {
             "v": "$134.29",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": "down"
           },
           {
-            "v": "\u221219.2%",
+            "v": "−19.2%",
             "l": "YTD",
             "dir": "down"
           },
           {
-            "v": "$120.11\u2013$189.96",
+            "v": "$120.11–$189.96",
             "l": "52-wk range",
             "dir": null
           }
@@ -630,10 +757,10 @@
         "items": [
           {
             "headline": "NRG jumps 7.4% as data-center power trade returns pre-earnings",
-            "tldr": "Investors re-engaged the demand thesis ahead of the Aug 4 Q2 report \u2014 the first clean quarter of the enlarged fleet.",
-            "body": "NRG shares rose 7.4% on July 30 as sentiment strengthened around power producers tied to data-center electricity demand and investors positioned ahead of the company's second-quarter report on August 4. NRG has been emphasizing data-center demand as a growth engine \u2014 long-term retail agreements and potential new generation tied to large-load customers \u2014 and the coming print is the first full quarter reflecting the roughly 13 GW of gas generation acquired from LS Power in January.",
-            "ctx": "After a \u221219% YTD stretch on valuation concerns, the Q2 report is the checkpoint on whether the acquired fleet and contracts are ramping to plan.",
-            "lens": "Integration quarters decide credibility: fleet consolidation, trading-book integration and contract delivery are the operational proof points \u2014 familiar territory for our energy operating-model work.",
+            "tldr": "Investors re-engaged the demand thesis ahead of the Aug 4 Q2 report — the first clean quarter of the enlarged fleet.",
+            "body": "NRG shares rose 7.4% on July 30 as sentiment strengthened around power producers tied to data-center electricity demand and investors positioned ahead of the company's second-quarter report on August 4. NRG has been emphasizing data-center demand as a growth engine — long-term retail agreements and potential new generation tied to large-load customers — and the coming print is the first full quarter reflecting the roughly 13 GW of gas generation acquired from LS Power in January.",
+            "ctx": "After a −19% YTD stretch on valuation concerns, the Q2 report is the checkpoint on whether the acquired fleet and contracts are ramping to plan.",
+            "lens": "Integration quarters decide credibility: fleet consolidation, trading-book integration and contract delivery are the operational proof points — familiar territory for our energy operating-model work.",
             "url": "https://www.quiverquant.com/news/NRG+climbs+as+investors+lean+into+data-center+power+demand+and+upcoming+earnings",
             "source": "Quiver Quantitative",
             "tier": "financial",
@@ -643,7 +770,7 @@
           },
           {
             "headline": "NRG files a voluntary 8-K as earnings week approaches",
-            "tldr": "A mid-July Item 8.01 disclosure sits on EDGAR ahead of the Aug 4 print \u2014 primary source for anyone prepping the quarter.",
+            "tldr": "A mid-July Item 8.01 disclosure sits on EDGAR ahead of the Aug 4 print — primary source for anyone prepping the quarter.",
             "body": "NRG filed an 8-K under Item 8.01 on July 15, the voluntary-disclosure category companies use for material updates that don't fit scheduled reporting. With the second-quarter report set for August 4 and the LS Power integration in its second quarter, the filing and its exhibits are part of the primary-source record worth reading alongside the earnings materials rather than through secondhand summaries.",
             "ctx": "Pre-earnings voluntary disclosures often carry contract, financing or portfolio updates that frame the quarter's call.",
             "lens": "For engagement prep, EDGAR beats aggregators: the 8-K plus the Q2 deck will define NRG's own framing of data-center demand and integration progress.",
@@ -657,9 +784,9 @@
           {
             "headline": "Community-engagement push grows with Fort Bend County",
             "tldr": "Houston-area expansion has a public-affairs dimension: NRG's engagement director is preparing for county growth.",
-            "body": "Houston business press profiled Sidney Evans, NRG's director of community engagement, on preparing for growth in Fort Bend County \u2014 from serving as the Galleria Chamber of Commerce's first Black president to leading NRG's local engagement as the region expands. Power development is increasingly a community-relations business: siting, grid buildout and large-load customers all depend on local goodwill in the counties where capacity gets built.",
+            "body": "Houston business press profiled Sidney Evans, NRG's director of community engagement, on preparing for growth in Fort Bend County — from serving as the Galleria Chamber of Commerce's first Black president to leading NRG's local engagement as the region expands. Power development is increasingly a community-relations business: siting, grid buildout and large-load customers all depend on local goodwill in the counties where capacity gets built.",
             "ctx": "Texas load growth is NRG's home-field advantage; community engagement is part of how new generation and data-center sites get permitted and accepted.",
-            "lens": "Stakeholder engagement as infrastructure strategy \u2014 a reminder that NRG's growth plan has an org-and-governance dimension beyond the generation assets.",
+            "lens": "Stakeholder engagement as infrastructure strategy — a reminder that NRG's growth plan has an org-and-governance dimension beyond the generation assets.",
             "url": "https://www.bizjournals.com/houston/news/2026/07/31/nrg-energy-sidney-evans-fort-bend-county-growth.html",
             "source": "Houston Business Journal",
             "tier": "trade",
@@ -670,41 +797,58 @@
         ],
         "sources": [
           {
-            "label": "Quiver Quantitative \u2014 pre-earnings data-center rally",
+            "label": "Quiver Quantitative — pre-earnings data-center rally",
             "url": "https://www.quiverquant.com/news/NRG+climbs+as+investors+lean+into+data-center+power+demand+and+upcoming+earnings"
           },
           {
-            "label": "SEC EDGAR \u2014 NRG 8-K (Jul 15)",
+            "label": "SEC EDGAR — NRG 8-K (Jul 15)",
             "url": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926083743/tm2620335d1_8k.htm"
           },
           {
-            "label": "Houston Business Journal \u2014 Fort Bend engagement",
+            "label": "Houston Business Journal — Fort Bend engagement",
             "url": "https://www.bizjournals.com/houston/news/2026/07/31/nrg-energy-sidney-evans-fort-bend-county-growth.html"
           },
           {
-            "label": "Market data \u2014 NRG (Yahoo Finance)",
+            "label": "Market data — NRG (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/NRG/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 8,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "NRG jumps 7.4% as data-center power trade returns pre-earnin",
+                "v": "VERIFIED"
+              },
+              {
+                "h": "NRG files a voluntary 8-K as earnings week approaches",
+                "v": "VERIFIED"
+              },
+              {
+                "h": "Community-engagement push grows with Fort Bend County",
+                "v": "PROVENANCED"
+              }
+            ]
+          }
         }
       }
     },
     "baker-tilly": {
       "2026-07-27": {
-        "glance": "The competitive map moved under Baker Tilly this week: Grant Thornton Advisors agreed to buy CBIZ for $5 billion \u2014 the sector's largest takeover in a generation \u2014 squeezing the mid-market ground Baker Tilly's own Moss Adams merger was built to win. Meanwhile Baker Tilly International published research on AI and skills shortages reshaping the automotive mid-market, and a small client defection made the wires.",
-        "delta": "Prior editions focused on Baker Tilly's own integration (Moss Adams, new leadership, Threadline spin-off); this week the story is external \u2014 private-equity-fueled consolidation among direct rivals accelerating.",
+        "glance": "The competitive map moved under Baker Tilly this week: Grant Thornton Advisors agreed to buy CBIZ for $5 billion — the sector's largest takeover in a generation — squeezing the mid-market ground Baker Tilly's own Moss Adams merger was built to win. Meanwhile Baker Tilly International published research on AI and skills shortages reshaping the automotive mid-market, and a small client defection made the wires.",
+        "delta": "Prior editions focused on Baker Tilly's own integration (Moss Adams, new leadership, Threadline spin-off); this week the story is external — private-equity-fueled consolidation among direct rivals accelerating.",
         "stats": [],
         "items": [
           {
             "headline": "Grant Thornton's $5B CBIZ deal resets mid-market competition",
             "tldr": "The largest accounting-sector takeover in a generation lands directly on Baker Tilly's competitive turf.",
-            "body": "Grant Thornton Advisors agreed to acquire CBIZ in a $5 billion deal that the Financial Times called the accounting sector's largest takeover in a generation, dramatically expanding Grant Thornton's U.S. reach. For Baker Tilly \u2014 itself the product of the private-equity-backed, $7 billion Moss Adams combination that created the #6 U.S. firm \u2014 the deal confirms that PE-fueled consolidation in advisory and accounting is accelerating, and that scale in the mid-market is now table stakes rather than differentiator.",
-            "ctx": "Baker Tilly's integration progress is no longer measured against standing still \u2014 its nearest rivals are consolidating at the same pace.",
-            "lens": "Post-merger integration speed is now Baker Tilly's competitive weapon: every quarter its operating-model and digital integration runs ahead of Grant Thornton\u2013CBIZ is a quarter of advantage \u2014 directly the M&A-integration agenda in this account.",
+            "body": "Grant Thornton Advisors agreed to acquire CBIZ in a $5 billion deal that the Financial Times called the accounting sector's largest takeover in a generation, dramatically expanding Grant Thornton's U.S. reach. For Baker Tilly — itself the product of the private-equity-backed, $7 billion Moss Adams combination that created the #6 U.S. firm — the deal confirms that PE-fueled consolidation in advisory and accounting is accelerating, and that scale in the mid-market is now table stakes rather than differentiator.",
+            "ctx": "Baker Tilly's integration progress is no longer measured against standing still — its nearest rivals are consolidating at the same pace.",
+            "lens": "Post-merger integration speed is now Baker Tilly's competitive weapon: every quarter its operating-model and digital integration runs ahead of Grant Thornton–CBIZ is a quarter of advantage — directly the M&A-integration agenda in this account.",
             "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkdDd1F1UXEyYmlvS3FHeEVEdE5DTFFDRzl4d3VnaUNFTzQwNVlZVU1Cb1V5d0ZLTUM3OWNTQlVoczlDWmdfTzJVSk42aFZUT01NQnJSOTRnX1lURXBtYjBfal9QLWQxWjhTTUlCX204S2VnRlNwZloya2JCTTVmU3B3ejlVdF85YlpWUjR3cW5ER2Z6WXdxV2hXNVIwMGNlRnlYNUdVOEtnOXdwa1Eyd1lR?oc=5",
             "source": "Reuters (via Google News)",
             "tier": "tier1",
@@ -715,9 +859,9 @@
           {
             "headline": "Baker Tilly International: AI and skills gaps to reshape auto mid-market",
             "tldr": "New network research positions the firm as adviser to a sector navigating workforce and AI disruption at once.",
-            "body": "Baker Tilly International published research finding that skills shortages and AI will shape the automotive mid-market, positioning the network's advisers on two of the most acute pressures facing mid-sized automotive businesses: a thinning technical workforce and the operational changes AI adoption demands. Sector-specific thought leadership of this kind is how mid-market advisory firms convert brand into pipeline \u2014 showing up with a point of view before the RFP exists.",
+            "body": "Baker Tilly International published research finding that skills shortages and AI will shape the automotive mid-market, positioning the network's advisers on two of the most acute pressures facing mid-sized automotive businesses: a thinning technical workforce and the operational changes AI adoption demands. Sector-specific thought leadership of this kind is how mid-market advisory firms convert brand into pipeline — showing up with a point of view before the RFP exists.",
             "ctx": "Publishing into the automotive mid-market extends Baker Tilly's advisory brand beyond audit and tax into operational transformation.",
-            "lens": "The firm is selling AI-readiness advice to its own clients \u2014 useful intelligence on where Baker Tilly is building (or will need) transformation capability, and where partnership or competition with us emerges.",
+            "lens": "The firm is selling AI-readiness advice to its own clients — useful intelligence on where Baker Tilly is building (or will need) transformation capability, and where partnership or competition with us emerges.",
             "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQkJhSlk1TzNoMURWRldYSTFtb3NvSFFNckVWMEFlVGg1ZDg0UDlkRXk4M19nT2pJMlEyMjI0OGYyaWE4NlZpS3dRSUFOVWg3cWpsekppV3diZDA1MGQ1aHhuejVTVDA2UXI5V3dxNWFOcnV6UFRKX3hYSDZMcElPN1M1V2RjRlZwNFo5T0hCV0lWSmcxRlBqWHZuSGxYOU5hN3g5bE1zbWFtV0V5X2hMOGFLRl9oRm1jYlZKU2EyTWdyeV93bjczUTRxYjZsV3I2SXVF?oc=5",
             "source": "Motor Trade News (via Google News)",
             "tier": "trade",
@@ -728,9 +872,9 @@
           {
             "headline": "BlockFin drops Baker Tilly as auditor in a cost-cutting move",
             "tldr": "A small client defection, notable mainly as a data point on fee pressure at the market's value end.",
-            "body": "BlockFin replaced Baker Tilly with Suya WWC as its auditor amid what coverage described as a cost-cutting drive. One small mandate says little on its own, but it illustrates a real dynamic in the post-consolidation market: as the large mid-market firms scale up and reprice, cost-sensitive clients at the smaller end churn toward cheaper providers \u2014 a mix-shift the merged Baker Tilly will manage deliberately as it targets larger enterprise mandates.",
+            "body": "BlockFin replaced Baker Tilly with Suya WWC as its auditor amid what coverage described as a cost-cutting drive. One small mandate says little on its own, but it illustrates a real dynamic in the post-consolidation market: as the large mid-market firms scale up and reprice, cost-sensitive clients at the smaller end churn toward cheaper providers — a mix-shift the merged Baker Tilly will manage deliberately as it targets larger enterprise mandates.",
             "ctx": "Client-mix churn is the expected side effect of moving upmarket after a $7B merger; the question is whether upmarket wins outpace value-end losses.",
-            "lens": "Portfolio pruning cuts both ways \u2014 tracking which clients Baker Tilly sheds versus wins is a live read on whether the merger's upmarket strategy is landing.",
+            "lens": "Portfolio pruning cuts both ways — tracking which clients Baker Tilly sheds versus wins is a live read on whether the merger's upmarket strategy is landing.",
             "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOY2hJVXNEakxISTIwcTdleTk4SV9tVFlGY1drTFJYbG9WUzkyZzBQcTVMcmJralZXTjlnRWJRV2VwTjZSSV9YY2xVSDJ2R3g2X3NvSlJKbXdicVh4RWJUaVZ0Rmd1cG9XTDhKc0NEQUNhRXpkOW1TWHdFVWlsQ05xWndRbDJISXBQampQQUZmUWRNYU1STFRhOWVZdkNvbU1zZDZSZjdYSzR5V2o2MEF2YWh4U091eWJZR2FvQ3k4R1pteThZNEFEeUh2TTZMMFFZVGFRMjVWV0dFUkhRWEtVVnBnT2F5SVd4Z0p2bndfeEk?oc=5",
             "source": "The Globe and Mail (via Google News)",
             "tier": "trade",
@@ -741,33 +885,50 @@
         ],
         "sources": [
           {
-            "label": "Reuters \u2014 Grant Thornton to buy CBIZ for $5B",
+            "label": "Reuters — Grant Thornton to buy CBIZ for $5B",
             "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkdDd1F1UXEyYmlvS3FHeEVEdE5DTFFDRzl4d3VnaUNFTzQwNVlZVU1Cb1V5d0ZLTUM3OWNTQlVoczlDWmdfTzJVSk42aFZUT01NQnJSOTRnX1lURXBtYjBfal9QLWQxWjhTTUlCX204S2VnRlNwZloya2JCTTVmU3B3ejlVdF85YlpWUjR3cW5ER2Z6WXdxV2hXNVIwMGNlRnlYNUdVOEtnOXdwa1Eyd1lR?oc=5"
           },
           {
-            "label": "FT \u2014 accounting's largest takeover in a generation",
+            "label": "FT — accounting's largest takeover in a generation",
             "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNm02eUZkNXVZaks5X0hMaFhsQWRDR3dYQm1lQjF3UVJsUkphV1Bz?oc=5"
           },
           {
-            "label": "Motor Trade News \u2014 BT automotive mid-market research",
+            "label": "Motor Trade News — BT automotive mid-market research",
             "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQkJhSlk1TzNoMURWRldYSTFtb3NvSFFNckVWMEFlVGg1ZDg0UDlkRXk4M19nT2pJMlEyMjI0OGYyaWE4NlZpS3dRSUFOVWg3cWpsekppV3diZDA1MGQ1aHhuejVTVDA2UXI5V3dxNWFOcnV6UFRKX3hYSDZMcElPN1M1V2RjRlZwNFo5T0hCV0lWSmcxRlBqWHZuSGxYOU5hN3g5bE1zbWFtV0V5X2hMOGFLRl9oRm1jYlZKU2EyTWdyeV93bjczUTRxYjZsV3I2SXVF?oc=5"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 8,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Grant Thornton's $5B CBIZ deal resets mid-market competition",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "Baker Tilly International: AI and skills gaps to reshape aut",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "BlockFin drops Baker Tilly as auditor in a cost-cutting move",
+                "v": "LIVE-ONLY"
+              }
+            ]
+          }
         }
       }
     },
     "regal-rexnord": {
       "2026-07-27": {
         "glance": "Regal Rexnord heads into its August 5 earnings report up roughly 40% on the year, carried by the data-center backlog and a robotics narrative that now names it a top humanoid-components play. Deutsche Bank opened coverage at Buy with a $286 target, and the board held the quarterly dividend at $0.35.",
-        "delta": "Since early July the humanoid-robotics angle has moved from a Morgan Stanley appendix mention to headline analyst coverage, and the Q2 report date (Aug 5) is now set \u2014 the next test of whether orders convert to revenue.",
+        "delta": "Since early July the humanoid-robotics angle has moved from a Morgan Stanley appendix mention to headline analyst coverage, and the Q2 report date (Aug 5) is now set — the next test of whether orders convert to revenue.",
         "stats": [
           {
             "v": "$205.23",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": null
           },
           {
@@ -776,18 +937,18 @@
             "dir": "up"
           },
           {
-            "v": "$127.96\u2013$247.80",
+            "v": "$127.96–$247.80",
             "l": "52-wk range",
             "dir": null
           }
         ],
         "items": [
           {
-            "headline": "Analysts crown RRX a top robotics play for 2026 \u2014 with caveats",
+            "headline": "Analysts crown RRX a top robotics play for 2026 — with caveats",
             "tldr": "A 53% run on data-center backlog plus a humanoid-components story, tempered by valuation and free-cash-flow flags.",
-            "body": "Analyst coverage this month named Regal Rexnord one of 2026's biggest potential industrial winners, citing the surge (about 53% at the time of writing) driven by a massive data-center backlog and an emerging humanoid-robotics play in its precision motion components \u2014 while flagging stretched valuation and negative free cash flow as the caution side of the trade. The piece captures the transition in how the market prices RRX: from cyclical motor maker to strategic supplier for two secular buildouts at once.",
-            "ctx": "The robotics re-rating raises expectations for exactly the businesses \u2014 precision actuators, bearings, motion control \u2014 that take longest to scale.",
-            "lens": "Regal Rexnord appears across four humanoid 'Body' component categories in the Morgan Stanley value-chain map; this coverage is that thesis reaching the mainstream \u2014 central to how we frame the client's growth-vector work.",
+            "body": "Analyst coverage this month named Regal Rexnord one of 2026's biggest potential industrial winners, citing the surge (about 53% at the time of writing) driven by a massive data-center backlog and an emerging humanoid-robotics play in its precision motion components — while flagging stretched valuation and negative free cash flow as the caution side of the trade. The piece captures the transition in how the market prices RRX: from cyclical motor maker to strategic supplier for two secular buildouts at once.",
+            "ctx": "The robotics re-rating raises expectations for exactly the businesses — precision actuators, bearings, motion control — that take longest to scale.",
+            "lens": "Regal Rexnord appears across four humanoid 'Body' component categories in the Morgan Stanley value-chain map; this coverage is that thesis reaching the mainstream — central to how we frame the client's growth-vector work.",
             "url": "https://247wallst.com/investing/2026/07/22/this-is-the-no-1-robotics-stock-to-buy-in-2026/",
             "source": "24/7 Wall St.",
             "tier": "trade",
@@ -800,7 +961,7 @@
             "tldr": "New sell-side coverage underwrites the backlog story with ~40% implied upside at initiation.",
             "body": "Deutsche Bank initiated coverage of Regal Rexnord at Buy with a $286 price target, citing data-center demand and an industrial recovery. Fresh initiations matter for a mid-cap industrial: they widen the investor audience for the re-rating story and put a research franchise's credibility behind the claim that the E-Pod power-system orders and broader data-center pipeline convert into durable earnings rather than a one-cycle spike.",
             "ctx": "Sell-side underwriting of the data-center thesis supports the multiple while the company proves out conversion at the Aug 5 print.",
-            "lens": "The initiation frames what the market now expects operationally \u2014 backlog conversion and margin delivery \u2014 which is the operating-model and data agenda our work with industrial clients centers on.",
+            "lens": "The initiation frames what the market now expects operationally — backlog conversion and margin delivery — which is the operating-model and data agenda our work with industrial clients centers on.",
             "url": "https://seekingalpha.com/news/4615335-regal-rexnord-rated-buy-in-new-coverage-at-deutsche-bank-on-data-center-demand",
             "source": "Seeking Alpha",
             "tier": "financial",
@@ -812,7 +973,7 @@
             "headline": "Q2 report set for August 5; dividend held at $0.35",
             "tldr": "Results land pre-market Aug 5 with a 9am CT call; the board declared the regular quarterly dividend at its July 20 meeting.",
             "body": "Regal Rexnord will release second-quarter results before the market opens on Wednesday, August 5, with a conference call at 9:00 am CT the same day. At its regular quarterly meeting on July 20, the board declared a dividend of $0.35 per share. The scheduling item doubles as the week's real tell: after a 40% YTD run built on orders and initiations, August 5 is when the backlog narrative meets reported revenue.",
-            "ctx": "The print is the conversion test \u2014 data-center orders and the robotics narrative against actual Q2 revenue and margins.",
+            "ctx": "The print is the conversion test — data-center orders and the robotics narrative against actual Q2 revenue and margins.",
             "lens": "Calendar intelligence for the account team: client-facing conversations in the next week happen against earnings-quiet-period dynamics and the Aug 5 results frame.",
             "url": "https://finance.yahoo.com/markets/stocks/articles/regal-rexnord-corporation-host-second-120000048.html",
             "source": "Yahoo Finance (company release)",
@@ -824,46 +985,63 @@
         ],
         "sources": [
           {
-            "label": "24/7 Wall St. \u2014 top robotics stock case",
+            "label": "24/7 Wall St. — top robotics stock case",
             "url": "https://247wallst.com/investing/2026/07/22/this-is-the-no-1-robotics-stock-to-buy-in-2026/"
           },
           {
-            "label": "Seeking Alpha \u2014 Deutsche Bank initiation",
+            "label": "Seeking Alpha — Deutsche Bank initiation",
             "url": "https://seekingalpha.com/news/4615335-regal-rexnord-rated-buy-in-new-coverage-at-deutsche-bank-on-data-center-demand"
           },
           {
-            "label": "PR Newswire \u2014 quarterly dividend declared",
+            "label": "PR Newswire — quarterly dividend declared",
             "url": "https://www.prnewswire.com/news-releases/regal-rexnord-corporation-declares-quarterly-dividend-of-35-per-share-302831196.html"
           },
           {
-            "label": "Market data \u2014 RRX (Yahoo Finance)",
+            "label": "Market data — RRX (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/RRX/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 21,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Analysts crown RRX a top robotics play for 2026 — with cavea",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Deutsche Bank initiates at Buy, $286 target, on data-center ",
+                "v": "REVIEW"
+              },
+              {
+                "h": "Q2 report set for August 5; dividend held at $0.35",
+                "v": "PROVENANCED"
+              }
+            ]
+          }
         }
       }
     },
     "vulcan-materials": {
       "2026-07-27": {
-        "glance": "Vulcan delivered a clean beat \u2014 Q2 adjusted EPS of $2.59 on aggregates pricing up 5% despite weather and fuel headwinds \u2014 and cleared a long-running legal overhang the same week, as the NAFTA tribunal awarded Mexico's claim against it less than 1% of the $1.7 billion Vulcan had sought recognition on. Shares sit at $268.57, down 8.2% year to date.",
-        "delta": "The prior edition had guidance reaffirmed and bolt-on M&A; this week both earnings and the Mexico arbitration resolved \u2014 the two items that defined Vulcan's risk narrative for the year.",
+        "glance": "Vulcan delivered a clean beat — Q2 adjusted EPS of $2.59 on aggregates pricing up 5% despite weather and fuel headwinds — and cleared a long-running legal overhang the same week, as the NAFTA tribunal awarded Mexico's claim against it less than 1% of the $1.7 billion Vulcan had sought recognition on. Shares sit at $268.57, down 8.2% year to date.",
+        "delta": "The prior edition had guidance reaffirmed and bolt-on M&A; this week both earnings and the Mexico arbitration resolved — the two items that defined Vulcan's risk narrative for the year.",
         "stats": [
           {
             "v": "$268.57",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": null
           },
           {
-            "v": "\u22128.2%",
+            "v": "−8.2%",
             "l": "YTD",
             "dir": "down"
           },
           {
-            "v": "$252.35\u2013$331.09",
+            "v": "$252.35–$331.09",
             "l": "52-wk range",
             "dir": null
           }
@@ -871,10 +1049,10 @@
         "items": [
           {
             "headline": "Q2 beat: $2.59 EPS as aggregates pricing climbs 5%",
-            "tldr": "Pricing power keeps carrying the model \u2014 estimates beaten despite weather disruptions and fuel costs.",
+            "tldr": "Pricing power keeps carrying the model — estimates beaten despite weather disruptions and fuel costs.",
             "body": "Vulcan beat second-quarter estimates with adjusted EPS of $2.59, driven by aggregates pricing up 5% year over year even against weather disruptions and fuel-cost pressure. Revenue rose on higher prices and shipments in the aggregates business. The quarter extends the pattern that defines Vulcan's equity story: price/mix does the work when volumes wobble, keeping margins expanding through soft construction stretches. Results were published in the company's 8-K and 10-Q the same day.",
             "ctx": "Pricing-led beats sustain the premium multiple while the market waits for public-infrastructure volume to accelerate.",
-            "lens": "Vulcan is a study in pricing discipline as an operating capability \u2014 data-driven price/mix management is the analytics muscle our engagements in this account are tagged for.",
+            "lens": "Vulcan is a study in pricing discipline as an operating capability — data-driven price/mix management is the analytics muscle our engagements in this account are tagged for.",
             "url": "https://247wallst.com/cards/vulcan-materials-q2-2026-earnings-vmc-01kypsgj8ss8s4xtp1ewhyt636",
             "source": "24/7 Wall St.",
             "tier": "trade",
@@ -884,10 +1062,10 @@
           },
           {
             "headline": "NAFTA tribunal awards under 1% of the $1.7B Mexico claim",
-            "tldr": "The long-running arbitration over the shuttered Quintana Roo operations ends with negligible award \u2014 a major overhang cleared.",
+            "tldr": "The long-running arbitration over the shuttered Quintana Roo operations ends with negligible award — a major overhang cleared.",
             "body": "The arbitration tribunal ruled on the dispute between Vulcan and Mexico over its closed mining and port operations, granting less than 1% of the $1.7 billion claim, and Vulcan issued a formal update on the NAFTA arbitration disclosed via an 8-K on July 27. The ruling effectively closes the book on a multi-year geopolitical saga that began when Mexican authorities shut Vulcan's quarry operations, removing a binary legal risk that has shadowed the stock and management attention since.",
             "ctx": "With the arbitration resolved, management bandwidth and the investor narrative return fully to aggregates economics and capital deployment.",
-            "lens": "The unwind of a multi-year legal overhang typically re-opens strategic optionality \u2014 capital allocation, portfolio moves \u2014 worth factoring into any operating-model roadmap discussions with this client.",
+            "lens": "The unwind of a multi-year legal overhang typically re-opens strategic optionality — capital allocation, portfolio moves — worth factoring into any operating-model roadmap discussions with this client.",
             "url": "https://www.devdiscourse.com/article/law-order/3956413-mexicos-quarrel-with-vulcan-materials-a-17-billion-arbitration-clash",
             "source": "Devdiscourse",
             "tier": "trade",
@@ -898,9 +1076,9 @@
           {
             "headline": "Mexico moves to block mining in protected areas post-ruling",
             "tldr": "SEMARNAT's protected-areas mining restrictions keep the Quintana Roo assets in regulatory limbo despite the arbitration outcome.",
-            "body": "Following the arbitration ruling, coverage of Mexico's environment ministry SEMARNAT highlighted moves to block mining in protected areas, with the Vulcan case cited directly. Whatever the tribunal decided about damages, the operational question \u2014 whether Vulcan's Mexican quarry and port assets ever return to production \u2014 remains governed by Mexican environmental policy, which is hardening rather than softening around protected-area extraction.",
+            "body": "Following the arbitration ruling, coverage of Mexico's environment ministry SEMARNAT highlighted moves to block mining in protected areas, with the Vulcan case cited directly. Whatever the tribunal decided about damages, the operational question — whether Vulcan's Mexican quarry and port assets ever return to production — remains governed by Mexican environmental policy, which is hardening rather than softening around protected-area extraction.",
             "ctx": "The arbitration resolved the damages question, not the asset question; SEMARNAT policy determines what the Mexico footprint is ultimately worth.",
-            "lens": "A live case of regulatory risk outlasting legal resolution \u2014 relevant context when modeling Vulcan's long-term capacity and reserves position in strategy work.",
+            "lens": "A live case of regulatory risk outlasting legal resolution — relevant context when modeling Vulcan's long-term capacity and reserves position in strategy work.",
             "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdTZOTEItT1dNOW1sWGNRaTA4WU1wMEpTXzlQVVZYY3Z1ekVnT2hRRmhXOWZHYXJ5aFZ5VXNQVlBCZXFFY0RtSHJRTVZXRFJ5OHFlU0otVlB6WDJldENqbUxmYW1WSUZhMlFLVFB0RjBSUkwxWk0wNkhxTHdDS3JyUDdaZmFHSkFuQnhrQW9uSVBXWXVvLU1ka0VJMU1hbXJYcnc?oc=5",
             "source": "Mexico Business News (via Google News)",
             "tier": "trade",
@@ -911,50 +1089,67 @@
         ],
         "sources": [
           {
-            "label": "24/7 Wall St. \u2014 Q2 2026 earnings detail",
+            "label": "24/7 Wall St. — Q2 2026 earnings detail",
             "url": "https://247wallst.com/cards/vulcan-materials-q2-2026-earnings-vmc-01kypsgj8ss8s4xtp1ewhyt636"
           },
           {
-            "label": "Devdiscourse \u2014 $1.7B arbitration outcome",
+            "label": "Devdiscourse — $1.7B arbitration outcome",
             "url": "https://www.devdiscourse.com/article/law-order/3956413-mexicos-quarrel-with-vulcan-materials-a-17-billion-arbitration-clash"
           },
           {
-            "label": "SEC EDGAR \u2014 Vulcan 8-K, arbitration update (Jul 27)",
+            "label": "SEC EDGAR — Vulcan 8-K, arbitration update (Jul 27)",
             "url": "https://www.sec.gov/Archives/edgar/data/1396009/000114036126029775/ef20078709_8k.htm"
           },
           {
-            "label": "SEC EDGAR \u2014 Vulcan 10-Q (Q2 2026)",
+            "label": "SEC EDGAR — Vulcan 10-Q (Q2 2026)",
             "url": "https://www.sec.gov/Archives/edgar/data/1396009/000162828026050486/vmc-20260630.htm"
           },
           {
-            "label": "Market data \u2014 VMC (Yahoo Finance)",
+            "label": "Market data — VMC (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/VMC/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 8,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Q2 beat: $2.59 EPS as aggregates pricing climbs 5%",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "NAFTA tribunal awards under 1% of the $1.7B Mexico claim",
+                "v": "VERIFIED"
+              },
+              {
+                "h": "Mexico moves to block mining in protected areas post-ruling",
+                "v": "LIVE-ONLY"
+              }
+            ]
+          }
         }
       }
     },
     "loandepot": {
       "2026-07-27": {
-        "glance": "With the stock below $1 for the first time \u2014 $0.98, down 53% year to date \u2014 loanDepot's week cut both directions: a new Miami corporate center signals expansion, while a rival CEO publicly courted its loan officers, calling the company a 'sinking ship' amid their ongoing litigation. The rate backdrop offered no relief.",
-        "delta": "Prior editions tracked the ATM program and cost discipline with the stock in the $1.10\u2013$1.25 band; this week it broke below $1, and the competitive pressure turned overtly public.",
+        "glance": "With the stock below $1 for the first time — $0.98, down 53% year to date — loanDepot's week cut both directions: a new Miami corporate center signals expansion, while a rival CEO publicly courted its loan officers, calling the company a 'sinking ship' amid their ongoing litigation. The rate backdrop offered no relief.",
+        "delta": "Prior editions tracked the ATM program and cost discipline with the stock in the $1.10–$1.25 band; this week it broke below $1, and the competitive pressure turned overtly public.",
         "stats": [
           {
             "v": "$0.98",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": "down"
           },
           {
-            "v": "\u221253.1%",
+            "v": "−53.1%",
             "l": "YTD",
             "dir": "down"
           },
           {
-            "v": "$0.93\u2013$5.05",
+            "v": "$0.93–$5.05",
             "l": "52-wk range",
             "dir": "down"
           }
@@ -963,9 +1158,9 @@
           {
             "headline": "loanDepot opens a Miami corporate center in expansion move",
             "tldr": "A new corporate footprint announcement lands as a deliberate counter-signal to the stock narrative.",
-            "body": "loanDepot announced an expansion of its corporate footprint with a new Miami Corporate Center, publicized through a company release. Against a share price scraping all-time lows, the expansion reads as a statement about operating trajectory: the company is siting capacity in a major talent and financial-services market rather than retrenching \u2014 consistent with the footprint and efficiency reshaping under Project North Star rather than pure contraction.",
+            "body": "loanDepot announced an expansion of its corporate footprint with a new Miami Corporate Center, publicized through a company release. Against a share price scraping all-time lows, the expansion reads as a statement about operating trajectory: the company is siting capacity in a major talent and financial-services market rather than retrenching — consistent with the footprint and efficiency reshaping under Project North Star rather than pure contraction.",
             "ctx": "Physical-footprint investment amid a sub-$1 stock tells employees, recruits and counterparties that the operating plan is expansionary.",
-            "lens": "Where a lender concentrates its corporate footprint shapes its digital-versus-branch operating model \u2014 a input to the cost-and-efficiency work this account is tagged for.",
+            "lens": "Where a lender concentrates its corporate footprint shapes its digital-versus-branch operating model — a input to the cost-and-efficiency work this account is tagged for.",
             "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTS13cjhzbTlMZ0JHTmVEU3JjVThETzN5Y0haOGwyU1hVQ1JOR2ZnZ0FTSS1veFRQclJqY0RVc1JXbnpuMFZJd0VranVTdmJ0eXVNenpFdFhFaDFQcWczcTNvRWk2NHZGOW9tNmo2SUI3YWdTVlNOR0hHcjZsT1dqX0N1WmN6d0xKYVI1dWM0clBNY3ZsYVZNanVGdDg0VkR4dTV0ekIwOU13N3pmd1Bzb0pyZ2NwSVNwZGRmX2g1ZU1nUVZG?oc=5",
             "source": "Business Wire (via Google News)",
             "tier": "primary",
@@ -975,10 +1170,10 @@
           },
           {
             "headline": "NEXA's CEO publicly recruits loanDepot LOs amid litigation",
-            "tldr": "A rival's 'come to NEXA' campaign \u2014 calling loanDepot a 'sinking ship' \u2014 weaponizes the share price against its salesforce.",
-            "body": "NEXA Mortgage CEO Mike Kortas used social media to court loanDepot loan officers directly, criticizing loanDepot's results, citing its share-price decline, and calling the company a 'sinking ship' in a July 30 post \u2014 while the two companies remain embroiled in litigation. Retail mortgage franchises live and die by loan-officer retention: origination volume walks out the door with departing producers, which is precisely why a competitor is aiming its recruiting pitch at the stock price.",
+            "tldr": "A rival's 'come to NEXA' campaign — calling loanDepot a 'sinking ship' — weaponizes the share price against its salesforce.",
+            "body": "NEXA Mortgage CEO Mike Kortas used social media to court loanDepot loan officers directly, criticizing loanDepot's results, citing its share-price decline, and calling the company a 'sinking ship' in a July 30 post — while the two companies remain embroiled in litigation. Retail mortgage franchises live and die by loan-officer retention: origination volume walks out the door with departing producers, which is precisely why a competitor is aiming its recruiting pitch at the stock price.",
             "ctx": "Producer attrition is the operational risk that converts a market-cap problem into an origination-volume problem.",
-            "lens": "Retention economics for revenue-producing talent \u2014 compensation, platform stickiness, digital tooling for LOs \u2014 is where cost discipline and growth strategy collide; a live issue for our work with this client.",
+            "lens": "Retention economics for revenue-producing talent — compensation, platform stickiness, digital tooling for LOs — is where cost discipline and growth strategy collide; a live issue for our work with this client.",
             "url": "https://nationalmortgageprofessional.com/news/come-nexa-ceo-publicly-courts-loandepot-loan-officers",
             "source": "National Mortgage Professional",
             "tier": "trade",
@@ -988,10 +1183,10 @@
           },
           {
             "headline": "Rate relief stays out of reach as the Fed holds",
-            "tldr": "loanDepot's own economist: rates need cooler inflation or weaker jobs data to break lower \u2014 neither arrived this week.",
-            "body": "With the Federal Reserve leaving rates unchanged this week, mortgage-rate coverage quoted loanDepot chief investment officer and head economist Jeff DerGurahian: rates would need lower-than-expected inflation readings or increased jobless claims to break below their current range. For an originator whose volumes are geared to refinancing demand, the message is that the demand-side catalyst remains parked \u2014 keeping the near-term story on costs, retention and recapture rather than volume recovery.",
+            "tldr": "loanDepot's own economist: rates need cooler inflation or weaker jobs data to break lower — neither arrived this week.",
+            "body": "With the Federal Reserve leaving rates unchanged this week, mortgage-rate coverage quoted loanDepot chief investment officer and head economist Jeff DerGurahian: rates would need lower-than-expected inflation readings or increased jobless claims to break below their current range. For an originator whose volumes are geared to refinancing demand, the message is that the demand-side catalyst remains parked — keeping the near-term story on costs, retention and recapture rather than volume recovery.",
             "ctx": "No rate catalyst means the turnaround must keep coming from operational levers loanDepot controls.",
-            "lens": "The planning assumption for any engagement here: build for a flat-rate world, where efficiency and recapture \u2014 not volume \u2014 drive the P&L.",
+            "lens": "The planning assumption for any engagement here: build for a flat-rate world, where efficiency and recapture — not volume — drive the P&L.",
             "url": "https://www.deseret.com/u-s-world/2026/07/30/mortgage-rates-likely-to-stay-up-even-though-federal-reserve-left-interest-rates-unchanged/",
             "source": "Deseret News",
             "tier": "trade",
@@ -1002,37 +1197,54 @@
         ],
         "sources": [
           {
-            "label": "Business Wire \u2014 Miami Corporate Center",
+            "label": "Business Wire — Miami Corporate Center",
             "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTS13cjhzbTlMZ0JHTmVEU3JjVThETzN5Y0haOGwyU1hVQ1JOR2ZnZ0FTSS1veFRQclJqY0RVc1JXbnpuMFZJd0VranVTdmJ0eXVNenpFdFhFaDFQcWczcTNvRWk2NHZGOW9tNmo2SUI3YWdTVlNOR0hHcjZsT1dqX0N1WmN6d0xKYVI1dWM0clBNY3ZsYVZNanVGdDg0VkR4dTV0ekIwOU13N3pmd1Bzb0pyZ2NwSVNwZGRmX2g1ZU1nUVZG?oc=5"
           },
           {
-            "label": "NMP \u2014 NEXA courts loanDepot loan officers",
+            "label": "NMP — NEXA courts loanDepot loan officers",
             "url": "https://nationalmortgageprofessional.com/news/come-nexa-ceo-publicly-courts-loandepot-loan-officers"
           },
           {
-            "label": "HousingWire \u2014 Kortas criticizes loanDepot, pitches LOs",
+            "label": "HousingWire — Kortas criticizes loanDepot, pitches LOs",
             "url": "https://www.housingwire.com/articles/nexa-loandepot-los/"
           },
           {
-            "label": "Market data \u2014 LDI (Yahoo Finance)",
+            "label": "Market data — LDI (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/LDI/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 8,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "loanDepot opens a Miami corporate center in expansion move",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "NEXA's CEO publicly recruits loanDepot LOs amid litigation",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Rate relief stays out of reach as the Fed holds",
+                "v": "VERIFIED"
+              }
+            ]
+          }
         }
       }
     },
     "rockwell-automation": {
       "2026-07-27": {
-        "glance": "Rockwell's week was expansion and AI: New Berlin approved its $200M+, 830,000-square-foot facility over neighborhood objections, a new partnership with Augury brings agentic AI to industrial performance, and Luminus selected its SecureOT platform \u2014 all with fiscal Q3 results due next week and the stock near its 52-week high.",
+        "glance": "Rockwell's week was expansion and AI: New Berlin approved its $200M+, 830,000-square-foot facility over neighborhood objections, a new partnership with Augury brings agentic AI to industrial performance, and Luminus selected its SecureOT platform — all with fiscal Q3 results due next week and the stock near its 52-week high.",
         "delta": "Early-July coverage was momentum and margin story; this week added concrete capacity (New Berlin approval) and two ecosystem wins (Augury, Luminus) ahead of the Q3 print.",
         "stats": [
           {
             "v": "$480.08",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": "up"
           },
           {
@@ -1041,7 +1253,7 @@
             "dir": "up"
           },
           {
-            "v": "$305.44\u2013$497.36",
+            "v": "$305.44–$497.36",
             "l": "52-wk range",
             "dir": null
           }
@@ -1050,9 +1262,9 @@
           {
             "headline": "New Berlin approves Rockwell's $200M+ plant over objections",
             "tldr": "Zoning and land-use cleared for an 830,000-sq-ft facility with a possible 425,000-sq-ft second phase.",
-            "body": "The New Berlin council approved the land-use and zoning changes Rockwell needed for its proposed $200 million-plus facility \u2014 an 830,000-square-foot plant with a potential 425,000-square-foot second phase \u2014 despite opposition from neighboring residents. The vote moves a major Wisconsin manufacturing investment from proposal to execution, adding domestic capacity at a moment when reshoring demand and data-center-adjacent automation orders are driving the growth outlook.",
-            "ctx": "Physical capacity expansion is the strongest forward-demand signal a manufacturer can give \u2014 stronger than any guidance sentence.",
-            "lens": "New-plant programs carry greenfield digital opportunity: production systems, data architecture and workforce design get decided in the next 18 months \u2014 prime territory for the smart-manufacturing agenda in this account.",
+            "body": "The New Berlin council approved the land-use and zoning changes Rockwell needed for its proposed $200 million-plus facility — an 830,000-square-foot plant with a potential 425,000-square-foot second phase — despite opposition from neighboring residents. The vote moves a major Wisconsin manufacturing investment from proposal to execution, adding domestic capacity at a moment when reshoring demand and data-center-adjacent automation orders are driving the growth outlook.",
+            "ctx": "Physical capacity expansion is the strongest forward-demand signal a manufacturer can give — stronger than any guidance sentence.",
+            "lens": "New-plant programs carry greenfield digital opportunity: production systems, data architecture and workforce design get decided in the next 18 months — prime territory for the smart-manufacturing agenda in this account.",
             "url": "https://www.bizjournals.com/milwaukee/news/2026/07/29/rockwell-gets-land-use-zoning-changes-for-project.html",
             "source": "Milwaukee Business Journal",
             "tier": "trade",
@@ -1062,10 +1274,10 @@
           },
           {
             "headline": "Rockwell and Augury partner on agentic AI for plant performance",
-            "tldr": "Machine-health AI meets Rockwell's installed base \u2014 an agentic-AI play aimed at industrial reliability and output.",
-            "body": "Rockwell announced a partnership with Augury to improve industrial performance using agentic AI, pairing Augury's machine-health and process-AI capabilities with Rockwell's automation platforms and installed base. The move extends Rockwell's AI strategy from assistive tools toward autonomous agents that act on plant-floor telemetry \u2014 the pattern the industrial-software market is converging on as manufacturers chase reliability gains without adding headcount.",
-            "ctx": "Ecosystem AI partnerships determine whose platform captures the plant-floor data layer \u2014 the strategic high ground in industrial automation.",
-            "lens": "Agentic AI reaching the plant floor is the industrial edition of the AI-orchestration wave \u2014 reference architecture for our AI-and-automation work with manufacturers.",
+            "tldr": "Machine-health AI meets Rockwell's installed base — an agentic-AI play aimed at industrial reliability and output.",
+            "body": "Rockwell announced a partnership with Augury to improve industrial performance using agentic AI, pairing Augury's machine-health and process-AI capabilities with Rockwell's automation platforms and installed base. The move extends Rockwell's AI strategy from assistive tools toward autonomous agents that act on plant-floor telemetry — the pattern the industrial-software market is converging on as manufacturers chase reliability gains without adding headcount.",
+            "ctx": "Ecosystem AI partnerships determine whose platform captures the plant-floor data layer — the strategic high ground in industrial automation.",
+            "lens": "Agentic AI reaching the plant floor is the industrial edition of the AI-orchestration wave — reference architecture for our AI-and-automation work with manufacturers.",
             "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOTM0ejNoRHQ4bmQ4YUc3YU9Xc1BIcFp5eHZRRG9BRE9aT0Y0cmxBYUFqWmhPWUhvM1Awd01UdVc1TC1ob3JnLWF5Q2dYOGpnT2pDeTRnTnNmUjQxdEpEOGR6bWx3SDNtZ2dqeXg5OG12cDh3NXc4eHFjOTVndU5BQUw3QmZOV1lpbkxVRE96T0w4bG5FXzJDQ1JBT3BDbEZfQV83YkJqSVVPanhXUk9jSGljbXdTcl80?oc=5",
             "source": "Process and Control Today (via Google News)",
             "tier": "trade",
@@ -1078,7 +1290,7 @@
             "tldr": "An energy-sector win for the OT-security platform strengthens Rockwell's services growth line.",
             "body": "Energy producer Luminus selected Rockwell's SecureOT platform to support industrial cybersecurity resilience, with the deployment aimed at strengthening operational-technology visibility and risk management across a diverse energy production environment. OT security is one of the fastest-growing attach opportunities in industrial automation: every automation modernization now carries a security workstream, and platform vendors are racing to own it.",
             "ctx": "Named OT-security wins support the recurring-revenue mix shift that underpins Rockwell's premium valuation.",
-            "lens": "OT cybersecurity is where industrial clients' infrastructure and risk agendas meet \u2014 an attach-rate motion worth mirroring in how we scope automation engagements.",
+            "lens": "OT cybersecurity is where industrial clients' infrastructure and risk agendas meet — an attach-rate motion worth mirroring in how we scope automation engagements.",
             "url": "https://www.automation.com/article/rockwell-automation-luminus-secureot-platform-industrial-cybersecurity-resilience",
             "source": "Automation.com",
             "tier": "trade",
@@ -1089,7 +1301,7 @@
           {
             "headline": "Q3 print due with the stock near its 52-week high",
             "tldr": "Preview coverage expects another beat; at $480 and +20% YTD, the bar is set accordingly.",
-            "body": "Preview coverage ahead of Rockwell's fiscal third-quarter report frames expectations for another earnings beat, extending a fiscal year in which the company has twice raised guidance. With shares at $480.08 \u2014 just under the $497 52-week high \u2014 and a 20.5% YTD gain, the market is paying for continued execution on order momentum, margin expansion and the software-mix story before the numbers land.",
+            "body": "Preview coverage ahead of Rockwell's fiscal third-quarter report frames expectations for another earnings beat, extending a fiscal year in which the company has twice raised guidance. With shares at $480.08 — just under the $497 52-week high — and a 20.5% YTD gain, the market is paying for continued execution on order momentum, margin expansion and the software-mix story before the numbers land.",
             "ctx": "A high-multiple print into record territory leaves little room for execution wobble.",
             "lens": "Expectation management context for the account: client-side budget conversations next week will happen in the glow (or shadow) of this print.",
             "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLTFXTlJBTWphdGQ0VHZjSkZrM2pueF9KamJ2eFNQZmRoWkdPNHhzdW5OUjN6SGlYMWxHaGhCenlneFMyOFhQR19WazZJTUk5akVWdGtVdGlkbUFTOGthLV9BdTBLeFhkUHphYWpPSzJocTNmWUF4TTUwSXVEMWFxMEMxUHJrY2VXODItS18tNDlucWd0VTVoM3IyWGEwb0E?oc=5",
@@ -1102,42 +1314,63 @@
         ],
         "sources": [
           {
-            "label": "Milwaukee Business Journal \u2014 New Berlin approval",
+            "label": "Milwaukee Business Journal — New Berlin approval",
             "url": "https://www.bizjournals.com/milwaukee/news/2026/07/29/rockwell-gets-land-use-zoning-changes-for-project.html"
           },
           {
-            "label": "Automation.com \u2014 Luminus SecureOT selection",
+            "label": "Automation.com — Luminus SecureOT selection",
             "url": "https://www.automation.com/article/rockwell-automation-luminus-secureot-platform-industrial-cybersecurity-resilience"
           },
           {
-            "label": "Market data \u2014 ROK (Yahoo Finance)",
+            "label": "Market data — ROK (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/ROK/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 8,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "New Berlin approves Rockwell's $200M+ plant over objections",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Rockwell and Augury partner on agentic AI for plant performa",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "Luminus selects Rockwell's SecureOT for industrial cyber res",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Q3 print due with the stock near its 52-week high",
+                "v": "LIVE-ONLY"
+              }
+            ]
+          }
         }
       }
     },
     "workday": {
       "2026-07-27": {
-        "glance": "Workday rode the week's AI-rotation whipsaw \u2014 up 10% in the software rebound, then down 10% in sector-wide selling \u2014 while shipping substance underneath: Workday Learning powered by Sana reached general availability and EarnIn integrated into its payroll switching platform. The stock closed the week at $160, still down 22% on the year.",
+        "glance": "Workday rode the week's AI-rotation whipsaw — up 10% in the software rebound, then down 10% in sector-wide selling — while shipping substance underneath: Workday Learning powered by Sana reached general availability and EarnIn integrated into its payroll switching platform. The stock closed the week at $160, still down 22% on the year.",
         "delta": "The prior edition's story was the relief rally and AI-agent ACV growth; this week the Sana acquisition began shipping as GA product while the stock's volatility showed how unsettled the software-AI trade remains.",
         "stats": [
           {
             "v": "$160.34",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": null
           },
           {
-            "v": "\u221222.1%",
+            "v": "−22.1%",
             "l": "YTD",
             "dir": "down"
           },
           {
-            "v": "$110.36\u2013$249.85",
+            "v": "$110.36–$249.85",
             "l": "52-wk range",
             "dir": null
           }
@@ -1148,7 +1381,7 @@
             "tldr": "The Sana acquisition ships: AI-native learning is now GA inside the Workday suite.",
             "body": "Workday Learning powered by Sana is now generally available, bringing the AI-native learning platform Workday acquired into the core suite as a shipping product. Learning is a strategically loaded module: it's where skills data lives, and skills data is the fuel for the AI-driven talent marketplace and workforce-planning capabilities Workday is betting its next growth phase on. GA status moves the Sana deal from integration roadmap to revenue-bearing reality.",
             "ctx": "Acquisitions shipping as GA product is the evidence investors wanted that Workday's AI M&A converts to sellable capability.",
-            "lens": "Skills-graph-driven learning inside the HCM suite reshapes the talent-tech stack our enterprise-apps clients are budgeting for \u2014 evaluation criteria will need refreshing.",
+            "lens": "Skills-graph-driven learning inside the HCM suite reshapes the talent-tech stack our enterprise-apps clients are budgeting for — evaluation criteria will need refreshing.",
             "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQkdBZ3MzSTJHOTFpbVFneEt5VFJGdXFhUVVnbDFLMXc1bEdBbnFKWDVNTkNVMmpadFdUaGVkOE01dDYtMzA1SnBBNG5JLXBqMzVZOVlKTXpja0h6WERIWEVfX0dMM1F5NGw4TndNc3RGblc2M2RGU2JiY2RqeWlhaUt4a0hDTzg?oc=5",
             "source": "FutureCIO (via Google News)",
             "tier": "trade",
@@ -1158,10 +1391,10 @@
           },
           {
             "headline": "EarnIn plugs into Workday's payroll switching platform",
-            "tldr": "Earned-wage access integrates with Enhanced Direct Deposit Switching \u2014 another fintech node on the payroll rail.",
-            "body": "EarnIn announced it will integrate its earnings-management tools into Workday's Enhanced Direct Deposit Switching platform, streamlining how employees connect earned-wage access to their pay. Coverage framed the question as whether this is a small step or a shift in Workday's AI payroll edge \u2014 but the structural point is the platform motion: Workday is accreting fintech integrations around its payroll rails the way ADP has built its marketplace, deepening switching costs with every node.",
+            "tldr": "Earned-wage access integrates with Enhanced Direct Deposit Switching — another fintech node on the payroll rail.",
+            "body": "EarnIn announced it will integrate its earnings-management tools into Workday's Enhanced Direct Deposit Switching platform, streamlining how employees connect earned-wage access to their pay. Coverage framed the question as whether this is a small step or a shift in Workday's AI payroll edge — but the structural point is the platform motion: Workday is accreting fintech integrations around its payroll rails the way ADP has built its marketplace, deepening switching costs with every node.",
             "ctx": "Payroll-adjacent fintech integrations are quiet lock-in: each one makes the platform harder to displace at renewal.",
-            "lens": "The HCM platform wars are being fought through ecosystems, not features \u2014 the integration-architecture lens our clients need when negotiating with Workday or its rivals.",
+            "lens": "The HCM platform wars are being fought through ecosystems, not features — the integration-architecture lens our clients need when negotiating with Workday or its rivals.",
             "url": "https://finance.yahoo.com/technology/ai/articles/workday-wday-earnin-tie-small-190755134.html",
             "source": "Yahoo Finance",
             "tier": "financial",
@@ -1172,9 +1405,9 @@
           {
             "headline": "A 10%-up, 10%-down week as the software-AI trade whipsaws",
             "tldr": "Workday surged with Salesforce and ServiceNow in the AI-rotation rebound, then gave it back in sector selling.",
-            "body": "Workday jumped 10% on July 27 as enterprise software staged one of its sharpest single-day reversals of the year \u2014 a rotation driven less by company fundamentals than by capital returning to the sector alongside Salesforce (+7%) and ServiceNow (+8%) \u2014 then plunged 10.3% within days amid sector-wide selling. The round trip left the stock near $160, down 22% on the year, and illustrated how completely the software tape is currently trading on the AI-disruption debate rather than individual execution.",
+            "body": "Workday jumped 10% on July 27 as enterprise software staged one of its sharpest single-day reversals of the year — a rotation driven less by company fundamentals than by capital returning to the sector alongside Salesforce (+7%) and ServiceNow (+8%) — then plunged 10.3% within days amid sector-wide selling. The round trip left the stock near $160, down 22% on the year, and illustrated how completely the software tape is currently trading on the AI-disruption debate rather than individual execution.",
             "ctx": "Sentiment-driven volatility this extreme means the fundamentals story (AI ACV growth, margin expansion) isn't yet in control of the narrative.",
-            "lens": "Client-side stakeholders read this volatility as uncertainty about SaaS economics in the AI era \u2014 expect it to surface in renewal negotiations and platform-strategy debates.",
+            "lens": "Client-side stakeholders read this volatility as uncertainty about SaaS economics in the AI era — expect it to surface in renewal negotiations and platform-strategy debates.",
             "url": "https://247wallst.com/investing/2026/07/27/salesforce-surges-7-servicenow-jumps-8-workday-jumps-10-as-software-rebounds-on-ai-rotation/",
             "source": "24/7 Wall St.",
             "tier": "trade",
@@ -1185,9 +1418,9 @@
           {
             "headline": "Workday research: Indian employees are AI-ready, workflows lag",
             "tldr": "New research points the finger at enterprise workflows, not workers, as the AI-adoption bottleneck.",
-            "body": "New Workday research on India finds employees are AI-ready but held back by enterprise workflows that haven't been redesigned around the technology. Beyond the regional finding, the research is Workday marketing its core thesis: AI value comes from re-architecting work processes on a platform that carries the workforce data \u2014 which is precisely the sale Workday is making to every large enterprise it serves.",
+            "body": "New Workday research on India finds employees are AI-ready but held back by enterprise workflows that haven't been redesigned around the technology. Beyond the regional finding, the research is Workday marketing its core thesis: AI value comes from re-architecting work processes on a platform that carries the workforce data — which is precisely the sale Workday is making to every large enterprise it serves.",
             "ctx": "Vendor research doubles as demand generation for the workflow-redesign services and platform capabilities Workday sells.",
-            "lens": "The 'workflows are the bottleneck' finding matches what we see in AI-adoption engagements \u2014 usable third-party evidence for operating-model cases, with the vendor bias noted.",
+            "lens": "The 'workflows are the bottleneck' finding matches what we see in AI-adoption engagements — usable third-party evidence for operating-model cases, with the vendor bias noted.",
             "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMmtXaUcydDZRSFVJN2ZOT3MzRzRsZWdraW1mbmZ0VURZMFBOYnZtWHBUaFg5TGRUZzl6dV9JRTBVX1hLWkVrQXU5TTRQWE0yamFNM09fczRxRGRhaG9PSDZRR3Utajc5Si1tSWttV1dSUFVMTXlDc2YtZ2psU2tGMV9hYzJQcnZ6NzA5dVdkSVVqZmwxOXZkWG4zdjBsT1d1dWV2ZXMwdEFaNkpoS0NCcHNOT2MybTNhY2JhdDV3TDRlSFE2TFRyVjlHTQ?oc=5",
             "source": "Newspatrolling (via Google News)",
             "tier": "trade",
@@ -1198,46 +1431,67 @@
         ],
         "sources": [
           {
-            "label": "FutureCIO \u2014 Workday Learning (Sana) GA",
+            "label": "FutureCIO — Workday Learning (Sana) GA",
             "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQkdBZ3MzSTJHOTFpbVFneEt5VFJGdXFhUVVnbDFLMXc1bEdBbnFKWDVNTkNVMmpadFdUaGVkOE01dDYtMzA1SnBBNG5JLXBqMzVZOVlKTXpja0h6WERIWEVfX0dMM1F5NGw4TndNc3RGblc2M2RGU2JiY2RqeWlhaUt4a0hDTzg?oc=5"
           },
           {
-            "label": "Yahoo Finance \u2014 EarnIn integration analysis",
+            "label": "Yahoo Finance — EarnIn integration analysis",
             "url": "https://finance.yahoo.com/technology/ai/articles/workday-wday-earnin-tie-small-190755134.html"
           },
           {
-            "label": "24/7 Wall St. \u2014 software AI-rotation rebound",
+            "label": "24/7 Wall St. — software AI-rotation rebound",
             "url": "https://247wallst.com/investing/2026/07/27/salesforce-surges-7-servicenow-jumps-8-workday-jumps-10-as-software-rebounds-on-ai-rotation/"
           },
           {
-            "label": "Market data \u2014 WDAY (Yahoo Finance)",
+            "label": "Market data — WDAY (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/WDAY/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 8,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Workday Learning, powered by Sana, hits general availability",
+                "v": "LIVE-ONLY"
+              },
+              {
+                "h": "EarnIn plugs into Workday's payroll switching platform",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "A 10%-up, 10%-down week as the software-AI trade whipsaws",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "Workday research: Indian employees are AI-ready, workflows l",
+                "v": "LIVE-ONLY"
+              }
+            ]
+          }
         }
       }
     },
     "intuitive-surgical": {
       "2026-07-27": {
-        "glance": "Intuitive's fifth straight beat \u2014 Q2 revenue up 19% to about $2.8 billion \u2014 collided with a stock down 37% on the year, prompting management share buybacks above the market price and a bulls-vs-bears standoff that now includes a $50 billion policy question: what happens to elective procedure volumes if ACA coverage lapses.",
-        "delta": "The pre-earnings caution of prior weeks resolved into a strong print \u2014 but the market's response (a continued slump to near 52-week lows) shifted the story from results to policy risk and valuation reset.",
+        "glance": "Intuitive's fifth straight beat — Q2 revenue up about 19% — collided with a stock down 37% on the year, prompting management share buybacks above the market price and a bulls-vs-bears standoff that now includes a $50 billion policy question: what happens to elective procedure volumes if ACA coverage lapses.",
+        "delta": "The pre-earnings caution of prior weeks resolved into a strong print — but the market's response (a continued slump to near 52-week lows) shifted the story from results to policy risk and valuation reset.",
         "stats": [
           {
             "v": "$353.33",
-            "l": "Price \u00b7 Jul 31",
+            "l": "Price · Jul 31",
             "dir": "down"
           },
           {
-            "v": "\u221237.1%",
+            "v": "−37.1%",
             "l": "YTD",
             "dir": "down"
           },
           {
-            "v": "$328.57\u2013$603.88",
+            "v": "$328.57–$603.88",
             "l": "52-wk range",
             "dir": null
           }
@@ -1245,10 +1499,10 @@
         "items": [
           {
             "headline": "Fifth straight beat: Q2 revenue +19% as management buys the dip",
-            "tldr": "Revenue grew ~19% to $2.8B and insiders are buying above market price \u2014 yet the stock sits near its 52-week low.",
-            "body": "Intuitive posted its fifth consecutive earnings beat, with second-quarter revenue growing about 19% to roughly $2.8 billion, beating on both the top and bottom lines. Management began buying back shares at prices above where the stock now trades \u2014 a pointed signal after a roughly 37% decline this year \u2014 while at least one Wall Street analyst maintains a $685 target against the current $355 area. The full detail sits in the 10-Q filed July 21 and the results 8-K of July 16.",
-            "ctx": "Execution is not the problem \u2014 the disconnect between operating results and the share price is the story to explain.",
-            "lens": "When fundamentals and valuation diverge this widely, client leadership attention shifts to controllables \u2014 procedure growth, platform utilization, cost per procedure \u2014 the data-and-analytics agenda this account is tagged for.",
+            "tldr": "Revenue grew about 19% and insiders are buying above market price — yet the stock sits near its 52-week low.",
+            "body": "Intuitive posted its fifth consecutive earnings beat, with second-quarter revenue growing about 19%, beating on both the top and bottom lines. Management began buying back shares at prices above where the stock now trades — a pointed signal after a roughly 37% decline this year — while at least one Wall Street analyst maintains a $685 target against the current $355 area. The full detail sits in the 10-Q filed July 21 and the results 8-K of July 16.",
+            "ctx": "Execution is not the problem — the disconnect between operating results and the share price is the story to explain.",
+            "lens": "When fundamentals and valuation diverge this widely, client leadership attention shifts to controllables — procedure growth, platform utilization, cost per procedure — the data-and-analytics agenda this account is tagged for.",
             "url": "https://247wallst.com/investing/2026/07/28/intuitive-surgical-fell-37-to-355-with-this-wall-street-pro-is-calling-for-685/",
             "source": "24/7 Wall St.",
             "tier": "trade",
@@ -1259,9 +1513,9 @@
           {
             "headline": "ACA coverage fight becomes a $50B question for procedure volumes",
             "tldr": "Policy risk enters the thesis: coverage lapses would hit the insured elective procedures da Vinci depends on.",
-            "body": "Coverage this week framed the ACA subsidy debate as a $50 billion question for Intuitive Surgical: robotic-assisted procedures are overwhelmingly performed on insured patients, so a lapse in enhanced coverage subsidies \u2014 and the coverage losses that would follow \u2014 feeds directly into the procedure-volume outlook that drives the company's razor-and-blades economics. It's the first time this cycle that health-policy risk, rather than competition or capital spending, has led the bear case.",
+            "body": "Coverage this week framed the ACA subsidy debate as a $50 billion question for Intuitive Surgical: robotic-assisted procedures are overwhelmingly performed on insured patients, so a lapse in enhanced coverage subsidies — and the coverage losses that would follow — feeds directly into the procedure-volume outlook that drives the company's razor-and-blades economics. It's the first time this cycle that health-policy risk, rather than competition or capital spending, has led the bear case.",
             "ctx": "Procedure volume is the primary value driver; coverage policy is now a material swing factor in that volume.",
-            "lens": "Payer-mix and coverage-scenario modeling just became board-level questions for medtech \u2014 analytics work our data-focused engagements with this client are positioned to serve.",
+            "lens": "Payer-mix and coverage-scenario modeling just became board-level questions for medtech — analytics work our data-focused engagements with this client are positioned to serve.",
             "url": "https://finance.yahoo.com/healthcare/articles/aca-coverage-debate-just-became-150943507.html",
             "source": "Yahoo Finance",
             "tier": "financial",
@@ -1274,7 +1528,7 @@
             "tldr": "A 37% decline brings the first prominent upgrade framed around automation-driven upside.",
             "body": "UBS upgraded Intuitive Surgical to Buy, arguing the selloff went too far after the stock's roughly 37% drop, with the call built around the company's automation bet and what to watch next. Combined with management's above-market buybacks and a consensus that remains strongly bullish, the upgrade marks the start of the institutional case that the valuation reset has overshot the actual change in fundamentals.",
             "ctx": "Sell-side capitulation-then-upgrade cycles often mark the turn in sentiment for quality franchises.",
-            "lens": "The 'automation bet' framing in the upgrade is the same surgical-robotics-as-platform thesis that anchors our product and AI work with this client \u2014 external validation of the strategic direction.",
+            "lens": "The 'automation bet' framing in the upgrade is the same surgical-robotics-as-platform thesis that anchors our product and AI work with this client — external validation of the strategic direction.",
             "url": "https://www.msn.com/en-us/money/other/ubs-upgrades-intuitive-surgical-says-selloff-went-too-far/ar-AA295nTX",
             "source": "MSN (syndicated)",
             "tier": "aggregator",
@@ -1285,30 +1539,47 @@
         ],
         "sources": [
           {
-            "label": "24/7 Wall St. \u2014 fifth straight beat, buybacks",
+            "label": "24/7 Wall St. — fifth straight beat, buybacks",
             "url": "https://247wallst.com/investing/2026/07/28/intuitive-surgical-fell-37-to-355-with-this-wall-street-pro-is-calling-for-685/"
           },
           {
-            "label": "Yahoo Finance \u2014 ACA $50B question",
+            "label": "Yahoo Finance — ACA $50B question",
             "url": "https://finance.yahoo.com/healthcare/articles/aca-coverage-debate-just-became-150943507.html"
           },
           {
-            "label": "SEC EDGAR \u2014 Intuitive 10-Q (Q2 2026)",
+            "label": "SEC EDGAR — Intuitive 10-Q (Q2 2026)",
             "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000058/isrg-20260630.htm"
           },
           {
-            "label": "SEC EDGAR \u2014 results 8-K (Jul 16)",
+            "label": "SEC EDGAR — results 8-K (Jul 16)",
             "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000047/isrg-20260716.htm"
           },
           {
-            "label": "Market data \u2014 ISRG (Yahoo Finance)",
+            "label": "Market data — ISRG (Yahoo Finance)",
             "url": "https://finance.yahoo.com/quote/ISRG/"
           }
         ],
         "meta": {
           "generatedAt": "2026-07-31",
           "windowDays": 8,
-          "author": "session"
+          "author": "session",
+          "verification": {
+            "verifiedAt": "2026-07-31",
+            "results": [
+              {
+                "h": "Fifth straight beat: Q2 revenue +19% as management buys the ",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "ACA coverage fight becomes a $50B question for procedure vol",
+                "v": "PROVENANCED"
+              },
+              {
+                "h": "UBS upgrades on valuation: 'the selloff went too far'",
+                "v": "LIVE-ONLY"
+              }
+            ]
+          }
         }
       }
     }

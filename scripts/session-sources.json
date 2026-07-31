@@ -1,0 +1,29 @@
+{
+  "note": "URLs cited in editions that came from in-session web research (search results / fetched pages) rather than the channel gather. Append when authoring; verify.mjs treats these as provenance. Every entry here was surfaced verbatim by a search or fetch during the authoring session dated below.",
+  "session": "2026-07-31",
+  "urls": [
+    "https://www.msn.com/en-us/money/other/aflac-says-hackers-stole-bank-details-on-4-38-million-of-its-customers/ar-AA28HRpd",
+    "https://www.businesswire.com/news/home/20260728809116/en/Ford-Reports-Second-Quarter-2026-Financial-Results",
+    "https://ir.lumen.com/news/news-details/2026/Lumen-Expands-Managed-Detection-and-Response-Services-for-Palo-Alto-Networks-to-Strengthen-Cyber-Defense/default.aspx",
+    "https://mediacenter.adp.com/2026-07-29-ADP-Reports-Fourth-Quarter-and-Fiscal-2026-Results",
+    "https://www.investing.com/news/company-news/adp-q4-fy2026-slides-17-eps-growth-ai-drives-margins-93CH-4820624",
+    "https://www.ukg.com/company/newsroom/ukg-launches-google-clouds-gemini-enterprise-agent-gallery",
+    "https://www.takecommandhealth.com/blog/partner-hub-2026",
+    "https://www.tipranks.com/news/private-companies/take-command-emphasizes-ichra-as-alternative-to-traditional-group-health-plans",
+    "https://www.quiverquant.com/news/NRG+climbs+as+investors+lean+into+data-center+power+demand+and+upcoming+earnings",
+    "https://finance.yahoo.com/markets/stocks/articles/regal-rexnord-corporation-host-second-120000048.html",
+    "https://www.prnewswire.com/news-releases/regal-rexnord-corporation-declares-quarterly-dividend-of-35-per-share-302831196.html",
+    "https://seekingalpha.com/news/4615335-regal-rexnord-rated-buy-in-new-coverage-at-deutsche-bank-on-data-center-demand",
+    "https://nationalmortgageprofessional.com/news/come-nexa-ceo-publicly-courts-loandepot-loan-officers",
+    "https://www.housingwire.com/articles/nexa-loandepot-los/",
+    "https://www.deseret.com/u-s-world/2026/07/30/mortgage-rates-likely-to-stay-up-even-though-federal-reserve-left-interest-rates-unchanged/",
+    "https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million/",
+    "https://asia.nikkei.com/spotlight/cybersecurity/aflac-japan-reports-breach-on-4.38-million-customers-includes-bank-details",
+    "https://www.helpnetsecurity.com/2026/07/13/lumen-defender-amdr/",
+    "https://www.stocktitan.net/news/LUMN/new-york-yankees-choose-lumen-to-power-game-day-connectivity-data-wmpzj7p7t17t.html",
+    "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-reports-second-quarter-2026-financial-results",
+    "https://www.goldmansachs.com/insights/articles/ai-to-drive-165-increase-in-data-center-power-demand-by-2030",
+    "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+    "https://www.jpmorgan.com/insights/global-research/real-estate/us-housing-market-outlook"
+  ]
+}

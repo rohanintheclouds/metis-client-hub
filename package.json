@@ -11,7 +11,8 @@
     "scrape": "node --env-file-if-exists=.env.local scripts/scrape.mjs",
     "scrape:insights": "node --env-file-if-exists=.env.local scripts/scrape-insights.mjs",
     "gather": "node --env-file-if-exists=.env.local scripts/scrape.mjs --gather",
-    "grade": "node scripts/grade.mjs"
+    "grade": "node scripts/grade.mjs",
+    "verify": "node scripts/verify.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.454.0",
